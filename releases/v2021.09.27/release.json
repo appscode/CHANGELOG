@@ -1,0 +1,58 @@
+{
+  "product_line": "Console",
+  "release": "v2021.09.27-rc.0",
+  "docs_url_template": "",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "github.com/bytebuilders/ui-wizards": {
+        "tag": "v2021.09.27-rc.0",
+        "commands": [
+          "make update-charts CHART_VERSION=${RELEASE} CHART_REGISTRY=${UI_REGISTRY} CHART_REGISTRY_URL=${UI_REGISTRY_URL}",
+          "make gen fmt"
+        ],
+        "release_branch": "release-${TAG}"
+      }
+    },
+    {
+      "github.com/bytebuilders/bundle-registry": {
+        "charts": [
+          "github.com/bytebuilders/ui-wizards"
+        ],
+        "changelog": "Skip"
+      }
+    },
+    {
+      "github.com/kmodules/resource-metadata": {
+        "tag": "v0.6.0-rc.0",
+        "commands": [
+          "go run cmd/ui-updater/*.go --chart.registry-url=${UI_REGISTRY_URL} --chart.version=${RELEASE}",
+          "go run cmd/resourcedescriptor-fmt/*.go"
+        ]
+      }
+    },
+    {
+      "github.com/appscode/accounts-ui": {
+        "tag": "v2021.09.27-rc.0"
+      },
+      "github.com/appscode/cluster-ui": {
+        "tag": "v2021.09.27-rc.0"
+      },
+      "github.com/appscode/kubedb-ui": {
+        "tag": "v2021.09.27-rc.0"
+      }
+    },
+    {
+      "github.com/appscode/gitea": {
+        "tag": "v2021.09.27-rc.0"
+      }
+    }
+  ],
+  "external_projects": {
+    "github.com/appscode/products": {},
+    "github.com/kmodules/codespan-schema-checker": {},
+    "github.com/kmodules/metrics-configuration-checker": {},
+    "github.com/kubepack/kubepack": {},
+    "github.com/kubepack/lib-app": {}
+  }
+}
