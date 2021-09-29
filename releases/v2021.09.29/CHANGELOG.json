@@ -1,11 +1,889 @@
 {
   "product_line": "Console",
   "release": "v2021.09.29",
-  "release_date": "2021-09-29T11:49:06.037296754Z",
+  "release_date": "2021-09-29T12:04:03.965251424Z",
   "release_project_url": "https://github.com/appscode/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2021.09.29)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/appscode/accounts-ui",
+      "releases": [
+        {
+          "tag": "v0.1.0",
+          "commits": [
+            {
+              "SHA": "669706a",
+              "Subject": "Prepare for release v0.1.0 (#86)"
+            },
+            {
+              "SHA": "9483540",
+              "Subject": "Prepare for release v0.1.0-rc.0 (#85)"
+            },
+            {
+              "SHA": "3e00bc6",
+              "Subject": "Add release tracker script"
+            },
+            {
+              "SHA": "6ab70b7",
+              "Subject": "Update scripts for dev command, remove unused packages, update sass-loader"
+            },
+            {
+              "SHA": "198d45f",
+              "Subject": "Fixed redirect issue of accounts-ui (#84)"
+            },
+            {
+              "SHA": "4b474e5",
+              "Subject": "Fixed accounts-ui issues (#83)"
+            },
+            {
+              "SHA": "c759819",
+              "Subject": "Refactored accounts ui using updated design system (#80)"
+            },
+            {
+              "SHA": "c69637f",
+              "Subject": "Update design system to v1.0.3-alpha.3, update signup sigin page"
+            },
+            {
+              "SHA": "b2f4a71",
+              "Subject": "Update meta tags to support description and image"
+            },
+            {
+              "SHA": "e614627",
+              "Subject": "update package version to 1.0.0, update website title and description"
+            },
+            {
+              "SHA": "dbcc999",
+              "Subject": "Update design system to v1.0.2, update ui buidler to v1.0.5, fix some issues (#77)"
+            },
+            {
+              "SHA": "ddac75b",
+              "Subject": "run `npm run generate`"
+            },
+            {
+              "SHA": "36e8872",
+              "Subject": "pagination issue fixed"
+            },
+            {
+              "SHA": "899cedc",
+              "Subject": "Update add card page, and footer action area"
+            },
+            {
+              "SHA": "1b0856d",
+              "Subject": "updated ui-builder integration"
+            },
+            {
+              "SHA": "45b90ad",
+              "Subject": "updated ui.json and language.json for credential"
+            },
+            {
+              "SHA": "08548e7",
+              "Subject": "integrated updated nui-builder"
+            },
+            {
+              "SHA": "707485d",
+              "Subject": "updated loader"
+            },
+            {
+              "SHA": "174ec1d",
+              "Subject": "added credential titlebar"
+            },
+            {
+              "SHA": "bf10c47",
+              "Subject": "updated design system"
+            },
+            {
+              "SHA": "00bac3f",
+              "Subject": "Update public page css, loader and setting css"
+            },
+            {
+              "SHA": "5aafe1d",
+              "Subject": "Update various html change for updating design system"
+            },
+            {
+              "SHA": "4e6ce7e",
+              "Subject": "Update add card, create page, payments page, auth page, tfa-enroll page"
+            },
+            {
+              "SHA": "10d0ac8",
+              "Subject": "Update overview page"
+            },
+            {
+              "SHA": "51899cd",
+              "Subject": "Update invoice page"
+            },
+            {
+              "SHA": "bc55716",
+              "Subject": "Update credential and organization page"
+            },
+            {
+              "SHA": "48feaba",
+              "Subject": "Update profile,account,security pages"
+            },
+            {
+              "SHA": "0a9bf07",
+              "Subject": "Remove hubspot script"
+            },
+            {
+              "SHA": "768fbda",
+              "Subject": "2021.4.29"
+            },
+            {
+              "SHA": "e81a560",
+              "Subject": "Rename to accounts-ui (#72)"
+            },
+            {
+              "SHA": "4e209b3",
+              "Subject": "Use listmonk"
+            },
+            {
+              "SHA": "aa15956",
+              "Subject": "Add app.html, add hubspot and tawk.to stript in app.html, comment out tawk.to script for now (#69)"
+            },
+            {
+              "SHA": "d2ebdbb",
+              "Subject": "Updated ui-builder version and change disabled field in ui-builder to boolean (#68)"
+            },
+            {
+              "SHA": "14b757e",
+              "Subject": "added disabled input field in ui.json file on edit credential and some api changes(#67)"
+            },
+            {
+              "SHA": "7ce3f19",
+              "Subject": "added monaco editor resize functionality on window resize and updated googleOauth cred redirect_url (#65)"
+            },
+            {
+              "SHA": "2ecefe3",
+              "Subject": "Add credential management  (#63)"
+            },
+            {
+              "SHA": "c01e7c1",
+              "Subject": "shakib779/payment card update (#62)"
+            },
+            {
+              "SHA": "3cc661a",
+              "Subject": "fixed domain problem and updated sidebar (#61)"
+            },
+            {
+              "SHA": "64a8e32",
+              "Subject": "shakib779/move toaster to design system and Fix navbar issue (#59)"
+            },
+            {
+              "SHA": "75c8278",
+              "Subject": "fixed product tagline fetch from method instead of computed"
+            },
+            {
+              "SHA": "af7dfe4",
+              "Subject": "Update the stripe integration"
+            },
+            {
+              "SHA": "76c0368",
+              "Subject": "Merge pull request #54 from appscode/integrated-design-system"
+            },
+            {
+              "SHA": "2ee128a",
+              "Subject": "fixed build failed issue"
+            },
+            {
+              "SHA": "2efda83",
+              "Subject": "run `npm run generate`"
+            },
+            {
+              "SHA": "1f98e26",
+              "Subject": "moved all json file of multiselect to assests/json folder"
+            },
+            {
+              "SHA": "29e3e00",
+              "Subject": "Merge branch 'integrated-design-system' of github.com:appscode/bytebuilders-nuxt into integrated-design-system"
+            },
+            {
+              "SHA": "bc02308",
+              "Subject": "removed unnecessary comment"
+            },
+            {
+              "SHA": "5dec2d7",
+              "Subject": "Fix conflicts"
+            },
+            {
+              "SHA": "be3abcd",
+              "Subject": "comment added for ac-multiselet methods"
+            },
+            {
+              "SHA": "2177131",
+              "Subject": "fixed object search problem in ac-multiselect"
+            },
+            {
+              "SHA": "6c1898d",
+              "Subject": "Merge branch 'integrated-design-system' of github.com:appscode/bytebuilders-nuxt into integrated-design-system"
+            },
+            {
+              "SHA": "4c6f0a2",
+              "Subject": "removed required rules from all input in card addition"
+            },
+            {
+              "SHA": "8d5d5f2",
+              "Subject": "Add generated bindata"
+            },
+            {
+              "SHA": "9e0bc86",
+              "Subject": "added make default and delete card modal"
+            },
+            {
+              "SHA": "0f18cc8",
+              "Subject": "Fix overview table css payment card css"
+            },
+            {
+              "SHA": "6a5b8a8",
+              "Subject": "payment card functionality added"
+            },
+            {
+              "SHA": "a2b8c38",
+              "Subject": "comment added for custom validation in image upload"
+            },
+            {
+              "SHA": "ba291c9",
+              "Subject": "Run `npm run generate`"
+            },
+            {
+              "SHA": "0231ea0",
+              "Subject": "removed test data"
+            },
+            {
+              "SHA": "5ebe608",
+              "Subject": "updated public profile structure and image upload functionality"
+            },
+            {
+              "SHA": "c45057f",
+              "Subject": "updated design-system to alpha25"
+            },
+            {
+              "SHA": "a3b786f",
+              "Subject": "Merge pull request #53 from appscode/fix-css-issue"
+            },
+            {
+              "SHA": "bef724f",
+              "Subject": "Fix CSS issue for general profile setting"
+            },
+            {
+              "SHA": "72c4b5a",
+              "Subject": "Update Profile section HTML CSS"
+            },
+            {
+              "SHA": "12ab4b7",
+              "Subject": "updated public profile functionality"
+            },
+            {
+              "SHA": "2c49cbd",
+              "Subject": "Merge pull request #52 from appscode/fix-css-issue"
+            },
+            {
+              "SHA": "56c6d40",
+              "Subject": "Fix form divider"
+            },
+            {
+              "SHA": "c730941",
+              "Subject": "updated no data image"
+            },
+            {
+              "SHA": "758efe1",
+              "Subject": "Added no-data-available image"
+            },
+            {
+              "SHA": "4bcd2c9",
+              "Subject": "updated design-system to alpha-23"
+            },
+            {
+              "SHA": "4bc750c",
+              "Subject": "review changes fix"
+            },
+            {
+              "SHA": "626b3d2",
+              "Subject": "updated desing system version to alpha-22"
+            },
+            {
+              "SHA": "95d3bcb",
+              "Subject": "Merge pull request #51 from appscode/fix-css-issue"
+            },
+            {
+              "SHA": "e0b43d8",
+              "Subject": "Merge branch 'integrated-design-system' into fix-css-issue"
+            },
+            {
+              "SHA": "8e826f2",
+              "Subject": "Fix navbar css and commented extra css"
+            },
+            {
+              "SHA": "3ee3c9a",
+              "Subject": "fixed pagination margin and padding"
+            },
+            {
+              "SHA": "d9d960b",
+              "Subject": "removed extra bottom margin in all table"
+            },
+            {
+              "SHA": "722c717",
+              "Subject": "Merge pull request #50 from appscode/fix-css-issue"
+            },
+            {
+              "SHA": "b4551dc",
+              "Subject": "Uncomment toast part"
+            },
+            {
+              "SHA": "be444af",
+              "Subject": "Update toast,navbar private,application layout"
+            },
+            {
+              "SHA": "3785b5e",
+              "Subject": "added dompurify and changed top margin of pagination section"
+            },
+            {
+              "SHA": "1d097e3",
+              "Subject": "fixed alignment problem of logo with application name"
+            },
+            {
+              "SHA": "0e5de2b",
+              "Subject": "fixed css issues"
+            },
+            {
+              "SHA": "101775e",
+              "Subject": "updated design-ssytem to alpha-16"
+            },
+            {
+              "SHA": "310a655",
+              "Subject": "Merge pull request #49 from appscode/css-fix-integrated-design-system"
+            },
+            {
+              "SHA": "c6181cd",
+              "Subject": "Merge branch 'integrated-design-system' into css-fix-integrated-design-system"
+            },
+            {
+              "SHA": "9a344f5",
+              "Subject": "updated toaster style from design system"
+            },
+            {
+              "SHA": "3ae0381",
+              "Subject": "Fix css issue from github"
+            },
+            {
+              "SHA": "22c06ae",
+              "Subject": "Fix css issue from github"
+            },
+            {
+              "SHA": "66a5e1c",
+              "Subject": "fixed bgcolor of stripe input field and form padding"
+            },
+            {
+              "SHA": "6197168",
+              "Subject": "added search and pagination in all table and mutation observer in sticky functionality"
+            },
+            {
+              "SHA": "7e5e08d",
+              "Subject": "updated design-system version to alpha-14"
+            },
+            {
+              "SHA": "49fdcf0",
+              "Subject": "Merge pull request #47 from appscode/css-fix-integrated-design-system"
+            },
+            {
+              "SHA": "7546e1d",
+              "Subject": "class update"
+            },
+            {
+              "SHA": "b2b4756",
+              "Subject": "replaced monaco editor by textarea in license details page"
+            },
+            {
+              "SHA": "8919057",
+              "Subject": "Update body structure from design system,Navbar replace from design system, and left-sidebar css fix"
+            },
+            {
+              "SHA": "a68b26d",
+              "Subject": "fixed margin spacing and alignment problem"
+            },
+            {
+              "SHA": "5823e73",
+              "Subject": "updated avatar image upload field and license issu form"
+            },
+            {
+              "SHA": "10c1125",
+              "Subject": "updated input field and integerated sticky section"
+            },
+            {
+              "SHA": "70a551f",
+              "Subject": "updated all input fields excluding payment cards"
+            },
+            {
+              "SHA": "a94c50d",
+              "Subject": "updated application logo field to drag and drop image"
+            },
+            {
+              "SHA": "e8f88c3",
+              "Subject": "updated all modals and buttons"
+            },
+            {
+              "SHA": "7d2589a",
+              "Subject": "all table contents updated"
+            },
+            {
+              "SHA": "973919f",
+              "Subject": "api call fixed"
+            },
+            {
+              "SHA": "606c8b8",
+              "Subject": "Generate dist files using package.json version (#45)"
+            },
+            {
+              "SHA": "0e21e2f",
+              "Subject": "Merge pull request #44 from appscode/user-settings"
+            },
+            {
+              "SHA": "d771947",
+              "Subject": "Fix open-pr.sh script"
+            },
+            {
+              "SHA": "18a636f",
+              "Subject": "Enable GitHub actions (#43)"
+            },
+            {
+              "SHA": "e6292ba",
+              "Subject": "sidebar-icons changed"
+            },
+            {
+              "SHA": "967a3d8",
+              "Subject": "added image drag drop crop functionality"
+            },
+            {
+              "SHA": "a97cffe",
+              "Subject": "refactored and added token copy functionality in application settings"
+            },
+            {
+              "SHA": "2687d7b",
+              "Subject": "refactored security and organization settings"
+            },
+            {
+              "SHA": "5bc2957",
+              "Subject": "fixed application create and update bug"
+            },
+            {
+              "SHA": "181e6b6",
+              "Subject": "access token settings added"
+            },
+            {
+              "SHA": "67233e9",
+              "Subject": "organization settings page added"
+            },
+            {
+              "SHA": "d4f91c3",
+              "Subject": "two fa auth added"
+            },
+            {
+              "SHA": "79aa7c7",
+              "Subject": "Show email or user_name in signup/signin forms"
+            },
+            {
+              "SHA": "8276275",
+              "Subject": "Fix Go template"
+            },
+            {
+              "SHA": "a71e114",
+              "Subject": "Add signup/signin routes for linked accounts (#42)"
+            },
+            {
+              "SHA": "4555008",
+              "Subject": "Replace change_passwd.vue (#41)"
+            },
+            {
+              "SHA": "b134db3",
+              "Subject": "Added twofa pages (#40)"
+            },
+            {
+              "SHA": "91c49b6",
+              "Subject": "Add /404 and /500 routes"
+            },
+            {
+              "SHA": "1a10f71",
+              "Subject": "Add status/{404, 500} pages (#39)"
+            },
+            {
+              "SHA": "9e5688f",
+              "Subject": "Fix Oauth template"
+            },
+            {
+              "SHA": "c2a17f0",
+              "Subject": "Fix Oauth2 provider view (#38)"
+            },
+            {
+              "SHA": "7ce78d3",
+              "Subject": "Add signup form component in bytebuilders home page (#37)"
+            },
+            {
+              "SHA": "4bbbf6b",
+              "Subject": "Fix alert message (#36)"
+            },
+            {
+              "SHA": "2783bbd",
+              "Subject": "Fix template fixes (#35)"
+            },
+            {
+              "SHA": "784b6ca",
+              "Subject": "Remove nuxt -link, request page from server, add navbar logic to… (#34)"
+            },
+            {
+              "SHA": "a6266bc",
+              "Subject": "Move change_password under templates (#33)"
+            },
+            {
+              "SHA": "c8d80fe",
+              "Subject": "notification/alert icon-update (#31)"
+            },
+            {
+              "SHA": "3128140",
+              "Subject": "Add additional routes for link-account"
+            },
+            {
+              "SHA": "e6ec192",
+              "Subject": "Fix grant_error template"
+            },
+            {
+              "SHA": "791e19e",
+              "Subject": "Fix go template for grant page (#32)"
+            },
+            {
+              "SHA": "9ef701e",
+              "Subject": "alert/notification message add (#30)"
+            },
+            {
+              "SHA": "d5f1595",
+              "Subject": "Activation process html (#29)"
+            },
+            {
+              "SHA": "03ccda9",
+              "Subject": "Add NewTemplateFileSystem helper (#28)"
+            },
+            {
+              "SHA": "e7a9d6f",
+              "Subject": "Add /status/200/indx.html template"
+            },
+            {
+              "SHA": "5b7a62d",
+              "Subject": "Prepare gitea templates (#22)"
+            },
+            {
+              "SHA": "3301cd0",
+              "Subject": "Fix the modTime for embedded files (#26)"
+            },
+            {
+              "SHA": "faa027f",
+              "Subject": "Use prettier 2.0 (#24)"
+            },
+            {
+              "SHA": "2a2a099",
+              "Subject": "Merge pull request #16 from appscode/fix-website-issue"
+            },
+            {
+              "SHA": "c911259",
+              "Subject": "add 404 page, add contact page tabs and fix navbar"
+            },
+            {
+              "SHA": "caa973f",
+              "Subject": "fix navbar active link"
+            },
+            {
+              "SHA": "f3376d7",
+              "Subject": "fix navbar active link"
+            },
+            {
+              "SHA": "dbeec2c",
+              "Subject": "Generate StaticFS and TemplateFS (#21)"
+            },
+            {
+              "SHA": "c3591dd",
+              "Subject": "Gitea static templates (#18)"
+            },
+            {
+              "SHA": "8c1c840",
+              "Subject": "Fix go server"
+            },
+            {
+              "SHA": "04569e6",
+              "Subject": "if error show, added red color"
+            },
+            {
+              "SHA": "aba4245",
+              "Subject": "Merge pull request #15 from appscode/fix-website-ui"
+            },
+            {
+              "SHA": "0c6e146",
+              "Subject": "Add aos as dependency"
+            },
+            {
+              "SHA": "2c38445",
+              "Subject": "fix typography issue"
+            },
+            {
+              "SHA": "337770a",
+              "Subject": "authorize page add"
+            },
+            {
+              "SHA": "2611f17",
+              "Subject": "fix data aos animation"
+            },
+            {
+              "SHA": "17aae53",
+              "Subject": "add aos"
+            },
+            {
+              "SHA": "ec7e8eb",
+              "Subject": "top to buttom scrolling smoth and features area hero section animation add"
+            },
+            {
+              "SHA": "bf7445e",
+              "Subject": "added 404 page, navbar public and privet css use own component"
+            },
+            {
+              "SHA": "01c8f53",
+              "Subject": "Merge pull request #13 from appscode/bb-other-pages"
+            },
+            {
+              "SHA": "f27607e",
+              "Subject": "Add linting fixes for about, features, contact pages, add authentication"
+            },
+            {
+              "SHA": "fff6a2c",
+              "Subject": "fix css formate"
+            },
+            {
+              "SHA": "f211704",
+              "Subject": "added features logo, single features component"
+            },
+            {
+              "SHA": "af18a4b",
+              "Subject": "single features page add"
+            },
+            {
+              "SHA": "56ad44b",
+              "Subject": "remove layloader and add contact, features html"
+            },
+            {
+              "SHA": "9f749ac",
+              "Subject": "create layout, add about pages, structure components"
+            },
+            {
+              "SHA": "64add99",
+              "Subject": "Merge pull request #12 from appscode/account-recover-html"
+            },
+            {
+              "SHA": "bc991ff",
+              "Subject": "Fix linting errors, add authorization to new pages"
+            },
+            {
+              "SHA": "d6de82c",
+              "Subject": "fix input alignment"
+            },
+            {
+              "SHA": "2347185",
+              "Subject": "forgot page, recovery page, oauth page"
+            },
+            {
+              "SHA": "36ac1bc",
+              "Subject": "Fix bindata script"
+            },
+            {
+              "SHA": "c3be70e",
+              "Subject": "Merge pull request #10 from appscode/sign-in-page"
+            },
+            {
+              "SHA": "335d9e9",
+              "Subject": "Add linter fix, minor style fix"
+            },
+            {
+              "SHA": "b25ff81",
+              "Subject": "fix url and hover style"
+            },
+            {
+              "SHA": "8ea302d",
+              "Subject": "responsive design and fix small css issue"
+            },
+            {
+              "SHA": "1484bda",
+              "Subject": "remove sign_in_up css and organize css file"
+            },
+            {
+              "SHA": "88a0070",
+              "Subject": "sign-in and sign-up page ready"
+            },
+            {
+              "SHA": "1c8eb64",
+              "Subject": "Add props to ac input field component, add show hide password functionality"
+            },
+            {
+              "SHA": "71dcea3",
+              "Subject": "Add signin page html"
+            },
+            {
+              "SHA": "7bcbcde",
+              "Subject": "Add server-side templates for user auth (#9)"
+            },
+            {
+              "SHA": "3ddc4be",
+              "Subject": "Merge pull request #7 from appscode/fix-bb-homepage"
+            },
+            {
+              "SHA": "46391a8",
+              "Subject": "Update manifest.json"
+            },
+            {
+              "SHA": "00e47f8",
+              "Subject": "scroll to top test js add"
+            },
+            {
+              "SHA": "2f4d2c4",
+              "Subject": "Merge pull request #6 from appscode/fix-dashboard-css"
+            },
+            {
+              "SHA": "7480ec7",
+              "Subject": "fix navbar style"
+            },
+            {
+              "SHA": "1422d1a",
+              "Subject": "Merge pull request #5 from appscode/add-icons"
+            },
+            {
+              "SHA": "604d321",
+              "Subject": "Remove LIttleTableLoader from component loaders as it is not needed"
+            },
+            {
+              "SHA": "574501e",
+              "Subject": "Add icons, manifest, theme color, tile color etc, and various other changes"
+            },
+            {
+              "SHA": "643fa12",
+              "Subject": "Merge pull request #4 from appscode/css-fix"
+            },
+            {
+              "SHA": "71a579c",
+              "Subject": "all data add dynamically without footer list items"
+            },
+            {
+              "SHA": "a9d8b20",
+              "Subject": "Merge pull request #3 from appscode/marketplace-settngs"
+            },
+            {
+              "SHA": "122c64a",
+              "Subject": "Add authentication type to all the pages"
+            },
+            {
+              "SHA": "9e4f8cf",
+              "Subject": "Fix linter errors various console errors"
+            },
+            {
+              "SHA": "5378255",
+              "Subject": "Add Add Card page"
+            },
+            {
+              "SHA": "2e12f66",
+              "Subject": "Add deatils pages for licenses, payment methods, subscriptions, invioces and payments"
+            },
+            {
+              "SHA": "5a4fb41",
+              "Subject": "Add products, payment-methods, subscriptions, invoices and payments list pages"
+            },
+            {
+              "SHA": "05b7dc7",
+              "Subject": "Move all the settings pages under a common settings layout"
+            },
+            {
+              "SHA": "0940d6f",
+              "Subject": "Add page and layout transition configuration"
+            },
+            {
+              "SHA": "0e493ca",
+              "Subject": "Add marketplace settings list pages"
+            },
+            {
+              "SHA": "45a52ab",
+              "Subject": "integrate marketplace settings api (payment, paymentMethods, subscirptions, products etc)"
+            },
+            {
+              "SHA": "3f16fb4",
+              "Subject": "Add marketplace overview page, required components and layouts, WIP: integrate required apis"
+            },
+            {
+              "SHA": "1fb2efe",
+              "Subject": "Merge pull request #2 from appscode/bb-homepage"
+            },
+            {
+              "SHA": "0f60de4",
+              "Subject": "remove unnecessary code"
+            },
+            {
+              "SHA": "0123174",
+              "Subject": "updated onscroll navbar, responsive menu"
+            },
+            {
+              "SHA": "7998c98",
+              "Subject": "add bb-home-page data from json"
+            },
+            {
+              "SHA": "22d40e5",
+              "Subject": "add vue-carousel, all data from hugo template"
+            },
+            {
+              "SHA": "36a8514",
+              "Subject": "Add linting fixes"
+            },
+            {
+              "SHA": "35c0b3b",
+              "Subject": "Merge branch 'master' into bb-homepage"
+            },
+            {
+              "SHA": "6b26f07",
+              "Subject": "Add linting error fixes"
+            },
+            {
+              "SHA": "e9bff1a",
+              "Subject": "Add account settings page, related components, store components"
+            },
+            {
+              "SHA": "a246cc0",
+              "Subject": "Add home-page components"
+            },
+            {
+              "SHA": "7d1b9c1",
+              "Subject": "Add all the general settings routes and add sidebar functionalit for active item and also page title change on route change"
+            },
+            {
+              "SHA": "cd61c5b",
+              "Subject": "Call necessary apis in profile page and fix some console errors regarding ssr, vee-validate plugin and vue-toasted plugin"
+            },
+            {
+              "SHA": "9abcd69",
+              "Subject": "Add vee-validate, vue-toastedto the project, add profile settings page layout, store objects etc"
+            },
+            {
+              "SHA": "dbedaf2",
+              "Subject": "margin and padding update, navbar component addd"
+            },
+            {
+              "SHA": "7a40a66",
+              "Subject": "Setup initial project structure, setup styles, icons and user authentication using axios"
+            },
+            {
+              "SHA": "453adb5",
+              "Subject": "Configure axios module, fix base url and read csrf token from cookie"
+            },
+            {
+              "SHA": "ec8aab7",
+              "Subject": "Add main.go to serve dist folder (#1)"
+            },
+            {
+              "SHA": "9cf8781",
+              "Subject": "Clean the existing pre codes"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/ui-wizards",
       "releases": [
