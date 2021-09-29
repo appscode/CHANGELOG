@@ -71,6 +71,11 @@ jobs:
             "https://github.com"
           # git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
+      - name: Prepare Go for private repos
+        run: |
+          go env -w GOPRIVATE=github.com/appscode/*
+          go env -w GOPRIVATE=go.appscode.dev/*
+
       - name: Release
         if: startsWith(github.event.issue.title, 'Release:') && contains(github.event.issue.html_url, '/pull/') && contains(github.event.issue.labels, 'locked') == false
         env:
