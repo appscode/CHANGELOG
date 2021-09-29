@@ -78,8 +78,7 @@ jobs:
 
       - name: Prepare Go for private repos
         run: |
-          go env -w GOPRIVATE=github.com/appscode/*
-          go env -w GOPRIVATE=go.appscode.dev/*
+          go env -w GOPRIVATE=go.appscode.dev/*,github.com/appscode/*
 
       - name: Release
         if: startsWith(github.event.issue.title, 'Release:') && contains(github.event.issue.html_url, '/pull/') && contains(github.event.issue.labels, 'locked') == false
