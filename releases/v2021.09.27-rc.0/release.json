@@ -55,7 +55,7 @@
     },
     {
       "github.com/appscode/gitea": {
-        "tag": "v2021.09.27-rc.0"
+        "tag": "v2021.09.27"
       }
     }
   ],
