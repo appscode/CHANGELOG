@@ -1,0 +1,584 @@
+{
+  "product_line": "Console",
+  "release": "v2021.09.27-rc.0",
+  "release_date": "2021-09-29T01:03:31.220472248Z",
+  "release_project_url": "https://github.com/appscode/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2021.09.27-rc.0)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.2.0-rc.0",
+          "commits": [
+            {
+              "SHA": "7404f048",
+              "Subject": "Prepare for release v0.2.0-rc.0 (#127)"
+            },
+            {
+              "SHA": "ae5e797b",
+              "Subject": "Omit empty version field from doc.yaml"
+            },
+            {
+              "SHA": "33cc61ed",
+              "Subject": "Update repository config (#125)"
+            },
+            {
+              "SHA": "4250add8",
+              "Subject": "Update charts (#124)"
+            },
+            {
+              "SHA": "f3890eab",
+              "Subject": "Fix apiVersion for core types"
+            },
+            {
+              "SHA": "2d80eb35",
+              "Subject": "Updated type schema checker and group replication description (#123)"
+            },
+            {
+              "SHA": "c6c16bc6",
+              "Subject": "Update charts (#122)"
+            },
+            {
+              "SHA": "e0ff4e81",
+              "Subject": "Fix redis options chart schema"
+            },
+            {
+              "SHA": "b710f44a",
+              "Subject": "Update schema"
+            },
+            {
+              "SHA": "fc5e0006",
+              "Subject": "Added redis create, edit, opsrequest wizard and fixed other DB's issues (#120)"
+            },
+            {
+              "SHA": "9da2cf35",
+              "Subject": "Add -sentinel suffix to auto-generated redis sentinel"
+            },
+            {
+              "SHA": "7fd5ad38",
+              "Subject": "Update charts (#119)"
+            },
+            {
+              "SHA": "91b386eb",
+              "Subject": "Change default replicas to 2 for sentinel mode"
+            },
+            {
+              "SHA": "2f9ccc4f",
+              "Subject": "Add redis sentinel crd"
+            },
+            {
+              "SHA": "1621682b",
+              "Subject": "Update charts (#118)"
+            },
+            {
+              "SHA": "7221ef27",
+              "Subject": "Add sentinel mode to redis options chart"
+            },
+            {
+              "SHA": "ef78f9aa",
+              "Subject": "Update charts (#117)"
+            },
+            {
+              "SHA": "38a8529f",
+              "Subject": "Update editor charts"
+            },
+            {
+              "SHA": "24fd8aed",
+              "Subject": "Update crds"
+            },
+            {
+              "SHA": "b460c623",
+              "Subject": "Update charts (#116)"
+            },
+            {
+              "SHA": "f0f2a556",
+              "Subject": "Add redis and redissentinel editor"
+            },
+            {
+              "SHA": "ef8c3884",
+              "Subject": "Update charts (#115)"
+            },
+            {
+              "SHA": "8bd67d7c",
+              "Subject": "Update KubeDB schema"
+            },
+            {
+              "SHA": "35fae746",
+              "Subject": "Update charts (#114)"
+            },
+            {
+              "SHA": "feed7a04",
+              "Subject": "Fixed elasticsearch internal users and authSecret issues, refactored and updated all db, Added restriction for user to select default certificate aliases only (#113)"
+            },
+            {
+              "SHA": "63cde310",
+              "Subject": "Update charts (#111)"
+            },
+            {
+              "SHA": "dc9b3510",
+              "Subject": "Rename config to user config for Elasticsearch"
+            },
+            {
+              "SHA": "b0a0a9b9",
+              "Subject": "Update charts (#110)"
+            },
+            {
+              "SHA": "4f16e9dd",
+              "Subject": "Pre create internal user"
+            },
+            {
+              "SHA": "62a7cacc",
+              "Subject": "Update ES editor chart"
+            },
+            {
+              "SHA": "9e5a9a62",
+              "Subject": "Update charts (#108)"
+            },
+            {
+              "SHA": "8f713c4f",
+              "Subject": "Fix ES options chart"
+            },
+            {
+              "SHA": "9149be2c",
+              "Subject": "Update repository config (#107)"
+            },
+            {
+              "SHA": "cae8111f",
+              "Subject": "Update repository config (#106)"
+            },
+            {
+              "SHA": "3ec61982",
+              "Subject": "Revert last commit"
+            },
+            {
+              "SHA": "1774867d",
+              "Subject": "Only run ct install for options chart"
+            },
+            {
+              "SHA": "d644babb",
+              "Subject": "Update charts (#105)"
+            },
+            {
+              "SHA": "7b6ab605",
+              "Subject": "Use cert-manager.io/v1"
+            },
+            {
+              "SHA": "d6603704",
+              "Subject": "Update charts (#104)"
+            },
+            {
+              "SHA": "965aea4d",
+              "Subject": "Update ci.yml"
+            },
+            {
+              "SHA": "daaf5d79",
+              "Subject": "Updated vertical scaling refs from cluster to postgres (#102)"
+            },
+            {
+              "SHA": "b0511670",
+              "Subject": "Update ES ops request schema"
+            },
+            {
+              "SHA": "bb1c04ef",
+              "Subject": "Update schema"
+            },
+            {
+              "SHA": "bdd005bf",
+              "Subject": "Added options wizard yaml of redis and memcached, replace all service template using reusable-element (#100)"
+            },
+            {
+              "SHA": "fe8f586c",
+              "Subject": "Update readme"
+            },
+            {
+              "SHA": "b9041d45",
+              "Subject": "Update redis and memcached editor charts (#98)"
+            },
+            {
+              "SHA": "b5ab587f",
+              "Subject": "Added mariadb create, edit, opsrequest wizard yamls and functions.js (#97)"
+            },
+            {
+              "SHA": "94ef83f1",
+              "Subject": "Remove inTableColumn: false"
+            },
+            {
+              "SHA": "af93c68e",
+              "Subject": "Update mariadb editor schema"
+            },
+            {
+              "SHA": "db3471b9",
+              "Subject": "MariaDB mode"
+            },
+            {
+              "SHA": "a154a900",
+              "Subject": "Update charts (#95)"
+            },
+            {
+              "SHA": "4e7eceb5",
+              "Subject": "Added mysql editor wizards yaml (option, create, edit, opsrequest) (#94)"
+            },
+            {
+              "SHA": "aef0d1cc",
+              "Subject": "Update charts (#93)"
+            },
+            {
+              "SHA": "d38d2f85",
+              "Subject": "Added elasticsearch option, create, edit, opsrequest wizard yaml and functions.js (#90)"
+            },
+            {
+              "SHA": "84ba3d32",
+              "Subject": "Use one replicas field for mysql options editor"
+            },
+            {
+              "SHA": "8b012e5e",
+              "Subject": "Update charts (#89)"
+            },
+            {
+              "SHA": "34859255",
+              "Subject": "Update ES editor chart (#88)"
+            },
+            {
+              "SHA": "96eb2af3",
+              "Subject": "Update charts (#87)"
+            },
+            {
+              "SHA": "bd890c3f",
+              "Subject": "Update options chart (#86)"
+            },
+            {
+              "SHA": "2ab1c034",
+              "Subject": "Update charts (#85)"
+            },
+            {
+              "SHA": "db639139",
+              "Subject": "Update schema"
+            },
+            {
+              "SHA": "e4db643c",
+              "Subject": "Update repository config (#84)"
+            },
+            {
+              "SHA": "20461799",
+              "Subject": "Update repository config (#83)"
+            },
+            {
+              "SHA": "b469ff19",
+              "Subject": "Update charts (#82)"
+            },
+            {
+              "SHA": "b9591732",
+              "Subject": "Added anchor tag in edit, updated edit yaml, removed pod-template from opsrequest (#81)"
+            },
+            {
+              "SHA": "885fdc24",
+              "Subject": "Update charts (#80)"
+            },
+            {
+              "SHA": "99ada7ef",
+              "Subject": "Update yq and yqq (#79)"
+            },
+            {
+              "SHA": "69ee510f",
+              "Subject": "Update charts (#78)"
+            },
+            {
+              "SHA": "b648efec",
+              "Subject": "set default config options enable to true and fix review changes (#77)"
+            },
+            {
+              "SHA": "442ea958",
+              "Subject": "Update charts (#76)"
+            },
+            {
+              "SHA": "122fec2f",
+              "Subject": "Add mysql editor chart"
+            },
+            {
+              "SHA": "b7b4e967",
+              "Subject": "Update schema"
+            },
+            {
+              "SHA": "3c4371ef",
+              "Subject": "Added postgres options, editor, opsrequest ui files (ui.yaml, language.yaml and function.js) (#73)"
+            },
+            {
+              "SHA": "18b7e71c",
+              "Subject": "Update ui-schema for ui json validation"
+            },
+            {
+              "SHA": "a1e101bb",
+              "Subject": "Update elasticsearch editor chart"
+            },
+            {
+              "SHA": "6fb7fd25",
+              "Subject": "Update charts (#70)"
+            },
+            {
+              "SHA": "8563235a",
+              "Subject": "Use scram if pg version >= 11 (#69)"
+            },
+            {
+              "SHA": "a8af79cf",
+              "Subject": "Fix group names for editors"
+            },
+            {
+              "SHA": "72f44b53",
+              "Subject": "Update mariadb options chart"
+            },
+            {
+              "SHA": "2796f006",
+              "Subject": "Update postgres options chart"
+            },
+            {
+              "SHA": "6aed08d4",
+              "Subject": "Fix options chart types"
+            },
+            {
+              "SHA": "5c2e8765",
+              "Subject": "Stop publishing charts from GH repo"
+            },
+            {
+              "SHA": "cd31a7c8",
+              "Subject": "Update charts (#63)"
+            },
+            {
+              "SHA": "632831e1",
+              "Subject": "Add options charts"
+            },
+            {
+              "SHA": "3b761b66",
+              "Subject": "Update charts (#62)"
+            },
+            {
+              "SHA": "f150928e",
+              "Subject": "Generate mariadb editor chart"
+            },
+            {
+              "SHA": "b287170e",
+              "Subject": "Generate postgres editor chart"
+            },
+            {
+              "SHA": "975e86b8",
+              "Subject": "Update charts (#61)"
+            },
+            {
+              "SHA": "e2196852",
+              "Subject": "Fix whitespace issue on valuesyaml"
+            },
+            {
+              "SHA": "7d81e5e6",
+              "Subject": "Remove .vscode from gitignore, add vscode workspace settings for yaml intellisence"
+            },
+            {
+              "SHA": "33e6a9fb",
+              "Subject": "Add ui schema for yaml validation, change current ui yamls accordingly"
+            },
+            {
+              "SHA": "956b9b79",
+              "Subject": "Update charts (#58)"
+            },
+            {
+              "SHA": "d7ae0188",
+              "Subject": "Fix trigger.sh script"
+            },
+            {
+              "SHA": "f2fc5132",
+              "Subject": "Create pr for auto fixing charts (#57)"
+            },
+            {
+              "SHA": "43b63abe",
+              "Subject": "set show label true in single step form and reusable element"
+            },
+            {
+              "SHA": "c9ce51e3",
+              "Subject": "Update charts"
+            },
+            {
+              "SHA": "2352efd7",
+              "Subject": "updated version to v0.2.0-alpha.0"
+            },
+            {
+              "SHA": "94d67a3e",
+              "Subject": "Stop validating maintainers during chart testing"
+            },
+            {
+              "SHA": "74f3d966",
+              "Subject": "Update charts"
+            },
+            {
+              "SHA": "f4897ed4",
+              "Subject": "updated nested structure design of wizard (#54)"
+            },
+            {
+              "SHA": "0b514a2e",
+              "Subject": "Update charts"
+            },
+            {
+              "SHA": "80d8c416",
+              "Subject": "Added missing backend property in create repo  (#53)"
+            },
+            {
+              "SHA": "770ca6f9",
+              "Subject": "Update charts"
+            },
+            {
+              "SHA": "b93a6620",
+              "Subject": "removed extra character from schema text (#52)"
+            },
+            {
+              "SHA": "760e9e5b",
+              "Subject": "Update charts"
+            },
+            {
+              "SHA": "329fd22d",
+              "Subject": "added missing schemas"
+            },
+            {
+              "SHA": "64cf2be7",
+              "Subject": "Use unified lib-app library"
+            },
+            {
+              "SHA": "55e3c34b",
+              "Subject": "Update charts"
+            },
+            {
+              "SHA": "58531e58",
+              "Subject": "Add meta.x-helm.dev/{editor, resources} annotations (#50)"
+            },
+            {
+              "SHA": "ba7c4565",
+              "Subject": "Update charts"
+            },
+            {
+              "SHA": "ba6de85c",
+              "Subject": "updated mongodb edit-ui.yaml using reusable element"
+            },
+            {
+              "SHA": "3066ff80",
+              "Subject": "Update repository config (#48)"
+            },
+            {
+              "SHA": "446d59aa",
+              "Subject": "Fix chart testing"
+            },
+            {
+              "SHA": "28afb5c9",
+              "Subject": "Stop verification"
+            },
+            {
+              "SHA": "1ac445b6",
+              "Subject": "Update charts"
+            },
+            {
+              "SHA": "c141b025",
+              "Subject": "Auto format"
+            },
+            {
+              "SHA": "d442c56c",
+              "Subject": "Fix schema (#47)"
+            },
+            {
+              "SHA": "97f09469",
+              "Subject": "Update charts"
+            },
+            {
+              "SHA": "5c81c0b4",
+              "Subject": "Fix linter warnings"
+            },
+            {
+              "SHA": "718d0d9d",
+              "Subject": "Fix formatting"
+            },
+            {
+              "SHA": "944b3de9",
+              "Subject": "Update charts"
+            },
+            {
+              "SHA": "fc48b979",
+              "Subject": "Update git repo automatically"
+            },
+            {
+              "SHA": "9d8e9524",
+              "Subject": "Use Kubernetes v1.21.0 toolchain (#43)"
+            },
+            {
+              "SHA": "237db465",
+              "Subject": "added certificates module, removed resources label and updated mongodb opsrequest create jsons (#46)"
+            },
+            {
+              "SHA": "e65afcbf",
+              "Subject": "added eval fucntion in function.js (#45)"
+            },
+            {
+              "SHA": "3d28d38c",
+              "Subject": "Updated reusable elements functions and added user input support in select box (#44)"
+            },
+            {
+              "SHA": "dedf3716",
+              "Subject": "Add reusable component charts"
+            },
+            {
+              "SHA": "d9e1a804",
+              "Subject": "Add options editor objects (#42)"
+            },
+            {
+              "SHA": "dbb4c62b",
+              "Subject": "Remove this from mongodb ops request function js"
+            },
+            {
+              "SHA": "682ce61f",
+              "Subject": "Remove this from mongodb function js, add label field in custom service monitor"
+            },
+            {
+              "SHA": "a41094d3",
+              "Subject": "fixed limit value issue in config server pod template and set macthLabels from appApplication in service monitor (#39)"
+            },
+            {
+              "SHA": "cd0c3109",
+              "Subject": "Uniformly use templates in mongo options chart"
+            },
+            {
+              "SHA": "278b2839",
+              "Subject": "Fix indentation for sharded mongodb options"
+            },
+            {
+              "SHA": "19d23eb7",
+              "Subject": "Set resources correctly for sharded mongodb (#37)"
+            },
+            {
+              "SHA": "dcb27b10",
+              "Subject": "Updated mongodb create, edit and option yaml (Fix issues regarding database mode change and other review changes) (#36)"
+            },
+            {
+              "SHA": "6d3475f2",
+              "Subject": "Updated mongodb create, option and edit form (#35)"
+            },
+            {
+              "SHA": "c582b162",
+              "Subject": "Updated mongo ops request, make issuerRef not required when updating tls, make name, namespace and targetRef required"
+            },
+            {
+              "SHA": "0ed4c244",
+              "Subject": "Update KubeDB crds"
+            },
+            {
+              "SHA": "f26e2c08",
+              "Subject": "Update mongdb ops request jsons, update reconfiguration form"
+            },
+            {
+              "SHA": "8c27494e",
+              "Subject": "Fix mongodb opsrequest function getMongoDetails, only call the api if the name and namespace are available"
+            },
+            {
+              "SHA": "26078266",
+              "Subject": "Update charts"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
