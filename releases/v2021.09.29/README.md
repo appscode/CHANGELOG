@@ -1,0 +1,152 @@
+# Console v2021.09.29 (2021-09-29)
+
+
+## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
+
+### [v0.2.0](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.2.0)
+
+- [8d9819db](https://github.com/bytebuilders/ui-wizards/commit/8d9819db) Prepare for release v0.2.0 (#128)
+- [7404f048](https://github.com/bytebuilders/ui-wizards/commit/7404f048) Prepare for release v0.2.0-rc.0 (#127)
+- [ae5e797b](https://github.com/bytebuilders/ui-wizards/commit/ae5e797b) Omit empty version field from doc.yaml
+- [33cc61ed](https://github.com/bytebuilders/ui-wizards/commit/33cc61ed) Update repository config (#125)
+- [4250add8](https://github.com/bytebuilders/ui-wizards/commit/4250add8) Update charts (#124)
+- [f3890eab](https://github.com/bytebuilders/ui-wizards/commit/f3890eab) Fix apiVersion for core types
+- [2d80eb35](https://github.com/bytebuilders/ui-wizards/commit/2d80eb35) Updated type schema checker and group replication description (#123)
+- [c6c16bc6](https://github.com/bytebuilders/ui-wizards/commit/c6c16bc6) Update charts (#122)
+- [e0ff4e81](https://github.com/bytebuilders/ui-wizards/commit/e0ff4e81) Fix redis options chart schema
+- [b710f44a](https://github.com/bytebuilders/ui-wizards/commit/b710f44a) Update schema
+- [fc5e0006](https://github.com/bytebuilders/ui-wizards/commit/fc5e0006) Added redis create, edit, opsrequest wizard and fixed other DB's issues (#120)
+- [9da2cf35](https://github.com/bytebuilders/ui-wizards/commit/9da2cf35) Add -sentinel suffix to auto-generated redis sentinel
+- [7fd5ad38](https://github.com/bytebuilders/ui-wizards/commit/7fd5ad38) Update charts (#119)
+- [91b386eb](https://github.com/bytebuilders/ui-wizards/commit/91b386eb) Change default replicas to 2 for sentinel mode
+- [2f9ccc4f](https://github.com/bytebuilders/ui-wizards/commit/2f9ccc4f) Add redis sentinel crd
+- [1621682b](https://github.com/bytebuilders/ui-wizards/commit/1621682b) Update charts (#118)
+- [7221ef27](https://github.com/bytebuilders/ui-wizards/commit/7221ef27) Add sentinel mode to redis options chart
+- [ef78f9aa](https://github.com/bytebuilders/ui-wizards/commit/ef78f9aa) Update charts (#117)
+- [38a8529f](https://github.com/bytebuilders/ui-wizards/commit/38a8529f) Update editor charts
+- [24fd8aed](https://github.com/bytebuilders/ui-wizards/commit/24fd8aed) Update crds
+- [b460c623](https://github.com/bytebuilders/ui-wizards/commit/b460c623) Update charts (#116)
+- [f0f2a556](https://github.com/bytebuilders/ui-wizards/commit/f0f2a556) Add redis and redissentinel editor
+- [ef8c3884](https://github.com/bytebuilders/ui-wizards/commit/ef8c3884) Update charts (#115)
+- [8bd67d7c](https://github.com/bytebuilders/ui-wizards/commit/8bd67d7c) Update KubeDB schema
+- [35fae746](https://github.com/bytebuilders/ui-wizards/commit/35fae746) Update charts (#114)
+- [feed7a04](https://github.com/bytebuilders/ui-wizards/commit/feed7a04) Fixed elasticsearch internal users and authSecret issues, refactored and updated all db, Added restriction for user to select default certificate aliases only (#113)
+- [63cde310](https://github.com/bytebuilders/ui-wizards/commit/63cde310) Update charts (#111)
+- [dc9b3510](https://github.com/bytebuilders/ui-wizards/commit/dc9b3510) Rename config to user config for Elasticsearch
+- [b0a0a9b9](https://github.com/bytebuilders/ui-wizards/commit/b0a0a9b9) Update charts (#110)
+- [4f16e9dd](https://github.com/bytebuilders/ui-wizards/commit/4f16e9dd) Pre create internal user
+- [62a7cacc](https://github.com/bytebuilders/ui-wizards/commit/62a7cacc) Update ES editor chart
+- [9e5a9a62](https://github.com/bytebuilders/ui-wizards/commit/9e5a9a62) Update charts (#108)
+- [8f713c4f](https://github.com/bytebuilders/ui-wizards/commit/8f713c4f) Fix ES options chart
+- [9149be2c](https://github.com/bytebuilders/ui-wizards/commit/9149be2c) Update repository config (#107)
+- [cae8111f](https://github.com/bytebuilders/ui-wizards/commit/cae8111f) Update repository config (#106)
+- [3ec61982](https://github.com/bytebuilders/ui-wizards/commit/3ec61982) Revert last commit
+- [1774867d](https://github.com/bytebuilders/ui-wizards/commit/1774867d) Only run ct install for options chart
+- [d644babb](https://github.com/bytebuilders/ui-wizards/commit/d644babb) Update charts (#105)
+- [7b6ab605](https://github.com/bytebuilders/ui-wizards/commit/7b6ab605) Use cert-manager.io/v1
+- [d6603704](https://github.com/bytebuilders/ui-wizards/commit/d6603704) Update charts (#104)
+- [965aea4d](https://github.com/bytebuilders/ui-wizards/commit/965aea4d) Update ci.yml
+- [daaf5d79](https://github.com/bytebuilders/ui-wizards/commit/daaf5d79) Updated vertical scaling refs from cluster to postgres (#102)
+- [b0511670](https://github.com/bytebuilders/ui-wizards/commit/b0511670) Update ES ops request schema
+- [bb1c04ef](https://github.com/bytebuilders/ui-wizards/commit/bb1c04ef) Update schema
+- [bdd005bf](https://github.com/bytebuilders/ui-wizards/commit/bdd005bf) Added options wizard yaml of redis and memcached, replace all service template using reusable-element (#100)
+- [fe8f586c](https://github.com/bytebuilders/ui-wizards/commit/fe8f586c) Update readme
+- [b9041d45](https://github.com/bytebuilders/ui-wizards/commit/b9041d45) Update redis and memcached editor charts (#98)
+- [b5ab587f](https://github.com/bytebuilders/ui-wizards/commit/b5ab587f) Added mariadb create, edit, opsrequest wizard yamls and functions.js (#97)
+- [94ef83f1](https://github.com/bytebuilders/ui-wizards/commit/94ef83f1) Remove inTableColumn: false
+- [af93c68e](https://github.com/bytebuilders/ui-wizards/commit/af93c68e) Update mariadb editor schema
+- [db3471b9](https://github.com/bytebuilders/ui-wizards/commit/db3471b9) MariaDB mode
+- [a154a900](https://github.com/bytebuilders/ui-wizards/commit/a154a900) Update charts (#95)
+- [4e7eceb5](https://github.com/bytebuilders/ui-wizards/commit/4e7eceb5) Added mysql editor wizards yaml (option, create, edit, opsrequest) (#94)
+- [aef0d1cc](https://github.com/bytebuilders/ui-wizards/commit/aef0d1cc) Update charts (#93)
+- [d38d2f85](https://github.com/bytebuilders/ui-wizards/commit/d38d2f85) Added elasticsearch option, create, edit, opsrequest wizard yaml and functions.js (#90)
+- [84ba3d32](https://github.com/bytebuilders/ui-wizards/commit/84ba3d32) Use one replicas field for mysql options editor
+- [8b012e5e](https://github.com/bytebuilders/ui-wizards/commit/8b012e5e) Update charts (#89)
+- [34859255](https://github.com/bytebuilders/ui-wizards/commit/34859255) Update ES editor chart (#88)
+- [96eb2af3](https://github.com/bytebuilders/ui-wizards/commit/96eb2af3) Update charts (#87)
+- [bd890c3f](https://github.com/bytebuilders/ui-wizards/commit/bd890c3f) Update options chart (#86)
+- [2ab1c034](https://github.com/bytebuilders/ui-wizards/commit/2ab1c034) Update charts (#85)
+- [db639139](https://github.com/bytebuilders/ui-wizards/commit/db639139) Update schema
+- [e4db643c](https://github.com/bytebuilders/ui-wizards/commit/e4db643c) Update repository config (#84)
+- [20461799](https://github.com/bytebuilders/ui-wizards/commit/20461799) Update repository config (#83)
+- [b469ff19](https://github.com/bytebuilders/ui-wizards/commit/b469ff19) Update charts (#82)
+- [b9591732](https://github.com/bytebuilders/ui-wizards/commit/b9591732) Added anchor tag in edit, updated edit yaml, removed pod-template from opsrequest (#81)
+- [885fdc24](https://github.com/bytebuilders/ui-wizards/commit/885fdc24) Update charts (#80)
+- [99ada7ef](https://github.com/bytebuilders/ui-wizards/commit/99ada7ef) Update yq and yqq (#79)
+- [69ee510f](https://github.com/bytebuilders/ui-wizards/commit/69ee510f) Update charts (#78)
+- [b648efec](https://github.com/bytebuilders/ui-wizards/commit/b648efec) set default config options enable to true and fix review changes (#77)
+- [442ea958](https://github.com/bytebuilders/ui-wizards/commit/442ea958) Update charts (#76)
+- [122fec2f](https://github.com/bytebuilders/ui-wizards/commit/122fec2f) Add mysql editor chart
+- [b7b4e967](https://github.com/bytebuilders/ui-wizards/commit/b7b4e967) Update schema
+- [3c4371ef](https://github.com/bytebuilders/ui-wizards/commit/3c4371ef) Added postgres options, editor, opsrequest ui files (ui.yaml, language.yaml and function.js) (#73)
+- [18b7e71c](https://github.com/bytebuilders/ui-wizards/commit/18b7e71c) Update ui-schema for ui json validation
+- [a1e101bb](https://github.com/bytebuilders/ui-wizards/commit/a1e101bb) Update elasticsearch editor chart
+- [6fb7fd25](https://github.com/bytebuilders/ui-wizards/commit/6fb7fd25) Update charts (#70)
+- [8563235a](https://github.com/bytebuilders/ui-wizards/commit/8563235a) Use scram if pg version >= 11 (#69)
+- [a8af79cf](https://github.com/bytebuilders/ui-wizards/commit/a8af79cf) Fix group names for editors
+- [72f44b53](https://github.com/bytebuilders/ui-wizards/commit/72f44b53) Update mariadb options chart
+- [2796f006](https://github.com/bytebuilders/ui-wizards/commit/2796f006) Update postgres options chart
+- [6aed08d4](https://github.com/bytebuilders/ui-wizards/commit/6aed08d4) Fix options chart types
+- [5c2e8765](https://github.com/bytebuilders/ui-wizards/commit/5c2e8765) Stop publishing charts from GH repo
+- [cd31a7c8](https://github.com/bytebuilders/ui-wizards/commit/cd31a7c8) Update charts (#63)
+- [632831e1](https://github.com/bytebuilders/ui-wizards/commit/632831e1) Add options charts
+- [3b761b66](https://github.com/bytebuilders/ui-wizards/commit/3b761b66) Update charts (#62)
+- [f150928e](https://github.com/bytebuilders/ui-wizards/commit/f150928e) Generate mariadb editor chart
+- [b287170e](https://github.com/bytebuilders/ui-wizards/commit/b287170e) Generate postgres editor chart
+- [975e86b8](https://github.com/bytebuilders/ui-wizards/commit/975e86b8) Update charts (#61)
+- [e2196852](https://github.com/bytebuilders/ui-wizards/commit/e2196852) Fix whitespace issue on valuesyaml
+- [7d81e5e6](https://github.com/bytebuilders/ui-wizards/commit/7d81e5e6) Remove .vscode from gitignore, add vscode workspace settings for yaml intellisence
+- [33e6a9fb](https://github.com/bytebuilders/ui-wizards/commit/33e6a9fb) Add ui schema for yaml validation, change current ui yamls accordingly
+- [956b9b79](https://github.com/bytebuilders/ui-wizards/commit/956b9b79) Update charts (#58)
+- [d7ae0188](https://github.com/bytebuilders/ui-wizards/commit/d7ae0188) Fix trigger.sh script
+- [f2fc5132](https://github.com/bytebuilders/ui-wizards/commit/f2fc5132) Create pr for auto fixing charts (#57)
+- [43b63abe](https://github.com/bytebuilders/ui-wizards/commit/43b63abe) set show label true in single step form and reusable element
+- [c9ce51e3](https://github.com/bytebuilders/ui-wizards/commit/c9ce51e3) Update charts
+- [2352efd7](https://github.com/bytebuilders/ui-wizards/commit/2352efd7) updated version to v0.2.0-alpha.0
+- [94d67a3e](https://github.com/bytebuilders/ui-wizards/commit/94d67a3e) Stop validating maintainers during chart testing
+- [74f3d966](https://github.com/bytebuilders/ui-wizards/commit/74f3d966) Update charts
+- [f4897ed4](https://github.com/bytebuilders/ui-wizards/commit/f4897ed4) updated nested structure design of wizard (#54)
+- [0b514a2e](https://github.com/bytebuilders/ui-wizards/commit/0b514a2e) Update charts
+- [80d8c416](https://github.com/bytebuilders/ui-wizards/commit/80d8c416) Added missing backend property in create repo  (#53)
+- [770ca6f9](https://github.com/bytebuilders/ui-wizards/commit/770ca6f9) Update charts
+- [b93a6620](https://github.com/bytebuilders/ui-wizards/commit/b93a6620) removed extra character from schema text (#52)
+- [760e9e5b](https://github.com/bytebuilders/ui-wizards/commit/760e9e5b) Update charts
+- [329fd22d](https://github.com/bytebuilders/ui-wizards/commit/329fd22d) added missing schemas
+- [64cf2be7](https://github.com/bytebuilders/ui-wizards/commit/64cf2be7) Use unified lib-app library
+- [55e3c34b](https://github.com/bytebuilders/ui-wizards/commit/55e3c34b) Update charts
+- [58531e58](https://github.com/bytebuilders/ui-wizards/commit/58531e58) Add meta.x-helm.dev/{editor, resources} annotations (#50)
+- [ba7c4565](https://github.com/bytebuilders/ui-wizards/commit/ba7c4565) Update charts
+- [ba6de85c](https://github.com/bytebuilders/ui-wizards/commit/ba6de85c) updated mongodb edit-ui.yaml using reusable element
+- [3066ff80](https://github.com/bytebuilders/ui-wizards/commit/3066ff80) Update repository config (#48)
+- [446d59aa](https://github.com/bytebuilders/ui-wizards/commit/446d59aa) Fix chart testing
+- [28afb5c9](https://github.com/bytebuilders/ui-wizards/commit/28afb5c9) Stop verification
+- [1ac445b6](https://github.com/bytebuilders/ui-wizards/commit/1ac445b6) Update charts
+- [c141b025](https://github.com/bytebuilders/ui-wizards/commit/c141b025) Auto format
+- [d442c56c](https://github.com/bytebuilders/ui-wizards/commit/d442c56c) Fix schema (#47)
+- [97f09469](https://github.com/bytebuilders/ui-wizards/commit/97f09469) Update charts
+- [5c81c0b4](https://github.com/bytebuilders/ui-wizards/commit/5c81c0b4) Fix linter warnings
+- [718d0d9d](https://github.com/bytebuilders/ui-wizards/commit/718d0d9d) Fix formatting
+- [944b3de9](https://github.com/bytebuilders/ui-wizards/commit/944b3de9) Update charts
+- [fc48b979](https://github.com/bytebuilders/ui-wizards/commit/fc48b979) Update git repo automatically
+- [9d8e9524](https://github.com/bytebuilders/ui-wizards/commit/9d8e9524) Use Kubernetes v1.21.0 toolchain (#43)
+- [237db465](https://github.com/bytebuilders/ui-wizards/commit/237db465) added certificates module, removed resources label and updated mongodb opsrequest create jsons (#46)
+- [e65afcbf](https://github.com/bytebuilders/ui-wizards/commit/e65afcbf) added eval fucntion in function.js (#45)
+- [3d28d38c](https://github.com/bytebuilders/ui-wizards/commit/3d28d38c) Updated reusable elements functions and added user input support in select box (#44)
+- [dedf3716](https://github.com/bytebuilders/ui-wizards/commit/dedf3716) Add reusable component charts
+- [d9e1a804](https://github.com/bytebuilders/ui-wizards/commit/d9e1a804) Add options editor objects (#42)
+- [dbb4c62b](https://github.com/bytebuilders/ui-wizards/commit/dbb4c62b) Remove this from mongodb ops request function js
+- [682ce61f](https://github.com/bytebuilders/ui-wizards/commit/682ce61f) Remove this from mongodb function js, add label field in custom service monitor
+- [a41094d3](https://github.com/bytebuilders/ui-wizards/commit/a41094d3) fixed limit value issue in config server pod template and set macthLabels from appApplication in service monitor (#39)
+- [cd0c3109](https://github.com/bytebuilders/ui-wizards/commit/cd0c3109) Uniformly use templates in mongo options chart
+- [278b2839](https://github.com/bytebuilders/ui-wizards/commit/278b2839) Fix indentation for sharded mongodb options
+- [19d23eb7](https://github.com/bytebuilders/ui-wizards/commit/19d23eb7) Set resources correctly for sharded mongodb (#37)
+- [dcb27b10](https://github.com/bytebuilders/ui-wizards/commit/dcb27b10) Updated mongodb create, edit and option yaml (Fix issues regarding database mode change and other review changes) (#36)
+- [6d3475f2](https://github.com/bytebuilders/ui-wizards/commit/6d3475f2) Updated mongodb create, option and edit form (#35)
+- [c582b162](https://github.com/bytebuilders/ui-wizards/commit/c582b162) Updated mongo ops request, make issuerRef not required when updating tls, make name, namespace and targetRef required
+- [0ed4c244](https://github.com/bytebuilders/ui-wizards/commit/0ed4c244) Update KubeDB crds
+- [f26e2c08](https://github.com/bytebuilders/ui-wizards/commit/f26e2c08) Update mongdb ops request jsons, update reconfiguration form
+- [8c27494e](https://github.com/bytebuilders/ui-wizards/commit/8c27494e) Fix mongodb opsrequest function getMongoDetails, only call the api if the name and namespace are available
+- [26078266](https://github.com/bytebuilders/ui-wizards/commit/26078266) Update charts
+
+
+
