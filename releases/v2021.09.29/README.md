@@ -225,6 +225,5223 @@
 
 
 
+## [appscode/cluster-ui](https://github.com/appscode/cluster-ui)
+
+### [v0.1.0](https://github.com/appscode/cluster-ui/releases/tag/v0.1.0)
+
+- [db5a6165](https://github.com/appscode/cluster-ui/commit/db5a6165) Prepare for release v0.1.0 (#422)
+- [5d99fd6f](https://github.com/appscode/cluster-ui/commit/5d99fd6f) Fix release workflow
+- [c2c00eb4](https://github.com/appscode/cluster-ui/commit/c2c00eb4) Prepare for release v0.1.0-rc.0 (#421)
+- [d093f371](https://github.com/appscode/cluster-ui/commit/d093f371) Always deploy to QA on release
+- [f1ae478c](https://github.com/appscode/cluster-ui/commit/f1ae478c) Add release tracker script (#420)
+- [0f4a3f63](https://github.com/appscode/cluster-ui/commit/0f4a3f63) added suport for changing theme and font color
+- [4b99c9a1](https://github.com/appscode/cluster-ui/commit/4b99c9a1) updated toaster style
+- [7195c484](https://github.com/appscode/cluster-ui/commit/7195c484) added loader in sidebar settings page
+- [3eb4ac2a](https://github.com/appscode/cluster-ui/commit/3eb4ac2a) Add sorting by name for resource list of cluster-ui
+- [0deed03a](https://github.com/appscode/cluster-ui/commit/0deed03a) Fixed terminal height overlapping issue and cluster and cluster switcher undefined value issue (#415)
+- [0d5821fc](https://github.com/appscode/cluster-ui/commit/0d5821fc) Fix created date of clusters in cluster import cluster list
+- [c682f755](https://github.com/appscode/cluster-ui/commit/c682f755) Update design system to v1.0.3-alpha.3
+- [7f2e0be8](https://github.com/appscode/cluster-ui/commit/7f2e0be8) Fix terminal exec, show connected clusters in cluster switcher, add loaders in terminal select boxes
+- [e63c8f11](https://github.com/appscode/cluster-ui/commit/e63c8f11) Refactor code structure, modularize and reuse components from design system, update with new design system v1.0.2 and ui-builder v1.0.5 (#412)
+- [391db89a](https://github.com/appscode/cluster-ui/commit/391db89a) Use actions/checkout@v1
+- [7046ca52](https://github.com/appscode/cluster-ui/commit/7046ca52) Fix helm list bug and removed helm v2 from release list and details  (#404)
+- [14cc9fcf](https://github.com/appscode/cluster-ui/commit/14cc9fcf) Fix linting errors, update some design changes
+- [0dba40e5](https://github.com/appscode/cluster-ui/commit/0dba40e5) Updating design system (Smaller fonts and reduce spacing) (#403)
+- [8fee9556](https://github.com/appscode/cluster-ui/commit/8fee9556) added chart url in edit wizard
+- [ef6e3c1b](https://github.com/appscode/cluster-ui/commit/ef6e3c1b) Integrate new resource viewer api (#396)
+- [df9e1cad](https://github.com/appscode/cluster-ui/commit/df9e1cad) added chart url as props to ui-builder
+- [2991f42c](https://github.com/appscode/cluster-ui/commit/2991f42c) Show cluster displayName where missing (cluster basic page and cluster switcher), if there is no displayName show normal name
+- [9a74f8e4](https://github.com/appscode/cluster-ui/commit/9a74f8e4) Update QA, Prod deploy github ci
+- [549be6e1](https://github.com/appscode/cluster-ui/commit/549be6e1) Show cluster.spec.displayName where cluster name is displayed, use cluster normal name in kubeconfig download filename
+- [42b86a44](https://github.com/appscode/cluster-ui/commit/42b86a44) Update cluster-ui dependencies, update ui-builder for faster experience
+- [be5561dc](https://github.com/appscode/cluster-ui/commit/be5561dc) 2021.4.29
+- [b88a84e3](https://github.com/appscode/cluster-ui/commit/b88a84e3) Update readme
+- [707f8dc5](https://github.com/appscode/cluster-ui/commit/707f8dc5) Rename to cluster-ui (#395)
+- [0dc3d2ed](https://github.com/appscode/cluster-ui/commit/0dc3d2ed) Update ui-builder, fixes not able to perform showSteps mutations
+- [71c2e3d6](https://github.com/appscode/cluster-ui/commit/71c2e3d6) Update ui-builder with modularization feature and ubt fix
+- [d67b7d3e](https://github.com/appscode/cluster-ui/commit/d67b7d3e) Remove unnecessary console logs
+- [5b3d0076](https://github.com/appscode/cluster-ui/commit/5b3d0076) Fix, recurrent api calls happening when visiting list page of resource that is missing
+- [2f57a756](https://github.com/appscode/cluster-ui/commit/2f57a756) Renamed create wizard header text depending on group (#393)
+- [aab082a3](https://github.com/appscode/cluster-ui/commit/aab082a3) Clear wizard data, before fetching new data for edit wizard
+- [647d35b3](https://github.com/appscode/cluster-ui/commit/647d35b3) remove install CRDs true from edit wizard api (#392)
+- [2ec65729](https://github.com/appscode/cluster-ui/commit/2ec65729) reject api resoponse on error (#391)
+- [daf0630b](https://github.com/appscode/cluster-ui/commit/daf0630b) Update local node version to 14.x and update package-lock accordingly (#390)
+- [f7314081](https://github.com/appscode/cluster-ui/commit/f7314081) Fix recurring api calls happening in wrong pages, setInterVal not clearing (#389)
+- [d11fc5db](https://github.com/appscode/cluster-ui/commit/d11fc5db) Sort list items according to name, remove monitorign from services and prometheus from service monitors (#388)
+- [d452d0e7](https://github.com/appscode/cluster-ui/commit/d452d0e7) Fix credential create link in cluster create flow (#387)
+- [7e8695a4](https://github.com/appscode/cluster-ui/commit/7e8695a4) Make recurrent api calls in generic list, details, inner tables and events (#386)
+- [d24b5797](https://github.com/appscode/cluster-ui/commit/d24b5797) Update no data available style (#385)
+- [f00f3ed8](https://github.com/appscode/cluster-ui/commit/f00f3ed8) Disable log tab in pod details until nats is integrated, read tabs from pages api, remove tabs from resource-to-all for pods, removing monitoring tab
+- [729ed8f0](https://github.com/appscode/cluster-ui/commit/729ed8f0) Sort events in descending order according to firstTimestamp and lastTimestamp
+- [ae859c9b](https://github.com/appscode/cluster-ui/commit/ae859c9b) Fix tab list not updating due to resourceDescriptor api not being called in non generic details pages
+- [aed51c16](https://github.com/appscode/cluster-ui/commit/aed51c16) Remove ?installCrds=true query from deploy function
+- [8c318e1d](https://github.com/appscode/cluster-ui/commit/8c318e1d) Rename 'all' namespace option in dropdown to 'All Namespace', keep namespace as query while redirecting by clicking sidebar items
+- [aa4799d9](https://github.com/appscode/cluster-ui/commit/aa4799d9) Fix style of and functionality of cluster switcher while in wizard page
+- [67e5bb00](https://github.com/appscode/cluster-ui/commit/67e5bb00) Fix sidebar switch issue
+- [8157b2b4](https://github.com/appscode/cluster-ui/commit/8157b2b4) Fix leftSibar CSS issues
+- [782111cf](https://github.com/appscode/cluster-ui/commit/782111cf) Fix leftSidebar switch select
+- [c6a4b324](https://github.com/appscode/cluster-ui/commit/c6a4b324) Fix cluster provider icons
+- [baadf4e7](https://github.com/appscode/cluster-ui/commit/baadf4e7) Move cluster settings sidebar item to top, also add cluster switcher and back button in cluster settings sidebar
+- [f6dda690](https://github.com/appscode/cluster-ui/commit/f6dda690) Add cluser switcher to sidebar, make it functional
+- [ee0b21e9](https://github.com/appscode/cluster-ui/commit/ee0b21e9) Fix cluster install form design
+- [b837bd08](https://github.com/appscode/cluster-ui/commit/b837bd08) Update cluster setting page CSS
+- [5e966f96](https://github.com/appscode/cluster-ui/commit/5e966f96) Move various css file in design-system
+- [7daa81ae](https://github.com/appscode/cluster-ui/commit/7daa81ae) Fix various css issue and update design-system
+- [73213c0a](https://github.com/appscode/cluster-ui/commit/73213c0a) Update sidebar, topbar, breadcrumb
+- [050f4f49](https://github.com/appscode/cluster-ui/commit/050f4f49) Merge pull request #377 from appscode/s4k1b/route-navigation-from-wizard
+- [b03512d7](https://github.com/appscode/cluster-ui/commit/b03512d7) Fix namespace select relatd issues, namespace will initially be selected from query and later stored in store and will be selected from store
+- [d95f981f](https://github.com/appscode/cluster-ui/commit/d95f981f) Reroute to appropriate list page after create, pass namespace as query to show items of that namespace
+- [f67c531e](https://github.com/appscode/cluster-ui/commit/f67c531e) Fix CSS for dashboard headers and title heading (#376)
+- [39628653](https://github.com/appscode/cluster-ui/commit/39628653) update ui builder and design system (#375)
+- [fbd440ec](https://github.com/appscode/cluster-ui/commit/fbd440ec) Fix various css issue, update design system to latest (#374)
+- [5fb8f00f](https://github.com/appscode/cluster-ui/commit/5fb8f00f) Update ui builder to latest, fix hanging issue in tsl configure step, add some ui changes (#372)
+- [2e783e80](https://github.com/appscode/cluster-ui/commit/2e783e80) Delete old pods after changing image tag
+- [bcaf4a56](https://github.com/appscode/cluster-ui/commit/bcaf4a56) Update package-lock.json
+- [beaaceba](https://github.com/appscode/cluster-ui/commit/beaaceba) Log version of UI builder
+- [323b282b](https://github.com/appscode/cluster-ui/commit/323b282b) Add docker restart command in package json (#371)
+- [4d4d72d2](https://github.com/appscode/cluster-ui/commit/4d4d72d2) Fix pip installations
+- [84608fb7](https://github.com/appscode/cluster-ui/commit/84608fb7) Deploy to QA cluster
+- [416809c7](https://github.com/appscode/cluster-ui/commit/416809c7) Integrate UI Builder for MongoDB (#365)
+- [f01d138b](https://github.com/appscode/cluster-ui/commit/f01d138b) Deploy to QA cluster from CI (#370)
+- [d8b265bb](https://github.com/appscode/cluster-ui/commit/d8b265bb) Enable history mode in nginx config
+- [3170a451](https://github.com/appscode/cluster-ui/commit/3170a451) Build docker image
+- [7f63cc46](https://github.com/appscode/cluster-ui/commit/7f63cc46) added create credential button in select credential page (#359)
+- [84ed5ba7](https://github.com/appscode/cluster-ui/commit/84ed5ba7) monaco editro width update on window resize (#357)
+- [3362c762](https://github.com/appscode/cluster-ui/commit/3362c762) Remove credential section from console (#356)
+- [615b6304](https://github.com/appscode/cluster-ui/commit/615b6304) added vue-sweetalert for loader page and hide sidebar in cluster list (#352)
+- [58124ed6](https://github.com/appscode/cluster-ui/commit/58124ed6) Merge pull request #350 from appscode/shakib779/homepage-redesign
+- [daf95a12](https://github.com/appscode/cluster-ui/commit/daf95a12) updated status code undefined problem on bug issue report
+- [a7d119c8](https://github.com/appscode/cluster-ui/commit/a7d119c8) remove show all api response using atoaster wrapper
+- [d6d43c64](https://github.com/appscode/cluster-ui/commit/d6d43c64) renamed cluster list item components
+- [d750ee02](https://github.com/appscode/cluster-ui/commit/d750ee02) add pagination in clusterList mapGetters
+- [692d2362](https://github.com/appscode/cluster-ui/commit/692d2362) redesigned homepage and fixed pagination issues for generic list
+- [332d0d2a](https://github.com/appscode/cluster-ui/commit/332d0d2a) pagination added in cluster list
+- [976f63a5](https://github.com/appscode/cluster-ui/commit/976f63a5) updated option buttons for disconnected cluster
+- [5887d4a4](https://github.com/appscode/cluster-ui/commit/5887d4a4) updated custom toast
+- [13b7b52b](https://github.com/appscode/cluster-ui/commit/13b7b52b) removed focus from layouot button
+- [b192e05a](https://github.com/appscode/cluster-ui/commit/b192e05a) added import disconnected cluster
+- [ec6ee4bd](https://github.com/appscode/cluster-ui/commit/ec6ee4bd) added connect disconnected cluster functionality
+- [1111d243](https://github.com/appscode/cluster-ui/commit/1111d243) updated console homepage
+- [4dbee137](https://github.com/appscode/cluster-ui/commit/4dbee137) design system and ui-builder updated
+- [6ba60efc](https://github.com/appscode/cluster-ui/commit/6ba60efc) Merge pull request #346 from appscode/csemohin/homepage-redesign
+- [368d2e0c](https://github.com/appscode/cluster-ui/commit/368d2e0c) Merge branch 'shakib779/homepage-redesign' into csemohin/homepage-redesign
+- [2818472f](https://github.com/appscode/cluster-ui/commit/2818472f) Update home-page
+- [706bf0fd](https://github.com/appscode/cluster-ui/commit/706bf0fd) Add hero-area, recent file area
+- [ad45657e](https://github.com/appscode/cluster-ui/commit/ad45657e) sidebar expanded in edit credential page
+- [3e97f7ed](https://github.com/appscode/cluster-ui/commit/3e97f7ed) updated label class in input field, multiselect and textarea
+- [97c5bbe8](https://github.com/appscode/cluster-ui/commit/97c5bbe8) pulled from master
+- [4a75ce49](https://github.com/appscode/cluster-ui/commit/4a75ce49) Update the credential wizard page (#345)
+- [ae1d5f95](https://github.com/appscode/cluster-ui/commit/ae1d5f95) updated design-system and ui-builder
+- [e571ef0a](https://github.com/appscode/cluster-ui/commit/e571ef0a) Bump elliptic from 6.5.2 to 6.5.3 (#335)
+- [5365ac51](https://github.com/appscode/cluster-ui/commit/5365ac51) Merge pull request #343 from appscode/shakib779/import-cluster
+- [e480dedd](https://github.com/appscode/cluster-ui/commit/e480dedd) fixed review changes
+- [605e99e3](https://github.com/appscode/cluster-ui/commit/605e99e3) removed unused comments and file
+- [e9600c71](https://github.com/appscode/cluster-ui/commit/e9600c71) removed Router.push override for updated version of vue-router (https://github.com/vuejs/rfcs/pull/150#issuecomment-610056845)
+- [317a6eb5](https://github.com/appscode/cluster-ui/commit/317a6eb5) fixed ac-multiselect issue
+- [6bfe4ede](https://github.com/appscode/cluster-ui/commit/6bfe4ede) fixed issues helm3 chart install
+- [dcfe9fbf](https://github.com/appscode/cluster-ui/commit/dcfe9fbf) fixed issues in sidebar
+- [5c43a357](https://github.com/appscode/cluster-ui/commit/5c43a357) fixed issues in sidebar, header
+- [16f16252](https://github.com/appscode/cluster-ui/commit/16f16252) added expiry field type in credential format
+- [a250d13e](https://github.com/appscode/cluster-ui/commit/a250d13e) removed placeholder text from ac-multiselect and fixed some issues
+- [c505b201](https://github.com/appscode/cluster-ui/commit/c505b201) updated svg icon in provider list
+- [32217b4d](https://github.com/appscode/cluster-ui/commit/32217b4d) provider icons added
+- [317556d3](https://github.com/appscode/cluster-ui/commit/317556d3) Merge pull request #342 from appscode/fix-import-cluster-card
+- [cba560eb](https://github.com/appscode/cluster-ui/commit/cba560eb) Update import cluster card
+- [3332825a](https://github.com/appscode/cluster-ui/commit/3332825a) fix bugs
+- [581cec67](https://github.com/appscode/cluster-ui/commit/581cec67) Merge pull request #340 from appscode/fix-css-issue
+- [5169dc81](https://github.com/appscode/cluster-ui/commit/5169dc81) Update import page html structure
+- [7142fe4d](https://github.com/appscode/cluster-ui/commit/7142fe4d) Update import cluster page
+- [9352ee81](https://github.com/appscode/cluster-ui/commit/9352ee81) loading class added on cluster importing
+- [d8ed0f75](https://github.com/appscode/cluster-ui/commit/d8ed0f75) import cluster functionality added
+- [ea8e1e02](https://github.com/appscode/cluster-ui/commit/ea8e1e02) fix issues in credential crud
+- [b3fb2ef1](https://github.com/appscode/cluster-ui/commit/b3fb2ef1) credential updated api integration
+- [7767994d](https://github.com/appscode/cluster-ui/commit/7767994d) Merge branch 'shakib779/updated-changes-from-ui-builder' into shakib779/import-cluster
+- [b6f26222](https://github.com/appscode/cluster-ui/commit/b6f26222) Merge pull request #339 from appscode/ui-builder
+- [c2f9e8e8](https://github.com/appscode/cluster-ui/commit/c2f9e8e8) Update ui-builder component version
+- [62a71a9e](https://github.com/appscode/cluster-ui/commit/62a71a9e) fixed sidebar icon
+- [806ca406](https://github.com/appscode/cluster-ui/commit/806ca406) Merge branch 'import-cluster' into shakib779/import-cluster
+- [45f6d158](https://github.com/appscode/cluster-ui/commit/45f6d158) updated api calls in credential
+- [a51bfb68](https://github.com/appscode/cluster-ui/commit/a51bfb68) Merge pull request #338 from appscode/ui-builder
+- [af58eb59](https://github.com/appscode/cluster-ui/commit/af58eb59) Merge pull request #337 from appscode/fix-sidebar-icon
+- [ce1a652c](https://github.com/appscode/cluster-ui/commit/ce1a652c) rename editor theme
+- [b2416a9b](https://github.com/appscode/cluster-ui/commit/b2416a9b) Collapse left sidebar when using ui-builder
+- [97efbada](https://github.com/appscode/cluster-ui/commit/97efbada) Merge pull request #336 from appscode/fix-ui-builder
+- [5277f953](https://github.com/appscode/cluster-ui/commit/5277f953) Remove easy-stack folder
+- [c69afc0c](https://github.com/appscode/cluster-ui/commit/c69afc0c) Update body Structure CSS
+- [cc8038d3](https://github.com/appscode/cluster-ui/commit/cc8038d3) Remove local ui-builder module and add npm @appscode/ui-builder module in place
+- [e17b9a39](https://github.com/appscode/cluster-ui/commit/e17b9a39) Update root asidebar with new html structure
+- [4dbc45ac](https://github.com/appscode/cluster-ui/commit/4dbc45ac) WIP: integrate ui-builder with new design system
+- [5af9db6a](https://github.com/appscode/cluster-ui/commit/5af9db6a) Integrate ui builder in create credential page
+- [dd0b5aac](https://github.com/appscode/cluster-ui/commit/dd0b5aac) refactored getSidebarIcon function
+- [a6d8036f](https://github.com/appscode/cluster-ui/commit/a6d8036f) integrated sidebar icon set from backend
+- [fe98d8d4](https://github.com/appscode/cluster-ui/commit/fe98d8d4) Integrate new appscode design system with console (Merge pull request #333 from appscode/updated-design-system)
+- [c00cefcf](https://github.com/appscode/cluster-ui/commit/c00cefcf) reomved console log
+- [95b7dbc4](https://github.com/appscode/cluster-ui/commit/95b7dbc4) updated pod chart table size
+- [d02c0f4f](https://github.com/appscode/cluster-ui/commit/d02c0f4f) Fix table spacing
+- [7323c5fd](https://github.com/appscode/cluster-ui/commit/7323c5fd) updated review changes
+- [0b6247da](https://github.com/appscode/cluster-ui/commit/0b6247da) updated minimap color
+- [304dae6e](https://github.com/appscode/cluster-ui/commit/304dae6e) added missing icon and updated design-system version
+- [dd47cf9f](https://github.com/appscode/cluster-ui/commit/dd47cf9f) added is-shadowless class in all form content layout
+- [6e977701](https://github.com/appscode/cluster-ui/commit/6e977701) updatetd information functionality
+- [0e482dfc](https://github.com/appscode/cluster-ui/commit/0e482dfc) added information content functionality
+- [b0edb384](https://github.com/appscode/cluster-ui/commit/b0edb384) ac-content structure update for new design layout
+- [198fd120](https://github.com/appscode/cluster-ui/commit/198fd120) refactored sticky functionality
+- [ae689fa8](https://github.com/appscode/cluster-ui/commit/ae689fa8) fixed monaco minimap
+- [53a9cb26](https://github.com/appscode/cluster-ui/commit/53a9cb26) Merge pull request #330 from appscode/fix-ui
+- [28d01bd1](https://github.com/appscode/cluster-ui/commit/28d01bd1) fixed tooltip icon in keyvalues button
+- [7eb39764](https://github.com/appscode/cluster-ui/commit/7eb39764) added header in sidebar settiings
+- [c1851321](https://github.com/appscode/cluster-ui/commit/c1851321) update tooltip in icon
+- [83b80910](https://github.com/appscode/cluster-ui/commit/83b80910) Fix vh
+- [8f0fdef4](https://github.com/appscode/cluster-ui/commit/8f0fdef4) fixed multislect in release status header
+- [aa93612e](https://github.com/appscode/cluster-ui/commit/aa93612e) fixed content layout 100% height problem
+- [1ff977cc](https://github.com/appscode/cluster-ui/commit/1ff977cc) updated generel
+- [0427abe2](https://github.com/appscode/cluster-ui/commit/0427abe2) Design system version update
+- [47ed6ced](https://github.com/appscode/cluster-ui/commit/47ed6ced) updated generic list table class
+- [c647998a](https://github.com/appscode/cluster-ui/commit/c647998a) updated editor border radius and remove tab bottom border
+- [c631e13a](https://github.com/appscode/cluster-ui/commit/c631e13a) Fix various css
+- [8c6b142b](https://github.com/appscode/cluster-ui/commit/8c6b142b) Merge pull request #329 from appscode/fix-ui
+- [a2015873](https://github.com/appscode/cluster-ui/commit/a2015873) Merge branch 'updated-design-system' into fix-ui
+- [28f31389](https://github.com/appscode/cluster-ui/commit/28f31389) updated editor border radius, left alignment and multiselect
+- [e5f8f53e](https://github.com/appscode/cluster-ui/commit/e5f8f53e) Fix tabs active bg color
+- [887bec78](https://github.com/appscode/cluster-ui/commit/887bec78) Fix css issue
+- [24287d9c](https://github.com/appscode/cluster-ui/commit/24287d9c) updated values patch top margin
+- [f5a65d04](https://github.com/appscode/cluster-ui/commit/f5a65d04) fixed create resource sticky section
+- [2d4393e6](https://github.com/appscode/cluster-ui/commit/2d4393e6) Merge pull request #328 from appscode/fix-ui
+- [1afeb3c0](https://github.com/appscode/cluster-ui/commit/1afeb3c0) Merge branch 'updated-design-system' into fix-ui
+- [39efd67c](https://github.com/appscode/cluster-ui/commit/39efd67c) updated style of sticky bottom section
+- [cda2b6c2](https://github.com/appscode/cluster-ui/commit/cda2b6c2) reduce extra space in helm chart page
+- [c6593dc3](https://github.com/appscode/cluster-ui/commit/c6593dc3) design system version update 17
+- [8af86fc8](https://github.com/appscode/cluster-ui/commit/8af86fc8) WIP: sticky bottom section style update
+- [b8d95962](https://github.com/appscode/cluster-ui/commit/b8d95962) updated helm3 chart install multiselect
+- [acfb35b4](https://github.com/appscode/cluster-ui/commit/acfb35b4) updated bgcolor of multiselect
+- [0dc6632c](https://github.com/appscode/cluster-ui/commit/0dc6632c) Fix resource viewer page, and different kind of css issue
+- [64358094](https://github.com/appscode/cluster-ui/commit/64358094) Merge pull request #326 from appscode/fix-ui
+- [661a1590](https://github.com/appscode/cluster-ui/commit/661a1590) Fix action button in creadintial page
+- [424f1582](https://github.com/appscode/cluster-ui/commit/424f1582) Merge branch 'updated-design-system' of github.com:appscode/console into updated-design-system
+- [733f436a](https://github.com/appscode/cluster-ui/commit/733f436a) updated monaco scrollbar
+- [f17ff888](https://github.com/appscode/cluster-ui/commit/f17ff888) fixed multiselect is-error text color
+- [ec084b77](https://github.com/appscode/cluster-ui/commit/ec084b77) set scroll beyond last line in monaco editor to false
+- [dca0142c](https://github.com/appscode/cluster-ui/commit/dca0142c) updated resource viewer table gap
+- [b79f0b0e](https://github.com/appscode/cluster-ui/commit/b79f0b0e) fix responsive code
+- [2438e26f](https://github.com/appscode/cluster-ui/commit/2438e26f) fixed resource viewer columns gap
+- [f675e082](https://github.com/appscode/cluster-ui/commit/f675e082) updated design system
+- [d0f92e3b](https://github.com/appscode/cluster-ui/commit/d0f92e3b) Merge pull request #324 from appscode/fix-ui
+- [f80451e8](https://github.com/appscode/cluster-ui/commit/f80451e8) Fix CSS issue
+- [2c613ac5](https://github.com/appscode/cluster-ui/commit/2c613ac5) resource viewer page updated
+- [f23d3603](https://github.com/appscode/cluster-ui/commit/f23d3603) scrollbar style updated
+- [d74855ca](https://github.com/appscode/cluster-ui/commit/d74855ca) fixed gap between two table sections
+- [cbd723ad](https://github.com/appscode/cluster-ui/commit/cbd723ad) fixed monaco editor scrollbar problem
+- [193337b6](https://github.com/appscode/cluster-ui/commit/193337b6) updated monaco editor theme, keyValueButton multiselect width, vue-openapi-form version
+- [f5b6d66c](https://github.com/appscode/cluster-ui/commit/f5b6d66c) Update ci.yml
+- [a12848c4](https://github.com/appscode/cluster-ui/commit/a12848c4) added bottom section sticky functionality
+- [5fc32f72](https://github.com/appscode/cluster-ui/commit/5fc32f72) Use website-qa firebase project
+- [ad0fcba9](https://github.com/appscode/cluster-ui/commit/ad0fcba9) Fix release workflow
+- [87413295](https://github.com/appscode/cluster-ui/commit/87413295) Create .kodiak.toml
+- [10267523](https://github.com/appscode/cluster-ui/commit/10267523) Enable GitHub Actions (#323)
+- [513c2997](https://github.com/appscode/cluster-ui/commit/513c2997) set fixed width of vue draggable editable field
+- [369a106f](https://github.com/appscode/cluster-ui/commit/369a106f) monaco editor theme issue fixed
+- [36502880](https://github.com/appscode/cluster-ui/commit/36502880) sticky footer add
+- [63bc6151](https://github.com/appscode/cluster-ui/commit/63bc6151) Merge pull request #322 from appscode/fix-ui
+- [2d1b00f4](https://github.com/appscode/cluster-ui/commit/2d1b00f4) update multi-select-option, chart install form3 update
+- [507dc249](https://github.com/appscode/cluster-ui/commit/507dc249) Merge pull request #321 from appscode/fix-ui
+- [698ebf28](https://github.com/appscode/cluster-ui/commit/698ebf28) multiselect version list z-index isse fixed
+- [d696593e](https://github.com/appscode/cluster-ui/commit/d696593e) conditional visibility of version item appVersion added
+- [0e63f51a](https://github.com/appscode/cluster-ui/commit/0e63f51a) monaco editor custom theme set
+- [ce1d3fe8](https://github.com/appscode/cluster-ui/commit/ce1d3fe8) structure change  in resource and editCredential page
+- [9fe8628b](https://github.com/appscode/cluster-ui/commit/9fe8628b) fix connect modal issue in cluster item
+- [c2a1a09a](https://github.com/appscode/cluster-ui/commit/c2a1a09a) Merge pull request #319 from appscode/fix-ui
+- [75553286](https://github.com/appscode/cluster-ui/commit/75553286) Conflict resolve
+- [bb8202c4](https://github.com/appscode/cluster-ui/commit/bb8202c4) added common multiselect wrapper component
+- [486f452f](https://github.com/appscode/cluster-ui/commit/486f452f) updated design system to 0.0.9
+- [7805ffff](https://github.com/appscode/cluster-ui/commit/7805ffff) Merge pull request #318 from appscode/fix-ui
+- [80117fcc](https://github.com/appscode/cluster-ui/commit/80117fcc) Fix key-value-button and different kind of css
+- [86291a5f](https://github.com/appscode/cluster-ui/commit/86291a5f) moved all modal to root level
+- [5ef36ff3](https://github.com/appscode/cluster-ui/commit/5ef36ff3) Added borderless input field
+- [5c01b5be](https://github.com/appscode/cluster-ui/commit/5c01b5be) updated secret section
+- [22434c7c](https://github.com/appscode/cluster-ui/commit/22434c7c) Merge pull request #317 from appscode/fix-ui-2
+- [69738cf7](https://github.com/appscode/cluster-ui/commit/69738cf7) Merge branch 'updated-design-system' into fix-ui-2
+- [c169f9ad](https://github.com/appscode/cluster-ui/commit/c169f9ad) Add borderless input and fix various css issue
+- [443ffe23](https://github.com/appscode/cluster-ui/commit/443ffe23) fixed personal access token issue
+- [70b73c18](https://github.com/appscode/cluster-ui/commit/70b73c18) removed fieldDefsof vue-table
+- [938b246c](https://github.com/appscode/cluster-ui/commit/938b246c) removed unnecessary console log
+- [32099f80](https://github.com/appscode/cluster-ui/commit/32099f80) updated settings link in topbar
+- [e9326672](https://github.com/appscode/cluster-ui/commit/e9326672) option button design updated
+- [d965547f](https://github.com/appscode/cluster-ui/commit/d965547f) multiselect is-small class set
+- [884e99e2](https://github.com/appscode/cluster-ui/commit/884e99e2) fix vue-draggable, multiselect issue
+- [916a5eb5](https://github.com/appscode/cluster-ui/commit/916a5eb5) fixed bug and css issue
+- [48820704](https://github.com/appscode/cluster-ui/commit/48820704) annotate and label of basic section updated
+- [a80e6c4d](https://github.com/appscode/cluster-ui/commit/a80e6c4d) Merge pull request #315 from appscode/fix-ui
+- [afb31725](https://github.com/appscode/cluster-ui/commit/afb31725) key-value button
+- [ef5d8ca4](https://github.com/appscode/cluster-ui/commit/ef5d8ca4) Merge pull request #313 from appscode/fix-ui
+- [6f13422e](https://github.com/appscode/cluster-ui/commit/6f13422e) Merge branch 'updated-design-system' into fix-ui
+- [f4ac6933](https://github.com/appscode/cluster-ui/commit/f4ac6933) added multiselect in key value button
+- [d8a7d4c9](https://github.com/appscode/cluster-ui/commit/d8a7d4c9) editor change
+- [ee91054d](https://github.com/appscode/cluster-ui/commit/ee91054d) classList error fixed and empty table class added
+- [5ea5ff36](https://github.com/appscode/cluster-ui/commit/5ea5ff36) tr problem fix
+- [89be074b](https://github.com/appscode/cluster-ui/commit/89be074b) fix column-6 width issue
+- [c95fe48b](https://github.com/appscode/cluster-ui/commit/c95fe48b) Merge pull request #311 from appscode/fix-ui
+- [05036c09](https://github.com/appscode/cluster-ui/commit/05036c09) Merge branch 'updated-design-system' into fix-ui
+- [09114b96](https://github.com/appscode/cluster-ui/commit/09114b96) width-300 remove
+- [aa0c2e0e](https://github.com/appscode/cluster-ui/commit/aa0c2e0e) removed multiselect search option in release status header
+- [f4d2784e](https://github.com/appscode/cluster-ui/commit/f4d2784e) added select all option in multiselect, fixed add key button issue
+- [582945b9](https://github.com/appscode/cluster-ui/commit/582945b9) moved add key button to key value button section
+- [6c9b4d41](https://github.com/appscode/cluster-ui/commit/6c9b4d41) updated textarea field in release chart
+- [d77d8c61](https://github.com/appscode/cluster-ui/commit/d77d8c61) Merge pull request #310 from appscode/fix-ui
+- [eac42ef7](https://github.com/appscode/cluster-ui/commit/eac42ef7) Header item update
+- [dc4d20fa](https://github.com/appscode/cluster-ui/commit/dc4d20fa) nested route link fixed
+- [7c9d7d24](https://github.com/appscode/cluster-ui/commit/7c9d7d24) tr tag added in table header
+- [6e22b4bc](https://github.com/appscode/cluster-ui/commit/6e22b4bc) home page update, buttons alingment class and some css fixed
+- [5679e4d8](https://github.com/appscode/cluster-ui/commit/5679e4d8) handled default provider icon and updated release component
+- [45585b9a](https://github.com/appscode/cluster-ui/commit/45585b9a) fix connection button issue
+- [91301c2f](https://github.com/appscode/cluster-ui/commit/91301c2f) design system version updated
+- [5c5f5522](https://github.com/appscode/cluster-ui/commit/5c5f5522) updated load balancer, configmap and generic components
+- [4fcc32f4](https://github.com/appscode/cluster-ui/commit/4fcc32f4) WIP : update resource section design
+- [923e50de](https://github.com/appscode/cluster-ui/commit/923e50de) updated generic list
+- [36023e0f](https://github.com/appscode/cluster-ui/commit/36023e0f) updated
+- [b1879292](https://github.com/appscode/cluster-ui/commit/b1879292) basic cluster page done
+- [c50d09bf](https://github.com/appscode/cluster-ui/commit/c50d09bf) updatd vue-draggable list design
+- [ce32efe0](https://github.com/appscode/cluster-ui/commit/ce32efe0) added vue-draggable style
+- [8a255619](https://github.com/appscode/cluster-ui/commit/8a255619) credential design updated
+- [bc7b7454](https://github.com/appscode/cluster-ui/commit/bc7b7454) credential list and kubernetes page updated
+- [4e870e93](https://github.com/appscode/cluster-ui/commit/4e870e93) Merge pull request #303 from appscode/resource-descriptor
+- [1582e37c](https://github.com/appscode/cluster-ui/commit/1582e37c) Merge pull request #308 from appscode/replace-codemirror-with-monaco
+- [b02f082a](https://github.com/appscode/cluster-ui/commit/b02f082a) yaml to json toggle bug fixed
+- [54e35112](https://github.com/appscode/cluster-ui/commit/54e35112) replaced all codemirror section with monaco editor
+- [70a683d8](https://github.com/appscode/cluster-ui/commit/70a683d8) replaced all read only field
+- [9593113b](https://github.com/appscode/cluster-ui/commit/9593113b) Merge pull request #307 from appscode/resource-descriptor-updated-helm2
+- [efa6e940](https://github.com/appscode/cluster-ui/commit/efa6e940) updated html tag naming
+- [7f0606a4](https://github.com/appscode/cluster-ui/commit/7f0606a4) removed filedDefs from relase history
+- [6e4ad733](https://github.com/appscode/cluster-ui/commit/6e4ad733) Review changes
+- [1e055e23](https://github.com/appscode/cluster-ui/commit/1e055e23) fixed pagination issue in release history
+- [128235b1](https://github.com/appscode/cluster-ui/commit/128235b1) Fixed version history issue
+- [0bcb3274](https://github.com/appscode/cluster-ui/commit/0bcb3274) fix status filter dropdown in helm2 release list
+- [6b4e2caf](https://github.com/appscode/cluster-ui/commit/6b4e2caf) fixed helm2 list problem
+- [4e444aed](https://github.com/appscode/cluster-ui/commit/4e444aed) Refactored
+- [f4314d14](https://github.com/appscode/cluster-ui/commit/f4314d14) toast error option updated
+- [e89d4472](https://github.com/appscode/cluster-ui/commit/e89d4472) WIP: helm3 and helm2 changes
+- [a5d81cb0](https://github.com/appscode/cluster-ui/commit/a5d81cb0) updated vee-validate
+- [2fd2073a](https://github.com/appscode/cluster-ui/commit/2fd2073a) helm 3 added
+- [6d4bc289](https://github.com/appscode/cluster-ui/commit/6d4bc289) integrated with updated helm attributes
+- [da5f6a26](https://github.com/appscode/cluster-ui/commit/da5f6a26) Update cluster list item information according to api, add default fallback provider icon
+- [86e32182](https://github.com/appscode/cluster-ui/commit/86e32182) added helm settings form (#306)
+- [bebbf6d4](https://github.com/appscode/cluster-ui/commit/bebbf6d4) Add cluster sidebar settings page, integrate vue-draggable (#305)
+- [4e5916d1](https://github.com/appscode/cluster-ui/commit/4e5916d1) Add linting fixes, update prettier to 2.0.2
+- [37438a0f](https://github.com/appscode/cluster-ui/commit/37438a0f) Add linting fixes, update prettier to 2.0.2
+- [baff0d37](https://github.com/appscode/cluster-ui/commit/baff0d37) Update package-lock.json
+- [1c2b1fb0](https://github.com/appscode/cluster-ui/commit/1c2b1fb0) Remove some console statements and linter fixes
+- [74f8dd6b](https://github.com/appscode/cluster-ui/commit/74f8dd6b) Remove unneccessary sidebars
+- [d645d65b](https://github.com/appscode/cluster-ui/commit/d645d65b) Remove unneccessary components in shared folder
+- [5b09ccdc](https://github.com/appscode/cluster-ui/commit/5b09ccdc) Remove unneccessary inner tables
+- [2b7e8e35](https://github.com/appscode/cluster-ui/commit/2b7e8e35) Remove unneccessary compoenents
+- [bd7d4b52](https://github.com/appscode/cluster-ui/commit/bd7d4b52) Fix header chart component which got deleted
+- [99969087](https://github.com/appscode/cluster-ui/commit/99969087) Dynamically load route components
+- [254ff2fa](https://github.com/appscode/cluster-ui/commit/254ff2fa) Trim the router file and remove unneccessary components
+- [404d94b9](https://github.com/appscode/cluster-ui/commit/404d94b9) Remove redundant routes after adding generic routes
+- [e2a96efd](https://github.com/appscode/cluster-ui/commit/e2a96efd) Trimming down the router index.js file
+- [ddbf01df](https://github.com/appscode/cluster-ui/commit/ddbf01df) call the permissions api on every route and when namespace changes
+- [b520f240](https://github.com/appscode/cluster-ui/commit/b520f240) Fix the selfsubjectaccessreview request object
+- [670cd7ad](https://github.com/appscode/cluster-ui/commit/670cd7ad) Fix sidebar item id issue, WIP: Permissions api
+- [999b3a22](https://github.com/appscode/cluster-ui/commit/999b3a22) Fix sidebar item id issue, WIP: Permissions api
+- [1b043bd3](https://github.com/appscode/cluster-ui/commit/1b043bd3) Add icons for sidebar sub items
+- [63bf8729](https://github.com/appscode/cluster-ui/commit/63bf8729) Change changes to accomodate for api response change
+- [c6b4ae1e](https://github.com/appscode/cluster-ui/commit/c6b4ae1e) Update and rename nodejs.yml to ci.yml
+- [94ad5a7b](https://github.com/appscode/cluster-ui/commit/94ad5a7b) remove resource-to-all from router
+- [e69301b4](https://github.com/appscode/cluster-ui/commit/e69301b4) remove resource-to-all from actions
+- [b282ad78](https://github.com/appscode/cluster-ui/commit/b282ad78) Remove resource-to-all dependency from all the vue components
+- [b3ac0d04](https://github.com/appscode/cluster-ui/commit/b3ac0d04) Add loader for sidebar
+- [0a3627c0](https://github.com/appscode/cluster-ui/commit/0a3627c0) Add console config api, generate sidebar from api
+- [bb267e2f](https://github.com/appscode/cluster-ui/commit/bb267e2f) Add permissions to save changes and create button
+- [0f2b39c1](https://github.com/appscode/cluster-ui/commit/0f2b39c1) Add permissions to add-key and scale button
+- [e866991f](https://github.com/appscode/cluster-ui/commit/e866991f) Enable / Disable edit / delete button
+- [0daa42cc](https://github.com/appscode/cluster-ui/commit/0daa42cc) Integrate can-i api
+- [d28539d7](https://github.com/appscode/cluster-ui/commit/d28539d7) Add generic buttons logic, update scale button code for generic api
+- [2243fb78](https://github.com/appscode/cluster-ui/commit/2243fb78) Add generic details page for al the resource except helm & config section, add generic create page route
+- [842a396b](https://github.com/appscode/cluster-ui/commit/842a396b) refactor resource viwer component to new generic find api
+- [097c6a6b](https://github.com/appscode/cluster-ui/commit/097c6a6b) Add generic inner table in details page
+- [08a80ed6](https://github.com/appscode/cluster-ui/commit/08a80ed6) Add generic basic section, generic details api
+- [f46727ed](https://github.com/appscode/cluster-ui/commit/f46727ed) Add generic list page route
+- [bca37878](https://github.com/appscode/cluster-ui/commit/bca37878) Integrate generic list api, add generic list page and list header
+- [5688b08e](https://github.com/appscode/cluster-ui/commit/5688b08e) Refactor resource viewer graph for new api
+- [48d52e46](https://github.com/appscode/cluster-ui/commit/48d52e46) Fix minor url issues (#301)
+- [f08d8773](https://github.com/appscode/cluster-ui/commit/f08d8773) Responsive modal, header and others component (#298)
+- [f3ee8f25](https://github.com/appscode/cluster-ui/commit/f3ee8f25) Send user id to google analytics (#300)
+- [f55a0834](https://github.com/appscode/cluster-ui/commit/f55a0834) Use appscode.com GA tracking code (#299)
+- [39424217](https://github.com/appscode/cluster-ui/commit/39424217) Fix google analytics (#297)
+- [ebf90c20](https://github.com/appscode/cluster-ui/commit/ebf90c20) Reroute to 404 page when 404 error occurs, minor UI, UX fixes (#296)
+- [599b7e7b](https://github.com/appscode/cluster-ui/commit/599b7e7b) Google analytics, New Logo, App drawer (#295)
+- [f30a8e32](https://github.com/appscode/cluster-ui/commit/f30a8e32) Responsive sidebar, header, list page and inner page (#293)
+- [b1a1b59d](https://github.com/appscode/cluster-ui/commit/b1a1b59d) Use nodejs LTS in CI
+- [0bc14a11](https://github.com/appscode/cluster-ui/commit/0bc14a11) Update nodejs.yml
+- [1cf1ea10](https://github.com/appscode/cluster-ui/commit/1cf1ea10) npm audit fix (#294)
+- [5c31de2a](https://github.com/appscode/cluster-ui/commit/5c31de2a) Change URL Structure (#291)
+- [ae76ebdf](https://github.com/appscode/cluster-ui/commit/ae76ebdf) Fix codemirror style in release pages (#288)
+- [2efbe283](https://github.com/appscode/cluster-ui/commit/2efbe283) Fix hpa api call in replication controller details (#287)
+- [b0aef003](https://github.com/appscode/cluster-ui/commit/b0aef003) Add resource viewer component to all resource details page (#285)
+- [4b724c05](https://github.com/appscode/cluster-ui/commit/4b724c05) Remove self-link, Fix table header (#286)
+- [a39e7c33](https://github.com/appscode/cluster-ui/commit/a39e7c33) Perform some quick fixes in console (#284)
+- [a3a6f028](https://github.com/appscode/cluster-ui/commit/a3a6f028) Add video in cluster hero section (#283)
+- [55b7bb3d](https://github.com/appscode/cluster-ui/commit/55b7bb3d) Change favicon to bytebuilder icon (#282)
+- [9027a65b](https://github.com/appscode/cluster-ui/commit/9027a65b) Firebase config, User check in router, Cluster animation while s… (#281)
+- [4b0ad58c](https://github.com/appscode/cluster-ui/commit/4b0ad58c) Update readme.md
+- [c5cd686f](https://github.com/appscode/cluster-ui/commit/c5cd686f) Fix server domain in axios (#280)
+- [79d540b3](https://github.com/appscode/cluster-ui/commit/79d540b3) Fix cluster create issue, various UI fixes (#279)
+- [5cff3b18](https://github.com/appscode/cluster-ui/commit/5cff3b18) Fix primary color, charts, cluster hero page etc.. (#278)
+- [4fd28ed8](https://github.com/appscode/cluster-ui/commit/4fd28ed8) Typography fixing (#276)
+- [b0e08f66](https://github.com/appscode/cluster-ui/commit/b0e08f66) Added cluster list page loader & Various UI fixes (#275)
+- [9bebb2c6](https://github.com/appscode/cluster-ui/commit/9bebb2c6) Fix cluster list (#271)
+- [ba56bb9c](https://github.com/appscode/cluster-ui/commit/ba56bb9c) Button loaders added, various sidebar UI fix (#272)
+- [a231fac2](https://github.com/appscode/cluster-ui/commit/a231fac2) Various UI Fixes (#267)
+- [b00bad49](https://github.com/appscode/cluster-ui/commit/b00bad49) Add loaders to Console (#269)
+- [668a20d9](https://github.com/appscode/cluster-ui/commit/668a20d9) Fix sidebar position (#270)
+- [545b0848](https://github.com/appscode/cluster-ui/commit/545b0848) Add sibebar icon, various ui fixes (#268)
+- [2718afd4](https://github.com/appscode/cluster-ui/commit/2718afd4) Fix sidebar bug, Add new SPW style to Chart install/update page (#265)
+- [dc26aafe](https://github.com/appscode/cluster-ui/commit/dc26aafe) Remove SSL Certificate components and link from side bar (#266)
+- [cdadd1f4](https://github.com/appscode/cluster-ui/commit/cdadd1f4) Refactor toaster component to remove jquery (#264)
+- [a180c041](https://github.com/appscode/cluster-ui/commit/a180c041) Various UI fixes (#262)
+- [5d54634b](https://github.com/appscode/cluster-ui/commit/5d54634b) Add missing info in console (#260)
+- [efa8c923](https://github.com/appscode/cluster-ui/commit/efa8c923) Add Loadbalancer addresses column in load balancer list
+- [2174b26b](https://github.com/appscode/cluster-ui/commit/2174b26b) Add missing data in inner table endpoints
+- [4409cb6f](https://github.com/appscode/cluster-ui/commit/4409cb6f) Add scale button to required workload pages
+- [c64e314d](https://github.com/appscode/cluster-ui/commit/c64e314d) Add option buttons to deployment/config/secret/snapshot basic page
+- [2112a5fd](https://github.com/appscode/cluster-ui/commit/2112a5fd) Remove option button from where unnecessary
+- [8e1203f7](https://github.com/appscode/cluster-ui/commit/8e1203f7) Add option button component, add scale button and functionality
+- [e1a7b948](https://github.com/appscode/cluster-ui/commit/e1a7b948) Add inner table endpoints in services details page
+- [115318bd](https://github.com/appscode/cluster-ui/commit/115318bd) Add inner table pvc for pods
+- [cd0344d8](https://github.com/appscode/cluster-ui/commit/cd0344d8) Add inner table created by in pod details page
+- [154005e3](https://github.com/appscode/cluster-ui/commit/154005e3) Add Horizontal Pod Auto Scaler table to al the required pages (#259)
+- [320f570f](https://github.com/appscode/cluster-ui/commit/320f570f) Merge pull request #258 from appscode-cloud/chart-js
+- [fab0b5f5](https://github.com/appscode/cluster-ui/commit/fab0b5f5) Perform review changes
+- [41197f63](https://github.com/appscode/cluster-ui/commit/41197f63) Add HPA tables to all the required places
+- [074b4791](https://github.com/appscode/cluster-ui/commit/074b4791) Add inner table hpa component
+- [2badbe45](https://github.com/appscode/cluster-ui/commit/2badbe45) Add chart to inner table pods
+- [321186f2](https://github.com/appscode/cluster-ui/commit/321186f2) Add changing colors based on percent to charts in node details page
+- [1b622e3f](https://github.com/appscode/cluster-ui/commit/1b622e3f) Update console with new css
+- [5fa59056](https://github.com/appscode/cluster-ui/commit/5fa59056) Add chart component in pods details page
+- [aeff939a](https://github.com/appscode/cluster-ui/commit/aeff939a) Add cpu and memory charts usign chart js in node details page header
+- [a6c2e679](https://github.com/appscode/cluster-ui/commit/a6c2e679) Add chart js library
+- [eda997da](https://github.com/appscode/cluster-ui/commit/eda997da) Fix dashboard header style
+- [67907fa1](https://github.com/appscode/cluster-ui/commit/67907fa1) Remove webkit prefix, move scss/ to inside src/. Remove duplicat… (#257)
+- [9c3128ad](https://github.com/appscode/cluster-ui/commit/9c3128ad) Fix prettier errors (#256)
+- [23e57d89](https://github.com/appscode/cluster-ui/commit/23e57d89) Delete .gitkeep
+- [db424962](https://github.com/appscode/cluster-ui/commit/db424962) Convert style from css to scss
+- [f7ba438c](https://github.com/appscode/cluster-ui/commit/f7ba438c) Fix console error when going to preview changes in resource page
+- [9cd176ec](https://github.com/appscode/cluster-ui/commit/9cd176ec) Merge v1 into master (#253)
+- [1a7d2c79](https://github.com/appscode/cluster-ui/commit/1a7d2c79) Update deploy instructions to firebase
+- [9d27190c](https://github.com/appscode/cluster-ui/commit/9d27190c) Show multiple container logs, toggle to another container log
+- [8a6a1700](https://github.com/appscode/cluster-ui/commit/8a6a1700) Hide profile's dropdown if user click anywhere in the webpage
+- [74c0d001](https://github.com/appscode/cluster-ui/commit/74c0d001) Merge pull request #249 from appscode-cloud/form-validation
+- [d71a0759](https://github.com/appscode/cluster-ui/commit/d71a0759) Merge branch 'v1' into form-validation
+- [fd997d5b](https://github.com/appscode/cluster-ui/commit/fd997d5b) Add terminal to show the Logs
+- [9f027af1](https://github.com/appscode/cluster-ui/commit/9f027af1) Add v-validate to all the single page wizards
+- [69681ef0](https://github.com/appscode/cluster-ui/commit/69681ef0) Add v-validate to create/import cluster page
+- [48a1c930](https://github.com/appscode/cluster-ui/commit/48a1c930) Concluded final testing, everything passed
+- [ac9cb0dd](https://github.com/appscode/cluster-ui/commit/ac9cb0dd) Refactor test for cluster create, import, delete page
+- [f6885d7d](https://github.com/appscode/cluster-ui/commit/f6885d7d) Refactor test for Cluster Basic, Machine & MachineSet pages
+- [4c961db9](https://github.com/appscode/cluster-ui/commit/4c961db9) Refactor test for Credential & SSL Certificate pages
+- [dc09cfd9](https://github.com/appscode/cluster-ui/commit/dc09cfd9) Refactor test for Admin pages
+- [6e208b51](https://github.com/appscode/cluster-ui/commit/6e208b51) Refactor test for Monitoring pages
+- [8114d709](https://github.com/appscode/cluster-ui/commit/8114d709) Refactor test for Storage pages
+- [43437197](https://github.com/appscode/cluster-ui/commit/43437197) refactor test for Config  pages
+- [9fd12c66](https://github.com/appscode/cluster-ui/commit/9fd12c66) refactor test for Service & Discovery pages
+- [437a1ac8](https://github.com/appscode/cluster-ui/commit/437a1ac8) Refactor test for Datastore pages
+- [58c96e8e](https://github.com/appscode/cluster-ui/commit/58c96e8e) Refactor test for HELM pages
+- [da5f0221](https://github.com/appscode/cluster-ui/commit/da5f0221) Refactor test for Workload pages
+- [c2582aab](https://github.com/appscode/cluster-ui/commit/c2582aab) Update the form HTML with new markup
+- [aeed46b7](https://github.com/appscode/cluster-ui/commit/aeed46b7) Add updated style, and change structur of showCertKey component
+- [9cc63067](https://github.com/appscode/cluster-ui/commit/9cc63067) Add new form for ssl certificate deploy && credential edit page
+- [c338fad5](https://github.com/appscode/cluster-ui/commit/c338fad5) Add new form ssl-certificate & credential pages
+- [cdd138a1](https://github.com/appscode/cluster-ui/commit/cdd138a1) Add new create cluster html, css
+- [0ac5012a](https://github.com/appscode/cluster-ui/commit/0ac5012a) Add new import cluster form, add info panel to the right
+- [9a78a59a](https://github.com/appscode/cluster-ui/commit/9a78a59a) Update CSS for form widget
+- [a76dca6b](https://github.com/appscode/cluster-ui/commit/a76dca6b) Update CSS with form widget
+- [bca2eebb](https://github.com/appscode/cluster-ui/commit/bca2eebb) Perform review changes
+- [f387a438](https://github.com/appscode/cluster-ui/commit/f387a438) add missing data to console
+- [a213d18e](https://github.com/appscode/cluster-ui/commit/a213d18e) Add dropdown options in top bar
+- [a00f39ba](https://github.com/appscode/cluster-ui/commit/a00f39ba) Add dynamic user name, profile picture in top app bar
+- [c90e3cab](https://github.com/appscode/cluster-ui/commit/c90e3cab) Fix formatting of yaml file
+- [134c7411](https://github.com/appscode/cluster-ui/commit/134c7411) Reset pagination store variable at every route change
+- [816359ac](https://github.com/appscode/cluster-ui/commit/816359ac) Remove status icon from all the pages, remove padding from top of cluster list page
+- [e626bc1a](https://github.com/appscode/cluster-ui/commit/e626bc1a) Make copy button green everywhere
+- [2c557c25](https://github.com/appscode/cluster-ui/commit/2c557c25) Add root sidebar to credential/ssl details/edit/deploy page
+- [35401745](https://github.com/appscode/cluster-ui/commit/35401745) Show/hide breadcrumb using vuex, update credential/certificate breadcrumb
+- [1101a9a8](https://github.com/appscode/cluster-ui/commit/1101a9a8) Refactoring all loadbalancer components to get working both voyager.appscode.com & extensions
+- [8da37b96](https://github.com/appscode/cluster-ui/commit/8da37b96) Refactor loadbalancer /list page to render both group
+- [ddd59676](https://github.com/appscode/cluster-ui/commit/ddd59676) Fix breadcrumb for machine / machineset
+- [4a8c89b8](https://github.com/appscode/cluster-ui/commit/4a8c89b8) Redirect clusterrolebindings /list -> clusterrole /list, fix #227
+- [80e56175](https://github.com/appscode/cluster-ui/commit/80e56175) Add clusterrole create page, modify breadcrumb for clusterrole, fix #228
+- [42792896](https://github.com/appscode/cluster-ui/commit/42792896) Add bottom timeline to cluster role details page
+- [00829240](https://github.com/appscode/cluster-ui/commit/00829240) Refactor Cluster role list page and Details page
+- [d5f197f0](https://github.com/appscode/cluster-ui/commit/d5f197f0) Refactor roles list and details page
+- [d9cc778c](https://github.com/appscode/cluster-ui/commit/d9cc778c) Refactor credential basic secret section codemirror
+- [0096c633](https://github.com/appscode/cluster-ui/commit/0096c633) Refactor timeline view
+- [6729829f](https://github.com/appscode/cluster-ui/commit/6729829f) refactor pagination component
+- [85859e42](https://github.com/appscode/cluster-ui/commit/85859e42) Add replication-table class to release list page, fix #216
+- [7d01321c](https://github.com/appscode/cluster-ui/commit/7d01321c) Fix delete modal in cluster basic page, fix-#222
+- [fc7b3303](https://github.com/appscode/cluster-ui/commit/fc7b3303) Remove custom style from codemirror components, Add secret section components
+- [15000bae](https://github.com/appscode/cluster-ui/commit/15000bae) Fix basic subsection
+- [eb855c50](https://github.com/appscode/cluster-ui/commit/eb855c50) Add Basic section for Storage Class details page
+- [565057e7](https://github.com/appscode/cluster-ui/commit/565057e7) Add TableCardNLA component for StorageClass list page
+- [039f9300](https://github.com/appscode/cluster-ui/commit/039f9300) Add margin right 50 to all inner components
+- [31097ef8](https://github.com/appscode/cluster-ui/commit/31097ef8) Add new class to pagination component
+- [fbcaec52](https://github.com/appscode/cluster-ui/commit/fbcaec52) Add new Cluster List page
+- [2caef25f](https://github.com/appscode/cluster-ui/commit/2caef25f) Add root sidebar component
+- [4d7767b9](https://github.com/appscode/cluster-ui/commit/4d7767b9) Update all components adding `mr-50` class
+- [20729425](https://github.com/appscode/cluster-ui/commit/20729425) Make serchText reactive with store, fix #203
+- [84ee97c1](https://github.com/appscode/cluster-ui/commit/84ee97c1) Apply latest CSS in breadcrumb & fix breadcrumb for some create pages, dynamic create button
+- [573a0a9e](https://github.com/appscode/cluster-ui/commit/573a0a9e) Fix release search, fix #204
+- [6bfe2e2f](https://github.com/appscode/cluster-ui/commit/6bfe2e2f) Add search to innerTableConditions, fix #205
+- [aa9f9e7c](https://github.com/appscode/cluster-ui/commit/aa9f9e7c) Add tab bar to snapshot basics page, fix #195
+- [260b3d19](https://github.com/appscode/cluster-ui/commit/260b3d19) Perform review changes
+- [5b66069e](https://github.com/appscode/cluster-ui/commit/5b66069e) Refactor Release update/install chart component
+- [ffff8907](https://github.com/appscode/cluster-ui/commit/ffff8907) Refactor modal for Provider specs, Release uninstall
+- [63336165](https://github.com/appscode/cluster-ui/commit/63336165) Refactor modal for Annotation
+- [20af59c8](https://github.com/appscode/cluster-ui/commit/20af59c8) Refactor modal for UpdateKey and AddKey button
+- [d7821f2c](https://github.com/appscode/cluster-ui/commit/d7821f2c) Refactor modal for release -> history table rollback button
+- [7534301c](https://github.com/appscode/cluster-ui/commit/7534301c) Refactor modal for generic delete button, and machine delete button
+- [14b4565e](https://github.com/appscode/cluster-ui/commit/14b4565e) Refactor modal for cluster connect/delete button, appendTaglineWith Modal component
+- [84c9caae](https://github.com/appscode/cluster-ui/commit/84c9caae) Refactor modal for credential/ssl delete button
+- [3ca5a88b](https://github.com/appscode/cluster-ui/commit/3ca5a88b) Refactor load-balancers http/https/tcp rule's details header
+- [13c66fc9](https://github.com/appscode/cluster-ui/commit/13c66fc9) Refactor /release list page table, header
+- [85d98a64](https://github.com/appscode/cluster-ui/commit/85d98a64) Give title to Key value buttons component
+- [1072037c](https://github.com/appscode/cluster-ui/commit/1072037c) Use custom search-bar to get wroking getFilterList mixin for certificate list page
+- [86d16e76](https://github.com/appscode/cluster-ui/commit/86d16e76) Refactor config & secret data
+- [99743476](https://github.com/appscode/cluster-ui/commit/99743476) Show/Hide flag for namespace in BeforeEnter() generic method
+- [f64503f1](https://github.com/appscode/cluster-ui/commit/f64503f1) Show header.title or kubeObInfo.tHeader in header title
+- [b733581f](https://github.com/appscode/cluster-ui/commit/b733581f) Create key-value-buttons component, add it to release chart pages
+- [26903cde](https://github.com/appscode/cluster-ui/commit/26903cde) Refactor release values & manifest component
+- [7e3a0b78](https://github.com/appscode/cluster-ui/commit/7e3a0b78) Refactor release config component
+- [3ebde761](https://github.com/appscode/cluster-ui/commit/3ebde761) Add Header component with mutation/getters, update all headers to new component, fix certifiate headers
+- [3b2dac3d](https://github.com/appscode/cluster-ui/commit/3b2dac3d) Fix conficts
+- [c2df09ea](https://github.com/appscode/cluster-ui/commit/c2df09ea) Refactor Certificate Deploy page
+- [a6471468](https://github.com/appscode/cluster-ui/commit/a6471468) Refactor Certificate details page
+- [b23f1499](https://github.com/appscode/cluster-ui/commit/b23f1499) Refactor Certificate list page
+- [46fa86cf](https://github.com/appscode/cluster-ui/commit/46fa86cf) Refactor ssl certificate asidebar
+- [0e80264b](https://github.com/appscode/cluster-ui/commit/0e80264b) Fix credential list page header & search component
+- [e2cf6237](https://github.com/appscode/cluster-ui/commit/e2cf6237) Refactor header of cluster basic
+- [93706068](https://github.com/appscode/cluster-ui/commit/93706068) Add basic-subsection class to nodes basic section & pods basic section
+- [169d6d27](https://github.com/appscode/cluster-ui/commit/169d6d27) Refactor provider specification sections
+- [18dfb386](https://github.com/appscode/cluster-ui/commit/18dfb386) Refactor inner section components in various pages
+- [3557365b](https://github.com/appscode/cluster-ui/commit/3557365b) Add pagination to innerTable component
+- [92dcd411](https://github.com/appscode/cluster-ui/commit/92dcd411) Refactor credential edit/create page
+- [718d32c8](https://github.com/appscode/cluster-ui/commit/718d32c8) Refactor credential basic page
+- [78bbf12a](https://github.com/appscode/cluster-ui/commit/78bbf12a) Refactor credential list page
+- [d781a0b4](https://github.com/appscode/cluster-ui/commit/d781a0b4) Refactor ac-asidebar-credential
+- [50b96356](https://github.com/appscode/cluster-ui/commit/50b96356) Make /resource page resource/preview 'active' class dynamic
+- [38e7d61b](https://github.com/appscode/cluster-ui/commit/38e7d61b) Refactor Create page, custom header, title of header
+- [1c291436](https://github.com/appscode/cluster-ui/commit/1c291436) Refactor /resource page
+- [4d555a04](https://github.com/appscode/cluster-ui/commit/4d555a04) Refactor Role Lists page, fix #163
+- [511171de](https://github.com/appscode/cluster-ui/commit/511171de) Add cluster import / create page
+- [a868bc36](https://github.com/appscode/cluster-ui/commit/a868bc36) Add new style to all the inner tables
+- [c298e0e1](https://github.com/appscode/cluster-ui/commit/c298e0e1) Add tableCardWithoutNamespace, Hide namespace from listHeader
+- [ca4a31c8](https://github.com/appscode/cluster-ui/commit/ca4a31c8) Add dynamic body header for list & details page
+- [009bf80b](https://github.com/appscode/cluster-ui/commit/009bf80b) Add kubernetes logo in top of sidebar, update css
+- [c92a10e9](https://github.com/appscode/cluster-ui/commit/c92a10e9) Refactor Basic & RightSideActions components for all Admin Basics pages
+- [ad984aa9](https://github.com/appscode/cluster-ui/commit/ad984aa9) Refactor Basic & RightSideActions components for all Monitoring Basics pages
+- [eef31380](https://github.com/appscode/cluster-ui/commit/eef31380) Refactor Basic & RightSideActions components for all Storage Basics pages
+- [34e8b16c](https://github.com/appscode/cluster-ui/commit/34e8b16c) Refactor Basic & RightSideActions components for all Config Basics page
+- [a9b3d9bd](https://github.com/appscode/cluster-ui/commit/a9b3d9bd) Refactor Basic & RightSideActions components for all Service & Discovery, Http/Https/Tcp rules Basics page
+- [298e7308](https://github.com/appscode/cluster-ui/commit/298e7308) Refactor Basic & RightSideActions components for all Datastore Basics page
+- [a3fddab5](https://github.com/appscode/cluster-ui/commit/a3fddab5) Refactor Basic & RightSideActions components for all HELM Basics page
+- [09f633a6](https://github.com/appscode/cluster-ui/commit/09f633a6) Refactor Basic & RightSideActions components for all Workloads Basics page
+- [45761b13](https://github.com/appscode/cluster-ui/commit/45761b13) Refactor Basic & RightSideActions components for Machines & MachineSets Basics page
+- [295c0820](https://github.com/appscode/cluster-ui/commit/295c0820) Refactor Basic & RightSideActions components for Nodes Basics page
+- [206b013d](https://github.com/appscode/cluster-ui/commit/206b013d) Refactor Basic & RightSideActions components for Cluster Basics page
+- [d7db5417](https://github.com/appscode/cluster-ui/commit/d7db5417) Refactor Pagination component with new style, add the component to TableCard and InnerTables
+- [35c7d3f5](https://github.com/appscode/cluster-ui/commit/35c7d3f5) Add Prometheus component
+- [f4b89df4](https://github.com/appscode/cluster-ui/commit/f4b89df4) Add Service Monitor components
+- [4a083a54](https://github.com/appscode/cluster-ui/commit/4a083a54) Add Event generic component
+- [085b817c](https://github.com/appscode/cluster-ui/commit/085b817c) Add ListTable, LabelsInListTable components
+- [3492d337](https://github.com/appscode/cluster-ui/commit/3492d337) Make CreateBtn component
+- [f2a2d25b](https://github.com/appscode/cluster-ui/commit/f2a2d25b) Add Searchbar components
+- [8f75e581](https://github.com/appscode/cluster-ui/commit/8f75e581) Add Namespace components, render List page header-title
+- [da966dc4](https://github.com/appscode/cluster-ui/commit/da966dc4) Add InnerTable, AppendTagInline, InnerTableCondition components
+- [300e1221](https://github.com/appscode/cluster-ui/commit/300e1221) Perform review changes
+- [ea43e6bf](https://github.com/appscode/cluster-ui/commit/ea43e6bf) Add tab bar component to all details page, add functionality to tab bar component
+- [493cec89](https://github.com/appscode/cluster-ui/commit/493cec89) Add Deployment Basic, Labels, Annotations, DeleteBtn, EditBtn components
+- [25a8ccbc](https://github.com/appscode/cluster-ui/commit/25a8ccbc) Add sidebar to all pages
+- [d135c7e6](https://github.com/appscode/cluster-ui/commit/d135c7e6) Split Tab-bar from Root file
+- [d345deb0](https://github.com/appscode/cluster-ui/commit/d345deb0) Add body Header title
+- [ea2e5a51](https://github.com/appscode/cluster-ui/commit/ea2e5a51) Modify breadcrumb CSS, make breadcrumb & sidebar dynamic, remove bootstrap
+- [324282e6](https://github.com/appscode/cluster-ui/commit/324282e6) Update Sidebar components with new HTML/CSS
+- [7cb7f9bb](https://github.com/appscode/cluster-ui/commit/7cb7f9bb) Merge branch 'master' of github.com:appscode-cloud/pharm into sajib
+- [b4e433e0](https://github.com/appscode/cluster-ui/commit/b4e433e0) Add new CSS. Update breadcrumb components
+- [3c1d0c61](https://github.com/appscode/cluster-ui/commit/3c1d0c61) Remove quotes from annotation modal, fix #142
+- [c00d4a6b](https://github.com/appscode/cluster-ui/commit/c00d4a6b) Revert changes back in importCluster & remove pharmerData
+- [22f970c7](https://github.com/appscode/cluster-ui/commit/22f970c7) Add pharmerData api to all cluster pages, Completely remove pharmerData from node modules
+- [67bb5a32](https://github.com/appscode/cluster-ui/commit/67bb5a32) Add new pharmerData api to cluster create page
+- [68d4e819](https://github.com/appscode/cluster-ui/commit/68d4e819) Perform review changes
+- [cf83d882](https://github.com/appscode/cluster-ui/commit/cf83d882) Add pharmerData api to all credential pages
+- [de5e0b85](https://github.com/appscode/cluster-ui/commit/de5e0b85) Add syntax highlighting for all codemirror instances
+- [f9838a79](https://github.com/appscode/cluster-ui/commit/f9838a79) Check if the role identifying label exists before splitting it
+- [2452a85e](https://github.com/appscode/cluster-ui/commit/2452a85e) Make codemirror ReadOnly when resource is repositories, fix #128
+- [3003114f](https://github.com/appscode/cluster-ui/commit/3003114f) Read Cluster creation time from root object, and add updated at bottom timeline
+- [3512a468](https://github.com/appscode/cluster-ui/commit/3512a468) Fix inner table nodes, add new field role
+- [f9fb74a3](https://github.com/appscode/cluster-ui/commit/f9fb74a3) Add retry button & functionality in cluster details page, Disable delete button only when cluster has deleted status
+- [66151e2b](https://github.com/appscode/cluster-ui/commit/66151e2b) Completely removed providerToPd mapping, everything working
+- [a0228172](https://github.com/appscode/cluster-ui/commit/a0228172) Merge pull request #132 from appscode-cloud/kube-config
+- [cfeff847](https://github.com/appscode/cluster-ui/commit/cfeff847) Perform review changes
+- [92f8ca4f](https://github.com/appscode/cluster-ui/commit/92f8ca4f) fix cluster connect
+- [2936266b](https://github.com/appscode/cluster-ui/commit/2936266b) Fix conflicts
+- [8a0bae58](https://github.com/appscode/cluster-ui/commit/8a0bae58) Perform review changes
+- [821182f3](https://github.com/appscode/cluster-ui/commit/821182f3) Merge branch 'fix' of github.com:appscode-cloud/pharm into kube-config
+- [813c8a15](https://github.com/appscode/cluster-ui/commit/813c8a15) Perform review changes
+- [292ea8b1](https://github.com/appscode/cluster-ui/commit/292ea8b1) Add download button in connect modal
+- [7a32c98a](https://github.com/appscode/cluster-ui/commit/7a32c98a) fix cluster connect
+- [a5a52e6f](https://github.com/appscode/cluster-ui/commit/a5a52e6f) Add kubernetes version 1.14.0 forcely
+- [176066a3](https://github.com/appscode/cluster-ui/commit/176066a3) Remove credential mapping, add 1.14.0 cluster version
+- [381ace63](https://github.com/appscode/cluster-ui/commit/381ace63) Merge pull request #127 from appscode-cloud/fix-button-spacing
+- [a28f33af](https://github.com/appscode/cluster-ui/commit/a28f33af) Merge pull request #94 from appscode-cloud/test-recon
+- [e2c7fb12](https://github.com/appscode/cluster-ui/commit/e2c7fb12) Fix spacing between buttons in configmap details page
+- [820a4f7e](https://github.com/appscode/cluster-ui/commit/820a4f7e) Fix conflicts
+- [b018272d](https://github.com/appscode/cluster-ui/commit/b018272d) Add inner table replicaset/pods/services for all Datastore pages
+- [152101ac](https://github.com/appscode/cluster-ui/commit/152101ac) Merge pull request #117 from appscode-cloud/recon-api-call
+- [5d052145](https://github.com/appscode/cluster-ui/commit/5d052145) Change minikube provider logo
+- [461ebc14](https://github.com/appscode/cluster-ui/commit/461ebc14) Perform review changes
+- [e4af6e14](https://github.com/appscode/cluster-ui/commit/e4af6e14) Fix conflicts
+- [e725aa18](https://github.com/appscode/cluster-ui/commit/e725aa18) Perform review changes
+- [33f30fd6](https://github.com/appscode/cluster-ui/commit/33f30fd6) Add node details page again, redirect node list page to cluster details page, fix #116
+- [a53b060a](https://github.com/appscode/cluster-ui/commit/a53b060a) Fix conflicts
+- [f4ae084e](https://github.com/appscode/cluster-ui/commit/f4ae084e) Perform review changes
+- [4592936b](https://github.com/appscode/cluster-ui/commit/4592936b) Fix page blank issue when side bar item is clicked
+- [cd378274](https://github.com/appscode/cluster-ui/commit/cd378274) Add deleted clusters & all clusters page
+- [991671ad](https://github.com/appscode/cluster-ui/commit/991671ad) Add test for cluster delete, also wait for cluster state to become Ready
+- [a663bf3e](https://github.com/appscode/cluster-ui/commit/a663bf3e) Add deleted clusters & all clusters page
+- [e0e9e8de](https://github.com/appscode/cluster-ui/commit/e0e9e8de) Fix conficts
+- [c0d6ca18](https://github.com/appscode/cluster-ui/commit/c0d6ca18) Add cluster create test
+- [6d9bea59](https://github.com/appscode/cluster-ui/commit/6d9bea59) Merge branch 'master' of github.com:appscode-cloud/pharm into test-recon-tasklist
+- [c593085f](https://github.com/appscode/cluster-ui/commit/c593085f) make master count value integer, fix #121
+- [e9348d1e](https://github.com/appscode/cluster-ui/commit/e9348d1e) WIP: Add cluster create test
+- [62174e11](https://github.com/appscode/cluster-ui/commit/62174e11) WIP: Add cluster create test
+- [7d0c669a](https://github.com/appscode/cluster-ui/commit/7d0c669a) Add test for HTTP/HTTPS/TCP details page in load balancer
+- [f301b094](https://github.com/appscode/cluster-ui/commit/f301b094) Add test for role/clusterrole binding create, details, resource
+- [14567493](https://github.com/appscode/cluster-ui/commit/14567493) Add test for configmap & secret add key button, if keys are showing
+- [940de5d5](https://github.com/appscode/cluster-ui/commit/940de5d5) Add import-cluster link, update breadcrumb to set home page url
+- [9c9533d6](https://github.com/appscode/cluster-ui/commit/9c9533d6) Add Create Certificate button in SSL Certificate list page (Voyager)
+- [b8ec901b](https://github.com/appscode/cluster-ui/commit/b8ec901b) Add test for SSL Certificate in Service & Discovery pages
+- [380cce7f](https://github.com/appscode/cluster-ui/commit/380cce7f) Merge branch 'recon-api-call' of github.com:appscode-cloud/pharm into test-recon-new
+- [263d0e98](https://github.com/appscode/cluster-ui/commit/263d0e98) Fix conflicts
+- [14e5a553](https://github.com/appscode/cluster-ui/commit/14e5a553) Merge pull request #118 from appscode-cloud/ssl-certificates
+- [3bc3e404](https://github.com/appscode/cluster-ui/commit/3bc3e404) Perform review changes
+- [dec1be8c](https://github.com/appscode/cluster-ui/commit/dec1be8c) Fix conflicts
+- [557920f8](https://github.com/appscode/cluster-ui/commit/557920f8) Merge branch 'add-create-certificate-button' of github.com:appscode-cloud/pharm into test-recon-new
+- [97f95b68](https://github.com/appscode/cluster-ui/commit/97f95b68) Add Create Certificate button in SSL Certificate list page (Voyager)
+- [8b844f54](https://github.com/appscode/cluster-ui/commit/8b844f54) Add test for SSL Certificates pages
+- [c5ce7bcd](https://github.com/appscode/cluster-ui/commit/c5ce7bcd) Merge branch 'ssl-certificates' of github.com:appscode-cloud/pharm into test-recon-new
+- [cde1677e](https://github.com/appscode/cluster-ui/commit/cde1677e) Add test for Credential pages
+- [eb918d97](https://github.com/appscode/cluster-ui/commit/eb918d97) Add test for MACHINESET pages
+- [4e8eaa37](https://github.com/appscode/cluster-ui/commit/4e8eaa37) Add test for MACHINE pages
+- [76bf610e](https://github.com/appscode/cluster-ui/commit/76bf610e) Fix conflicts
+- [ce6748c4](https://github.com/appscode/cluster-ui/commit/ce6748c4) Add ssl certificate import page & deploy page
+- [11ad2982](https://github.com/appscode/cluster-ui/commit/11ad2982) Add ssl certificate details page & right side actions, fixed css of credential details page
+- [1861523a](https://github.com/appscode/cluster-ui/commit/1861523a) Add list page for SSL Certificates, fix minor bug in Pagination component
+- [28a510eb](https://github.com/appscode/cluster-ui/commit/28a510eb) Fix for Certificates, Load Balances, Prometheuses, Recovery, Repository, Restic, Service Monitors, Fix #93
+- [6ffe22b0](https://github.com/appscode/cluster-ui/commit/6ffe22b0) Fix for PV, PVC, Namespace, Role, role/clustrerrole bindings
+- [2312c0c1](https://github.com/appscode/cluster-ui/commit/2312c0c1) Fix for Services, Configmaps & Secrets
+- [bad738dd](https://github.com/appscode/cluster-ui/commit/bad738dd) Fix for all Datastore pages and snapshot pages
+- [38808d64](https://github.com/appscode/cluster-ui/commit/38808d64) Fix for Helm pages
+- [50812a1c](https://github.com/appscode/cluster-ui/commit/50812a1c) Merge pull request #111 from appscode-cloud/add-provider-spec
+- [c8e76955](https://github.com/appscode/cluster-ui/commit/c8e76955) Perform review changes
+- [a1c27619](https://github.com/appscode/cluster-ui/commit/a1c27619) Fix for all Workload pages
+- [661596d5](https://github.com/appscode/cluster-ui/commit/661596d5) Fix for list with TableCardNNLA, Machine & Machineset details, all resource & all events
+- [fdae026c](https://github.com/appscode/cluster-ui/commit/fdae026c) Merge pull request #115 from appscode-cloud/fix-#114
+- [eddb0f77](https://github.com/appscode/cluster-ui/commit/eddb0f77) Fix for Credential and Cluster pages
+- [a3ba35ab](https://github.com/appscode/cluster-ui/commit/a3ba35ab) Merge pull request #113 from appscode-cloud/fix-#110
+- [3f009d3e](https://github.com/appscode/cluster-ui/commit/3f009d3e) Perform review changes
+- [0bdadf4c](https://github.com/appscode/cluster-ui/commit/0bdadf4c) Include & Reginster codemirror component in EditCredential page, fix #114
+- [e9b1fe71](https://github.com/appscode/cluster-ui/commit/e9b1fe71) Add url check to kube-list file (all get apis)
+- [62b692bd](https://github.com/appscode/cluster-ui/commit/62b692bd) Merge pull request #112 from appscode-cloud/fix-#109
+- [7b61c4cb](https://github.com/appscode/cluster-ui/commit/7b61c4cb) Add kube config in connect modal, disable connect button in cluster status is not ready, fix #110
+- [89a96826](https://github.com/appscode/cluster-ui/commit/89a96826) Add delete button to cluster details page, make generic delete api for root object, fix #109, enable delete button when cluster is ready
+- [dac0bbf9](https://github.com/appscode/cluster-ui/commit/dac0bbf9) Add check status phase before calling node list api
+- [a3168fb8](https://github.com/appscode/cluster-ui/commit/a3168fb8) Add functionality to disable delete button in Machine Details page, fix #108
+- [48bd6eaa](https://github.com/appscode/cluster-ui/commit/48bd6eaa) Add Provider spec for DigitalOcean & Linode
+- [d12d6010](https://github.com/appscode/cluster-ui/commit/d12d6010) Merge pull request #107 from appscode-cloud/fix-clusterInfo
+- [e2df18cb](https://github.com/appscode/cluster-ui/commit/e2df18cb) Fix cluster info change to minikube, fix cluster details reload error
+- [32b74aaa](https://github.com/appscode/cluster-ui/commit/32b74aaa) Merge pull request #97 from appscode-cloud/credential
+- [ab283c0b](https://github.com/appscode/cluster-ui/commit/ab283c0b) Add master Count field in Cluster Create page, Perform review changes
+- [26f3b9c8](https://github.com/appscode/cluster-ui/commit/26f3b9c8) Perform review changes
+- [49410fd5](https://github.com/appscode/cluster-ui/commit/49410fd5) Fix errors in Namespace list page, reload error in namespace details page, fix #87
+- [e37edf08](https://github.com/appscode/cluster-ui/commit/e37edf08) Merge branch 'master' of github.com:appscode-cloud/pharm into credential
+- [c3ea98cb](https://github.com/appscode/cluster-ui/commit/c3ea98cb) Add Credential Edit page, Show Cloud Credentials in dashboard
+- [16e2ffe0](https://github.com/appscode/cluster-ui/commit/16e2ffe0) Set resource = type (from query) - exeptional for roles/clusterroles, fix #88
+- [fa0b5896](https://github.com/appscode/cluster-ui/commit/fa0b5896) Remove possibility of dublicate key in `LabelsInTableRow` component, fix #102
+- [ea2c758f](https://github.com/appscode/cluster-ui/commit/ea2c758f) Show Icon in PV details page, fix username error when refreshed in PV details and TableCardWithoutNamespace list pages, fix #89
+- [f5cf31d2](https://github.com/appscode/cluster-ui/commit/f5cf31d2) Perform review changes, fix resource page reload error
+- [63144082](https://github.com/appscode/cluster-ui/commit/63144082) Perform review changes
+- [1592b17c](https://github.com/appscode/cluster-ui/commit/1592b17c) Add Machine Set details page, Events page, Resource page, Delete functionality
+- [8b10e7f4](https://github.com/appscode/cluster-ui/commit/8b10e7f4) Add machine sets list & create page
+- [2e5b6779](https://github.com/appscode/cluster-ui/commit/2e5b6779) Add Provider Specification Div in Machine Details page
+- [3d4f4beb](https://github.com/appscode/cluster-ui/commit/3d4f4beb) Add machines details page, resource page, events page, delete functionality
+- [3de2381e](https://github.com/appscode/cluster-ui/commit/3de2381e) Add machines list page & create page
+- [084d7b0c](https://github.com/appscode/cluster-ui/commit/084d7b0c) Add api to cluster create page
+- [d7dbdc9d](https://github.com/appscode/cluster-ui/commit/d7dbdc9d) Fix #99, roles details page
+- [102a948d](https://github.com/appscode/cluster-ui/commit/102a948d) Add Credential Create Page
+- [3da2911c](https://github.com/appscode/cluster-ui/commit/3da2911c) Add credential delete functionality
+- [8ea1dd93](https://github.com/appscode/cluster-ui/commit/8ea1dd93) Add credential details page (basic section & timeline), Make root level api call generic, fix some issues in cluster pages
+- [4939ade3](https://github.com/appscode/cluster-ui/commit/4939ade3) Add credential list page
+- [c6ceb528](https://github.com/appscode/cluster-ui/commit/c6ceb528) Add toaster to list pages and add checktoaster to listTest
+- [e0fa8d5d](https://github.com/appscode/cluster-ui/commit/e0fa8d5d) Reconstruct e2e tests for CLUSTER pages
+- [aa5fbe63](https://github.com/appscode/cluster-ui/commit/aa5fbe63) Reconstruct test for HELM pages
+- [a90aec27](https://github.com/appscode/cluster-ui/commit/a90aec27) Add test for SERVICE & DISCOVERY pages
+- [52fb91ee](https://github.com/appscode/cluster-ui/commit/52fb91ee) Reconstruct test for all of DATASTORE pages
+- [8579d17b](https://github.com/appscode/cluster-ui/commit/8579d17b) Reinstalled minikube
+- [000b4118](https://github.com/appscode/cluster-ui/commit/000b4118) Reconstruct test for services
+- [bb08ee19](https://github.com/appscode/cluster-ui/commit/bb08ee19) Reconstruct test for all of MONITORING pages
+- [d4d9e011](https://github.com/appscode/cluster-ui/commit/d4d9e011) Reconstruct test for STORAGE pages
+- [4bd37e89](https://github.com/appscode/cluster-ui/commit/4bd37e89) add right side options in recovery details page
+- [61bacf68](https://github.com/appscode/cluster-ui/commit/61bacf68) STORAGE: WIP (add test for recovery)
+- [d460b208](https://github.com/appscode/cluster-ui/commit/d460b208) Reconstruct test for admin pages
+- [88e44447](https://github.com/appscode/cluster-ui/commit/88e44447) Reconstruct test for all of CONFIG pages
+- [aaa2d286](https://github.com/appscode/cluster-ui/commit/aaa2d286) Reconstruct test for all of WORKLOAD section
+- [8aecce54](https://github.com/appscode/cluster-ui/commit/8aecce54) Reconstruct test for delete modal
+- [3bc36491](https://github.com/appscode/cluster-ui/commit/3bc36491) Reconstruct test for events & monitoring page
+- [61a1cd6c](https://github.com/appscode/cluster-ui/commit/61a1cd6c) Reconstruct test for resource page
+- [757a16e5](https://github.com/appscode/cluster-ui/commit/757a16e5) Reconstruct test for details page
+- [bcf58b42](https://github.com/appscode/cluster-ui/commit/bcf58b42) Reconstruct test for create page & list page
+- [ce2a7f11](https://github.com/appscode/cluster-ui/commit/ce2a7f11) Perform review changes
+- [2a612430](https://github.com/appscode/cluster-ui/commit/2a612430) Add cluster import page
+- [211d6d1d](https://github.com/appscode/cluster-ui/commit/211d6d1d) Initial authentication working
+- [294b5dc1](https://github.com/appscode/cluster-ui/commit/294b5dc1) Disable/hide the button/element not ready now
+- [365f4aca](https://github.com/appscode/cluster-ui/commit/365f4aca) Set watcher on kubeObInfo when using Generic Component, fix #83
+- [6c380903](https://github.com/appscode/cluster-ui/commit/6c380903) update filterKubeLists depending on kubeLists when changing route
+- [2f43e653](https://github.com/appscode/cluster-ui/commit/2f43e653) Swap preview change old & new texts, fix #81
+- [45a8373f](https://github.com/appscode/cluster-ui/commit/45a8373f) Show helm status, fix #77
+- [e7f10ec9](https://github.com/appscode/cluster-ui/commit/e7f10ec9) Make kubeObInfo reactive, fix #79, database table title updating issue,
+- [55bdbe9e](https://github.com/appscode/cluster-ui/commit/55bdbe9e) Reset createBtn text, url, name, redirectUrl when changing routes, fix #71
+- [c8541542](https://github.com/appscode/cluster-ui/commit/c8541542) Fix the page blinking when changing routes
+- [25a3df71](https://github.com/appscode/cluster-ui/commit/25a3df71) Add a 401 response interceptor in Axios
+- [b18d6b49](https://github.com/appscode/cluster-ui/commit/b18d6b49) Make sure kubeLists is empty before navigate to new route
+- [68f85621](https://github.com/appscode/cluster-ui/commit/68f85621) Fix rendering errors in various pages
+- [f3a51b75](https://github.com/appscode/cluster-ui/commit/f3a51b75) Add /use API, make usernmae dynamic in all API calls
+- [0f358c85](https://github.com/appscode/cluster-ui/commit/0f358c85) Change owner sajib -> appscode
+- [ef7a6cd1](https://github.com/appscode/cluster-ui/commit/ef7a6cd1) Integrate API for inner table nodes in cluster details page
+- [52f1cc84](https://github.com/appscode/cluster-ui/commit/52f1cc84) Fix dynamic cluster url
+- [8411c03f](https://github.com/appscode/cluster-ui/commit/8411c03f) Add API call to cluster list page
+- [5c6f9a12](https://github.com/appscode/cluster-ui/commit/5c6f9a12) Add Chart/release install & updated APIs
+- [46862109](https://github.com/appscode/cluster-ui/commit/46862109) Delete release with/without purge, Install chart form, update chart form components
+- [785e4754](https://github.com/appscode/cluster-ui/commit/785e4754) Add Release /history, /versions, /manifest components. Rollback actions/mutations/components etc.
+- [dd76cd53](https://github.com/appscode/cluster-ui/commit/dd76cd53) Add Release /history table lists, rollback components, actions, mutations.
+- [4d7af76d](https://github.com/appscode/cluster-ui/commit/4d7af76d) Add Release /manifest page
+- [d4da85ca](https://github.com/appscode/cluster-ui/commit/d4da85ca) Get Copy & Download Buttons for Templates/Values/Files
+- [41b84956](https://github.com/appscode/cluster-ui/commit/41b84956) Add Chart page Templates, Values, Files section
+- [b7e57eb6](https://github.com/appscode/cluster-ui/commit/b7e57eb6) http -> https
+- [1061ea69](https://github.com/appscode/cluster-ui/commit/1061ea69) Update firebase.json
+- [3ce93db9](https://github.com/appscode/cluster-ui/commit/3ce93db9) Firebase setup, entry sidebar link to <router-link>
+- [62bda488](https://github.com/appscode/cluster-ui/commit/62bda488) Merge pull request #65 from appscode-cloud/helm
+- [cda6e30b](https://github.com/appscode/cluster-ui/commit/cda6e30b) Pick API Server URl dynamically
+- [2a419ae2](https://github.com/appscode/cluster-ui/commit/2a419ae2) Fix conflicts
+- [998d33eb](https://github.com/appscode/cluster-ui/commit/998d33eb) Fix InnertableFileGroups modal, Fix pagination errors
+- [6768ca4f](https://github.com/appscode/cluster-ui/commit/6768ca4f) Merge pull request #62 from appscode-cloud/node-groups
+- [fa11ef1e](https://github.com/appscode/cluster-ui/commit/fa11ef1e) Merge branch 'master' into node-groups
+- [681df5bf](https://github.com/appscode/cluster-ui/commit/681df5bf) Add Release /details page, second-sidebar, actions, components
+- [3b245d7b](https://github.com/appscode/cluster-ui/commit/3b245d7b) Add cluster create page
+- [f7ae6c19](https://github.com/appscode/cluster-ui/commit/f7ae6c19) Add release custom /list page, Vuex action/mutation/state etc.
+- [178d34dd](https://github.com/appscode/cluster-ui/commit/178d34dd) Handle getHref() for empty namespace, fix lint errors
+- [df01239a](https://github.com/appscode/cluster-ui/commit/df01239a) Add servicemonitor & prometheus lists for service/others
+- [bb2642ef](https://github.com/appscode/cluster-ui/commit/bb2642ef) Add Node Groups details page
+- [e198c906](https://github.com/appscode/cluster-ui/commit/e198c906) Add Node Groups list page
+- [f30e573b](https://github.com/appscode/cluster-ui/commit/f30e573b) Add cluster details page
+- [c88f608a](https://github.com/appscode/cluster-ui/commit/c88f608a) Add cluster list page
+- [2291a061](https://github.com/appscode/cluster-ui/commit/2291a061) Merge pull request #60 from appscode-cloud/snapshot
+- [627d5f67](https://github.com/appscode/cluster-ui/commit/627d5f67) Fix pagination issue
+- [2d940938](https://github.com/appscode/cluster-ui/commit/2d940938) Fix conflicts
+- [2f275a47](https://github.com/appscode/cluster-ui/commit/2f275a47) Add deep-inner secondSidebar for Snapshots, /resource page, more dynamic redirectUrls
+- [245ed900](https://github.com/appscode/cluster-ui/commit/245ed900) Add Snapshot's /details page
+- [b025c703](https://github.com/appscode/cluster-ui/commit/b025c703) Fix snapshot /list page generated url
+- [92a4be06](https://github.com/appscode/cluster-ui/commit/92a4be06) Add functionality to control the no of rows per page, Perform review changes
+- [34914db9](https://github.com/appscode/cluster-ui/commit/34914db9) Add pagination component to all the inner tables
+- [10320b54](https://github.com/appscode/cluster-ui/commit/10320b54) Create a pagination component, add this component to all list pages
+- [430ac754](https://github.com/appscode/cluster-ui/commit/430ac754) Fix vuetable-2 rendering issue, add pods innertable for Service, Snapshot list (generic)
+- [8a6d48ce](https://github.com/appscode/cluster-ui/commit/8a6d48ce) Add search box to all the inner tables
+- [5416e969](https://github.com/appscode/cluster-ui/commit/5416e969) Compile Breadcrumb manually using vue compile, fix history mode issue for breadcrumb
+- [1d5f2e11](https://github.com/appscode/cluster-ui/commit/1d5f2e11) Modify all links (href="*") in Console, History mode working now
+- [1f07aa38](https://github.com/appscode/cluster-ui/commit/1f07aa38) Fix Image urls inside vairous components
+- [feeebb20](https://github.com/appscode/cluster-ui/commit/feeebb20) Fix head section: favicon, etc.
+- [fcb372f0](https://github.com/appscode/cluster-ui/commit/fcb372f0) Get working all images moving into public/ dir
+- [af1b8b21](https://github.com/appscode/cluster-ui/commit/af1b8b21) Fix the Blank page issue for history mode when changing route
+- [7978e17f](https://github.com/appscode/cluster-ui/commit/7978e17f) Remove Hash from Url (history mode on), Modify breadcrumb files since hash is removed from url, fix lint issues
+- [31d27174](https://github.com/appscode/cluster-ui/commit/31d27174) Fix tooltip issue for configmap and secret details page
+- [5beb1550](https://github.com/appscode/cluster-ui/commit/5beb1550) Fix some lintr errors
+- [9ec073a0](https://github.com/appscode/cluster-ui/commit/9ec073a0) Completely Migration Backbone.js -> Vue.js, working all things
+- [35891eae](https://github.com/appscode/cluster-ui/commit/35891eae) Add /snapshort in sidebar for Repository
+- [3960003c](https://github.com/appscode/cluster-ui/commit/3960003c) Add role/clusterrole binding details page
+- [3bce78fe](https://github.com/appscode/cluster-ui/commit/3bce78fe) Add /resource page for ClusterRoleBinding & RoleBinding
+- [2f32a925](https://github.com/appscode/cluster-ui/commit/2f32a925) Add /create page for ClusterRoleBinding & RoleBinding
+- [ecb476ab](https://github.com/appscode/cluster-ui/commit/ecb476ab) Cleanup Pharm.router.js
+- [631a82df](https://github.com/appscode/cluster-ui/commit/631a82df) Add Node /event, /resource pages
+- [82f9d579](https://github.com/appscode/cluster-ui/commit/82f9d579) Add Node /details page
+- [a3e8ab08](https://github.com/appscode/cluster-ui/commit/a3e8ab08) Developed Generic TableWithoutNamespace, add Node /list page, Use generic tableCard for StorageClass
+- [4aa5aad6](https://github.com/appscode/cluster-ui/commit/4aa5aad6) Add StorageClass /create page
+- [aecc0458](https://github.com/appscode/cluster-ui/commit/aecc0458) Merge pull request #47 from appscode-cloud/repository
+- [e4ec1261](https://github.com/appscode/cluster-ui/commit/e4ec1261) Add Restic /event page
+- [e8a2437b](https://github.com/appscode/cluster-ui/commit/e8a2437b) Add Restic /create page
+- [931a0f59](https://github.com/appscode/cluster-ui/commit/931a0f59) Merge pull request #45 from appscode-cloud/pvc
+- [bdca8ede](https://github.com/appscode/cluster-ui/commit/bdca8ede) Fix conflicts
+- [e84caac8](https://github.com/appscode/cluster-ui/commit/e84caac8) Fix conflicts
+- [4dbecfaa](https://github.com/appscode/cluster-ui/commit/4dbecfaa) Merge pull request #44 from appscode-cloud/drmn
+- [8808860f](https://github.com/appscode/cluster-ui/commit/8808860f) Add Repository /create, /event page
+- [647cb239](https://github.com/appscode/cluster-ui/commit/647cb239) Add PVC /event, /resource pages
+- [20fafcb9](https://github.com/appscode/cluster-ui/commit/20fafcb9) Add PVC /details page
+- [22fe31c7](https://github.com/appscode/cluster-ui/commit/22fe31c7) Add PVC /create page
+- [2b489d77](https://github.com/appscode/cluster-ui/commit/2b489d77) Add PVC /list page
+- [65f44ecf](https://github.com/appscode/cluster-ui/commit/65f44ecf) Add Dormant /resource, /event pages
+- [d390fb37](https://github.com/appscode/cluster-ui/commit/d390fb37) Add Dormant Basics, Specifications, BackupSpecificaton, IntiSpec, sections
+- [d489fa4c](https://github.com/appscode/cluster-ui/commit/d489fa4c) Merge pull request #43 from appscode-cloud/memcached
+- [e49fca6d](https://github.com/appscode/cluster-ui/commit/e49fca6d) Fix conflicts2
+- [2d120e7b](https://github.com/appscode/cluster-ui/commit/2d120e7b) Merge pull request #42 from appscode-cloud/redis
+- [80c7352d](https://github.com/appscode/cluster-ui/commit/80c7352d) Fix conflicts
+- [6552c263](https://github.com/appscode/cluster-ui/commit/6552c263) Add Dormant /list page
+- [bee3085b](https://github.com/appscode/cluster-ui/commit/bee3085b) Fix conflicts
+- [b7c3d34a](https://github.com/appscode/cluster-ui/commit/b7c3d34a) Add Memcached /event, /resource pages
+- [bdbee764](https://github.com/appscode/cluster-ui/commit/bdbee764) Add Memcached Basics, Specifications, BackupSpecificaton, IntiSpec, sections
+- [c7fc1599](https://github.com/appscode/cluster-ui/commit/c7fc1599) Add Memcached /list page
+- [85001030](https://github.com/appscode/cluster-ui/commit/85001030) Add Memcached /create page
+- [f2fdaf96](https://github.com/appscode/cluster-ui/commit/f2fdaf96) Add MongoDB /resource page
+- [17bfebc3](https://github.com/appscode/cluster-ui/commit/17bfebc3) Add MongoDB /event page
+- [900a7c96](https://github.com/appscode/cluster-ui/commit/900a7c96) Add MongoDB Basics, Specifications, BackupSpecificaton, IntiSpec sectionsAdd MongoDB /bas
+- [9dd075ca](https://github.com/appscode/cluster-ui/commit/9dd075ca) Add MongoDB /list page
+- [16f81f4b](https://github.com/appscode/cluster-ui/commit/16f81f4b) Add Mongodb /create page
+- [fd2707d5](https://github.com/appscode/cluster-ui/commit/fd2707d5) Add Redis /resource page
+- [361ee854](https://github.com/appscode/cluster-ui/commit/361ee854) Add Redis /event page
+- [85145ccf](https://github.com/appscode/cluster-ui/commit/85145ccf) Add Redis Basics, Specifications, BackupSpecificaton, IntiSpec, sections
+- [066b0046](https://github.com/appscode/cluster-ui/commit/066b0046) Add Redis /list page
+- [71e60d6c](https://github.com/appscode/cluster-ui/commit/71e60d6c) Add Redis /create page
+- [d0b30c7a](https://github.com/appscode/cluster-ui/commit/d0b30c7a) Add create-btn url dynamic
+- [c8388b83](https://github.com/appscode/cluster-ui/commit/c8388b83) Multiple Asidebar dynamic logics implemented for ac-asidebar-cluster
+- [9e5880c1](https://github.com/appscode/cluster-ui/commit/9e5880c1) Add PV details page
+- [a7cf9b13](https://github.com/appscode/cluster-ui/commit/a7cf9b13) Add PV list page
+- [59e82158](https://github.com/appscode/cluster-ui/commit/59e82158) Add MySQL /resource page
+- [67931d1b](https://github.com/appscode/cluster-ui/commit/67931d1b) Add MySql /event page
+- [46d27d28](https://github.com/appscode/cluster-ui/commit/46d27d28) Add MySQL Basics, Specifications, BackupSpecificaton, IntiSpec sections
+- [193b1e36](https://github.com/appscode/cluster-ui/commit/193b1e36) Add MySQL /list page
+- [1a3009f0](https://github.com/appscode/cluster-ui/commit/1a3009f0) Add MySQL /create page
+- [d98cba28](https://github.com/appscode/cluster-ui/commit/d98cba28) Fix breadcrumb for PV/PVC
+- [3b07ea72](https://github.com/appscode/cluster-ui/commit/3b07ea72) Merge pull request #35 from appscode-cloud/secret
+- [1cb79133](https://github.com/appscode/cluster-ui/commit/1cb79133) Fix conflicts
+- [62ed8ba6](https://github.com/appscode/cluster-ui/commit/62ed8ba6) Add PV /create page
+- [3be8918d](https://github.com/appscode/cluster-ui/commit/3be8918d) Add Configmap /event page
+- [0956269f](https://github.com/appscode/cluster-ui/commit/0956269f) Add Configmap /create page
+- [b57f50b2](https://github.com/appscode/cluster-ui/commit/b57f50b2) Merge pull request #33 from appscode-cloud/roles
+- [e1dd3492](https://github.com/appscode/cluster-ui/commit/e1dd3492) Fix conflicts
+- [b8a3cc22](https://github.com/appscode/cluster-ui/commit/b8a3cc22) Perform review changes
+- [be43c1a7](https://github.com/appscode/cluster-ui/commit/be43c1a7) Add Repository list/details page
+- [fd036be1](https://github.com/appscode/cluster-ui/commit/fd036be1) Add Recovery list/details page
+- [8aa72447](https://github.com/appscode/cluster-ui/commit/8aa72447) Add Restic details page, add sidebar with recovery button, add recovery button
+- [2af5b9dd](https://github.com/appscode/cluster-ui/commit/2af5b9dd) Add Restic list page
+- [551ee2db](https://github.com/appscode/cluster-ui/commit/551ee2db) Add Storage Class details page
+- [e0da6ba9](https://github.com/appscode/cluster-ui/commit/e0da6ba9) Add Storage Class list page
+- [9c7a2cd8](https://github.com/appscode/cluster-ui/commit/9c7a2cd8) Fix ConfigMap data-key add issue, bottom-marging issue
+- [74274728](https://github.com/appscode/cluster-ui/commit/74274728) Add Secret /event page
+- [37f0b17a](https://github.com/appscode/cluster-ui/commit/37f0b17a) Add Secret /create page
+- [6bcacd9b](https://github.com/appscode/cluster-ui/commit/6bcacd9b) Merge pull request #32 from appscode-cloud/elasticsearch
+- [5fd68897](https://github.com/appscode/cluster-ui/commit/5fd68897) Add Role /resource page, dynamic redirectUrl for Submit button
+- [6432ced2](https://github.com/appscode/cluster-ui/commit/6432ced2) Add Role /create page
+- [bebca39d](https://github.com/appscode/cluster-ui/commit/bebca39d) Add Namespace /events list page
+- [34184191](https://github.com/appscode/cluster-ui/commit/34184191) Add Namespace /resource page
+- [a5229bd0](https://github.com/appscode/cluster-ui/commit/a5229bd0) Add Namespace /create page, make dynamic textarea width for codemirror
+- [37daa0fe](https://github.com/appscode/cluster-ui/commit/37daa0fe) Add Elasticsearch /snapshot page
+- [11757970](https://github.com/appscode/cluster-ui/commit/11757970) Add Elasticsearch /resource page
+- [87827e5f](https://github.com/appscode/cluster-ui/commit/87827e5f) Add Elasticsearch /event page
+- [658b961e](https://github.com/appscode/cluster-ui/commit/658b961e) Add Elasticsearch Basics, Specifications, BackupSpecificaton, IntiSpec sections
+- [8d983ae6](https://github.com/appscode/cluster-ui/commit/8d983ae6) Add Elasticsearch /list page
+- [7a84b68f](https://github.com/appscode/cluster-ui/commit/7a84b68f) Add Elasticsearch /create page
+- [f47ca49f](https://github.com/appscode/cluster-ui/commit/f47ca49f) Add Postgres /snapshot page, actions/mutations/components
+- [2f872185](https://github.com/appscode/cluster-ui/commit/2f872185) Add Postgres /events page
+- [103d1c63](https://github.com/appscode/cluster-ui/commit/103d1c63) Add Postgres /resource page, dynamic class added for Resource CodeMirror various Heights
+- [562705b8](https://github.com/appscode/cluster-ui/commit/562705b8) Add Postgres basic/specification/init-spec/backup-specification sections
+- [7103814d](https://github.com/appscode/cluster-ui/commit/7103814d) Add Postgres /list page
+- [412ea3e2](https://github.com/appscode/cluster-ui/commit/412ea3e2) Add postgres /create page
+- [063cea8a](https://github.com/appscode/cluster-ui/commit/063cea8a) Create page: accept raw if in query raw=true exist
+- [a6b368de](https://github.com/appscode/cluster-ui/commit/a6b368de) Add recovery create page
+- [8c797dd4](https://github.com/appscode/cluster-ui/commit/8c797dd4) Merge pull request #27 from appscode-cloud/lb
+- [d29bdc39](https://github.com/appscode/cluster-ui/commit/d29bdc39) Fix conflicts
+- [650ed9e3](https://github.com/appscode/cluster-ui/commit/650ed9e3) Add TCP rule details page
+- [4bb71c41](https://github.com/appscode/cluster-ui/commit/4bb71c41) Add lb HTTPS rule details page
+- [ef5c9532](https://github.com/appscode/cluster-ui/commit/ef5c9532) Add HTTP rule basics page
+- [704818cf](https://github.com/appscode/cluster-ui/commit/704818cf) Add TCP rule list, modify other rule list tables, resource textarea, add mixins
+- [5ed43f5e](https://github.com/appscode/cluster-ui/commit/5ed43f5e) Merge pull request #26 from appscode-cloud/cert
+- [bbc3c695](https://github.com/appscode/cluster-ui/commit/bbc3c695) Fix conflicts
+- [c5474103](https://github.com/appscode/cluster-ui/commit/c5474103) Add lb HTTPS rule list page
+- [4baba72b](https://github.com/appscode/cluster-ui/commit/4baba72b) Add HTTP Rules list page
+- [8f420b44](https://github.com/appscode/cluster-ui/commit/8f420b44) Add loadbalancer /resource page
+- [62af15f2](https://github.com/appscode/cluster-ui/commit/62af15f2) Add Load-balancer details page, add lb second-sidebar icons
+- [6d15485a](https://github.com/appscode/cluster-ui/commit/6d15485a) Perform review changes
+- [9614b358](https://github.com/appscode/cluster-ui/commit/9614b358) Add secret details page
+- [3e49728b](https://github.com/appscode/cluster-ui/commit/3e49728b) Add configmap details page
+- [a0ebb76d](https://github.com/appscode/cluster-ui/commit/a0ebb76d) Add secret list page
+- [8c568ceb](https://github.com/appscode/cluster-ui/commit/8c568ceb) Add configmap list page
+- [85d10f20](https://github.com/appscode/cluster-ui/commit/85d10f20) Fix conflicts
+- [2299fbfe](https://github.com/appscode/cluster-ui/commit/2299fbfe) Merge pull request #24 from appscode-cloud/service
+- [29c5d30e](https://github.com/appscode/cluster-ui/commit/29c5d30e) Fix conflicts
+- [85007be7](https://github.com/appscode/cluster-ui/commit/85007be7) Add LoadBalancer Create page
+- [ee2c00f4](https://github.com/appscode/cluster-ui/commit/ee2c00f4) Add loadbalancer list page
+- [c068c79a](https://github.com/appscode/cluster-ui/commit/c068c79a) Add certificate /resource page
+- [b90a1b29](https://github.com/appscode/cluster-ui/commit/b90a1b29) Add certificate /event page
+- [0a1aaf14](https://github.com/appscode/cluster-ui/commit/0a1aaf14) Add certificate details page
+- [a7d444cb](https://github.com/appscode/cluster-ui/commit/a7d444cb) Add certificate list page, update labelsInRow, tableRowLeftSide
+- [44a25a35](https://github.com/appscode/cluster-ui/commit/44a25a35) Add prometheus for servicemonitors, fix innerTable bugs servicemonitor/prometheus
+- [9561b55c](https://github.com/appscode/cluster-ui/commit/9561b55c) Add monitoring page for service
+- [128fb713](https://github.com/appscode/cluster-ui/commit/128fb713) Add service details page, Ports innertables, handle try/catch for getOtherList$api
+- [af5f3d03](https://github.com/appscode/cluster-ui/commit/af5f3d03) Fix page reloading issue after performing `Add key`, `Delete` and `Update` operation
+- [da7ff491](https://github.com/appscode/cluster-ui/commit/da7ff491) Add service create page
+- [2eacb4c0](https://github.com/appscode/cluster-ui/commit/2eacb4c0) Add service list page
+- [7334ff52](https://github.com/appscode/cluster-ui/commit/7334ff52) Merge pull request #22 from appscode-cloud/prometheus
+- [c3fc669d](https://github.com/appscode/cluster-ui/commit/c3fc669d) Fix conflicts
+- [c3dd2f7e](https://github.com/appscode/cluster-ui/commit/c3dd2f7e) Remove inner servicemonitor for prometheus
+- [b21bf72e](https://github.com/appscode/cluster-ui/commit/b21bf72e) Add prometheus /resource page
+- [50b481a6](https://github.com/appscode/cluster-ui/commit/50b481a6) Add Prometheus event page
+- [759a1b1e](https://github.com/appscode/cluster-ui/commit/759a1b1e) Add prometheus details page
+- [43105e12](https://github.com/appscode/cluster-ui/commit/43105e12) Merge pull request #21 from appscode-cloud/sajib
+- [dadeadbc](https://github.com/appscode/cluster-ui/commit/dadeadbc) Fix conflicts
+- [cefcd674](https://github.com/appscode/cluster-ui/commit/cefcd674) Perform review changes
+- [b63b9b17](https://github.com/appscode/cluster-ui/commit/b63b9b17) Perform review changes
+- [22ab3748](https://github.com/appscode/cluster-ui/commit/22ab3748) Add role/clusterrole bindings in role details page, further fix generic api calls in workloads details pages
+- [f936a1cc](https://github.com/appscode/cluster-ui/commit/f936a1cc) Add generic api call to work load pages
+- [b2c07850](https://github.com/appscode/cluster-ui/commit/b2c07850) Add generic Edit button without href, Fix Delete button functionality
+- [c37c73ac](https://github.com/appscode/cluster-ui/commit/c37c73ac) Add roles details page, add inner table for rules, make details page generic for both roles/clusterroles
+- [e6a1ccbe](https://github.com/appscode/cluster-ui/commit/e6a1ccbe) Add roles list page, included roles and cluster roles state/getters/mutations
+- [8bdca759](https://github.com/appscode/cluster-ui/commit/8bdca759) Add prometheus create page
+- [a44ff36f](https://github.com/appscode/cluster-ui/commit/a44ff36f) Add breadcrumb all files in shared components, pretty format breadcrumb codes
+- [5620a3f2](https://github.com/appscode/cluster-ui/commit/5620a3f2) Add prometheus list page
+- [5a61cb87](https://github.com/appscode/cluster-ui/commit/5a61cb87) Add /event & /resource page for servicemonitors
+- [1f004ddb](https://github.com/appscode/cluster-ui/commit/1f004ddb) Add servicemonitor details page, deployment/replicationcontroller bottom-timeline components
+- [2dd822e2](https://github.com/appscode/cluster-ui/commit/2dd822e2) Add servicemonitor create page
+- [46483811](https://github.com/appscode/cluster-ui/commit/46483811) Add servicemonitor list page
+- [af92a191](https://github.com/appscode/cluster-ui/commit/af92a191) Add Resource/update page for replicaset/replicationcontroller/daemonset/statefulset/job/pod, fix redirect url
+- [5ee1e85b](https://github.com/appscode/cluster-ui/commit/5ee1e85b) Make the events routes url generic for workload section
+- [fb3302d5](https://github.com/appscode/cluster-ui/commit/fb3302d5) Add resource page codeMirror, yaml <-> json conversion, diff2html prettifier, api calls
+- [3981d5a4](https://github.com/appscode/cluster-ui/commit/3981d5a4) Render resource page with Raw yaml data, toggle json / yaml perfectly
+- [6546b6dc](https://github.com/appscode/cluster-ui/commit/6546b6dc) Merge pull request #18 from appscode-cloud/sajib2
+- [3ad1155e](https://github.com/appscode/cluster-ui/commit/3ad1155e) Fix conflicts
+- [19c30190](https://github.com/appscode/cluster-ui/commit/19c30190) Added serviceMonitors & Prometheuses tables in Monitoring page, api calls, layout
+- [4f5968d7](https://github.com/appscode/cluster-ui/commit/4f5968d7) Perform review changes
+- [a6e8efaa](https://github.com/appscode/cluster-ui/commit/a6e8efaa) Add namespace details page, add ssber, fixed issues with bottom time line
+- [cb91f153](https://github.com/appscode/cluster-ui/commit/cb91f153) Add namespace list page, Add tableRowRightsideWithStatus component
+- [5607a31c](https://github.com/appscode/cluster-ui/commit/5607a31c) Merge branch 'master' of github.com:appscode-cloud/pharm into sajib2
+- [5a96ef99](https://github.com/appscode/cluster-ui/commit/5a96ef99) Merge pull request #16 from appscode-cloud/sajib
+- [905e1009](https://github.com/appscode/cluster-ui/commit/905e1009) More update in DeleteBtn component
+- [e2e74815](https://github.com/appscode/cluster-ui/commit/e2e74815) Update generic delete btn (work for custom resource), fix lint errors
+- [98e81509](https://github.com/appscode/cluster-ui/commit/98e81509) Add serviceMonitors & Prometheuses tables in Monitoring page, add generic getOtherLists api call
+- [ff8be033](https://github.com/appscode/cluster-ui/commit/ff8be033) Fix breadcrumb while redirecting from create page
+- [f23e940f](https://github.com/appscode/cluster-ui/commit/f23e940f) Use generic methods for beforeEnterList/beforeEnterDetails, add create btn list in file, fix list api
+- [cc2ff5de](https://github.com/appscode/cluster-ui/commit/cc2ff5de) Update pharm routers for workload-create pages
+- [b17a4ac6](https://github.com/appscode/cluster-ui/commit/b17a4ac6) Add create page for replicaset/replicationcontroller/daemonset/statefulset/job/pod
+- [e9b0d52a](https://github.com/appscode/cluster-ui/commit/e9b0d52a) Add generic mutaiton call for list api (without namespace)
+- [de11cbbe](https://github.com/appscode/cluster-ui/commit/de11cbbe) Add create page component/api/actions for deployment
+- [1a411866](https://github.com/appscode/cluster-ui/commit/1a411866) Add vueCodemirror component, dynamic header/cancel/create button
+- [38b5113c](https://github.com/appscode/cluster-ui/commit/38b5113c) Reset searchText, namespaces always when route changing, component adding
+- [1957f010](https://github.com/appscode/cluster-ui/commit/1957f010) Merge branch 'master' of github.com:appscode-cloud/pharm into sajib
+- [9ae9f9e4](https://github.com/appscode/cluster-ui/commit/9ae9f9e4) Add create btn & update breadcrumb logic for generic create pages
+- [8b824d77](https://github.com/appscode/cluster-ui/commit/8b824d77) Merge pull request #15 from appscode-cloud/sakib
+- [b2a7bd69](https://github.com/appscode/cluster-ui/commit/b2a7bd69) Review changes (use new api, update bottom timeline, fix formating)
+- [042c354c](https://github.com/appscode/cluster-ui/commit/042c354c) add replicaset list page
+- [df6281dd](https://github.com/appscode/cluster-ui/commit/df6281dd) Add pod list page
+- [2588eea7](https://github.com/appscode/cluster-ui/commit/2588eea7) Add Job Details page
+- [d2466346](https://github.com/appscode/cluster-ui/commit/d2466346) Add Job list page
+- [c4f14b06](https://github.com/appscode/cluster-ui/commit/c4f14b06) Add Stateful Set Details page
+- [fcbd19cc](https://github.com/appscode/cluster-ui/commit/fcbd19cc) Add Daemon Set Details page
+- [10abffeb](https://github.com/appscode/cluster-ui/commit/10abffeb) Add Daemon List page
+- [6dd1185d](https://github.com/appscode/cluster-ui/commit/6dd1185d) Add replicaset details page
+- [95dc2f24](https://github.com/appscode/cluster-ui/commit/95dc2f24) Merge pull request #14 from appscode-cloud/sajib
+- [4da2638a](https://github.com/appscode/cluster-ui/commit/4da2638a) Merge pull request #13 from appscode-cloud/sajib4
+- [745fc47c](https://github.com/appscode/cluster-ui/commit/745fc47c) Add services in deployments details, fix appendTagLine, fix formatting innterTable+events
+- [176c9c7a](https://github.com/appscode/cluster-ui/commit/176c9c7a) Off backbone routers for workload all events path
+- [7156fc30](https://github.com/appscode/cluster-ui/commit/7156fc30) Add events for deployments/replicaset/replicationcontroller/daemonset/statefulset/job, formatting
+- [3d72ff3e](https://github.com/appscode/cluster-ui/commit/3d72ff3e) Update events generic api
+- [4f4eae6e](https://github.com/appscode/cluster-ui/commit/4f4eae6e) Fix sidebar binding
+- [7acc871c](https://github.com/appscode/cluster-ui/commit/7acc871c) Modify /replicasets, /pods APIs with new BE api (remove labelSelector)
+- [3dd7976d](https://github.com/appscode/cluster-ui/commit/3dd7976d) Add generic route methods beforeEnterList & beforeEnterDetails
+- [d35bbad7](https://github.com/appscode/cluster-ui/commit/d35bbad7) Add event components, actions/mutations/new-api, table rendering
+- [2684036b](https://github.com/appscode/cluster-ui/commit/2684036b) Add second-sideba with log/exec for Pod details page
+- [02205341](https://github.com/appscode/cluster-ui/commit/02205341) Add Condition inner-table for details pageAdd
+- [393ceb52](https://github.com/appscode/cluster-ui/commit/393ceb52) Add basic section components for Pod describe
+- [0d85b304](https://github.com/appscode/cluster-ui/commit/0d85b304) Update delete api to Axios, add try/catch in api call
+- [8f847468](https://github.com/appscode/cluster-ui/commit/8f847468) Merge branch 'master' of github.com:appscode-cloud/pharm into sajib4
+- [a15e12b7](https://github.com/appscode/cluster-ui/commit/a15e12b7) Add replication-controller details page with vue
+- [e2624262](https://github.com/appscode/cluster-ui/commit/e2624262) Add sidebar watcher, type -> resource
+- [af3a27b0](https://github.com/appscode/cluster-ui/commit/af3a27b0) Add replication Controllers list page
+- [1e3cf5e0](https://github.com/appscode/cluster-ui/commit/1e3cf5e0) Change selector -> labelSelector
+- [a995a735](https://github.com/appscode/cluster-ui/commit/a995a735) Merge pull request #11 from appscode-cloud/sajib3
+- [83f0f47e](https://github.com/appscode/cluster-ui/commit/83f0f47e) Merge pull request #10 from appscode-cloud/sajib2
+- [9cf681c0](https://github.com/appscode/cluster-ui/commit/9cf681c0) Merge pull request #9 from appscode-cloud/sajib
+- [9ef39b91](https://github.com/appscode/cluster-ui/commit/9ef39b91) Add generic functions/APIs-call for innerTable data in details page
+- [8a0f6280](https://github.com/appscode/cluster-ui/commit/8a0f6280) Update describe api with gitea (new api server/response)
+- [8ae6f615](https://github.com/appscode/cluster-ui/commit/8ae6f615) Add dynamic gitea list api with/without namespace & owner/cluster/group/version/resource
+- [3d61e2eb](https://github.com/appscode/cluster-ui/commit/3d61e2eb) Update namespace/deployment list api to gitea, add axios, update components
+- [9cd9aa4d](https://github.com/appscode/cluster-ui/commit/9cd9aa4d) update webpack config, port, fix issues
+- [5d8d6385](https://github.com/appscode/cluster-ui/commit/5d8d6385) Rename .Vue -> .vue, fix file path
+- [7f82eb70](https://github.com/appscode/cluster-ui/commit/7f82eb70) Render replicasets inner table with datas, icon, url, table-header, spacing, CSS, etc
+- [2a3ab267](https://github.com/appscode/cluster-ui/commit/2a3ab267) Render all of the key/value in Basic section
+- [6e016fca](https://github.com/appscode/cluster-ui/commit/6e016fca) Generate restic section dynamically if exist in deployment details page
+- [27d7b3d1](https://github.com/appscode/cluster-ui/commit/27d7b3d1) Add annotation component
+- [fbe89677](https://github.com/appscode/cluster-ui/commit/fbe89677) Add Copy button component with Annotation modal
+- [60ba8699](https://github.com/appscode/cluster-ui/commit/60ba8699) Get dynamic basic section with datas, Add Labels component with logics
+- [2e388486](https://github.com/appscode/cluster-ui/commit/2e388486) Added basic section in details page, api calls, get type-to-resource/type-to-apiserversio
+- [0e11299a](https://github.com/appscode/cluster-ui/commit/0e11299a) Make left-sidebar's item Active dynamically
+- [d914296b](https://github.com/appscode/cluster-ui/commit/d914296b) Add delete btn modal, actions, api call, fix toastr css issues
+- [f33cb562](https://github.com/appscode/cluster-ui/commit/f33cb562) Add Modal in delete component
+- [2325086e](https://github.com/appscode/cluster-ui/commit/2325086e) Add right-side-options component
+- [c638f25e](https://github.com/appscode/cluster-ui/commit/c638f25e) Add second-sidebar components, dynamic icons, dynamic href links, store, route stuffs
+- [44473f67](https://github.com/appscode/cluster-ui/commit/44473f67) Set breadcrumb to VueX, reset breadcrumb when changing route automatically
+- [955d63c3](https://github.com/appscode/cluster-ui/commit/955d63c3) Add details-header component, render breadcrumb for details page, set second-sidebar datas in VueX
+- [3a2e646c](https://github.com/appscode/cluster-ui/commit/3a2e646c) Fix: not rendering issue of main-sideber properly
+- [202f3379](https://github.com/appscode/cluster-ui/commit/202f3379) Get table pagination working (need css, :key bind issue), filterKubeLists render using Vuex
+- [3aacd038](https://github.com/appscode/cluster-ui/commit/3aacd038) Get the table card view fully danamic usning vuetable2!
+- [b5df5bf4](https://github.com/appscode/cluster-ui/commit/b5df5bf4) Add LabelsInTableRow components
+- [d23f925e](https://github.com/appscode/cluster-ui/commit/d23f925e) Add time covertion code component (getDaydifference)
+- [3c79e889](https://github.com/appscode/cluster-ui/commit/3c79e889) Make deployment list table data reactive with changing of Namespace from dropdown
+- [37b55c15](https://github.com/appscode/cluster-ui/commit/37b55c15) Add kubeLists, namespaces Components with Vuex api calls
+- [1e8fc9b7](https://github.com/appscode/cluster-ui/commit/1e8fc9b7) Add dropdown's namespace lists component, bootstrap table render (WIP)
+- [c6dd28eb](https://github.com/appscode/cluster-ui/commit/c6dd28eb) Add Cluster main siderbar component
+- [d219ccd5](https://github.com/appscode/cluster-ui/commit/d219ccd5) Working on Breadcrumb (WIP)
+- [40a10165](https://github.com/appscode/cluster-ui/commit/40a10165) Fix duplicate ID attribute issue with Vue part
+- [4e6e3703](https://github.com/appscode/cluster-ui/commit/4e6e3703) Merge pull request #6 from appscodecloud/sajib
+- [4a18bf5f](https://github.com/appscode/cluster-ui/commit/4a18bf5f) Triiger vue route for # (pharm entry page)
+- [8808df35](https://github.com/appscode/cluster-ui/commit/8808df35) Separte Backbone & Vue root, oterwise no jQuery events are working
+- [90014e51](https://github.com/appscode/cluster-ui/commit/90014e51) Create Cluster-asidebar components
+- [edc4708b](https://github.com/appscode/cluster-ui/commit/edc4708b) Add some missing npm packages
+- [07bfbefb](https://github.com/appscode/cluster-ui/commit/07bfbefb) Use direct jQuery instead of previous saving jQuery instance
+- [e6c11c6d](https://github.com/appscode/cluster-ui/commit/e6c11c6d) Fix lint errors
+- [8b03ef5b](https://github.com/appscode/cluster-ui/commit/8b03ef5b) Get working Backbone & Vue app parallely
+- [194533d9](https://github.com/appscode/cluster-ui/commit/194533d9) Merge pull request #5 from appscodecloud/sajib
+- [5b2e6cc9](https://github.com/appscode/cluster-ui/commit/5b2e6cc9) Fix image url, remove images/ from css/
+- [e6f80cd2](https://github.com/appscode/cluster-ui/commit/e6f80cd2) Render templates with dynamic hash
+- [bf95e4de](https://github.com/appscode/cluster-ui/commit/bf95e4de) Move Gulp to Webpack for build process
+- [6f53a501](https://github.com/appscode/cluster-ui/commit/6f53a501) Migration from Gulp to Webpack (WIP)
+- [306888ae](https://github.com/appscode/cluster-ui/commit/306888ae) Fix rendering issue of DBs list page (#4)
+- [c878ce08](https://github.com/appscode/cluster-ui/commit/c878ce08) Concourse tests (#3)
+- [5237e9fe](https://github.com/appscode/cluster-ui/commit/5237e9fe) Upgrade jquery, bootstrap, gulp-inject, nunjucks packages (#2)
+- [97f72ea2](https://github.com/appscode/cluster-ui/commit/97f72ea2) Update yamls for Databases, test.js file (#1)
+- [1e6918be](https://github.com/appscode/cluster-ui/commit/1e6918be) Merged in tahsin (pull request #204)
+- [f62a4454](https://github.com/appscode/cluster-ui/commit/f62a4454) Merged in incident-test (pull request #206)
+- [ff97a1aa](https://github.com/appscode/cluster-ui/commit/ff97a1aa) Cleanup
+- [4bd22243](https://github.com/appscode/cluster-ui/commit/4bd22243) Add Incident tests in Pharm
+- [68a840d3](https://github.com/appscode/cluster-ui/commit/68a840d3) Merged in sajib (pull request #205)
+- [e225d87a](https://github.com/appscode/cluster-ui/commit/e225d87a) Add tests for Cluster list page, fix cluster list page for deleted page, fix filter sidebar
+- [5ad80f5b](https://github.com/appscode/cluster-ui/commit/5ad80f5b) Fix LB HTTP/HTTPS list page host link, commented out tests for HTTP rules details page
+- [bade4af1](https://github.com/appscode/cluster-ui/commit/bade4af1) Add tests for LB HTTP/HTTPS/TCP rules list pages
+- [8cb0080a](https://github.com/appscode/cluster-ui/commit/8cb0080a) Add LB tests for Delete modal, update
+- [b357eb84](https://github.com/appscode/cluster-ui/commit/b357eb84) Add tests for LB create, details, delete. Fix load-balancer redirect issue
+- [fb7ba931](https://github.com/appscode/cluster-ui/commit/fb7ba931) Add Certificate tests, reorganize service tests
+- [07e2f648](https://github.com/appscode/cluster-ui/commit/07e2f648) Add/modify tests for Credential update, delete.
+- [1053aa13](https://github.com/appscode/cluster-ui/commit/1053aa13) Add Cluster Basic page tests
+- [92b5429f](https://github.com/appscode/cluster-ui/commit/92b5429f) Add nodegroup tests
+- [a167f8f7](https://github.com/appscode/cluster-ui/commit/a167f8f7) Add Node tests
+- [ea54761a](https://github.com/appscode/cluster-ui/commit/ea54761a) Fix clusterrole create issue. Add tests for clusterroles
+- [5302c10e](https://github.com/appscode/cluster-ui/commit/5302c10e) Working on Recovery tests (WIP)
+- [e7b0e945](https://github.com/appscode/cluster-ui/commit/e7b0e945) Modify Event checking test, Move tostr error checking in different files.
+- [172dba14](https://github.com/appscode/cluster-ui/commit/172dba14) Fix Roles (add namespace) for details api call
+- [aa6612b8](https://github.com/appscode/cluster-ui/commit/aa6612b8) Add Namespace tests
+- [0c35fa9b](https://github.com/appscode/cluster-ui/commit/0c35fa9b) Add Servicemonitor tests
+- [83099ddf](https://github.com/appscode/cluster-ui/commit/83099ddf) Add Prometheus tests
+- [9985ce04](https://github.com/appscode/cluster-ui/commit/9985ce04) Add Restic tests, get restic delete generic
+- [0d78aa73](https://github.com/appscode/cluster-ui/commit/0d78aa73) Cleanup
+- [5ba1ea40](https://github.com/appscode/cluster-ui/commit/5ba1ea40) Merged in sajib (pull request #203)
+- [6e4a72b7](https://github.com/appscode/cluster-ui/commit/6e4a72b7) Use single browser window with multiple tabs, fix page.close() issue, use generic before(), after()
+- [dd17ac3e](https://github.com/appscode/cluster-ui/commit/dd17ac3e) Merged in sajib (pull request #202)
+- [3fd3496a](https://github.com/appscode/cluster-ui/commit/3fd3496a) Add tests for StorageClass
+- [ada9b8bb](https://github.com/appscode/cluster-ui/commit/ada9b8bb) Add ConfigMap tests
+- [71d635c8](https://github.com/appscode/cluster-ui/commit/71d635c8) Merge branch 'master' of bitbucket.org:appscode/pharm into sajib2
+- [64026a27](https://github.com/appscode/cluster-ui/commit/64026a27) Merged in sajib (pull request #201)
+- [0b42525e](https://github.com/appscode/cluster-ui/commit/0b42525e) Add Secret tests
+- [eb4d3c04](https://github.com/appscode/cluster-ui/commit/eb4d3c04) Move Database's test into test/datastore/ dir
+- [cecfc29e](https://github.com/appscode/cluster-ui/commit/cecfc29e) Move Alert's test into test/alert/ dir
+- [231829e6](https://github.com/appscode/cluster-ui/commit/231829e6) Move workload's test into test/workload/ dir
+- [55dbac94](https://github.com/appscode/cluster-ui/commit/55dbac94) Fix Memcached issue
+- [07ccd97b](https://github.com/appscode/cluster-ui/commit/07ccd97b) Make Memcached tests generic
+- [87d60b4b](https://github.com/appscode/cluster-ui/commit/87d60b4b) Make Redis tests generic
+- [4cec14be](https://github.com/appscode/cluster-ui/commit/4cec14be) Make MongoDB tests generic
+- [94a0939f](https://github.com/appscode/cluster-ui/commit/94a0939f) Get MySQL tests generic
+- [c6ff5e36](https://github.com/appscode/cluster-ui/commit/c6ff5e36) Get PostgreSQL tests generic, some work on certificate (WIP)
+- [2b96812b](https://github.com/appscode/cluster-ui/commit/2b96812b) Get Services tests generic
+- [a834bc5e](https://github.com/appscode/cluster-ui/commit/a834bc5e) Make PodAlert all tests generic
+- [e94e24bc](https://github.com/appscode/cluster-ui/commit/e94e24bc) Made NodeAlert generic
+- [554533da](https://github.com/appscode/cluster-ui/commit/554533da) Test: Get Pod & ClusterAlert tests generic
+- [9b897517](https://github.com/appscode/cluster-ui/commit/9b897517) Merged in sajib (pull request #200)
+- [96c689e1](https://github.com/appscode/cluster-ui/commit/96c689e1) Test: Get Job tests generic
+- [e52771d3](https://github.com/appscode/cluster-ui/commit/e52771d3) Test: Get Statefulset tests generic
+- [02f8f484](https://github.com/appscode/cluster-ui/commit/02f8f484) Test: Get Daemonset tests generic
+- [a0292805](https://github.com/appscode/cluster-ui/commit/a0292805) Get ReplicationController tests generic
+- [6a224cb3](https://github.com/appscode/cluster-ui/commit/6a224cb3) Modify CRUD tests, more stable, log print, error handling, etc.
+- [217aa410](https://github.com/appscode/cluster-ui/commit/217aa410) Update node packages
+- [72c668fa](https://github.com/appscode/cluster-ui/commit/72c668fa) Check toastr (generic) for CRUD operation of Depeloyment/Replicaset
+- [72404143](https://github.com/appscode/cluster-ui/commit/72404143) Make ALL the Deployment & Replicaset tests generic!
+- [de231e6e](https://github.com/appscode/cluster-ui/commit/de231e6e) TEST: Make Create & List Page generic for Deployment & ReplicaSet
+- [583728a7](https://github.com/appscode/cluster-ui/commit/583728a7) Merge branch 'master' of bitbucket.org:appscode/pharm into sajib
+- [0dc5b783](https://github.com/appscode/cluster-ui/commit/0dc5b783) Update Alert's data.js
+- [0ab72295](https://github.com/appscode/cluster-ui/commit/0ab72295) Merged in sajib (pull request #198)
+- [dc2c5503](https://github.com/appscode/cluster-ui/commit/dc2c5503) Add workload section for Snapshopt-details
+- [9b0dad04](https://github.com/appscode/cluster-ui/commit/9b0dad04) Add workload in snapshot-details, snapshot icon
+- [afeccadf](https://github.com/appscode/cluster-ui/commit/afeccadf) Add Repo-Snapshot list, details page, delete, resource-view, repository details page
+- [ef02db00](https://github.com/appscode/cluster-ui/commit/ef02db00) Remove notifierSecretName for Alerts create yaml
+- [eb47a2e6](https://github.com/appscode/cluster-ui/commit/eb47a2e6) Fix domain, port, integer -> string for warning, critical, in Alert
+- [5708ecc6](https://github.com/appscode/cluster-ui/commit/5708ecc6) Add Repositor-snapshot, Backend structure, fix JS codes
+- [41fe80b1](https://github.com/appscode/cluster-ui/commit/41fe80b1) Add Repository List page, breadcrumb, second-sidebar, etc.
+- [db87c7b5](https://github.com/appscode/cluster-ui/commit/db87c7b5) DB & Alert section: Add dynamic domain, port, clusterName
+- [031c317e](https://github.com/appscode/cluster-ui/commit/031c317e) Modify /minikube -> ${clusterName}, I wonder how the "Make domain, port, clusterName dynamic in all tests" commit is vanished for test-deployment file
+- [235afdef](https://github.com/appscode/cluster-ui/commit/235afdef) Add incident details page, acknowledge modal, api calls, etc.
+- [af499373](https://github.com/appscode/cluster-ui/commit/af499373) Fix Incident list page
+- [c0cf363b](https://github.com/appscode/cluster-ui/commit/c0cf363b) Fix alert-inner
+- [bd71c0b5](https://github.com/appscode/cluster-ui/commit/bd71c0b5) Fix certificate deploy, ssl
+- [c527de9e](https://github.com/appscode/cluster-ui/commit/c527de9e) Fix node, nodegroups
+- [4971565e](https://github.com/appscode/cluster-ui/commit/4971565e) Fluster clusterrolebindings
+- [7106cbf8](https://github.com/appscode/cluster-ui/commit/7106cbf8) Fix StorageClass
+- [637aefcf](https://github.com/appscode/cluster-ui/commit/637aefcf) Fix Recovery
+- [e1067de1](https://github.com/appscode/cluster-ui/commit/e1067de1) Fix Restic
+- [d07d104e](https://github.com/appscode/cluster-ui/commit/d07d104e) Fix clusterroles/roles section
+- [bebd12f6](https://github.com/appscode/cluster-ui/commit/bebd12f6) Fix Namespace
+- [151729ba](https://github.com/appscode/cluster-ui/commit/151729ba) Fix ServiceMonitor details page
+- [54766409](https://github.com/appscode/cluster-ui/commit/54766409) Fix Prometheus, Servicemonitors
+- [57cf07d1](https://github.com/appscode/cluster-ui/commit/57cf07d1) Fix Configmaps, Secrets
+- [21f16b41](https://github.com/appscode/cluster-ui/commit/21f16b41) Fix conflicts
+- [3bb78ea8](https://github.com/appscode/cluster-ui/commit/3bb78ea8) Merged in dynamic-cluster-name (pull request #197)
+- [211570e9](https://github.com/appscode/cluster-ui/commit/211570e9) Make domain, port, clusterName dynamic in all tests
+- [fffecd0f](https://github.com/appscode/cluster-ui/commit/fffecd0f) Fix cluster/certificate stuffs
+- [111b8866](https://github.com/appscode/cluster-ui/commit/111b8866) Fix Loadbalancer/ingress part
+- [1172898d](https://github.com/appscode/cluster-ui/commit/1172898d) Add servicemonitor tests
+- [3b000f1a](https://github.com/appscode/cluster-ui/commit/3b000f1a) Fix servicemonitor, monitoring reverseindex
+- [6993fc39](https://github.com/appscode/cluster-ui/commit/6993fc39) Fix Datastore section, all tests are passing, reload list page if item is missing immediately
+- [940583e7](https://github.com/appscode/cluster-ui/commit/940583e7) Merged in sajib (pull request #196)
+- [e7a0bdda](https://github.com/appscode/cluster-ui/commit/e7a0bdda) Add --disable-setuid-sandbox flag
+- [4ee9ecb4](https://github.com/appscode/cluster-ui/commit/4ee9ecb4) Add --no-sandbox flag
+- [fb365e94](https://github.com/appscode/cluster-ui/commit/fb365e94) Fix alert
+- [ced6c510](https://github.com/appscode/cluster-ui/commit/ced6c510) Fix api_version & test for Pod
+- [179a8f3a](https://github.com/appscode/cluster-ui/commit/179a8f3a) Fix api_version & test for Job
+- [7f709686](https://github.com/appscode/cluster-ui/commit/7f709686) Fix api_version & test for statefulset
+- [3f813860](https://github.com/appscode/cluster-ui/commit/3f813860) Fix miscellaneous
+- [709b82b5](https://github.com/appscode/cluster-ui/commit/709b82b5) Fix replicationcontroller test
+- [44c84395](https://github.com/appscode/cluster-ui/commit/44c84395) Fix generic delete, modal-annotations, etc.
+- [fbe25a7d](https://github.com/appscode/cluster-ui/commit/fbe25a7d) Fix tests
+- [37cccfd8](https://github.com/appscode/cluster-ui/commit/37cccfd8) Fix api_version & test for replicationcontroller
+- [44c39062](https://github.com/appscode/cluster-ui/commit/44c39062) Fix api_version & test for replicaset
+- [7ae5c45a](https://github.com/appscode/cluster-ui/commit/7ae5c45a) Fix api_version & test for daemonset
+- [4a601bbd](https://github.com/appscode/cluster-ui/commit/4a601bbd) Adding api_version for database
+- [fffa898b](https://github.com/appscode/cluster-ui/commit/fffa898b) Wrap Deployment tests by try/catch (more friendly error log)
+- [d497b854](https://github.com/appscode/cluster-ui/commit/d497b854) Pass all tests for Deployment
+- [416a02f3](https://github.com/appscode/cluster-ui/commit/416a02f3) Add api_version in some API calls
+- [f80f93b7](https://github.com/appscode/cluster-ui/commit/f80f93b7) Add type-to-apiversion.json file
+- [6d15e5ec](https://github.com/appscode/cluster-ui/commit/6d15e5ec) Add Memcached DB tests
+- [8b15baa1](https://github.com/appscode/cluster-ui/commit/8b15baa1) Add Redis DB tests
+- [b04b03cd](https://github.com/appscode/cluster-ui/commit/b04b03cd) Add MongoDB basic tests
+- [c4bf6971](https://github.com/appscode/cluster-ui/commit/c4bf6971) Add basic tests for MySQL
+- [a05eef57](https://github.com/appscode/cluster-ui/commit/a05eef57) Add toastr-error checking (api response) for event page
+- [acc9bd6f](https://github.com/appscode/cluster-ui/commit/acc9bd6f) Add PostgreSQL basic tests
+- [3465ab5d](https://github.com/appscode/cluster-ui/commit/3465ab5d) Automate screenshot/${kubeObName} dir create/delete action
+- [8cabf7bf](https://github.com/appscode/cluster-ui/commit/8cabf7bf) Keep screenshots dir and push to remote
+- [7ca02376](https://github.com/appscode/cluster-ui/commit/7ca02376) Move event.png to corresponding kube dir
+- [2b86f259](https://github.com/appscode/cluster-ui/commit/2b86f259) Remove t2/t3.png screenshots
+- [663d72d3](https://github.com/appscode/cluster-ui/commit/663d72d3) Add tests for PodAlert
+- [2082f55e](https://github.com/appscode/cluster-ui/commit/2082f55e) Add tests for NodeAlert
+- [80aae43c](https://github.com/appscode/cluster-ui/commit/80aae43c) Add tests for ClusterAlert
+- [a1fb95be](https://github.com/appscode/cluster-ui/commit/a1fb95be) Rename shared.js -> cookies.js
+- [cb84bed4](https://github.com/appscode/cluster-ui/commit/cb84bed4) Fix Statefulset testing
+- [01863104](https://github.com/appscode/cluster-ui/commit/01863104) Add deployment tests
+- [421b7816](https://github.com/appscode/cluster-ui/commit/421b7816) Add tests for Daemonset
+- [2f73168a](https://github.com/appscode/cluster-ui/commit/2f73168a) Add tests for Pod
+- [15934752](https://github.com/appscode/cluster-ui/commit/15934752) Add tests for jobs
+- [4f124ec7](https://github.com/appscode/cluster-ui/commit/4f124ec7) Add tests for statefulsets
+- [f0a2a753](https://github.com/appscode/cluster-ui/commit/f0a2a753) Add `monitoring` for jobs
+- [e1877e2b](https://github.com/appscode/cluster-ui/commit/e1877e2b) Add tests for replicationcontroller
+- [686d2c7d](https://github.com/appscode/cluster-ui/commit/686d2c7d) Modify some codes in deployment/replicaset tests
+- [57bfb621](https://github.com/appscode/cluster-ui/commit/57bfb621) Add testing for Replicaset Delete modal, and finally deleted the item successfully
+- [19484579](https://github.com/appscode/cluster-ui/commit/19484579) Add tests for Replicaset
+- [14693cce](https://github.com/appscode/cluster-ui/commit/14693cce) Make deployment test generic
+- [8b63ae0f](https://github.com/appscode/cluster-ui/commit/8b63ae0f) Add tests for deployment's resource/details/edit/event/monitoring
+- [8a6fe9ad](https://github.com/appscode/cluster-ui/commit/8a6fe9ad) Add tests for deployment details page
+- [5d26c1d6](https://github.com/appscode/cluster-ui/commit/5d26c1d6) Get working Mocha, Chai with Puppeteer, tests are more structural now
+- [a140dec2](https://github.com/appscode/cluster-ui/commit/a140dec2) Add screenshots/ in .gitignore
+- [90248a22](https://github.com/appscode/cluster-ui/commit/90248a22) Fix window size & viewport size
+- [e5eb6450](https://github.com/appscode/cluster-ui/commit/e5eb6450) Add deployment create, list tests, move to separate folders, read cookies from external files
+- [0d3fc02b](https://github.com/appscode/cluster-ui/commit/0d3fc02b) Merged in changeApiVersion (pull request #195)
+- [3da48445](https://github.com/appscode/cluster-ui/commit/3da48445) Merged in ph-sajib (pull request #194)
+- [6c631a63](https://github.com/appscode/cluster-ui/commit/6c631a63) Change api version v1beta1 -> v1alpha1
+- [93593cc9](https://github.com/appscode/cluster-ui/commit/93593cc9) Stop building attic/, ci/, files modifying gulpfile.js
+- [90b172cd](https://github.com/appscode/cluster-ui/commit/90b172cd) Merged in ph-sajib (pull request #193)
+- [5b267ed3](https://github.com/appscode/cluster-ui/commit/5b267ed3) Fix list api call (issue: arguments length cross in api call)
+- [a68aa63b](https://github.com/appscode/cluster-ui/commit/a68aa63b) Modify prometheus reverseindex api call (get prometheus list from ServiceMonitor), fix list page labels, fix fragment issue
+- [aaa966b3](https://github.com/appscode/cluster-ui/commit/aaa966b3) Fix backend, page redirections, icons, check if error in yaml <-> json convertion
+- [4c23aed1](https://github.com/appscode/cluster-ui/commit/4c23aed1) Add recovery details, events, resource definition pages
+- [097e2d17](https://github.com/appscode/cluster-ui/commit/097e2d17) Dynamic recovery modal, recovery create
+- [ea8c4063](https://github.com/appscode/cluster-ui/commit/ea8c4063) Merge branch 'master' of bitbucket.org:appscode/pharm into ph-sajib
+- [abadfade](https://github.com/appscode/cluster-ui/commit/abadfade) Fix recovery list, cleanup DB pages, Fix breadcrumb for recovery
+- [089f291e](https://github.com/appscode/cluster-ui/commit/089f291e) Merged in pharmer (pull request #192)
+- [cf292f9b](https://github.com/appscode/cluster-ui/commit/cf292f9b) Fix restic retentionPolicy, add recovery list page, fix event for CRD, etc.
+- [b9950d76](https://github.com/appscode/cluster-ui/commit/b9950d76) Fix events, rename, etc.
+- [aefc7891](https://github.com/appscode/cluster-ui/commit/aefc7891) Update details page for various DB objects, fix backup, restore
+- [1eafc0b8](https://github.com/appscode/cluster-ui/commit/1eafc0b8) Got snapshots list/details/event/resource generic
+- [6535a67f](https://github.com/appscode/cluster-ui/commit/6535a67f) Add all pages for MongoDB, Redis, Memcached
+- [e4343c6d](https://github.com/appscode/cluster-ui/commit/e4343c6d) Fix mysql snapshots, lock/unlock, event, resource, etc.
+- [89cdcec8](https://github.com/appscode/cluster-ui/commit/89cdcec8) Generic details page, modify routers, second-sidebar, header-details, icons, etc. for DB
+- [1ceb0a7e](https://github.com/appscode/cluster-ui/commit/1ceb0a7e) Remove availableApiVersion dropdown for all Kube Objects list pages
+- [9235bdb6](https://github.com/appscode/cluster-ui/commit/9235bdb6) Add generic delete btn, event, modal for deployment
+- [21a2d8bc](https://github.com/appscode/cluster-ui/commit/21a2d8bc) Make all icons generic for *.js files
+- [c68de01c](https://github.com/appscode/cluster-ui/commit/c68de01c) Make icons generic of pharm.router.js
+- [3b77ffae](https://github.com/appscode/cluster-ui/commit/3b77ffae) Fix conflicts with master
+- [5fda0d8b](https://github.com/appscode/cluster-ui/commit/5fda0d8b) Fix cluster deleted/failed/all lists routers
+- [001015ec](https://github.com/appscode/cluster-ui/commit/001015ec) Add eye icon for credential input type=password field, show/hide password
+- [0dc2e111](https://github.com/appscode/cluster-ui/commit/0dc2e111) Add nodegroup resource json <-> yaml converter
+- [d0b68c22](https://github.com/appscode/cluster-ui/commit/d0b68c22) Fix nodebgroup delete bugs, asidebar collapsible bugs
+- [34649e63](https://github.com/appscode/cluster-ui/commit/34649e63) Get working cluster apply changes (HTML, JS, etc.)
+- [d2328e3c](https://github.com/appscode/cluster-ui/commit/d2328e3c) Add collapsible sidebar
+- [3deb0e23](https://github.com/appscode/cluster-ui/commit/3deb0e23) Fix nodegroup delete bug
+- [a9d1f5a8](https://github.com/appscode/cluster-ui/commit/a9d1f5a8) Get cluster delete working, rearrange sidebar items
+- [e106403f](https://github.com/appscode/cluster-ui/commit/e106403f) Dynamic node set fields generate
+- [6406e481](https://github.com/appscode/cluster-ui/commit/6406e481) Add cluster create dynamic form, cluster is creating
+- [f3962687](https://github.com/appscode/cluster-ui/commit/f3962687) Fix nodegroup details page
+- [ccc5944b](https://github.com/appscode/cluster-ui/commit/ccc5944b) Update docker build script
+- [19c841d8](https://github.com/appscode/cluster-ui/commit/19c841d8) Add Docker build scripts
+- [c315ecf7](https://github.com/appscode/cluster-ui/commit/c315ecf7) Merge commit 'b2cbc75e7a8d7793f1dba8d2ea67b781027d25a7' as 'hack/libbuild'
+- [5be5c79c](https://github.com/appscode/cluster-ui/commit/5be5c79c) cleanup nodegroup list
+- [eabf6564](https://github.com/appscode/cluster-ui/commit/eabf6564) Use common condition-row, fix icon, date, etc.
+- [0c4f5cbc](https://github.com/appscode/cluster-ui/commit/0c4f5cbc) Add node list & details page, mv various files
+- [d0648083](https://github.com/appscode/cluster-ui/commit/d0648083) Add node list table inside Nodegroup page, mv various file, fix time.js, etc.
+- [308be031](https://github.com/appscode/cluster-ui/commit/308be031) Fix cluster details page, nodegroup list page, etc.
+- [b38b1384](https://github.com/appscode/cluster-ui/commit/b38b1384) Fix cluster list, details (basics, apiSeverUrl, various modal, etc.) pages.
+- [638f2414](https://github.com/appscode/cluster-ui/commit/638f2414) Fix cluster list page, show cred. edit success toastr, asidebar
+- [6d650573](https://github.com/appscode/cluster-ui/commit/6d650573) Done with cred. edit & create pages
+- [94d61867](https://github.com/appscode/cluster-ui/commit/94d61867) Generate dynamic key/value data in create & details page
+- [2cec2479](https://github.com/appscode/cluster-ui/commit/2cec2479) Cluster list, details pages (WIP)
+- [505152b6](https://github.com/appscode/cluster-ui/commit/505152b6) Fix service_account key: value textarea, add codemirror
+- [e997a122](https://github.com/appscode/cluster-ui/commit/e997a122) Credential Details page (WIP)
+- [45f18928](https://github.com/appscode/cluster-ui/commit/45f18928) Fix credential create's dynamic form, tested for all clouds
+- [4a43b62a](https://github.com/appscode/cluster-ui/commit/4a43b62a) Get working Cluster list
+- [fad132f6](https://github.com/appscode/cluster-ui/commit/fad132f6) Get working certificate create, list, details.
+- [382b7c11](https://github.com/appscode/cluster-ui/commit/382b7c11) Move SSL -> Certificate view files
+- [5d1b6a7e](https://github.com/appscode/cluster-ui/commit/5d1b6a7e) Fix html code formatting
+- [a9034a00](https://github.com/appscode/cluster-ui/commit/a9034a00) Add config.yaml in cluster details page
+- [c3799ebc](https://github.com/appscode/cluster-ui/commit/c3799ebc) Add service monitor list in prometheus page. Fix breadcrumb
+- [62fb8e60](https://github.com/appscode/cluster-ui/commit/62fb8e60) Add monitoring for Pod, Service. Add service list in Pod details page.
+- [9d3031d1](https://github.com/appscode/cluster-ui/commit/9d3031d1) Add Monitoring for Deployments, Replicaset, ReplicationController, Daemonset, StatefulSets, Jobs. Fix generic Event's multiple issues (top header, icon, name, etc.)
+- [88834cce](https://github.com/appscode/cluster-ui/commit/88834cce) Done adding Monitoring for replicationset
+- [41ed29e0](https://github.com/appscode/cluster-ui/commit/41ed29e0) Make workdload's SecondSidebar, header, Alert, Event, generic
+- [1cfbf3b0](https://github.com/appscode/cluster-ui/commit/1cfbf3b0) Fix Prometheus list page issues
+- [a828874d](https://github.com/appscode/cluster-ui/commit/a828874d) JS Must know topics
+- [b5b0e852](https://github.com/appscode/cluster-ui/commit/b5b0e852) Fix js:lint errors
+- [9dd7f2e8](https://github.com/appscode/cluster-ui/commit/9dd7f2e8) Add prometheus for All in Workloads
+- [c42e6ea6](https://github.com/appscode/cluster-ui/commit/c42e6ea6) Add pods, service sections for daemonset, job, statefulset
+- [be91267b](https://github.com/appscode/cluster-ui/commit/be91267b) Add pods, service sections in Replication, Replication Controller Details page
+- [90dd9b4f](https://github.com/appscode/cluster-ui/commit/90dd9b4f) Add service list, prometheus list sections in Deployment Details page
+- [64c91515](https://github.com/appscode/cluster-ui/commit/64c91515) Get Service list api generic (WIP)
+- [c660bbad](https://github.com/appscode/cluster-ui/commit/c660bbad) Generic various kube objects list table rows
+- [64a23247](https://github.com/appscode/cluster-ui/commit/64a23247) Make generic delete btn of LoadBalancer
+- [c4772975](https://github.com/appscode/cluster-ui/commit/c4772975) Change api link v1beta2 -> v1beta1
+- [97c80df5](https://github.com/appscode/cluster-ui/commit/97c80df5) Get generic delete btn for Secret
+- [23308ed7](https://github.com/appscode/cluster-ui/commit/23308ed7) Get generic delete btn for Alert & Configmap
+- [fd9bb8ce](https://github.com/appscode/cluster-ui/commit/fd9bb8ce) Show release lists (all type of status_codes)
+- [8e6a1c5a](https://github.com/appscode/cluster-ui/commit/8e6a1c5a) Update package.json
+- [a9e147fb](https://github.com/appscode/cluster-ui/commit/a9e147fb) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into release-swift
+- [3d973740](https://github.com/appscode/cluster-ui/commit/3d973740) Fix conflicts
+- [951d8f5c](https://github.com/appscode/cluster-ui/commit/951d8f5c) Release(WIP)
+- [914c899c](https://github.com/appscode/cluster-ui/commit/914c899c) Fix modal not copying issue (use data-clipboard-target instead data-clipboard-text, ignore display: none, destroy previous clipboad object)
+- [a82554e7](https://github.com/appscode/cluster-ui/commit/a82554e7) Annotations generic modal(WIP)
+- [f08f0cb6](https://github.com/appscode/cluster-ui/commit/f08f0cb6) Make annotations data (details page) generic
+- [3eff0b4c](https://github.com/appscode/cluster-ui/commit/3eff0b4c) 2. Fix resource.type from All templates (lots of changes)
+- [ff786d29](https://github.com/appscode/cluster-ui/commit/ff786d29) Fix resource.type from All templates (lot's of changes)
+- [404ea3c3](https://github.com/appscode/cluster-ui/commit/404ea3c3) Fix resource.type for Databases section's pages
+- [8f3e1930](https://github.com/appscode/cluster-ui/commit/8f3e1930) Fix resource.type for `Prometheus` pages
+- [6dde16ca](https://github.com/appscode/cluster-ui/commit/6dde16ca) Fix resource.type for `Daemonset`
+- [cc65ae08](https://github.com/appscode/cluster-ui/commit/cc65ae08) Fix resource.type for `Service`
+- [30ffe9b3](https://github.com/appscode/cluster-ui/commit/30ffe9b3) Fix resource.type for `role` pages
+- [67067dc9](https://github.com/appscode/cluster-ui/commit/67067dc9) Fix resource.type for statefulset, change flaticon-name petsets -> statefulsets
+- [64833880](https://github.com/appscode/cluster-ui/commit/64833880) Fix resource.type for `Deployment`
+- [19610dda](https://github.com/appscode/cluster-ui/commit/19610dda) Fix resource.type for `ReplicaSet`
+- [fa177e00](https://github.com/appscode/cluster-ui/commit/fa177e00) Fix resource.type for `ServiceMonitor`
+- [e7ab4de8](https://github.com/appscode/cluster-ui/commit/e7ab4de8) Fix resource.type for `StorageClass`
+- [43ad40f0](https://github.com/appscode/cluster-ui/commit/43ad40f0) Fix resource.type for `Nodes`
+- [185047d3](https://github.com/appscode/cluster-ui/commit/185047d3) Fix resource.type for `Pod` pages
+- [91b3d221](https://github.com/appscode/cluster-ui/commit/91b3d221) Fix resource.type for `Namespaces`
+- [98114f1b](https://github.com/appscode/cluster-ui/commit/98114f1b) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm into fix-resource.type
+- [c2e2687b](https://github.com/appscode/cluster-ui/commit/c2e2687b) Comment out codes for setting */instance-type, */role in nodes api response
+- [e35dee47](https://github.com/appscode/cluster-ui/commit/e35dee47) Fix resource.type for ReplicationController pages
+- [0b459601](https://github.com/appscode/cluster-ui/commit/0b459601) Fix 'type' for jobs
+- [d7755abe](https://github.com/appscode/cluster-ui/commit/d7755abe) Fix redirect URL for node alert's /new
+- [e3a8e35b](https://github.com/appscode/cluster-ui/commit/e3a8e35b) Node Alert (inner) pages working
+- [cccab7e1](https://github.com/appscode/cluster-ui/commit/cccab7e1) Node Alert (inner, WIP)
+- [041f42cd](https://github.com/appscode/cluster-ui/commit/041f42cd) Inner Pod Alert list/new/detais/event/resource pages
+- [6d8b6392](https://github.com/appscode/cluster-ui/commit/6d8b6392) Fix create/cancel btn redirect URL issues of inner Alert's /new page
+- [a8911f06](https://github.com/appscode/cluster-ui/commit/a8911f06) Working List, Details, Edit, Event, Resource for inner-alert Deployment
+- [c7c304ae](https://github.com/appscode/cluster-ui/commit/c7c304ae) Inner-Alert list page (done)
+- [e428c7b4](https://github.com/appscode/cluster-ui/commit/e428c7b4) Inner Alert list page (WIP)
+- [eb069e5e](https://github.com/appscode/cluster-ui/commit/eb069e5e) Make inner-alert list page (WIP)
+- [5a8e39a4](https://github.com/appscode/cluster-ui/commit/5a8e39a4) Fix conflicts with master
+- [fce4c8e6](https://github.com/appscode/cluster-ui/commit/fce4c8e6) yarn upgrade --ignore-engines
+- [3a10259a](https://github.com/appscode/cluster-ui/commit/3a10259a) TCP details, Add no_TLS check, remove `ingress_backend` from nested obj
+- [497fcce0](https://github.com/appscode/cluster-ui/commit/497fcce0) Make secret, service linkable in HTTP/HTTPS list page
+- [a95fc4f6](https://github.com/appscode/cluster-ui/commit/a95fc4f6) Get HTTP/HTTPS details pages working
+- [32c83195](https://github.com/appscode/cluster-ui/commit/32c83195) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into lb
+- [d235bd71](https://github.com/appscode/cluster-ui/commit/d235bd71) Fix conflicts
+- [bfbdde15](https://github.com/appscode/cluster-ui/commit/bfbdde15) Merge branch 'in-test-webdriver' of diffusion.appscode.com:appscode/60/pharm
+- [dc6a9d99](https://github.com/appscode/cluster-ui/commit/dc6a9d99) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into prom-h
+- [68f6d1f0](https://github.com/appscode/cluster-ui/commit/68f6d1f0) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [0f2575ed](https://github.com/appscode/cluster-ui/commit/0f2575ed) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into klog
+- [8e07d65a](https://github.com/appscode/cluster-ui/commit/8e07d65a) Merge branch 'wh-tour' of diffusion.appscode.com:appscode/60/pharm
+- [9606de70](https://github.com/appscode/cluster-ui/commit/9606de70) LB http details WIP
+- [90e4a4a5](https://github.com/appscode/cluster-ui/commit/90e4a4a5) Comment out Unused LB router functions
+- [db289687](https://github.com/appscode/cluster-ui/commit/db289687) Handle the case when nested property not exists
+- [fd6a75e5](https://github.com/appscode/cluster-ui/commit/fd6a75e5) Reload bowser when LB obj is edited since setTLSHostToSecret need to be updated always
+- [1e68a71d](https://github.com/appscode/cluster-ui/commit/1e68a71d) Fix breadcrumb JS (rewrite splitLocationWithSlash method)
+- [fabdb6c3](https://github.com/appscode/cluster-ui/commit/fabdb6c3) Get LB Resource definition, Edit, working. Fix HTTP list nunjucks
+- [40fe025c](https://github.com/appscode/cluster-ui/commit/40fe025c) HTTP list working
+- [368c2a40](https://github.com/appscode/cluster-ui/commit/368c2a40) LB rules (WIP)
+- [2dbd938a](https://github.com/appscode/cluster-ui/commit/2dbd938a) LB create working, LB details (WIP)
+- [be1fe2e0](https://github.com/appscode/cluster-ui/commit/be1fe2e0) LB list page modified with new API changes
+- [961671f2](https://github.com/appscode/cluster-ui/commit/961671f2) Fix purge delete typo
+- [302bf134](https://github.com/appscode/cluster-ui/commit/302bf134) Release/Tiller rollback, modify install/update chart form, breadcrumb
+- [2e8e1ae6](https://github.com/appscode/cluster-ui/commit/2e8e1ae6) Tiller Install, Update working
+- [1f91b66f](https://github.com/appscode/cluster-ui/commit/1f91b66f) Update header (new look like phab.) for pharm, ci, artifact
+- [5bca0873](https://github.com/appscode/cluster-ui/commit/5bca0873) Fix header JS (dropdown various functions)
+- [c7f1d39a](https://github.com/appscode/cluster-ui/commit/c7f1d39a) Fixed header CSS
+- [25e14606](https://github.com/appscode/cluster-ui/commit/25e14606) Fix header (WIP)
+- [491d13bb](https://github.com/appscode/cluster-ui/commit/491d13bb) Alert's new & edit pages
+- [796b256f](https://github.com/appscode/cluster-ui/commit/796b256f) ALert's Basics, Events, Resource definition working
+- [b0c3730f](https://github.com/appscode/cluster-ui/commit/b0c3730f) Remove multiple scrollbars in exec terminal
+- [0632002c](https://github.com/appscode/cluster-ui/commit/0632002c) Fix
+- [5f79adf1](https://github.com/appscode/cluster-ui/commit/5f79adf1) Alert Details pages (WIP)
+- [7d471e4f](https://github.com/appscode/cluster-ui/commit/7d471e4f) Alert list pages for cluster, node, pod
+- [fde7cafa](https://github.com/appscode/cluster-ui/commit/fde7cafa) Add widht and height (hard-coded for testing)
+- [af17735e](https://github.com/appscode/cluster-ui/commit/af17735e) Check nowUrl === this.url before html rendering
+- [c0e19fdb](https://github.com/appscode/cluster-ui/commit/c0e19fdb) Limit 30 lines for log
+- [f8cadd81](https://github.com/appscode/cluster-ui/commit/f8cadd81) Cleanup some console
+- [13db91b8](https://github.com/appscode/cluster-ui/commit/13db91b8) Add dynamic WS variable for log/exec
+- [8cadf617](https://github.com/appscode/cluster-ui/commit/8cadf617) Decrease the setTimeout to 100
+- [5b56ddb1](https://github.com/appscode/cluster-ui/commit/5b56ddb1) Fix resource idName (raw => resource)
+- [8b21a5bb](https://github.com/appscode/cluster-ui/commit/8b21a5bb) Fix termial height by fit() addons
+- [8a30b943](https://github.com/appscode/cluster-ui/commit/8a30b943) Dynamic log/exec icons
+- [e65abb16](https://github.com/appscode/cluster-ui/commit/e65abb16) Fix
+- [f019e09c](https://github.com/appscode/cluster-ui/commit/f019e09c) Add `command` select for exec page
+- [abb0c4b2](https://github.com/appscode/cluster-ui/commit/abb0c4b2) fix text in svc monitor and prometheus create page
+- [968c9290](https://github.com/appscode/cluster-ui/commit/968c9290) Fix conflicts
+- [4d9ad3c1](https://github.com/appscode/cluster-ui/commit/4d9ad3c1) show empty data correctly
+- [44956ca8](https://github.com/appscode/cluster-ui/commit/44956ca8) Modify location.protocol (https -> https:)
+- [f0fcd6d3](https://github.com/appscode/cluster-ui/commit/f0fcd6d3) Fix various bug for terminal in log/exec pages
+- [b7462ee2](https://github.com/appscode/cluster-ui/commit/b7462ee2) fix header text in prometheus resource page
+- [b3254412](https://github.com/appscode/cluster-ui/commit/b3254412) add service monitor and prometheus create option
+- [fd6bb339](https://github.com/appscode/cluster-ui/commit/fd6bb339) certificate created_at position fix
+- [e024d83c](https://github.com/appscode/cluster-ui/commit/e024d83c) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into prom-h
+- [93a545ef](https://github.com/appscode/cluster-ui/commit/93a545ef) traverse list
+- [648891d9](https://github.com/appscode/cluster-ui/commit/648891d9) show '-' if zone is undefined
+- [d257abdd](https://github.com/appscode/cluster-ui/commit/d257abdd) extract link from cluster details
+- [1f834271](https://github.com/appscode/cluster-ui/commit/1f834271) resource header status fix
+- [0d79dc67](https://github.com/appscode/cluster-ui/commit/0d79dc67) handle certificate status in header
+- [470cf596](https://github.com/appscode/cluster-ui/commit/470cf596) fix certificate type issue
+- [f71a7198](https://github.com/appscode/cluster-ui/commit/f71a7198) fix certificate type
+- [c75dbb47](https://github.com/appscode/cluster-ui/commit/c75dbb47) travel cluster list
+- [3ee91b22](https://github.com/appscode/cluster-ui/commit/3ee91b22) fix modal text of svc_monitor and prometheus
+- [6618578b](https://github.com/appscode/cluster-ui/commit/6618578b) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into prom-h
+- [8d78bfd1](https://github.com/appscode/cluster-ui/commit/8d78bfd1) resource view for service monitor
+- [b083eb47](https://github.com/appscode/cluster-ui/commit/b083eb47) service monitor events
+- [e181e3a2](https://github.com/appscode/cluster-ui/commit/e181e3a2) service monetor describe
+- [3d2627c4](https://github.com/appscode/cluster-ui/commit/3d2627c4) made prometheus and service montitor list render smooth [as change namespace occurs some jumping]
+- [f80e13c2](https://github.com/appscode/cluster-ui/commit/f80e13c2) Fix restics typo, pass iconName when empty response
+- [f95ae9ff](https://github.com/appscode/cluster-ui/commit/f95ae9ff) fix service list
+- [a1c06859](https://github.com/appscode/cluster-ui/commit/a1c06859) Fix double printing of ws message
+- [8d044a38](https://github.com/appscode/cluster-ui/commit/8d044a38) fix service monitor list
+- [369301ea](https://github.com/appscode/cluster-ui/commit/369301ea) add test-images folder in .gitignore
+- [7f802e02](https://github.com/appscode/cluster-ui/commit/7f802e02) Get xterm.js library working
+- [bfed2574](https://github.com/appscode/cluster-ui/commit/bfed2574) enter into first ready state cluster
+- [4f7802e6](https://github.com/appscode/cluster-ui/commit/4f7802e6) svc monitor list
+- [9f763f88](https://github.com/appscode/cluster-ui/commit/9f763f88) add custom search in svc_monitor list
+- [cbd9b5f0](https://github.com/appscode/cluster-ui/commit/cbd9b5f0) add service monitor in asidebar
+- [1effd5b9](https://github.com/appscode/cluster-ui/commit/1effd5b9) prometheus -> svc_monitor_list
+- [c712ca24](https://github.com/appscode/cluster-ui/commit/c712ca24) getting svc_monitors with label selectors
+- [260da131](https://github.com/appscode/cluster-ui/commit/260da131) adding service monitor list
+- [4275588a](https://github.com/appscode/cluster-ui/commit/4275588a) add spec in prometheus
+- [3a4cc3f5](https://github.com/appscode/cluster-ui/commit/3a4cc3f5) add created at in basic page
+- [e1dcf61e](https://github.com/appscode/cluster-ui/commit/e1dcf61e) add inner cluster
+- [5047477f](https://github.com/appscode/cluster-ui/commit/5047477f) test
+- [4f4d2c6c](https://github.com/appscode/cluster-ui/commit/4f4d2c6c) fix basic edit btn route
+- [70abd5d8](https://github.com/appscode/cluster-ui/commit/70abd5d8) add resource in prometheus
+- [beecf3d9](https://github.com/appscode/cluster-ui/commit/beecf3d9) add event and resource view for prometheus
+- [7d33819a](https://github.com/appscode/cluster-ui/commit/7d33819a) Render Container list's in select box, update textarea's scrollHeight, fix bugs
+- [73bd418b](https://github.com/appscode/cluster-ui/commit/73bd418b) add cluster tour
+- [7736b1da](https://github.com/appscode/cluster-ui/commit/7736b1da) add prometheus basic
+- [f01bcb7c](https://github.com/appscode/cluster-ui/commit/f01bcb7c) hide prometheus list in qa and prod
+- [3a688763](https://github.com/appscode/cluster-ui/commit/3a688763) add prometheus list
+- [4a22a921](https://github.com/appscode/cluster-ui/commit/4a22a921) add prometheus list template
+- [278bab8b](https://github.com/appscode/cluster-ui/commit/278bab8b) adding pharm-tour (selenium automation) script
+- [a19247fa](https://github.com/appscode/cluster-ui/commit/a19247fa) Container change's event triggering, Fix second-sidebar, breadcrumb, etc.
+- [e7d8cd0a](https://github.com/appscode/cluster-ui/commit/e7d8cd0a) fix role delete modal text, reroute url
+- [b418405d](https://github.com/appscode/cluster-ui/commit/b418405d) Exec (WIP)
+- [43351d3e](https://github.com/appscode/cluster-ui/commit/43351d3e) fix event message length
+- [3891a290](https://github.com/appscode/cluster-ui/commit/3891a290) fix status icon type in db list
+- [3fffa920](https://github.com/appscode/cluster-ui/commit/3fffa920) fix dormant wipeOut reroute url
+- [aeba7cee](https://github.com/appscode/cluster-ui/commit/aeba7cee) fix header text
+- [16fe8909](https://github.com/appscode/cluster-ui/commit/16fe8909) fix text in secret and configmap create
+- [9a8827c6](https://github.com/appscode/cluster-ui/commit/9a8827c6) fix config map types
+- [83729f7e](https://github.com/appscode/cluster-ui/commit/83729f7e) clean up
+- [7f135001](https://github.com/appscode/cluster-ui/commit/7f135001) create cluster role bindings reroute fix
+- [70f9ddd9](https://github.com/appscode/cluster-ui/commit/70f9ddd9) fix reroute url after save-changes in role-bindings
+- [59724798](https://github.com/appscode/cluster-ui/commit/59724798) fix bindings type
+- [6b468e90](https://github.com/appscode/cluster-ui/commit/6b468e90) fix delete redirect url
+- [e370bed8](https://github.com/appscode/cluster-ui/commit/e370bed8) fix statefulset deleete type
+- [497abcb2](https://github.com/appscode/cluster-ui/commit/497abcb2) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [4179b907](https://github.com/appscode/cluster-ui/commit/4179b907) fix role bindings type
+- [6726d892](https://github.com/appscode/cluster-ui/commit/6726d892) fix restic hide
+- [834cb1de](https://github.com/appscode/cluster-ui/commit/834cb1de) add text when ca_cert is not present
+- [0de96d78](https://github.com/appscode/cluster-ui/commit/0de96d78) Upate yarn.lock
+- [4b9dd0f3](https://github.com/appscode/cluster-ui/commit/4b9dd0f3) fix modal codemirror
+- [3d083d53](https://github.com/appscode/cluster-ui/commit/3d083d53) remove inline css
+- [cc7c55b0](https://github.com/appscode/cluster-ui/commit/cc7c55b0) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [a3a5663d](https://github.com/appscode/cluster-ui/commit/a3a5663d) change sidebar idname in sidebar
+- [04a3a572](https://github.com/appscode/cluster-ui/commit/04a3a572) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [da38aed2](https://github.com/appscode/cluster-ui/commit/da38aed2) Add more padding in table column
+- [fa07c3e3](https://github.com/appscode/cluster-ui/commit/fa07c3e3) fix typo
+- [047ae82f](https://github.com/appscode/cluster-ui/commit/047ae82f) fix some spec
+- [fabb58bc](https://github.com/appscode/cluster-ui/commit/fabb58bc) fix storage_spec
+- [1a0ff7b9](https://github.com/appscode/cluster-ui/commit/1a0ff7b9) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [bf2e1143](https://github.com/appscode/cluster-ui/commit/bf2e1143) fix snapshot_storage_spec
+- [91c16ccd](https://github.com/appscode/cluster-ui/commit/91c16ccd) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [43deb8b8](https://github.com/appscode/cluster-ui/commit/43deb8b8) Link restic for deployment/daemonset/replicaset/replicationcontroller/statefulset. Fix icons and HTML
+- [916ce9fc](https://github.com/appscode/cluster-ui/commit/916ce9fc) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [0d7b77de](https://github.com/appscode/cluster-ui/commit/0d7b77de) elastics -> elasticsearchs
+- [4501c25c](https://github.com/appscode/cluster-ui/commit/4501c25c) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [aa08374e](https://github.com/appscode/cluster-ui/commit/aa08374e) fix restore form text
+- [1316786d](https://github.com/appscode/cluster-ui/commit/1316786d) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [a0dc141a](https://github.com/appscode/cluster-ui/commit/a0dc141a) fix dormant appropriately in breadcrumb
+- [38d1e114](https://github.com/appscode/cluster-ui/commit/38d1e114) fix drmn resume modal btn css fix
+- [d27f5788](https://github.com/appscode/cluster-ui/commit/d27f5788) Restic: make edit/delete icon generic for details page
+- [2494d004](https://github.com/appscode/cluster-ui/commit/2494d004) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [a1390c16](https://github.com/appscode/cluster-ui/commit/a1390c16) fix type drmn db snapshot restore
+- [83c5e56b](https://github.com/appscode/cluster-ui/commit/83c5e56b) fix dbtype in snapshot restore
+- [b2f3618f](https://github.com/appscode/cluster-ui/commit/b2f3618f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [52a9ebfa](https://github.com/appscode/cluster-ui/commit/52a9ebfa) fix drmn snapshot restore
+- [daa283c3](https://github.com/appscode/cluster-ui/commit/daa283c3) fix labels
+- [12eba257](https://github.com/appscode/cluster-ui/commit/12eba257) get origin spec in drmn db snapshot
+- [c89db147](https://github.com/appscode/cluster-ui/commit/c89db147) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [fb875768](https://github.com/appscode/cluster-ui/commit/fb875768) Make restic icon generic. Render fileGroup, volumeMount tables
+- [fb7c01f5](https://github.com/appscode/cluster-ui/commit/fb7c01f5) fix drmn db restore
+- [f52e4184](https://github.com/appscode/cluster-ui/commit/f52e4184) fix dormant db snapshot's type
+- [2cd2c118](https://github.com/appscode/cluster-ui/commit/2cd2c118) fix kind in drmn snapshot list
+- [78c00c6f](https://github.com/appscode/cluster-ui/commit/78c00c6f) Link Restic from pod's details page (checking annotations generate Restic: <restc-name> dynamically), Various Backend templates generate dynamically
+- [6cf2d2b8](https://github.com/appscode/cluster-ui/commit/6cf2d2b8) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [20b5baf7](https://github.com/appscode/cluster-ui/commit/20b5baf7) handle status.phase completely
+- [ad57aa0f](https://github.com/appscode/cluster-ui/commit/ad57aa0f) Merge branch 'fix-cltr-h' of diffusion.appscode.com:appscode/60/pharm
+- [8fa92fe5](https://github.com/appscode/cluster-ui/commit/8fa92fe5) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [529fccfe](https://github.com/appscode/cluster-ui/commit/529fccfe) pass kind elastic
+- [4283cf7c](https://github.com/appscode/cluster-ui/commit/4283cf7c) Merge branch 'fix-cltr-h' of diffusion.appscode.com:appscode/60/pharm
+- [88d00f35](https://github.com/appscode/cluster-ui/commit/88d00f35) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [42427b44](https://github.com/appscode/cluster-ui/commit/42427b44) fix
+- [597bac71](https://github.com/appscode/cluster-ui/commit/597bac71) Merge branch 'fix-cltr-h' of diffusion.appscode.com:appscode/60/pharm
+- [d454b13b](https://github.com/appscode/cluster-ui/commit/d454b13b) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [db152a3e](https://github.com/appscode/cluster-ui/commit/db152a3e) pass kind properly for es backup
+- [c385c56b](https://github.com/appscode/cluster-ui/commit/c385c56b) Merge branch 'fix-cltr-h' of diffusion.appscode.com:appscode/60/pharm
+- [217635ea](https://github.com/appscode/cluster-ui/commit/217635ea) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [64283176](https://github.com/appscode/cluster-ui/commit/64283176) fix backup option in elastic
+- [7e67aa55](https://github.com/appscode/cluster-ui/commit/7e67aa55) Merge branch 'fix-cltr-h' of diffusion.appscode.com:appscode/60/pharm
+- [c5cd13fd](https://github.com/appscode/cluster-ui/commit/c5cd13fd) fix restore route
+- [2fac9396](https://github.com/appscode/cluster-ui/commit/2fac9396) fix name in router
+- [86fecd61](https://github.com/appscode/cluster-ui/commit/86fecd61) Add fileGroups table, various backend sections for restics
+- [28e41426](https://github.com/appscode/cluster-ui/commit/28e41426) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [69fabb1d](https://github.com/appscode/cluster-ui/commit/69fabb1d) fix snapshot details resource definition router
+- [a847b957](https://github.com/appscode/cluster-ui/commit/a847b957) fix router for snapshot events
+- [4559b1f5](https://github.com/appscode/cluster-ui/commit/4559b1f5) Fix events/resource for configmap/secret
+- [32cc9e1b](https://github.com/appscode/cluster-ui/commit/32cc9e1b) fix common url
+- [7912f221](https://github.com/appscode/cluster-ui/commit/7912f221) fix snapshot details sidebar
+- [29fb069c](https://github.com/appscode/cluster-ui/commit/29fb069c) fix secret provider's alphaber case
+- [7df60a33](https://github.com/appscode/cluster-ui/commit/7df60a33) change secret provider value
+- [d70edb02](https://github.com/appscode/cluster-ui/commit/d70edb02) pass data for create snapshot request
+- [b265fe94](https://github.com/appscode/cluster-ui/commit/b265fe94) adding backup functionality
+- [ffeb6af8](https://github.com/appscode/cluster-ui/commit/ffeb6af8) add provider in bucket list
+- [090b3dd3](https://github.com/appscode/cluster-ui/commit/090b3dd3) fix backup kind
+- [6ff0b396](https://github.com/appscode/cluster-ui/commit/6ff0b396) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [fa8c59a5](https://github.com/appscode/cluster-ui/commit/fa8c59a5) Merge branch 'fix-cltr-h' of diffusion.appscode.com:appscode/60/pharm
+- [0df27881](https://github.com/appscode/cluster-ui/commit/0df27881) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [48e304ea](https://github.com/appscode/cluster-ui/commit/48e304ea) fix type in snapshot list for snapshot details
+- [1d415140](https://github.com/appscode/cluster-ui/commit/1d415140) change dormant_database -> dormantdatabases
+- [c457ac68](https://github.com/appscode/cluster-ui/commit/c457ac68) Merge branch 'fix-cltr-h' of diffusion.appscode.com:appscode/60/pharm
+- [be7921a1](https://github.com/appscode/cluster-ui/commit/be7921a1) dormant_database -> dormant
+- [97b6b0b9](https://github.com/appscode/cluster-ui/commit/97b6b0b9) Merge branch 'fix-cltr-h' of diffusion.appscode.com:appscode/60/pharm
+- [2b12d1c0](https://github.com/appscode/cluster-ui/commit/2b12d1c0) add SnapshotStorageSpec in elastic basci
+- [d7176627](https://github.com/appscode/cluster-ui/commit/d7176627) Merge branch 'fix-cltr-h' of diffusion.appscode.com:appscode/60/pharm
+- [76b93109](https://github.com/appscode/cluster-ui/commit/76b93109) fix elastic describe
+- [42c102d0](https://github.com/appscode/cluster-ui/commit/42c102d0) fix backup's get secret, right side href
+- [9ae0fd94](https://github.com/appscode/cluster-ui/commit/9ae0fd94) Restics: file-group sections (WIP)
+- [5ab2e144](https://github.com/appscode/cluster-ui/commit/5ab2e144) snapshot -> snapshots in backup modal
+- [56a92add](https://github.com/appscode/cluster-ui/commit/56a92add) change label_selector in snapshot
+- [5e1c9b3f](https://github.com/appscode/cluster-ui/commit/5e1c9b3f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [923d7d0f](https://github.com/appscode/cluster-ui/commit/923d7d0f) add SnapshotStorageSpec in db basic and selector for snapshot
+- [2eab93f5](https://github.com/appscode/cluster-ui/commit/2eab93f5) fix db create route
+- [18f8946f](https://github.com/appscode/cluster-ui/commit/18f8946f) fix db section url
+- [052dbf5b](https://github.com/appscode/cluster-ui/commit/052dbf5b) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [567bfe99](https://github.com/appscode/cluster-ui/commit/567bfe99) Restic: add basics section, Label Selector -> Selector
+- [17b5c273](https://github.com/appscode/cluster-ui/commit/17b5c273) fix href in sidebar of db
+- [b37c815c](https://github.com/appscode/cluster-ui/commit/b37c815c) label_selectors -> selector
+- [97575c0d](https://github.com/appscode/cluster-ui/commit/97575c0d) snapshot->snapshots
+- [bd37bc3a](https://github.com/appscode/cluster-ui/commit/bd37bc3a) db list header fix
+- [fe60d71c](https://github.com/appscode/cluster-ui/commit/fe60d71c) fix sidebar type
+- [2799acbf](https://github.com/appscode/cluster-ui/commit/2799acbf) fix db type
+- [114fe33d](https://github.com/appscode/cluster-ui/commit/114fe33d) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [8a714170](https://github.com/appscode/cluster-ui/commit/8a714170) change database section sidebar idname
+- [58e2dfb5](https://github.com/appscode/cluster-ui/commit/58e2dfb5) Merge branch 'fix-cltr-h' of diffusion.appscode.com:appscode/60/pharm
+- [bd5dbdc2](https://github.com/appscode/cluster-ui/commit/bd5dbdc2) Remove 'cluster_role' if condition check
+- [4bd2311b](https://github.com/appscode/cluster-ui/commit/4bd2311b) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [48853fe6](https://github.com/appscode/cluster-ui/commit/48853fe6) fix type
+- [6a225774](https://github.com/appscode/cluster-ui/commit/6a225774) Fix page redirecton for create/cancel btn in /create new kube-instance pages
+- [e57ff1a7](https://github.com/appscode/cluster-ui/commit/e57ff1a7) fix db type
+- [d2938b45](https://github.com/appscode/cluster-ui/commit/d2938b45) fix db type
+- [aa880515](https://github.com/appscode/cluster-ui/commit/aa880515) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-cltr-h
+- [26f27ba6](https://github.com/appscode/cluster-ui/commit/26f27ba6) Fix typo
+- [726eba7e](https://github.com/appscode/cluster-ui/commit/726eba7e) cluster_role_binding -> clusterrolebindings
+- [b9b73911](https://github.com/appscode/cluster-ui/commit/b9b73911) Fix conflicts
+- [93c4a502](https://github.com/appscode/cluster-ui/commit/93c4a502) fix type name in kube-instance create
+- [8250b34a](https://github.com/appscode/cluster-ui/commit/8250b34a) Make include_matricks = false (pod list/details page not working)
+- [5aea5e3c](https://github.com/appscode/cluster-ui/commit/5aea5e3c) Restic: add list, create, details, event, resource page
+- [b31bbebf](https://github.com/appscode/cluster-ui/commit/b31bbebf) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [b1b0fb5d](https://github.com/appscode/cluster-ui/commit/b1b0fb5d) Read api_version from inside resp.resources
+- [5fe89ff7](https://github.com/appscode/cluster-ui/commit/5fe89ff7) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-type-h
+- [a0dc74c2](https://github.com/appscode/cluster-ui/commit/a0dc74c2) fix reroute to `/` when whoami fails
+- [2de6f4b0](https://github.com/appscode/cluster-ui/commit/2de6f4b0) Hide apiVersion selectDropdown when availableVersion < 2
+- [d28fec15](https://github.com/appscode/cluster-ui/commit/d28fec15) Fix apiVersion change event (namespace -> kubeObj)
+- [169fa7ba](https://github.com/appscode/cluster-ui/commit/169fa7ba) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-type-h
+- [230949e7](https://github.com/appscode/cluster-ui/commit/230949e7) fix daemonset pods link's cluster
+- [88697986](https://github.com/appscode/cluster-ui/commit/88697986) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [1637317a](https://github.com/appscode/cluster-ui/commit/1637317a) api_version => preferred_version
+- [cb56d20a](https://github.com/appscode/cluster-ui/commit/cb56d20a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [27e4fd84](https://github.com/appscode/cluster-ui/commit/27e4fd84) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [8a795dc2](https://github.com/appscode/cluster-ui/commit/8a795dc2) Add `change` eventListener for apiVersion change for all list page
+- [0663a9d8](https://github.com/appscode/cluster-ui/commit/0663a9d8) pass cluster name in daemonset basic page
+- [91224654](https://github.com/appscode/cluster-ui/commit/91224654) label_selector -> selector
+- [790c98f7](https://github.com/appscode/cluster-ui/commit/790c98f7) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-type-h
+- [1839e20b](https://github.com/appscode/cluster-ui/commit/1839e20b) change cluster_role->clusterroles
+- [49e0e16f](https://github.com/appscode/cluster-ui/commit/49e0e16f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [f7dc7e62](https://github.com/appscode/cluster-ui/commit/f7dc7e62) Add selectDropdown button in list pages of whole Pharm
+- [1cc74737](https://github.com/appscode/cluster-ui/commit/1cc74737) check clusterroles
+- [f243e7bf](https://github.com/appscode/cluster-ui/commit/f243e7bf) show label_selector in basic page
+- [c7b842f3](https://github.com/appscode/cluster-ui/commit/c7b842f3) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [ec9e6a7b](https://github.com/appscode/cluster-ui/commit/ec9e6a7b) Add generic AddAvailableApiDropdown
+- [92f0070e](https://github.com/appscode/cluster-ui/commit/92f0070e) fix event sidebar
+- [520a367d](https://github.com/appscode/cluster-ui/commit/520a367d) deployment basic pods
+- [acb99685](https://github.com/appscode/cluster-ui/commit/acb99685) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-type-h
+- [9ce6d080](https://github.com/appscode/cluster-ui/commit/9ce6d080) handle selector
+- [d06539ff](https://github.com/appscode/cluster-ui/commit/d06539ff) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [3586f646](https://github.com/appscode/cluster-ui/commit/3586f646) certificate: namespace -> namespaces
+- [9487707c](https://github.com/appscode/cluster-ui/commit/9487707c) Merge branch 'fix-type-h' of diffusion.appscode.com:appscode/60/pharm
+- [a83ff4d5](https://github.com/appscode/cluster-ui/commit/a83ff4d5) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-type-h
+- [3b072d60](https://github.com/appscode/cluster-ui/commit/3b072d60) fix namespace get req
+- [f297e155](https://github.com/appscode/cluster-ui/commit/f297e155) Merge branch 'fix-type-h' of diffusion.appscode.com:appscode/60/pharm
+- [31861aec](https://github.com/appscode/cluster-ui/commit/31861aec) fix handling date_formate
+- [9e0a098c](https://github.com/appscode/cluster-ui/commit/9e0a098c) Merge branch 'fix-type-h' of diffusion.appscode.com:appscode/60/pharm
+- [3fc35939](https://github.com/appscode/cluster-ui/commit/3fc35939) fix label_selector
+- [68368a58](https://github.com/appscode/cluster-ui/commit/68368a58) change label_selector
+- [9a61dde8](https://github.com/appscode/cluster-ui/commit/9a61dde8) self_links->self_link
+- [e617e0f8](https://github.com/appscode/cluster-ui/commit/e617e0f8) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-type-h
+- [249cffe3](https://github.com/appscode/cluster-ui/commit/249cffe3) fix pod namespace type
+- [2e1861f9](https://github.com/appscode/cluster-ui/commit/2e1861f9) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [77a9dbc0](https://github.com/appscode/cluster-ui/commit/77a9dbc0) Stop showing `Status` in header if status === 'undefined'
+- [995e0675](https://github.com/appscode/cluster-ui/commit/995e0675) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-type-h
+- [3f424013](https://github.com/appscode/cluster-ui/commit/3f424013) fix db type
+- [9e4e8847](https://github.com/appscode/cluster-ui/commit/9e4e8847) Disk: storagecloass -> storageclasses
+- [4f1b263f](https://github.com/appscode/cluster-ui/commit/4f1b263f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [f06d8bdd](https://github.com/appscode/cluster-ui/commit/f06d8bdd) namespace -> namespaces
+- [df2ba982](https://github.com/appscode/cluster-ui/commit/df2ba982) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into fix-type-h
+- [b3f84184](https://github.com/appscode/cluster-ui/commit/b3f84184) fix type in describe and list page
+- [14758aa7](https://github.com/appscode/cluster-ui/commit/14758aa7) erge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [c0ab56a1](https://github.com/appscode/cluster-ui/commit/c0ab56a1) Fix title message of toastr error
+- [b7907841](https://github.com/appscode/cluster-ui/commit/b7907841) fix type in pharm.router.js
+- [d5c9b311](https://github.com/appscode/cluster-ui/commit/d5c9b311) fix deployment and daemonset
+- [963c247b](https://github.com/appscode/cluster-ui/commit/963c247b) Fix breadcrump issue for pv/pvc (pv/pvc -> Disks), Add dynamic icons for pv/pvc status
+- [38b5f056](https://github.com/appscode/cluster-ui/commit/38b5f056) Add basics, event, resource pages for PVC
+- [1556b8e3](https://github.com/appscode/cluster-ui/commit/1556b8e3) PV: add basics, event, resource pages
+- [5a4fda89](https://github.com/appscode/cluster-ui/commit/5a4fda89) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [033b6a8d](https://github.com/appscode/cluster-ui/commit/033b6a8d) WIP: PV/PVC
+- [1d506800](https://github.com/appscode/cluster-ui/commit/1d506800) clean up
+- [d2113b9d](https://github.com/appscode/cluster-ui/commit/d2113b9d) clean up
+- [7b77f754](https://github.com/appscode/cluster-ui/commit/7b77f754) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [7a709e36](https://github.com/appscode/cluster-ui/commit/7a709e36) WIP: PV/PVC
+- [33bb8fd0](https://github.com/appscode/cluster-ui/commit/33bb8fd0) made rawview header
+- [dadad3ee](https://github.com/appscode/cluster-ui/commit/dadad3ee) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ui-issue-h
+- [b3422b4f](https://github.com/appscode/cluster-ui/commit/b3422b4f) add tooltip in cluster list filter
+- [5c7aceb5](https://github.com/appscode/cluster-ui/commit/5c7aceb5) include_matrics in describe page
+- [6c69d9e9](https://github.com/appscode/cluster-ui/commit/6c69d9e9) pass include_matrics
+- [06bd4488](https://github.com/appscode/cluster-ui/commit/06bd4488) add include matrics in pod list
+- [366074dd](https://github.com/appscode/cluster-ui/commit/366074dd) integrate chart
+- [154b93e4](https://github.com/appscode/cluster-ui/commit/154b93e4) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into diff-lb-h
+- [2e9159ac](https://github.com/appscode/cluster-ui/commit/2e9159ac) include_matrix in pod list
+- [b3d52a81](https://github.com/appscode/cluster-ui/commit/b3d52a81) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ch-list-h
+- [d88e006a](https://github.com/appscode/cluster-ui/commit/d88e006a) clean up
+- [95ffe3b8](https://github.com/appscode/cluster-ui/commit/95ffe3b8) add chart-div
+- [36a9a870](https://github.com/appscode/cluster-ui/commit/36a9a870) add css for tawk
+- [d26c5a46](https://github.com/appscode/cluster-ui/commit/d26c5a46) add css for anchor tag
+- [a63496ed](https://github.com/appscode/cluster-ui/commit/a63496ed) add description
+- [8627808c](https://github.com/appscode/cluster-ui/commit/8627808c) add ```
+- [925c238e](https://github.com/appscode/cluster-ui/commit/925c238e) add newline between origin and details
+- [b7c5e106](https://github.com/appscode/cluster-ui/commit/b7c5e106) clean up
+- [53aa5d9e](https://github.com/appscode/cluster-ui/commit/53aa5d9e) added strigify for details
+- [99663d9f](https://github.com/appscode/cluster-ui/commit/99663d9f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into toastr-issue
+- [1471b62b](https://github.com/appscode/cluster-ui/commit/1471b62b) add github issue in toastr
+- [22fb657e](https://github.com/appscode/cluster-ui/commit/22fb657e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [e3b92c00](https://github.com/appscode/cluster-ui/commit/e3b92c00) Add tawk.to in Pharm, Attic, CI
+- [bc637099](https://github.com/appscode/cluster-ui/commit/bc637099) integrating chartist in pharm
+- [13ceac45](https://github.com/appscode/cluster-ui/commit/13ceac45) Merge branch 'diff-lb-h' of diffusion.appscode.com:appscode/60/pharm
+- [c39d8a8a](https://github.com/appscode/cluster-ui/commit/c39d8a8a) pod status succeeded handled
+- [d956294f](https://github.com/appscode/cluster-ui/commit/d956294f) Change faIconName dynamically with the status change
+- [f80af23a](https://github.com/appscode/cluster-ui/commit/f80af23a) add diff in lb
+- [044c52e9](https://github.com/appscode/cluster-ui/commit/044c52e9) Fix status in Alert details page
+- [ca3e68b4](https://github.com/appscode/cluster-ui/commit/ca3e68b4) Dont show `-` for empty cert
+- [62f030af](https://github.com/appscode/cluster-ui/commit/62f030af) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [ee063ae1](https://github.com/appscode/cluster-ui/commit/ee063ae1) pass incident reported_at timestamp in template
+- [3283c8b1](https://github.com/appscode/cluster-ui/commit/3283c8b1) CI: add custom sort & search (search on visible text)
+- [9769815c](https://github.com/appscode/cluster-ui/commit/9769815c) append both roles
+- [1cba84d4](https://github.com/appscode/cluster-ui/commit/1cba84d4) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ch-list-h
+- [b8d9e0ed](https://github.com/appscode/cluster-ui/commit/b8d9e0ed) Attic: add custom search (search on visible text)
+- [8197beaa](https://github.com/appscode/cluster-ui/commit/8197beaa) Attic: Add custom sorter in version list table
+- [4cdf26b2](https://github.com/appscode/cluster-ui/commit/4cdf26b2) fix use selected preview type
+- [8bef2816](https://github.com/appscode/cluster-ui/commit/8bef2816) fixed sort background image position
+- [3993548d](https://github.com/appscode/cluster-ui/commit/3993548d) add tooltip in cluster list
+- [5045a970](https://github.com/appscode/cluster-ui/commit/5045a970) Fix Alert status path in details page (3)
+- [78671e21](https://github.com/appscode/cluster-ui/commit/78671e21) Fix Alert status in Alert list page (2)
+- [e61a3db2](https://github.com/appscode/cluster-ui/commit/e61a3db2) Fix Alert status in Alert list page
+- [0f402a9c](https://github.com/appscode/cluster-ui/commit/0f402a9c) Add namespace checking when loading list items
+- [b26f6f82](https://github.com/appscode/cluster-ui/commit/b26f6f82) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [ea4a01b2](https://github.com/appscode/cluster-ui/commit/ea4a01b2) Add namespace checkout for LB, Secret
+- [d3ccff69](https://github.com/appscode/cluster-ui/commit/d3ccff69) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ch-list-h
+- [1a481268](https://github.com/appscode/cluster-ui/commit/1a481268) add deleting state in kubernetes cluster list
+- [81c878cc](https://github.com/appscode/cluster-ui/commit/81c878cc) use diff2html for show diff
+- [afccbfca](https://github.com/appscode/cluster-ui/commit/afccbfca) Fix: Add `Status` in Alert details page
+- [0fb0656d](https://github.com/appscode/cluster-ui/commit/0fb0656d) Add `Status` in Alert details page
+- [0fad80ff](https://github.com/appscode/cluster-ui/commit/0fad80ff) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ch-list-h
+- [05b48c8f](https://github.com/appscode/cluster-ui/commit/05b48c8f) Fix replicaset-sorting
+- [172c996c](https://github.com/appscode/cluster-ui/commit/172c996c) Fix replicaset sorting by Age
+- [aa959e83](https://github.com/appscode/cluster-ui/commit/aa959e83) Fix typo (deployment -> replicaset list sorting by Age)
+- [17759f75](https://github.com/appscode/cluster-ui/commit/17759f75) test diff2html
+- [ef9286c6](https://github.com/appscode/cluster-ui/commit/ef9286c6) Show Websocket logs for cluster create/delete
+- [bb344450](https://github.com/appscode/cluster-ui/commit/bb344450) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [853be63c](https://github.com/appscode/cluster-ui/commit/853be63c) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [d2ebdaff](https://github.com/appscode/cluster-ui/commit/d2ebdaff) Fix conflicts
+- [d0b35356](https://github.com/appscode/cluster-ui/commit/d0b35356) Add kubeObjectStatus for inner Alert List, Show alert status in list page
+- [3b1c58ee](https://github.com/appscode/cluster-ui/commit/3b1c58ee) Fix versions list not showing issue
+- [995dbdb3](https://github.com/appscode/cluster-ui/commit/995dbdb3) render list with namespace
+- [a3fd6c93](https://github.com/appscode/cluster-ui/commit/a3fd6c93) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ch-list-h
+- [2ec96afe](https://github.com/appscode/cluster-ui/commit/2ec96afe) Merge branch 'ui-issue-h' of diffusion.appscode.com:appscode/60/pharm
+- [2b61df08](https://github.com/appscode/cluster-ui/commit/2b61df08) Merge branch 'ui-issue-h' of diffusion.appscode.com:appscode/60/pharm into ui-issue-h
+- [aa399f4c](https://github.com/appscode/cluster-ui/commit/aa399f4c) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [3ccee5c3](https://github.com/appscode/cluster-ui/commit/3ccee5c3) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ui-issue-h
+- [0ca12cfa](https://github.com/appscode/cluster-ui/commit/0ca12cfa) Enable Tiller UI in prod
+- [1f1960aa](https://github.com/appscode/cluster-ui/commit/1f1960aa) alert list status and deployment list query parameter handle
+- [3aa22df2](https://github.com/appscode/cluster-ui/commit/3aa22df2) change some status icon
+- [82b455c7](https://github.com/appscode/cluster-ui/commit/82b455c7) add pending scss
+- [978a378e](https://github.com/appscode/cluster-ui/commit/978a378e) add status in pod, namespace, database, cluster list
+- [1949c156](https://github.com/appscode/cluster-ui/commit/1949c156) give each custom-toolbar different name in basic pages
+- [56355672](https://github.com/appscode/cluster-ui/commit/56355672) Merge branch 'ui-issue-h' of diffusion.appscode.com:appscode/60/pharm into ui-issue-h
+- [f22a170c](https://github.com/appscode/cluster-ui/commit/f22a170c) clean up
+- [e6dcc8bd](https://github.com/appscode/cluster-ui/commit/e6dcc8bd) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ui-issue-h
+- [a7c55506](https://github.com/appscode/cluster-ui/commit/a7c55506) Change kubedb api version to v1alpha1
+- [688c64fb](https://github.com/appscode/cluster-ui/commit/688c64fb) add sort in all inner tables
+- [8754debd](https://github.com/appscode/cluster-ui/commit/8754debd) sort pods
+- [63447b0a](https://github.com/appscode/cluster-ui/commit/63447b0a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ui-issue-h
+- [11646fd2](https://github.com/appscode/cluster-ui/commit/11646fd2) deprecated kube-version don't show, grafana back, remove instance group resize
+- [e00ab76b](https://github.com/appscode/cluster-ui/commit/e00ab76b) Add pakcgae-lock.json file generated by npm@5
+- [a279d10e](https://github.com/appscode/cluster-ui/commit/a279d10e) Update data file repo.
+- [57f07f74](https://github.com/appscode/cluster-ui/commit/57f07f74) fix db issues
+- [32848d14](https://github.com/appscode/cluster-ui/commit/32848d14) Change seachlight api version to v1alpha1
+- [7662f206](https://github.com/appscode/cluster-ui/commit/7662f206) use sorter for sort in basic pages
+- [b2e16cf2](https://github.com/appscode/cluster-ui/commit/b2e16cf2) give each custom-toolbar different name in basic pages
+- [bf5cb08c](https://github.com/appscode/cluster-ui/commit/bf5cb08c) use custom search in all card list
+- [64089e67](https://github.com/appscode/cluster-ui/commit/64089e67) use custom search for search visible text
+- [055eb9c0](https://github.com/appscode/cluster-ui/commit/055eb9c0) clean up
+- [d2942596](https://github.com/appscode/cluster-ui/commit/d2942596) use text() for get visible text only
+- [23863390](https://github.com/appscode/cluster-ui/commit/23863390) change sorter function
+- [4c43958f](https://github.com/appscode/cluster-ui/commit/4c43958f) refine generate re-route url function
+- [9ade69f5](https://github.com/appscode/cluster-ui/commit/9ade69f5) disable custom search
+- [de9899b9](https://github.com/appscode/cluster-ui/commit/de9899b9) refine custom search
+- [e9ed4152](https://github.com/appscode/cluster-ui/commit/e9ed4152) custom search function implemented
+- [82eb3908](https://github.com/appscode/cluster-ui/commit/82eb3908) clean up
+- [ce6e2ce9](https://github.com/appscode/cluster-ui/commit/ce6e2ce9) job label selector remove from basic section
+- [8b5731e8](https://github.com/appscode/cluster-ui/commit/8b5731e8) job label selector
+- [45425f00](https://github.com/appscode/cluster-ui/commit/45425f00) deployment basic section tables sort
+- [f35241ac](https://github.com/appscode/cluster-ui/commit/f35241ac) add table sort in daemonset pods table
+- [e3cf4b09](https://github.com/appscode/cluster-ui/commit/e3cf4b09) cluster creation form validation
+- [e8a9a22b](https://github.com/appscode/cluster-ui/commit/e8a9a22b) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into cluster-create-tour
+- [817b433d](https://github.com/appscode/cluster-ui/commit/817b433d) credential form validation
+- [feef3566](https://github.com/appscode/cluster-ui/commit/feef3566) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ui-issue-h
+- [aabdae67](https://github.com/appscode/cluster-ui/commit/aabdae67) fix css
+- [6f031938](https://github.com/appscode/cluster-ui/commit/6f031938) Change searchlight api group to monitoring.appscode.com
+- [d8472c0c](https://github.com/appscode/cluster-ui/commit/d8472c0c) Pass rule & sku for node`s alert (in secondary sidebar)
+- [a76b425b](https://github.com/appscode/cluster-ui/commit/a76b425b) added required field in kube instance ccreate
+- [0fd896b6](https://github.com/appscode/cluster-ui/commit/0fd896b6) don't make kube-instance-create req when data is empty
+- [8816867d](https://github.com/appscode/cluster-ui/commit/8816867d) show load balancer ingress IP in service basic
+- [c951f4d9](https://github.com/appscode/cluster-ui/commit/c951f4d9) yarn.lock
+- [aee7d968](https://github.com/appscode/cluster-ui/commit/aee7d968) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ui-issue-h
+- [48a6ab5f](https://github.com/appscode/cluster-ui/commit/48a6ab5f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [04c42963](https://github.com/appscode/cluster-ui/commit/04c42963) Remove resource Version from configmap, secret
+- [c7d174a6](https://github.com/appscode/cluster-ui/commit/c7d174a6) hide unused items from header section and remove resource_version and generation from basic section
+- [9dd66993](https://github.com/appscode/cluster-ui/commit/9dd66993) Redirect to '/' when unauthenticated, call atoastr.showError()
+- [814e8657](https://github.com/appscode/cluster-ui/commit/814e8657) Db icon
+- [81414144](https://github.com/appscode/cluster-ui/commit/81414144) clean up on tour for tour=on
+- [2d74aa6d](https://github.com/appscode/cluster-ui/commit/2d74aa6d) clean up
+- [ee48b73b](https://github.com/appscode/cluster-ui/commit/ee48b73b) change some tooltip position
+- [ea1baac6](https://github.com/appscode/cluster-ui/commit/ea1baac6) remove tour btn and change some tour infos
+- [98c67b9a](https://github.com/appscode/cluster-ui/commit/98c67b9a) start tour when `?tour=1` present in URL
+- [cca7adb5](https://github.com/appscode/cluster-ui/commit/cca7adb5) clean up
+- [76b8d2de](https://github.com/appscode/cluster-ui/commit/76b8d2de) empty kube version when change provider
+- [b7bc70b6](https://github.com/appscode/cluster-ui/commit/b7bc70b6) adding cluster tour
+- [eb588b64](https://github.com/appscode/cluster-ui/commit/eb588b64) credential bootstrap tour
+- [909701d0](https://github.com/appscode/cluster-ui/commit/909701d0) enable DB section for prod
+- [aed63e1e](https://github.com/appscode/cluster-ui/commit/aed63e1e) change deleted to paused
+- [c56099c7](https://github.com/appscode/cluster-ui/commit/c56099c7) Add credential tour
+- [4ea98ca1](https://github.com/appscode/cluster-ui/commit/4ea98ca1) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-hh
+- [dc720cd4](https://github.com/appscode/cluster-ui/commit/dc720cd4) added hopscotch
+- [8e3c3514](https://github.com/appscode/cluster-ui/commit/8e3c3514) Redirect to '/' if unauthenticated (check in atoastr.showError())
+- [3ee2872c](https://github.com/appscode/cluster-ui/commit/3ee2872c) remove test data
+- [1054d40f](https://github.com/appscode/cluster-ui/commit/1054d40f) check deprecated for adding kube-version
+- [f6747a92](https://github.com/appscode/cluster-ui/commit/f6747a92) Update json2yaml package dependency
+- [7451d591](https://github.com/appscode/cluster-ui/commit/7451d591) Fix remaining gulp list errors.
+- [1cc34405](https://github.com/appscode/cluster-ui/commit/1cc34405) Update description of Pharm options.
+- [ea546b63](https://github.com/appscode/cluster-ui/commit/ea546b63) fix snapshot restore with new json2yaml
+- [82e2683d](https://github.com/appscode/cluster-ui/commit/82e2683d) change json2yaml version
+- [eb0ff5bb](https://github.com/appscode/cluster-ui/commit/eb0ff5bb) change cluster do_not_pause
+- [3d0bbd08](https://github.com/appscode/cluster-ui/commit/3d0bbd08) change to kubedb.com
+- [8b2bc279](https://github.com/appscode/cluster-ui/commit/8b2bc279) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-hh
+- [1e01dd70](https://github.com/appscode/cluster-ui/commit/1e01dd70) fix doNotPause
+- [eb921c78](https://github.com/appscode/cluster-ui/commit/eb921c78) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into dormant
+- [8922187b](https://github.com/appscode/cluster-ui/commit/8922187b) add desired replicas in basic page
+- [d853e43c](https://github.com/appscode/cluster-ui/commit/d853e43c) add search bar in rules table
+- [3200224e](https://github.com/appscode/cluster-ui/commit/3200224e) remv btn from rules table and change condition
+- [b973bc9f](https://github.com/appscode/cluster-ui/commit/b973bc9f) linter err
+- [cb2884a9](https://github.com/appscode/cluster-ui/commit/cb2884a9) fix rules condition
+- [fb5e4318](https://github.com/appscode/cluster-ui/commit/fb5e4318) fix rules tables
+- [b00f0a77](https://github.com/appscode/cluster-ui/commit/b00f0a77) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [665a4d76](https://github.com/appscode/cluster-ui/commit/665a4d76) clean up rules
+- [b34e5127](https://github.com/appscode/cluster-ui/commit/b34e5127) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [76c148a4](https://github.com/appscode/cluster-ui/commit/76c148a4) Remove eslint erros of release, attic/version-list, new-lb-view
+- [4d90b9b9](https://github.com/appscode/cluster-ui/commit/4d90b9b9) add rules in role basic page
+- [6c430720](https://github.com/appscode/cluster-ui/commit/6c430720) adding rules
+- [a7db8506](https://github.com/appscode/cluster-ui/commit/a7db8506) remove status field from namespace, service and remove start_time from pod status section
+- [bc035b31](https://github.com/appscode/cluster-ui/commit/bc035b31) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [484bed9c](https://github.com/appscode/cluster-ui/commit/484bed9c) Remove Custom.js from *.app.js (3 files)
+- [8808261a](https://github.com/appscode/cluster-ui/commit/8808261a) Fix exlint erros for attic, ci, configmap, secret, etc.
+- [2458021a](https://github.com/appscode/cluster-ui/commit/2458021a) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [6513380a](https://github.com/appscode/cluster-ui/commit/6513380a) CI: remove colon (:) from Basics section
+- [ddc09e0d](https://github.com/appscode/cluster-ui/commit/ddc09e0d) CI: check provider and remove status check
+- [fc1c180b](https://github.com/appscode/cluster-ui/commit/fc1c180b) Fix some eslint erros
+- [5e2ca931](https://github.com/appscode/cluster-ui/commit/5e2ca931) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [1f9fdfda](https://github.com/appscode/cluster-ui/commit/1f9fdfda) CI: check provider and remove status check
+- [5c9d62a9](https://github.com/appscode/cluster-ui/commit/5c9d62a9) Fix some eslint erros
+- [6f98ad78](https://github.com/appscode/cluster-ui/commit/6f98ad78) refactor
+- [58c2c1ba](https://github.com/appscode/cluster-ui/commit/58c2c1ba) clean up and add load_balancer_ingress in service basic page
+- [6dca0dfc](https://github.com/appscode/cluster-ui/commit/6dca0dfc) add time unit in cluster basic page
+- [08808f34](https://github.com/appscode/cluster-ui/commit/08808f34) add unit in time of edit cluster page
+- [0922d55f](https://github.com/appscode/cluster-ui/commit/0922d55f) fix text, separate age from credential information in cred_list
+- [c2881c8d](https://github.com/appscode/cluster-ui/commit/c2881c8d) change btn order in cluster create
+- [69cbdbaf](https://github.com/appscode/cluster-ui/commit/69cbdbaf) linter err and fix role_binding icon
+- [6aedba21](https://github.com/appscode/cluster-ui/commit/6aedba21) clean up
+- [ded17289](https://github.com/appscode/cluster-ui/commit/ded17289) fix role icon
+- [01e79001](https://github.com/appscode/cluster-ui/commit/01e79001) clean up
+- [ed0497b8](https://github.com/appscode/cluster-ui/commit/ed0497b8) clean up
+- [85d284dc](https://github.com/appscode/cluster-ui/commit/85d284dc) fix icon for role_binding header
+- [63959ed5](https://github.com/appscode/cluster-ui/commit/63959ed5) show hour, min, sec as age
+- [1a9c5f7b](https://github.com/appscode/cluster-ui/commit/1a9c5f7b) fix header btn text in cluster filter list
+- [628d68b0](https://github.com/appscode/cluster-ui/commit/628d68b0) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [bf9b222c](https://github.com/appscode/cluster-ui/commit/bf9b222c) add storageclass labels
+- [7d0938c6](https://github.com/appscode/cluster-ui/commit/7d0938c6) fix rawview cancel url
+- [4413db25](https://github.com/appscode/cluster-ui/commit/4413db25) fix pod table icon and binding page cancel btn url
+- [92bfedca](https://github.com/appscode/cluster-ui/commit/92bfedca) fix header section image
+- [37c43a08](https://github.com/appscode/cluster-ui/commit/37c43a08) clean up
+- [09f95a1a](https://github.com/appscode/cluster-ui/commit/09f95a1a) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [0d552295](https://github.com/appscode/cluster-ui/commit/0d552295) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [e6d617d3](https://github.com/appscode/cluster-ui/commit/e6d617d3) add self_link in pod basic, role delete modal Text fix
+- [1e0575eb](https://github.com/appscode/cluster-ui/commit/1e0575eb) deployment pod
+- [dfc8e78f](https://github.com/appscode/cluster-ui/commit/dfc8e78f) hide reconfigure-cluster btn
+- [4017395c](https://github.com/appscode/cluster-ui/commit/4017395c) clean up pharm.router.js
+- [8a4208b9](https://github.com/appscode/cluster-ui/commit/8a4208b9) clen cluster creation view
+- [026d7e56](https://github.com/appscode/cluster-ui/commit/026d7e56) fix body text
+- [aabab0be](https://github.com/appscode/cluster-ui/commit/aabab0be) add service port
+- [20eebb9c](https://github.com/appscode/cluster-ui/commit/20eebb9c) fix url change appending
+- [7d251ba4](https://github.com/appscode/cluster-ui/commit/7d251ba4) annotation daemonset
+- [e767a1d9](https://github.com/appscode/cluster-ui/commit/e767a1d9) add labels and annotations
+- [9b43619a](https://github.com/appscode/cluster-ui/commit/9b43619a) Empty the HTML of namespace option select when namespace is changed
+- [59f08c48](https://github.com/appscode/cluster-ui/commit/59f08c48) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [2f7f6e3f](https://github.com/appscode/cluster-ui/commit/2f7f6e3f) fixing parsing role_binding
+- [149fea54](https://github.com/appscode/cluster-ui/commit/149fea54) fix role data parsing
+- [b23a663d](https://github.com/appscode/cluster-ui/commit/b23a663d) self_link deployment
+- [cb23065e](https://github.com/appscode/cluster-ui/commit/cb23065e) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [0bfdb072](https://github.com/appscode/cluster-ui/commit/0bfdb072) Fix issues of Pharm Review
+- [09685361](https://github.com/appscode/cluster-ui/commit/09685361) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [1117d3e0](https://github.com/appscode/cluster-ui/commit/1117d3e0) self_link in daemonset
+- [96308679](https://github.com/appscode/cluster-ui/commit/96308679) add annotation and labels
+- [092c4d44](https://github.com/appscode/cluster-ui/commit/092c4d44) namespace annotations and labels
+- [266c0874](https://github.com/appscode/cluster-ui/commit/266c0874) Fix deploy certificate (call v1beta2 for namespaces), simplify alert urls in details page
+- [60dcef1c](https://github.com/appscode/cluster-ui/commit/60dcef1c) clean up
+- [bcba443f](https://github.com/appscode/cluster-ui/commit/bcba443f) clean up
+- [dce5aba0](https://github.com/appscode/cluster-ui/commit/dce5aba0) clean up
+- [a291a0ac](https://github.com/appscode/cluster-ui/commit/a291a0ac) fix events and resource header in RC details
+- [b3c3a483](https://github.com/appscode/cluster-ui/commit/b3c3a483) linter err
+- [e3e6d72f](https://github.com/appscode/cluster-ui/commit/e3e6d72f) remove clickable behavior of disabled link
+- [c7d38589](https://github.com/appscode/cluster-ui/commit/c7d38589) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [10e4fa16](https://github.com/appscode/cluster-ui/commit/10e4fa16) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [8b5e0235](https://github.com/appscode/cluster-ui/commit/8b5e0235) Make router methods of all kube objects generic, add secondary sidebar sidebar for inner alert
+- [7b5b0a5c](https://github.com/appscode/cluster-ui/commit/7b5b0a5c) lock-toggle btn disable when not ready DBs
+- [0577bd0c](https://github.com/appscode/cluster-ui/commit/0577bd0c) snapshot list namespace->status
+- [2510d7d6](https://github.com/appscode/cluster-ui/commit/2510d7d6) fix pod list rendering
+- [5a885023](https://github.com/appscode/cluster-ui/commit/5a885023) fix DDB kind in events
+- [ea85205b](https://github.com/appscode/cluster-ui/commit/ea85205b) clean up
+- [1df3bcc6](https://github.com/appscode/cluster-ui/commit/1df3bcc6) fix deleted_db type issue in restore yaml and clean up
+- [7b228483](https://github.com/appscode/cluster-ui/commit/7b228483) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [859ae7a5](https://github.com/appscode/cluster-ui/commit/859ae7a5) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [dbe527a3](https://github.com/appscode/cluster-ui/commit/dbe527a3) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [262df072](https://github.com/appscode/cluster-ui/commit/262df072) Make 'Create-PVC' working (call v1beta2 for namespaces, breadcrumb capitalization)
+- [c1262491](https://github.com/appscode/cluster-ui/commit/c1262491) clean up
+- [5f4a8128](https://github.com/appscode/cluster-ui/commit/5f4a8128) fix service age
+- [096d3358](https://github.com/appscode/cluster-ui/commit/096d3358) clean up
+- [7f9041a4](https://github.com/appscode/cluster-ui/commit/7f9041a4) add parameter and provisioner in storage class
+- [eb2122ac](https://github.com/appscode/cluster-ui/commit/eb2122ac) fix age icon
+- [7975ede6](https://github.com/appscode/cluster-ui/commit/7975ede6) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [a2fab850](https://github.com/appscode/cluster-ui/commit/a2fab850) age icon fix and service pod creation_timestamp
+- [e88e7da5](https://github.com/appscode/cluster-ui/commit/e88e7da5) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [60e56d98](https://github.com/appscode/cluster-ui/commit/60e56d98) LB: Fix bunch of bugs, eslint
+- [70006bee](https://github.com/appscode/cluster-ui/commit/70006bee) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [55446b5a](https://github.com/appscode/cluster-ui/commit/55446b5a) linter
+- [eb9cea1c](https://github.com/appscode/cluster-ui/commit/eb9cea1c) fix secret breadcrumb
+- [dbe4df34](https://github.com/appscode/cluster-ui/commit/dbe4df34) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [891cc2a7](https://github.com/appscode/cluster-ui/commit/891cc2a7) fix DB issues
+- [5a37b3d5](https://github.com/appscode/cluster-ui/commit/5a37b3d5) remove service frm RC and RS
+- [fe1d8e5b](https://github.com/appscode/cluster-ui/commit/fe1d8e5b) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [047eb2d6](https://github.com/appscode/cluster-ui/commit/047eb2d6) reroute to list if describe get gives error
+- [1fe95320](https://github.com/appscode/cluster-ui/commit/1fe95320) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [49eede1b](https://github.com/appscode/cluster-ui/commit/49eede1b) Fix dromdown text color, Import latest CSS from pharm-static
+- [50c4007b](https://github.com/appscode/cluster-ui/commit/50c4007b) Fix some LB issues (Rule-1 -> Rule, ignore empty header/rewrite rules, edit redirect url, eslint erros
+- [87da4a5d](https://github.com/appscode/cluster-ui/commit/87da4a5d) Alert: Add user profile link in `Notification Parameter` section, fix eslint errors
+- [4b8edb32](https://github.com/appscode/cluster-ui/commit/4b8edb32) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [16ba59cd](https://github.com/appscode/cluster-ui/commit/16ba59cd) Apply updates to k8sdb api.
+- [0b8d01ad](https://github.com/appscode/cluster-ui/commit/0b8d01ad) fix icon
+- [71a5e8e1](https://github.com/appscode/cluster-ui/commit/71a5e8e1) change icon
+- [e0ef9b62](https://github.com/appscode/cluster-ui/commit/e0ef9b62) fix DDB event
+- [ff337ce3](https://github.com/appscode/cluster-ui/commit/ff337ce3) fix DDB events
+- [d1c8063d](https://github.com/appscode/cluster-ui/commit/d1c8063d) fix DDB event
+- [b37bd356](https://github.com/appscode/cluster-ui/commit/b37bd356) DDB event list
+- [ac7e38f3](https://github.com/appscode/cluster-ui/commit/ac7e38f3) add snapshot delete option
+- [81ee51e0](https://github.com/appscode/cluster-ui/commit/81ee51e0) delete -> delete database
+- [d5e11f4e](https://github.com/appscode/cluster-ui/commit/d5e11f4e) add snapshot events
+- [70a4aca7](https://github.com/appscode/cluster-ui/commit/70a4aca7) add backup spec in basic page
+- [9996e2f1](https://github.com/appscode/cluster-ui/commit/9996e2f1) add more wipeOut modal text to warn user
+- [b92495a1](https://github.com/appscode/cluster-ui/commit/b92495a1) add secret link in pb basic page
+- [255dc6d9](https://github.com/appscode/cluster-ui/commit/255dc6d9) fix condition render in basic page
+- [335a2690](https://github.com/appscode/cluster-ui/commit/335a2690) handle empty label_selector
+- [d6e00817](https://github.com/appscode/cluster-ui/commit/d6e00817) fix job pod render
+- [4898885f](https://github.com/appscode/cluster-ui/commit/4898885f) fix timeline in job basic
+- [def6e8de](https://github.com/appscode/cluster-ui/commit/def6e8de) handle DDB snapshot list kind
+- [e3d50c34](https://github.com/appscode/cluster-ui/commit/e3d50c34) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [8e913706](https://github.com/appscode/cluster-ui/commit/8e913706) fix db NS filter
+- [9a25c1eb](https://github.com/appscode/cluster-ui/commit/9a25c1eb) Fix pharm issues of 11517-demo
+- [3f37e8aa](https://github.com/appscode/cluster-ui/commit/3f37e8aa) handling error of description get resp
+- [f152a0f7](https://github.com/appscode/cluster-ui/commit/f152a0f7) add component and reason
+- [ad5606d4](https://github.com/appscode/cluster-ui/commit/ad5606d4) get secret within specific namespace in backup
+- [c85b0eab](https://github.com/appscode/cluster-ui/commit/c85b0eab) remove governing service from basic page
+- [6ece7b0a](https://github.com/appscode/cluster-ui/commit/6ece7b0a) fix snapshot basic timeline
+- [1b3061de](https://github.com/appscode/cluster-ui/commit/1b3061de) wipeOut btn only enable in ddb in deleted state
+- [aad0585e](https://github.com/appscode/cluster-ui/commit/aad0585e) clean up
+- [9f8e93fa](https://github.com/appscode/cluster-ui/commit/9f8e93fa) add event for postgres and deleted_db
+- [a80ca017](https://github.com/appscode/cluster-ui/commit/a80ca017) Fix bug of showing volume for PVC, fix some eslint errors
+- [516052cf](https://github.com/appscode/cluster-ui/commit/516052cf) fix events view
+- [5e05a0e3](https://github.com/appscode/cluster-ui/commit/5e05a0e3) events render
+- [c119ed1c](https://github.com/appscode/cluster-ui/commit/c119ed1c) clean up
+- [72a42822](https://github.com/appscode/cluster-ui/commit/72a42822) handle event fields
+- [9e91abb0](https://github.com/appscode/cluster-ui/commit/9e91abb0) add event list req
+- [eb0aa7b7](https://github.com/appscode/cluster-ui/commit/eb0aa7b7) add db event list view
+- [8de47113](https://github.com/appscode/cluster-ui/commit/8de47113) handle ancestor in common list req
+- [be707630](https://github.com/appscode/cluster-ui/commit/be707630) linter
+- [694ad70a](https://github.com/appscode/cluster-ui/commit/694ad70a) change header button text
+- [86011438](https://github.com/appscode/cluster-ui/commit/86011438) linter error
+- [afee7a66](https://github.com/appscode/cluster-ui/commit/afee7a66) clean up
+- [a051c687](https://github.com/appscode/cluster-ui/commit/a051c687) render cred list after success resp
+- [23654561](https://github.com/appscode/cluster-ui/commit/23654561) clean up
+- [deb0699d](https://github.com/appscode/cluster-ui/commit/deb0699d) linter
+- [75bae2f8](https://github.com/appscode/cluster-ui/commit/75bae2f8) linter error
+- [b375883a](https://github.com/appscode/cluster-ui/commit/b375883a) refine deleted_db recover condition
+- [04801bb0](https://github.com/appscode/cluster-ui/commit/04801bb0) clean up and add kind in backup
+- [0738964b](https://github.com/appscode/cluster-ui/commit/0738964b) change template files
+- [c8ef21c9](https://github.com/appscode/cluster-ui/commit/c8ef21c9) clean up
+- [759a36cd](https://github.com/appscode/cluster-ui/commit/759a36cd) clean up
+- [40ba6c9a](https://github.com/appscode/cluster-ui/commit/40ba6c9a) show database secretname for postgres
+- [1ed01613](https://github.com/appscode/cluster-ui/commit/1ed01613) linter error
+- [6a1b07a0](https://github.com/appscode/cluster-ui/commit/6a1b07a0) show database secret
+- [0e6e716b](https://github.com/appscode/cluster-ui/commit/0e6e716b) fix creation_timestamp
+- [9e926918](https://github.com/appscode/cluster-ui/commit/9e926918) fix after db create route
+- [2626abb0](https://github.com/appscode/cluster-ui/commit/2626abb0) pass kind for snapshot list manually
+- [e6ea3ae7](https://github.com/appscode/cluster-ui/commit/e6ea3ae7) update properly in wipedOut operation
+- [2f7f26f1](https://github.com/appscode/cluster-ui/commit/2f7f26f1) fix wiped_out re-route URL
+- [f9135387](https://github.com/appscode/cluster-ui/commit/f9135387) add delete option for deleted_db [wiped_out]
+- [f066a4b8](https://github.com/appscode/cluster-ui/commit/f066a4b8) skipped completion_time and start_time in job basic page
+- [0a6f6d9d](https://github.com/appscode/cluster-ui/commit/0a6f6d9d) handle job start_time properly
+- [1d42c73f](https://github.com/appscode/cluster-ui/commit/1d42c73f) linter
+- [a13e63a2](https://github.com/appscode/cluster-ui/commit/a13e63a2) clean up
+- [e73a3438](https://github.com/appscode/cluster-ui/commit/e73a3438) handle all created_timestamp in basic pages
+- [bdb5e1e7](https://github.com/appscode/cluster-ui/commit/bdb5e1e7) handle creation_timestamp in deployment basic
+- [1771c79f](https://github.com/appscode/cluster-ui/commit/1771c79f) linter
+- [aec1f2e5](https://github.com/appscode/cluster-ui/commit/aec1f2e5) linter
+- [c58546ce](https://github.com/appscode/cluster-ui/commit/c58546ce) add completion_time and start_time in job details
+- [68f3f1f4](https://github.com/appscode/cluster-ui/commit/68f3f1f4) hide cluster_reconfigure from prod_env
+- [46e7753a](https://github.com/appscode/cluster-ui/commit/46e7753a) fix cluster delete re-route url
+- [7755e76d](https://github.com/appscode/cluster-ui/commit/7755e76d) fix elastic backup form
+- [c0dde980](https://github.com/appscode/cluster-ui/commit/c0dde980) get bucket_name from secret_name
+- [fe5b9279](https://github.com/appscode/cluster-ui/commit/fe5b9279) rm manual status handling
+- [3302e135](https://github.com/appscode/cluster-ui/commit/3302e135) handle recovering status in deleted_db header
+- [766e12d6](https://github.com/appscode/cluster-ui/commit/766e12d6) linter error
+- [b796fb65](https://github.com/appscode/cluster-ui/commit/b796fb65) remove manual status handling in DB update call
+- [1d889e9b](https://github.com/appscode/cluster-ui/commit/1d889e9b) fix linter error
+- [b3ca9b40](https://github.com/appscode/cluster-ui/commit/b3ca9b40) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [680bf013](https://github.com/appscode/cluster-ui/commit/680bf013) fix linter error and modal rendering
+- [dd79599d](https://github.com/appscode/cluster-ui/commit/dd79599d) disabled modal appropriately
+- [26f928e3](https://github.com/appscode/cluster-ui/commit/26f928e3) Update toastr messages for new grpc status format
+- [f1b631f5](https://github.com/appscode/cluster-ui/commit/f1b631f5) fix some linter error
+- [f9ff25c7](https://github.com/appscode/cluster-ui/commit/f9ff25c7) Use _.has() to check if a property exists or not
+- [88a956b3](https://github.com/appscode/cluster-ui/commit/88a956b3) Do not fail on eslint errrors.
+- [5f6de5aa](https://github.com/appscode/cluster-ui/commit/5f6de5aa) Fix eslint issue
+- [183d4267](https://github.com/appscode/cluster-ui/commit/183d4267) Remove checkStatus
+- [24d6b987](https://github.com/appscode/cluster-ui/commit/24d6b987) clean up
+- [8091ab90](https://github.com/appscode/cluster-ui/commit/8091ab90) check label_selector appropriately
+- [001b71ad](https://github.com/appscode/cluster-ui/commit/001b71ad) job describe
+- [8fdf4295](https://github.com/appscode/cluster-ui/commit/8fdf4295) fix realse
+- [2c6e818e](https://github.com/appscode/cluster-ui/commit/2c6e818e) fix response parsing
+- [383a4d35](https://github.com/appscode/cluster-ui/commit/383a4d35) separate route
+- [e9fb5730](https://github.com/appscode/cluster-ui/commit/e9fb5730) fix router
+- [1dcf9bd7](https://github.com/appscode/cluster-ui/commit/1dcf9bd7) clean up
+- [f8bd9085](https://github.com/appscode/cluster-ui/commit/f8bd9085) clean up
+- [71ffbd19](https://github.com/appscode/cluster-ui/commit/71ffbd19) increase recover form size
+- [a640cb91](https://github.com/appscode/cluster-ui/commit/a640cb91) add deleted_db snapshot details event and resource_definition
+- [e8bd9e9e](https://github.com/appscode/cluster-ui/commit/e8bd9e9e) handle rocovering status in deleted_db header
+- [141eb99d](https://github.com/appscode/cluster-ui/commit/141eb99d) fix db delete modal header text
+- [5a50a30c](https://github.com/appscode/cluster-ui/commit/5a50a30c) made create page larger
+- [bc2ec7f1](https://github.com/appscode/cluster-ui/commit/bc2ec7f1) fix restore form text
+- [1146130a](https://github.com/appscode/cluster-ui/commit/1146130a) change icon in db details header
+- [d06c09f0](https://github.com/appscode/cluster-ui/commit/d06c09f0) change deleted header status icon
+- [379df7c6](https://github.com/appscode/cluster-ui/commit/379df7c6) clean up
+- [dec19719](https://github.com/appscode/cluster-ui/commit/dec19719) add event and resource_definition for postgres snapshot details
+- [ddddf4ec](https://github.com/appscode/cluster-ui/commit/ddddf4ec) add resource_definition and event in snapshot details
+- [6d6a9c75](https://github.com/appscode/cluster-ui/commit/6d6a9c75) add snapshot details event list
+- [45bb0f1a](https://github.com/appscode/cluster-ui/commit/45bb0f1a) check status for enable/disable restore btn in snapshot details
+- [1b4be227](https://github.com/appscode/cluster-ui/commit/1b4be227) rearrange snapshot details timeline and adding sidebar in snapshot details
+- [f0efb2ab](https://github.com/appscode/cluster-ui/commit/f0efb2ab) rearrange timeline in deleted_db basic page
+- [206049e8](https://github.com/appscode/cluster-ui/commit/206049e8) origin database
+- [e3977793](https://github.com/appscode/cluster-ui/commit/e3977793) add origin db infos in deleted_db basic page
+- [e85cf806](https://github.com/appscode/cluster-ui/commit/e85cf806) fix deletion_time and wipe_out_time parsing
+- [eeb6c360](https://github.com/appscode/cluster-ui/commit/eeb6c360) disabled recover and wipeout btn for wipedOut
+- [f0472a29](https://github.com/appscode/cluster-ui/commit/f0472a29) add nowUrl === this.url check in db list
+- [6b16dac9](https://github.com/appscode/cluster-ui/commit/6b16dac9) clean up
+- [1dc72ffc](https://github.com/appscode/cluster-ui/commit/1dc72ffc) clean up
+- [345aede2](https://github.com/appscode/cluster-ui/commit/345aede2) fixing wipeout
+- [77627bc0](https://github.com/appscode/cluster-ui/commit/77627bc0) fix data for wipe out
+- [30d2b57d](https://github.com/appscode/cluster-ui/commit/30d2b57d) added deleted db resource_definition and events
+- [44a8f283](https://github.com/appscode/cluster-ui/commit/44a8f283) handle header status in event list
+- [5a6f6265](https://github.com/appscode/cluster-ui/commit/5a6f6265) fix create db url
+- [500c71eb](https://github.com/appscode/cluster-ui/commit/500c71eb) made database items singular
+- [b459cb07](https://github.com/appscode/cluster-ui/commit/b459cb07) fix restore btn text
+- [ab2879af](https://github.com/appscode/cluster-ui/commit/ab2879af) destroy->wipe out in deleted db describe
+- [cbc7b49d](https://github.com/appscode/cluster-ui/commit/cbc7b49d) destroy->wipe out
+- [1ad620cc](https://github.com/appscode/cluster-ui/commit/1ad620cc) destroy and recover text fixed
+- [a30fa26a](https://github.com/appscode/cluster-ui/commit/a30fa26a) confirm db delete redirect url
+- [5c4b9462](https://github.com/appscode/cluster-ui/commit/5c4b9462) clean up
+- [888412d1](https://github.com/appscode/cluster-ui/commit/888412d1) handle deleted_database recover call's dbType appropriately
+- [e4dacbc5](https://github.com/appscode/cluster-ui/commit/e4dacbc5) clean up
+- [f8b4651a](https://github.com/appscode/cluster-ui/commit/f8b4651a) adding init spec appropriately
+- [2a91802b](https://github.com/appscode/cluster-ui/commit/2a91802b) adding init spec
+- [1933abf2](https://github.com/appscode/cluster-ui/commit/1933abf2) fix edit page url
+- [00007b5a](https://github.com/appscode/cluster-ui/commit/00007b5a) handle deleted database header's status field
+- [b97b9c0c](https://github.com/appscode/cluster-ui/commit/b97b9c0c) handle deleted database header status
+- [dce8959a](https://github.com/appscode/cluster-ui/commit/dce8959a) clean up
+- [600909f3](https://github.com/appscode/cluster-ui/commit/600909f3) deleted database recover
+- [ff6d55ed](https://github.com/appscode/cluster-ui/commit/ff6d55ed) clean up
+- [5e18c95a](https://github.com/appscode/cluster-ui/commit/5e18c95a) fix restore in breadcrumb.json
+- [d7f8f41c](https://github.com/appscode/cluster-ui/commit/d7f8f41c) restore -> Restore
+- [b8c2f97c](https://github.com/appscode/cluster-ui/commit/b8c2f97c) fix multiple modal render
+- [78883a70](https://github.com/appscode/cluster-ui/commit/78883a70) remove status field for db basic section
+- [b3417975](https://github.com/appscode/cluster-ui/commit/b3417975) handle undefined start_time and completion_time
+- [d707b232](https://github.com/appscode/cluster-ui/commit/d707b232) recover -> restore, show start time and completion in timeline view
+- [2e57cb58](https://github.com/appscode/cluster-ui/commit/2e57cb58) deleted database snapshot details and recover
+- [241571f6](https://github.com/appscode/cluster-ui/commit/241571f6) handle snapshot status in header
+- [b77a37ee](https://github.com/appscode/cluster-ui/commit/b77a37ee) handle status properly
+- [1d5ed838](https://github.com/appscode/cluster-ui/commit/1d5ed838) fix dbType for recover
+- [493438d6](https://github.com/appscode/cluster-ui/commit/493438d6) for recover json->yaml
+- [136a8405](https://github.com/appscode/cluster-ui/commit/136a8405) postgres snapshot recover
+- [f42ce266](https://github.com/appscode/cluster-ui/commit/f42ce266) fix postgres snapshot details
+- [3a7b6d47](https://github.com/appscode/cluster-ui/commit/3a7b6d47) fix staorageSecret value
+- [53adafd5](https://github.com/appscode/cluster-ui/commit/53adafd5) add css for validation error
+- [c3614647](https://github.com/appscode/cluster-ui/commit/c3614647) rearrange backup form
+- [da81f0e8](https://github.com/appscode/cluster-ui/commit/da81f0e8) for postgres, passed both database_secret and storage_secret
+- [4dc98f05](https://github.com/appscode/cluster-ui/commit/4dc98f05) database_status -> phase
+- [513023ac](https://github.com/appscode/cluster-ui/commit/513023ac) change status field
+- [c3f80761](https://github.com/appscode/cluster-ui/commit/c3f80761) fix db names in asidebar
+- [46c67d84](https://github.com/appscode/cluster-ui/commit/46c67d84) Elastic Search -> ElasticSearch
+- [1129a5d5](https://github.com/appscode/cluster-ui/commit/1129a5d5) recover yaml fix
+- [47279df5](https://github.com/appscode/cluster-ui/commit/47279df5) snapshot basic header icon fix
+- [682724df](https://github.com/appscode/cluster-ui/commit/682724df) backup form validation
+- [adf7ba58](https://github.com/appscode/cluster-ui/commit/adf7ba58) form validation
+- [6dbcf814](https://github.com/appscode/cluster-ui/commit/6dbcf814) fix
+- [0b3ec7b7](https://github.com/appscode/cluster-ui/commit/0b3ec7b7) fix backup
+- [c706e31d](https://github.com/appscode/cluster-ui/commit/c706e31d) fix snapshot list header icon
+- [087a943c](https://github.com/appscode/cluster-ui/commit/087a943c) fix postgres modal render
+- [7393be42](https://github.com/appscode/cluster-ui/commit/7393be42) fix modal rendering
+- [d21013c9](https://github.com/appscode/cluster-ui/commit/d21013c9) fix
+- [c8273128](https://github.com/appscode/cluster-ui/commit/c8273128) fix multiple modal view render issue
+- [7ae798b2](https://github.com/appscode/cluster-ui/commit/7ae798b2) fix multiple mdal rendering
+- [9cfaef6a](https://github.com/appscode/cluster-ui/commit/9cfaef6a) making backup modal input field working
+- [baceb4e7](https://github.com/appscode/cluster-ui/commit/baceb4e7) added bucket name input field in elastic backup
+- [55087ff7](https://github.com/appscode/cluster-ui/commit/55087ff7) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [8bce72ea](https://github.com/appscode/cluster-ui/commit/8bce72ea) show age properly in db list page
+- [6695b0ff](https://github.com/appscode/cluster-ui/commit/6695b0ff) added namespace filter in db list
+- [e8afc666](https://github.com/appscode/cluster-ui/commit/e8afc666) fix sidebar rendering in deleted_database's snapshot list
+- [2b8378f2](https://github.com/appscode/cluster-ui/commit/2b8378f2) fix name issue e.g. showed Elastic Search, PostgreSQL instead of elastic, postgres
+- [c8ccb9d5](https://github.com/appscode/cluster-ui/commit/c8ccb9d5) Release: header = <release>.v<version>, show `History` options in sidebar always
+- [afc31216](https://github.com/appscode/cluster-ui/commit/afc31216) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [30ee9451](https://github.com/appscode/cluster-ui/commit/30ee9451) Fix Day Difference for Release List Page
+- [32bbc717](https://github.com/appscode/cluster-ui/commit/32bbc717) unchanged cluster created_at
+- [c27c0fec](https://github.com/appscode/cluster-ui/commit/c27c0fec) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [ec020203](https://github.com/appscode/cluster-ui/commit/ec020203) change created_at -> creation_timestamp
+- [6cf3d194](https://github.com/appscode/cluster-ui/commit/6cf3d194) Change created_at -> creation_timestamp
+- [d90dbb87](https://github.com/appscode/cluster-ui/commit/d90dbb87) Add `All` options in filtering item list for Alert, LB, Secret, Certificate, Configmap
+- [98395dd3](https://github.com/appscode/cluster-ui/commit/98395dd3) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [0c1bcf12](https://github.com/appscode/cluster-ui/commit/0c1bcf12) Fix Cluster-Alert issue (configure dynamic namespace for root alert)
+- [b7591382](https://github.com/appscode/cluster-ui/commit/b7591382) hide cluster-reconfigure option in prod ENV
+- [e2a915db](https://github.com/appscode/cluster-ui/commit/e2a915db) change scss for failed and deleted cluster list card's link
+- [c392d052](https://github.com/appscode/cluster-ui/commit/c392d052) fixed ph-gap-margin-buttom issue in elastic and postgres basic page
+- [e0e3dcc3](https://github.com/appscode/cluster-ui/commit/e0e3dcc3) separate deleted_database header and sidebar
+- [b63b6348](https://github.com/appscode/cluster-ui/commit/b63b6348) pass auth secret name for pg backup
+- [0356d30c](https://github.com/appscode/cluster-ui/commit/0356d30c) finishing db recover
+- [fd066a7c](https://github.com/appscode/cluster-ui/commit/fd066a7c) added cocover option from snapshot
+- [7f50ebfe](https://github.com/appscode/cluster-ui/commit/7f50ebfe) fix destroy deleted_database and creation_timestamp
+- [f642e395](https://github.com/appscode/cluster-ui/commit/f642e395) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [24a821b8](https://github.com/appscode/cluster-ui/commit/24a821b8) /tiller, config -> Config
+- [e9a6c04c](https://github.com/appscode/cluster-ui/commit/e9a6c04c) /tiller, Added config in Basics sidebar
+- [de27aea8](https://github.com/appscode/cluster-ui/commit/de27aea8) Change Tiller GUI, api call, add sidebar in P2 etc.
+- [67951424](https://github.com/appscode/cluster-ui/commit/67951424) Add background color for each type of release status
+- [861dc11e](https://github.com/appscode/cluster-ui/commit/861dc11e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [0be5c51d](https://github.com/appscode/cluster-ui/commit/0be5c51d) destroyed completing for deleted_database
+- [d8c02705](https://github.com/appscode/cluster-ui/commit/d8c02705) Tiller stuffs done
+- [f59d2f41](https://github.com/appscode/cluster-ui/commit/f59d2f41) adding recover option from snapshot
+- [f8cac349](https://github.com/appscode/cluster-ui/commit/f8cac349) added snapshot, event, resource view for postgres
+- [32a07cef](https://github.com/appscode/cluster-ui/commit/32a07cef) handle undefiend db snapshot labels
+- [f629432e](https://github.com/appscode/cluster-ui/commit/f629432e) Add Version-details basics page
+- [12652bd6](https://github.com/appscode/cluster-ui/commit/12652bd6) Change Time formatting method (time.js)
+- [7a053fa3](https://github.com/appscode/cluster-ui/commit/7a053fa3) fixed ui for snapshot details
+- [c82dd996](https://github.com/appscode/cluster-ui/commit/c82dd996) db snapshot details template fixing
+- [9d249e6e](https://github.com/appscode/cluster-ui/commit/9d249e6e) created link in db snapshot list
+- [d3f4a875](https://github.com/appscode/cluster-ui/commit/d3f4a875) removed basic part from snapshot
+- [b932baa5](https://github.com/appscode/cluster-ui/commit/b932baa5) disabled backup button confirm btn when credential and bucket name not selected
+- [79bbcd15](https://github.com/appscode/cluster-ui/commit/79bbcd15) added modal hide when submit backup form
+- [fcf785b5](https://github.com/appscode/cluster-ui/commit/fcf785b5) added provider check in db backup form
+- [aecaf264](https://github.com/appscode/cluster-ui/commit/aecaf264) clean up
+- [1134c0d7](https://github.com/appscode/cluster-ui/commit/1134c0d7) completing db backup
+- [5f657d47](https://github.com/appscode/cluster-ui/commit/5f657d47) getting bucket list with cred
+- [c3f91679](https://github.com/appscode/cluster-ui/commit/c3f91679) adding credential in db backup form
+- [3e5c6ac7](https://github.com/appscode/cluster-ui/commit/3e5c6ac7) constructing db backup data
+- [d4b9877f](https://github.com/appscode/cluster-ui/commit/d4b9877f) finalizing backup temp
+- [32b92a78](https://github.com/appscode/cluster-ui/commit/32b92a78) backup template fixing
+- [54092c1e](https://github.com/appscode/cluster-ui/commit/54092c1e) resource definition added for elastic
+- [99946b4f](https://github.com/appscode/cluster-ui/commit/99946b4f) added elastic event and snapshots list
+- [19bb6359](https://github.com/appscode/cluster-ui/commit/19bb6359) pass db name in label manually
+- [1c5b325f](https://github.com/appscode/cluster-ui/commit/1c5b325f) added elastic describe tempalte and added modal btn for backup
+- [e5f07915](https://github.com/appscode/cluster-ui/commit/e5f07915) added describe pages for postgres and deleted db
+- [d8710bcf](https://github.com/appscode/cluster-ui/commit/d8710bcf) added db details route and method
+- [9b542f91](https://github.com/appscode/cluster-ui/commit/9b542f91) added dependency inversion in db basic pages
+- [eb8b2522](https://github.com/appscode/cluster-ui/commit/eb8b2522) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [4ba3a9aa](https://github.com/appscode/cluster-ui/commit/4ba3a9aa) Tiller WIP
+- [ac0f6090](https://github.com/appscode/cluster-ui/commit/ac0f6090) fixed pod header status in event route
+- [6e483c34](https://github.com/appscode/cluster-ui/commit/6e483c34) added db header in resource definition
+- [6daa5795](https://github.com/appscode/cluster-ui/commit/6daa5795) change some logic for db header view
+- [d48d7723](https://github.com/appscode/cluster-ui/commit/d48d7723) added created by profile link in failed/deleted cluster list
+- [19256dc1](https://github.com/appscode/cluster-ui/commit/19256dc1) Handle Tiller toastr error (HTTP status != 200), Tiller list page api-call, js, html etc.
+- [f2964bc5](https://github.com/appscode/cluster-ui/commit/f2964bc5) handling failed cluster's details link
+- [e9d6b12e](https://github.com/appscode/cluster-ui/commit/e9d6b12e) disabling clickable link in deleted cluster's list
+- [fcf63006](https://github.com/appscode/cluster-ui/commit/fcf63006) added appropriate link in header btn
+- [e1a0dcf7](https://github.com/appscode/cluster-ui/commit/e1a0dcf7) showed profile image link properly
+- [451ab123](https://github.com/appscode/cluster-ui/commit/451ab123) handling db data in basic page
+- [0a08b4e4](https://github.com/appscode/cluster-ui/commit/0a08b4e4) db status handling in header section
+- [bf7c6725](https://github.com/appscode/cluster-ui/commit/bf7c6725) clean up
+- [c04c9a1a](https://github.com/appscode/cluster-ui/commit/c04c9a1a) added database lock/unlock update options
+- [12326b75](https://github.com/appscode/cluster-ui/commit/12326b75) fixing db snapshot list
+- [d5b0cd54](https://github.com/appscode/cluster-ui/commit/d5b0cd54) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [ace47d38](https://github.com/appscode/cluster-ui/commit/ace47d38) clean up pharm.router.js
+- [91601cec](https://github.com/appscode/cluster-ui/commit/91601cec) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [57c72fbb](https://github.com/appscode/cluster-ui/commit/57c72fbb) added backup for db
+- [f2782bc0](https://github.com/appscode/cluster-ui/commit/f2782bc0) Add Create and Resource Definition for Secret, fix 'enter' event for modal textarea
+- [1017ed46](https://github.com/appscode/cluster-ui/commit/1017ed46) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [cd8784f9](https://github.com/appscode/cluster-ui/commit/cd8784f9) Add Create and Resource Definition for Configmap, add inner sidebar, Update Breadcrumb
+- [44f91012](https://github.com/appscode/cluster-ui/commit/44f91012) update lock/unlock btn
+- [e68e6a52](https://github.com/appscode/cluster-ui/commit/e68e6a52) fix cluster update(lock/unlock) options
+- [ce351b86](https://github.com/appscode/cluster-ui/commit/ce351b86) fix breadcrumb
+- [874143bb](https://github.com/appscode/cluster-ui/commit/874143bb) hide create database option in deleted db list
+- [8469accd](https://github.com/appscode/cluster-ui/commit/8469accd) added data type (json/yaml) in kube create
+- [9addfe0e](https://github.com/appscode/cluster-ui/commit/9addfe0e) added data type(json/yaml) selection option in db create
+- [02c0cdca](https://github.com/appscode/cluster-ui/commit/02c0cdca) clean up
+- [6494d1f8](https://github.com/appscode/cluster-ui/commit/6494d1f8) fix delete db modal
+- [9e1508e3](https://github.com/appscode/cluster-ui/commit/9e1508e3) change db create process
+- [31a165f4](https://github.com/appscode/cluster-ui/commit/31a165f4) added cluster created_by profile
+- [92fdefef](https://github.com/appscode/cluster-ui/commit/92fdefef) finishing delete options
+- [72bbd5d2](https://github.com/appscode/cluster-ui/commit/72bbd5d2) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [fc49dfdd](https://github.com/appscode/cluster-ui/commit/fc49dfdd) fix snapshot row
+- [19fb74ac](https://github.com/appscode/cluster-ui/commit/19fb74ac) adding snapshot list
+- [1f9f9552](https://github.com/appscode/cluster-ui/commit/1f9f9552) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [e5ff174a](https://github.com/appscode/cluster-ui/commit/e5ff174a) Fix attic release-list sorting (realTimeStamp -> timeStamp)
+- [ab8d7ace](https://github.com/appscode/cluster-ui/commit/ab8d7ace) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [76059e71](https://github.com/appscode/cluster-ui/commit/76059e71) completing db snapshots
+- [651befdd](https://github.com/appscode/cluster-ui/commit/651befdd) hiding database section when in prod mode
+- [26e82d6a](https://github.com/appscode/cluster-ui/commit/26e82d6a) Delete the Old CSS (attic is also using the new css now)
+- [d2c976fe](https://github.com/appscode/cluster-ui/commit/d2c976fe) adding status in header in db
+- [b4c57f0e](https://github.com/appscode/cluster-ui/commit/b4c57f0e) Remove debugger
+- [07190868](https://github.com/appscode/cluster-ui/commit/07190868) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [340ee205](https://github.com/appscode/cluster-ui/commit/340ee205) fixing breadcrumb for db
+- [83deaa0d](https://github.com/appscode/cluster-ui/commit/83deaa0d) Add Resource Definition yaml/json view for LB, Load namespace even when alert is empty for default
+- [4ad88301](https://github.com/appscode/cluster-ui/commit/4ad88301) remove unnecessary code from breadcrumb.js
+- [d1c77920](https://github.com/appscode/cluster-ui/commit/d1c77920) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [44fef1e5](https://github.com/appscode/cluster-ui/commit/44fef1e5) remove text transformation
+- [038ab3c0](https://github.com/appscode/cluster-ui/commit/038ab3c0) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [2286c567](https://github.com/appscode/cluster-ui/commit/2286c567) clean up
+- [d38710a7](https://github.com/appscode/cluster-ui/commit/d38710a7) change to new cluster nunj
+- [6927b886](https://github.com/appscode/cluster-ui/commit/6927b886) change utility -> links
+- [c51ea01e](https://github.com/appscode/cluster-ui/commit/c51ea01e) added links in kibana, grafna, icinga icons
+- [4266845f](https://github.com/appscode/cluster-ui/commit/4266845f) snapshot list and added links in cluster details
+- [1ec1334d](https://github.com/appscode/cluster-ui/commit/1ec1334d) added resource definition in db section
+- [b20cb493](https://github.com/appscode/cluster-ui/commit/b20cb493) removed links from all cluster
+- [bf3d7e6b](https://github.com/appscode/cluster-ui/commit/bf3d7e6b) remove various links for failed and deleted clusters
+- [c14655e5](https://github.com/appscode/cluster-ui/commit/c14655e5) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [54474380](https://github.com/appscode/cluster-ui/commit/54474380) Add Namespace-filter for alert, incident, lb, secret, configmap
+- [c407e0f8](https://github.com/appscode/cluster-ui/commit/c407e0f8) change scss
+- [a85b8429](https://github.com/appscode/cluster-ui/commit/a85b8429) added deleted and failed cluster template
+- [887537c6](https://github.com/appscode/cluster-ui/commit/887537c6) remove js-yaml from package.json
+- [f2e0d81d](https://github.com/appscode/cluster-ui/commit/f2e0d81d) fixed yaml/json select in resource definition
+- [acaec5f3](https://github.com/appscode/cluster-ui/commit/acaec5f3) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [1d543cdb](https://github.com/appscode/cluster-ui/commit/1d543cdb) Make Namespace-filtering dynamic HTML/JS
+- [f56e104a](https://github.com/appscode/cluster-ui/commit/f56e104a) Comment out `resp.resource.raw.data.split('|')[1]`
+- [816567fb](https://github.com/appscode/cluster-ui/commit/816567fb) Change LB secrets/services list for v1beta1 -> v1beta2
+- [a37a5cb6](https://github.com/appscode/cluster-ui/commit/a37a5cb6) database lock toggle works
+- [2de70d7c](https://github.com/appscode/cluster-ui/commit/2de70d7c) support both yaml and json
+- [fb46f80e](https://github.com/appscode/cluster-ui/commit/fb46f80e) trying to show error when click on deleted or failed cluster
+- [14f60218](https://github.com/appscode/cluster-ui/commit/14f60218) update package.josn
+- [bae7cfb3](https://github.com/appscode/cluster-ui/commit/bae7cfb3) added yaml
+- [83dc2627](https://github.com/appscode/cluster-ui/commit/83dc2627) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [f19ef355](https://github.com/appscode/cluster-ui/commit/f19ef355) /lb, Secrets/Services api call change (v1beta1 -> v1beta2), Add Save Changes button for LB raw-view (JS, HTML)
+- [3889fa04](https://github.com/appscode/cluster-ui/commit/3889fa04) show yaml instead of json in resource definition
+- [a5b9b32a](https://github.com/appscode/cluster-ui/commit/a5b9b32a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [a270d60b](https://github.com/appscode/cluster-ui/commit/a270d60b) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [ac1fa1b6](https://github.com/appscode/cluster-ui/commit/ac1fa1b6) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [f7565d82](https://github.com/appscode/cluster-ui/commit/f7565d82) change image path
+- [023fbd91](https://github.com/appscode/cluster-ui/commit/023fbd91) rendering db lock/unlock template
+- [42a3e145](https://github.com/appscode/cluster-ui/commit/42a3e145) db modal lock/unlock icon, delete option disable etc.
+- [9f5de955](https://github.com/appscode/cluster-ui/commit/9f5de955) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [52931b0d](https://github.com/appscode/cluster-ui/commit/52931b0d) fixing db filter
+- [c13a8cb3](https://github.com/appscode/cluster-ui/commit/c13a8cb3) Sort artifact version-list by timestamp (timestamp col is hiddent)
+- [93da9f2e](https://github.com/appscode/cluster-ui/commit/93da9f2e) Showing item-list-table-header icon even when tables are empty
+- [ff8d7bc9](https://github.com/appscode/cluster-ui/commit/ff8d7bc9) Update js-client for attic fix.
+- [b6f0b6d4](https://github.com/appscode/cluster-ui/commit/b6f0b6d4) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [860815b7](https://github.com/appscode/cluster-ui/commit/860815b7) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [5c053f55](https://github.com/appscode/cluster-ui/commit/5c053f55) Sort attic version-list-items by Modified At, very Top-search api-call, handle empty fields
+- [44fe48ec](https://github.com/appscode/cluster-ui/commit/44fe48ec) clean up
+- [5aa8a9ff](https://github.com/appscode/cluster-ui/commit/5aa8a9ff) database details page
+- [8cb83960](https://github.com/appscode/cluster-ui/commit/8cb83960) adding db route
+- [0d78280b](https://github.com/appscode/cluster-ui/commit/0d78280b) clean up
+- [66a98149](https://github.com/appscode/cluster-ui/commit/66a98149) selected already selected default access level
+- [f7ee0ec5](https://github.com/appscode/cluster-ui/commit/f7ee0ec5) show default access level in basic of cluster details
+- [8f1f74ee](https://github.com/appscode/cluster-ui/commit/8f1f74ee) Fix copy clipboard (was returing [Object Object] for Json object)-check Object type then stringify
+- [16c946ed](https://github.com/appscode/cluster-ui/commit/16c946ed) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [6ba17ee4](https://github.com/appscode/cluster-ui/commit/6ba17ee4) Fix `undefined` on breadcrump (added edit, import-certificate in kube-object-name-map)
+- [940319c9](https://github.com/appscode/cluster-ui/commit/940319c9) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [9fd68e86](https://github.com/appscode/cluster-ui/commit/9fd68e86) handle events of alert
+- [df9d518c](https://github.com/appscode/cluster-ui/commit/df9d518c) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [a218c0e2](https://github.com/appscode/cluster-ui/commit/a218c0e2) change router for check url headerTemp
+- [25c28e64](https://github.com/appscode/cluster-ui/commit/25c28e64) Fix Conflicts!
+- [c4c39fe2](https://github.com/appscode/cluster-ui/commit/c4c39fe2) /secret, change list api (v1beta1 -> v1beta2)
+- [77ef9fcf](https://github.com/appscode/cluster-ui/commit/77ef9fcf) check url in basic page of cluster
+- [2e4af423](https://github.com/appscode/cluster-ui/commit/2e4af423) check url before rendering
+- [91e7b9fc](https://github.com/appscode/cluster-ui/commit/91e7b9fc) Handle beadcrumb for composer separately (composer name has `/` in the name)
+- [918b1d43](https://github.com/appscode/cluster-ui/commit/918b1d43) made `default` as a pre selected namespace in list
+- [2ce13d37](https://github.com/appscode/cluster-ui/commit/2ce13d37) Comment out glusterfs.v1beta1.clusters
+- [4623edca](https://github.com/appscode/cluster-ui/commit/4623edca) remove db from apiclient
+- [b7388cba](https://github.com/appscode/cluster-ui/commit/b7388cba) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [4b269770](https://github.com/appscode/cluster-ui/commit/4b269770) removed usage of database.schema.json
+- [c00473d7](https://github.com/appscode/cluster-ui/commit/c00473d7) added url check in details page
+- [fbbffeef](https://github.com/appscode/cluster-ui/commit/fbbffeef) Remove various unnecessary js/views, change php->composer for adding `active` class in left sidebar
+- [10cd7f3d](https://github.com/appscode/cluster-ui/commit/10cd7f3d) clean up
+- [daee660a](https://github.com/appscode/cluster-ui/commit/daee660a) Remove sidebar for composerVersionList
+- [abcc796b](https://github.com/appscode/cluster-ui/commit/abcc796b) Add breadcrumb singular-instance to MAP
+- [7d086f71](https://github.com/appscode/cluster-ui/commit/7d086f71) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [bb3e0919](https://github.com/appscode/cluster-ui/commit/bb3e0919) Version Details page for java/docker/php/npm
+- [313a33c5](https://github.com/appscode/cluster-ui/commit/313a33c5) fix modal certificate textarea's font-size
+- [315db362](https://github.com/appscode/cluster-ui/commit/315db362) clean up
+- [d29c8e07](https://github.com/appscode/cluster-ui/commit/d29c8e07) nowUrl = that.url check in cred list
+- [a04def77](https://github.com/appscode/cluster-ui/commit/a04def77) check nowUrl = that.url in all list page
+- [264ff644](https://github.com/appscode/cluster-ui/commit/264ff644) remove console
+- [a1fad544](https://github.com/appscode/cluster-ui/commit/a1fad544) added actual name in breadcrumb
+- [e19855f5](https://github.com/appscode/cluster-ui/commit/e19855f5) fix some map issue of name, some text, fix header issue of certificate
+- [2ee437a8](https://github.com/appscode/cluster-ui/commit/2ee437a8) fix some cluster secret text
+- [f18afab2](https://github.com/appscode/cluster-ui/commit/f18afab2) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [5d098b30](https://github.com/appscode/cluster-ui/commit/5d098b30) rename image
+- [e27ad985](https://github.com/appscode/cluster-ui/commit/e27ad985) fix image path
+- [2404f86b](https://github.com/appscode/cluster-ui/commit/2404f86b) clean up
+- [85c31017](https://github.com/appscode/cluster-ui/commit/85c31017) change image path
+- [e9cf99ad](https://github.com/appscode/cluster-ui/commit/e9cf99ad) fix instancegroup route
+- [843da2b8](https://github.com/appscode/cluster-ui/commit/843da2b8) removed status from header in storage class
+- [4ac4e372](https://github.com/appscode/cluster-ui/commit/4ac4e372) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [7300f8cf](https://github.com/appscode/cluster-ui/commit/7300f8cf) conditon added in jobs
+- [a9a46525](https://github.com/appscode/cluster-ui/commit/a9a46525) service namespace filter
+- [e6239288](https://github.com/appscode/cluster-ui/commit/e6239288) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [d067a7f7](https://github.com/appscode/cluster-ui/commit/d067a7f7) rc fix namespace filter
+- [eaeab47a](https://github.com/appscode/cluster-ui/commit/eaeab47a) pod namespace filter
+- [1d1d27e1](https://github.com/appscode/cluster-ui/commit/1d1d27e1) Add alert/incident for node, change some image from .png to .svg, remove unnecesssary images
+- [2820ff90](https://github.com/appscode/cluster-ui/commit/2820ff90) statefulset namespace filter
+- [2608bf38](https://github.com/appscode/cluster-ui/commit/2608bf38) added daemonset namespace filter
+- [c867c54a](https://github.com/appscode/cluster-ui/commit/c867c54a) added namespace filter to replicaset and replication controller list
+- [d997463b](https://github.com/appscode/cluster-ui/commit/d997463b) icon fix
+- [7373cc3f](https://github.com/appscode/cluster-ui/commit/7373cc3f) remove header status from credential header
+- [19f67fdd](https://github.com/appscode/cluster-ui/commit/19f67fdd) added connection info in cluster list
+- [024415cb](https://github.com/appscode/cluster-ui/commit/024415cb) redirect from /node url to /instance group
+- [f4b6a974](https://github.com/appscode/cluster-ui/commit/f4b6a974) instancegroup -> node and hide database from asidebar
+- [8aec79db](https://github.com/appscode/cluster-ui/commit/8aec79db) node remove status
+- [58ffe2e2](https://github.com/appscode/cluster-ui/commit/58ffe2e2) remove role status
+- [71ef161d](https://github.com/appscode/cluster-ui/commit/71ef161d) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [cf3c82a7](https://github.com/appscode/cluster-ui/commit/cf3c82a7) change some resource-definition view implementation for loading status field and added namespace and pod status field
+- [d7e0649c](https://github.com/appscode/cluster-ui/commit/d7e0649c) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [0d8f5c92](https://github.com/appscode/cluster-ui/commit/0d8f5c92) Add dynamic icons for incident/disk status
+- [dae8203b](https://github.com/appscode/cluster-ui/commit/dae8203b) remove service status
+- [e5ef1183](https://github.com/appscode/cluster-ui/commit/e5ef1183) change pod status
+- [13d90a75](https://github.com/appscode/cluster-ui/commit/13d90a75) status field remove job, daemonset, replicationcontroller, statefulset
+- [84e0d4a9](https://github.com/appscode/cluster-ui/commit/84e0d4a9) done remove header stutus from deployment and replicaset
+- [03526ff0](https://github.com/appscode/cluster-ui/commit/03526ff0) remove deployment header status
+- [f5b40f4d](https://github.com/appscode/cluster-ui/commit/f5b40f4d) Add span (smaller header text), fix css, remove status etc.
+- [44ca6c5b](https://github.com/appscode/cluster-ui/commit/44ca6c5b) fix job images rendering
+- [f79cad31](https://github.com/appscode/cluster-ui/commit/f79cad31) added conditions in deployment
+- [b7542e91](https://github.com/appscode/cluster-ui/commit/b7542e91) refactor node condition appending
+- [67083f2e](https://github.com/appscode/cluster-ui/commit/67083f2e) change default access level dp
+- [e0c7fa7f](https://github.com/appscode/cluster-ui/commit/e0c7fa7f) fixed credential name
+- [0035bbd8](https://github.com/appscode/cluster-ui/commit/0035bbd8) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [2de47ce6](https://github.com/appscode/cluster-ui/commit/2de47ce6) Remove header-status from details page, Change incident icon, wrap the annotations/label, fix import-certificate in breadcrumb etc
+- [9d53617f](https://github.com/appscode/cluster-ui/commit/9d53617f) instance group fixing
+- [8a8d2020](https://github.com/appscode/cluster-ui/commit/8a8d2020) added namespace filter in deployment list
+- [474f520e](https://github.com/appscode/cluster-ui/commit/474f520e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [7a3db8a6](https://github.com/appscode/cluster-ui/commit/7a3db8a6) Merge branch 'ph-sajib' diffusion.appscode.com:appscode/60/pharm
+- [d16a47c5](https://github.com/appscode/cluster-ui/commit/d16a47c5) Fix cluster icon size, add images/icons for Attic
+- [ef268f20](https://github.com/appscode/cluster-ui/commit/ef268f20) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [5667c8ca](https://github.com/appscode/cluster-ui/commit/5667c8ca) align footer btn in create kube instance form
+- [466b1539](https://github.com/appscode/cluster-ui/commit/466b1539) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [80313b86](https://github.com/appscode/cluster-ui/commit/80313b86) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [7fffc393](https://github.com/appscode/cluster-ui/commit/7fffc393) adding namespace filter
+- [dca317bd](https://github.com/appscode/cluster-ui/commit/dca317bd) capitalize delete-kube-instance header text
+- [7b5c2bbc](https://github.com/appscode/cluster-ui/commit/7b5c2bbc) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [25ba6794](https://github.com/appscode/cluster-ui/commit/25ba6794) Add namespace-filter CSS, Attic UI CSS by @anwar
+- [071631c7](https://github.com/appscode/cluster-ui/commit/071631c7) updated scss
+- [dbe4a197](https://github.com/appscode/cluster-ui/commit/dbe4a197) Add itemListPage, versionListPage, typeListPage (has some CSS issue, overall looks good)
+- [9ddb89fd](https://github.com/appscode/cluster-ui/commit/9ddb89fd) fixed header text in kubeobject create
+- [7d7d62f7](https://github.com/appscode/cluster-ui/commit/7d7d62f7) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [c5b03fd3](https://github.com/appscode/cluster-ui/commit/c5b03fd3) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [8a1dde5d](https://github.com/appscode/cluster-ui/commit/8a1dde5d) added new images
+- [4a6d408c](https://github.com/appscode/cluster-ui/commit/4a6d408c) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [a82b0b23](https://github.com/appscode/cluster-ui/commit/a82b0b23) Fix lb-raw-view redirect url for cancel btn
+- [7816188c](https://github.com/appscode/cluster-ui/commit/7816188c) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [8a0e31e5](https://github.com/appscode/cluster-ui/commit/8a0e31e5) added edit from url to singular items for breadcrumb
+- [84883336](https://github.com/appscode/cluster-ui/commit/84883336) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [f945576b](https://github.com/appscode/cluster-ui/commit/f945576b) Fix various issues
+- [e61e441e](https://github.com/appscode/cluster-ui/commit/e61e441e) made capitalize create kube-object text
+- [50c34254](https://github.com/appscode/cluster-ui/commit/50c34254) instancegroup -> node
+- [2d73206c](https://github.com/appscode/cluster-ui/commit/2d73206c) remove : from basic page in nodes, pods
+- [f937fbb0](https://github.com/appscode/cluster-ui/commit/f937fbb0) cluster creation node-set column size
+- [2f30c747](https://github.com/appscode/cluster-ui/commit/2f30c747) fixed node-set append issues
+- [59f30d15](https://github.com/appscode/cluster-ui/commit/59f30d15) added created at in roles basic page
+- [5c5908f5](https://github.com/appscode/cluster-ui/commit/5c5908f5) fixed role-bindgin details api call type issue
+- [1d2633e2](https://github.com/appscode/cluster-ui/commit/1d2633e2) fixed plural in create page[storageclass] and added a nam mapping json file
+- [37bcfe83](https://github.com/appscode/cluster-ui/commit/37bcfe83) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [9663d4b6](https://github.com/appscode/cluster-ui/commit/9663d4b6) created at -> Created At
+- [8064a2e0](https://github.com/appscode/cluster-ui/commit/8064a2e0) fa-edit->fa-pencil
+- [4b8d720c](https://github.com/appscode/cluster-ui/commit/4b8d720c) credential icon fix, edit page
+- [2c6de4ed](https://github.com/appscode/cluster-ui/commit/2c6de4ed) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [5eca445f](https://github.com/appscode/cluster-ui/commit/5eca445f) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [6d3bb06b](https://github.com/appscode/cluster-ui/commit/6d3bb06b) Modify app, routers, index for attic
+- [8d1a6b91](https://github.com/appscode/cluster-ui/commit/8d1a6b91) fix text
+- [34d31b6a](https://github.com/appscode/cluster-ui/commit/34d31b6a) remove and clena tempalte files
+- [731bb99b](https://github.com/appscode/cluster-ui/commit/731bb99b) delete some unnecessary stuff and fix multiple node-set append issue
+- [50836071](https://github.com/appscode/cluster-ui/commit/50836071) handle skippale item in breadcrumb
+- [f8e478e8](https://github.com/appscode/cluster-ui/commit/f8e478e8) fixed role bnding route
+- [204e79b1](https://github.com/appscode/cluster-ui/commit/204e79b1) fixed route for cluster role binding
+- [fcd2caed](https://github.com/appscode/cluster-ui/commit/fcd2caed) new role binding view
+- [83b019bc](https://github.com/appscode/cluster-ui/commit/83b019bc) Fix toolbar bug 'Copied!', Get inner alert/incident dynamic (add iconsOfKubeObjects.json)
+- [0f6553b1](https://github.com/appscode/cluster-ui/commit/0f6553b1) added all icon in event and resource page
+- [35c03690](https://github.com/appscode/cluster-ui/commit/35c03690) added role delete modal
+- [f194a1c8](https://github.com/appscode/cluster-ui/commit/f194a1c8) fixed create kube instance header
+- [b38cc250](https://github.com/appscode/cluster-ui/commit/b38cc250) added missing statefulset create
+- [53540dda](https://github.com/appscode/cluster-ui/commit/53540dda) fxzing icons
+- [0eeb7639](https://github.com/appscode/cluster-ui/commit/0eeb7639) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [f7224b77](https://github.com/appscode/cluster-ui/commit/f7224b77) Take the CSS of pharm-static (fixed pharm css)
+- [759cab0e](https://github.com/appscode/cluster-ui/commit/759cab0e) fixing icons issues[resource and events]
+- [62ed9ae6](https://github.com/appscode/cluster-ui/commit/62ed9ae6) added all icon in basic page
+- [e8ee1a25](https://github.com/appscode/cluster-ui/commit/e8ee1a25) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [b8c260a8](https://github.com/appscode/cluster-ui/commit/b8c260a8) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [ee41738d](https://github.com/appscode/cluster-ui/commit/ee41738d) Add missing id in /lb-resource page for codemirror working, stop breadcrumb capitalize
+- [2aed24b9](https://github.com/appscode/cluster-ui/commit/2aed24b9) added icons in list page
+- [f6cae1d3](https://github.com/appscode/cluster-ui/commit/f6cae1d3) added icons in list page
+- [97d61392](https://github.com/appscode/cluster-ui/commit/97d61392) fix create and edit pages header text
+- [3a2e382a](https://github.com/appscode/cluster-ui/commit/3a2e382a) edit page : and icon added
+- [53eed36a](https://github.com/appscode/cluster-ui/commit/53eed36a) cred create btn fixed
+- [a2c24333](https://github.com/appscode/cluster-ui/commit/a2c24333) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [38a6de8e](https://github.com/appscode/cluster-ui/commit/38a6de8e) fixing cluster role
+- [f9e954db](https://github.com/appscode/cluster-ui/commit/f9e954db) remove duplicate created_at from namespace basic
+- [42351c35](https://github.com/appscode/cluster-ui/commit/42351c35) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [37b24178](https://github.com/appscode/cluster-ui/commit/37b24178) fixed routing for service edit page
+- [27a8936e](https://github.com/appscode/cluster-ui/commit/27a8936e) Fix various icons, dynamic details page header icon for kube objects (pass icon: <icon-name>)
+- [6f09f4b2](https://github.com/appscode/cluster-ui/commit/6f09f4b2) remove icon from container
+- [59805f2c](https://github.com/appscode/cluster-ui/commit/59805f2c) added delete modal for pod delete
+- [5763dd44](https://github.com/appscode/cluster-ui/commit/5763dd44) adding age icon
+- [f2d19b0c](https://github.com/appscode/cluster-ui/commit/f2d19b0c) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [586e4dcd](https://github.com/appscode/cluster-ui/commit/586e4dcd) fixing appending labels in table
+- [81e4abcc](https://github.com/appscode/cluster-ui/commit/81e4abcc) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [658bba1a](https://github.com/appscode/cluster-ui/commit/658bba1a) testing append labels in line
+- [39f049bd](https://github.com/appscode/cluster-ui/commit/39f049bd) appending labels in table in line
+- [39b32486](https://github.com/appscode/cluster-ui/commit/39b32486) fixing adding object fields in the status fiels
+- [305cbd42](https://github.com/appscode/cluster-ui/commit/305cbd42) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [885f9317](https://github.com/appscode/cluster-ui/commit/885f9317) handle adding objects in status field in basic page
+- [0ca3fc2e](https://github.com/appscode/cluster-ui/commit/0ca3fc2e) remove header space
+- [42546bac](https://github.com/appscode/cluster-ui/commit/42546bac) handled multiple zombi modal
+- [077d3dc4](https://github.com/appscode/cluster-ui/commit/077d3dc4) fixing delete multiple item at a time
+- [0201f689](https://github.com/appscode/cluster-ui/commit/0201f689) Remove `:` from Basics page, no-configmap-html, Add header in certificate
+- [3a0eef80](https://github.com/appscode/cluster-ui/commit/3a0eef80) fix cluster-create btn txt
+- [8030f72e](https://github.com/appscode/cluster-ui/commit/8030f72e) fix credential create placeholder
+- [c7b0b905](https://github.com/appscode/cluster-ui/commit/c7b0b905) added ph-gap-margin-bottom in header of credential edit form
+- [6a7be972](https://github.com/appscode/cluster-ui/commit/6a7be972) added ph-margin-header-gap in credential details page and handle multiple delete modal[zombies]
+- [8ff7c1cf](https://github.com/appscode/cluster-ui/commit/8ff7c1cf) fixed redirect url credntial cancel and some text fixed
+- [3a724f21](https://github.com/appscode/cluster-ui/commit/3a724f21) clean up some code
+- [1af8a30e](https://github.com/appscode/cluster-ui/commit/1af8a30e) fix all route for instance group
+- [b2f5ee94](https://github.com/appscode/cluster-ui/commit/b2f5ee94) added resource and event for instance groups
+- [fc33351e](https://github.com/appscode/cluster-ui/commit/fc33351e) instance group event and resources
+- [0782a900](https://github.com/appscode/cluster-ui/commit/0782a900) added new node resize form
+- [f843afd2](https://github.com/appscode/cluster-ui/commit/f843afd2) added details page
+- [0f673a84](https://github.com/appscode/cluster-ui/commit/0f673a84) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [cbd96f56](https://github.com/appscode/cluster-ui/commit/cbd96f56) node instance group
+- [ea273d1f](https://github.com/appscode/cluster-ui/commit/ea273d1f) Fix `certificate-import` in routers, Add `ph-gap-margin-bottom` class in every body-header root div
+- [81a8013f](https://github.com/appscode/cluster-ui/commit/81a8013f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [d2729d49](https://github.com/appscode/cluster-ui/commit/d2729d49) Change fa-edit -> fa-pencil (diffusion flavour)
+- [67da5ce9](https://github.com/appscode/cluster-ui/commit/67da5ce9) Change sidebar petset.html -> statefulset.html
+- [a3c1d7d2](https://github.com/appscode/cluster-ui/commit/a3c1d7d2) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [b709e4e3](https://github.com/appscode/cluster-ui/commit/b709e4e3) Fixed text/icons in alert, incident, load-balancer pages
+- [b8f23d58](https://github.com/appscode/cluster-ui/commit/b8f23d58) instance group specific items
+- [858ccacc](https://github.com/appscode/cluster-ui/commit/858ccacc) instance type list added
+- [d3c56bc6](https://github.com/appscode/cluster-ui/commit/d3c56bc6) added age icon in lists
+- [801ace9a](https://github.com/appscode/cluster-ui/commit/801ace9a) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [3a1a699e](https://github.com/appscode/cluster-ui/commit/3a1a699e) rename petset->statefulset folder name
+- [05f2759e](https://github.com/appscode/cluster-ui/commit/05f2759e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [1cf41f96](https://github.com/appscode/cluster-ui/commit/1cf41f96) Change petset->statefulset for /alert
+- [1d309cb4](https://github.com/appscode/cluster-ui/commit/1d309cb4) remove : from credential basic
+- [1b9c00f4](https://github.com/appscode/cluster-ui/commit/1b9c00f4) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [c606634d](https://github.com/appscode/cluster-ui/commit/c606634d) remv console
+- [270a89ff](https://github.com/appscode/cluster-ui/commit/270a89ff) remove more console
+- [dcad5bf5](https://github.com/appscode/cluster-ui/commit/dcad5bf5) remove console
+- [ca2142c1](https://github.com/appscode/cluster-ui/commit/ca2142c1) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [97997ca1](https://github.com/appscode/cluster-ui/commit/97997ca1) Fix loadbalancer+alert issues
+- [b3101e84](https://github.com/appscode/cluster-ui/commit/b3101e84) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [059ca1d4](https://github.com/appscode/cluster-ui/commit/059ca1d4) remove : from basic pages
+- [994e0338](https://github.com/appscode/cluster-ui/commit/994e0338) disabled edit and connect btn when user not admin
+- [bfb76df8](https://github.com/appscode/cluster-ui/commit/bfb76df8) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [1d88fbb2](https://github.com/appscode/cluster-ui/commit/1d88fbb2) Reduce about 407 lines in pharm.router.js (call this.closeSidebarAndMainView)
+- [24b6fb72](https://github.com/appscode/cluster-ui/commit/24b6fb72) fixing some cluster basics
+- [9e9cb5fe](https://github.com/appscode/cluster-ui/commit/9e9cb5fe) fix resize form icon
+- [01179456](https://github.com/appscode/cluster-ui/commit/01179456) fix cluster edit
+- [b6e2f6ec](https://github.com/appscode/cluster-ui/commit/b6e2f6ec) cluster resize cancel ctn redirect url added,
+- [f0fcdd01](https://github.com/appscode/cluster-ui/commit/f0fcdd01) added ':' in cluster basic page's labels
+- [f3d16361](https://github.com/appscode/cluster-ui/commit/f3d16361) change 'save cluster'-> 'save changes'
+- [ab52e43d](https://github.com/appscode/cluster-ui/commit/ab52e43d) - fixed redirect url from cluster create form - disabled kibana, icinga, grafana url for failed and deleted cluster list
+- [b2701f61](https://github.com/appscode/cluster-ui/commit/b2701f61) fixed setting url from header
+- [c5d220f5](https://github.com/appscode/cluster-ui/commit/c5d220f5) fixed logout url
+- [89cbeb81](https://github.com/appscode/cluster-ui/commit/89cbeb81) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [3eb3ce87](https://github.com/appscode/cluster-ui/commit/3eb3ce87) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [94f8ad62](https://github.com/appscode/cluster-ui/commit/94f8ad62) fix modal in jobs
+- [686b321b](https://github.com/appscode/cluster-ui/commit/686b321b) Fixed ci delete modal dissmiss, redirect url
+- [84b1abfb](https://github.com/appscode/cluster-ui/commit/84b1abfb) remove console
+- [b999e16d](https://github.com/appscode/cluster-ui/commit/b999e16d) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [7ff9d0c4](https://github.com/appscode/cluster-ui/commit/7ff9d0c4) use small modal for delete options
+- [009fc635](https://github.com/appscode/cluster-ui/commit/009fc635) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [da003b00](https://github.com/appscode/cluster-ui/commit/da003b00) Fix conflicts
+- [298663f5](https://github.com/appscode/cluster-ui/commit/298663f5) added disbale option in delete cluster
+- [66bfbbe6](https://github.com/appscode/cluster-ui/commit/66bfbbe6) Fix Breadcrumb for Resposive view, Stop btn animation, fixed incident icons, htm
+- [554fd5ef](https://github.com/appscode/cluster-ui/commit/554fd5ef) service basic fixing
+- [1de36d88](https://github.com/appscode/cluster-ui/commit/1de36d88) added conditins in pod basic page
+- [4c36e72a](https://github.com/appscode/cluster-ui/commit/4c36e72a) storage class, nodes basic infos adding
+- [3f65ff7c](https://github.com/appscode/cluster-ui/commit/3f65ff7c) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [56f3645e](https://github.com/appscode/cluster-ui/commit/56f3645e) appending basic informations
+- [a5680ad1](https://github.com/appscode/cluster-ui/commit/a5680ad1) Fix glob based build seq for index files.
+- [224f8984](https://github.com/appscode/cluster-ui/commit/224f8984) adding information in daemonset
+- [0960a49b](https://github.com/appscode/cluster-ui/commit/0960a49b) adding pod row for jobs
+- [92ed60bd](https://github.com/appscode/cluster-ui/commit/92ed60bd) form fix
+- [a49610b2](https://github.com/appscode/cluster-ui/commit/a49610b2) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [f27b9ebc](https://github.com/appscode/cluster-ui/commit/f27b9ebc) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [09a1a554](https://github.com/appscode/cluster-ui/commit/09a1a554) finishing replicaset and deployments
+- [c059594d](https://github.com/appscode/cluster-ui/commit/c059594d) added annotations in replicaset
+- [4f012fc1](https://github.com/appscode/cluster-ui/commit/4f012fc1) deployment basic
+- [ed20eafe](https://github.com/appscode/cluster-ui/commit/ed20eafe) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [b5730d95](https://github.com/appscode/cluster-ui/commit/b5730d95) Ensure browserify tasks are before surrounding gulp task exits.
+- [a9477e61](https://github.com/appscode/cluster-ui/commit/a9477e61) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [68c57c5c](https://github.com/appscode/cluster-ui/commit/68c57c5c) Fix rev-manifest.json if missing assets.
+- [222a5c60](https://github.com/appscode/cluster-ui/commit/222a5c60) added modal dismiss btn in cluster connect
+- [0c627b66](https://github.com/appscode/cluster-ui/commit/0c627b66) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [f5d61c84](https://github.com/appscode/cluster-ui/commit/f5d61c84) revert
+- [c84cc787](https://github.com/appscode/cluster-ui/commit/c84cc787) git: Add js for dynamic url set in css
+- [c025fe33](https://github.com/appscode/cluster-ui/commit/c025fe33) clean code
+- [836a9b44](https://github.com/appscode/cluster-ui/commit/836a9b44) fixed rendering delete modal when cluster is locked
+- [8790de2b](https://github.com/appscode/cluster-ui/commit/8790de2b) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [35819392](https://github.com/appscode/cluster-ui/commit/35819392) fixing modal in lock cluster mode
+- [52435604](https://github.com/appscode/cluster-ui/commit/52435604) More cleanup
+- [b8c7116e](https://github.com/appscode/cluster-ui/commit/b8c7116e) /ci, remove unnecessary `delete` btn in mobile view
+- [a07ecc21](https://github.com/appscode/cluster-ui/commit/a07ecc21) fixed appending user image in cluster basic
+- [6dce3240](https://github.com/appscode/cluster-ui/commit/6dce3240) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [5b634d9e](https://github.com/appscode/cluster-ui/commit/5b634d9e) /ci, details page icons, more cleanup
+- [afd22fb1](https://github.com/appscode/cluster-ui/commit/afd22fb1) breadcrumb logo passing
+- [cddd96c1](https://github.com/appscode/cluster-ui/commit/cddd96c1) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [e40c156c](https://github.com/appscode/cluster-ui/commit/e40c156c) Fix conflicts with master
+- [b359c619](https://github.com/appscode/cluster-ui/commit/b359c619) /ci, added no-configured-ci page, added Breadcrumb, Cleanup previous ci huge codes etc
+- [96f08641](https://github.com/appscode/cluster-ui/commit/96f08641) remove console from breadcrumb view
+- [962186f7](https://github.com/appscode/cluster-ui/commit/962186f7) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [e1d0fd5d](https://github.com/appscode/cluster-ui/commit/e1d0fd5d) fixed breadcrumb issue for all three app
+- [bee6c2b3](https://github.com/appscode/cluster-ui/commit/bee6c2b3) added-all
+- [af4efa47](https://github.com/appscode/cluster-ui/commit/af4efa47) Upgrade js-client dependency
+- [ca63f836](https://github.com/appscode/cluster-ui/commit/ca63f836) change api-js-client version in package,json
+- [960e812f](https://github.com/appscode/cluster-ui/commit/960e812f) added cluster edit options
+- [e2f6aa73](https://github.com/appscode/cluster-ui/commit/e2f6aa73) Render list page (basics, list), details page render, delete agent etc.
+- [4772ed3a](https://github.com/appscode/cluster-ui/commit/4772ed3a) cluster edit added
+- [2485baea](https://github.com/appscode/cluster-ui/commit/2485baea) adding cluster setting in cluster basic page
+- [cf0f5d8e](https://github.com/appscode/cluster-ui/commit/cf0f5d8e) handled empty label_selector rendering
+- [2218516f](https://github.com/appscode/cluster-ui/commit/2218516f) remove "x" sign from modal and convert reconfigure -> resize both in text and route
+- [cd236530](https://github.com/appscode/cluster-ui/commit/cd236530) adding cluster setting in cluster basic page
+- [a8c7852b](https://github.com/appscode/cluster-ui/commit/a8c7852b) move render list in a common place
+- [ba0fc1dc](https://github.com/appscode/cluster-ui/commit/ba0fc1dc) appending label fixing
+- [7ade13ad](https://github.com/appscode/cluster-ui/commit/7ade13ad) remove some console and fixing appending labels
+- [7490bee8](https://github.com/appscode/cluster-ui/commit/7490bee8) labels selector '...' if labels are greater than 3
+- [d6b7f1d4](https://github.com/appscode/cluster-ui/commit/d6b7f1d4) CI routers, app, list page rendering (no html)
+- [f38d571a](https://github.com/appscode/cluster-ui/commit/f38d571a) added annotation in pods basic
+- [a19ad49f](https://github.com/appscode/cluster-ui/commit/a19ad49f) added containers inpods basic
+- [eb1ea815](https://github.com/appscode/cluster-ui/commit/eb1ea815) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [1be58637](https://github.com/appscode/cluster-ui/commit/1be58637) pods conditions
+- [a9dca863](https://github.com/appscode/cluster-ui/commit/a9dca863) container list in pods basic
+- [2b7fa019](https://github.com/appscode/cluster-ui/commit/2b7fa019) Check empty value (or print '-') for every key in details page
+- [fd848e1b](https://github.com/appscode/cluster-ui/commit/fd848e1b) Add body-header missing template
+- [89eea1c9](https://github.com/appscode/cluster-ui/commit/89eea1c9) Add body header for details page, fix annotations one on one line
+- [78b72a92](https://github.com/appscode/cluster-ui/commit/78b72a92) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [e1583b17](https://github.com/appscode/cluster-ui/commit/e1583b17) Delete disk, add bootstrap table, css modify of tag-label
+- [4e914645](https://github.com/appscode/cluster-ui/commit/4e914645) event list fixing
+- [f393ba74](https://github.com/appscode/cluster-ui/commit/f393ba74) change name of raw view->resource-definition
+- [59a8d806](https://github.com/appscode/cluster-ui/commit/59a8d806) added more infos in db details
+- [6f1de64d](https://github.com/appscode/cluster-ui/commit/6f1de64d) database create test and change button text
+- [6a9514a5](https://github.com/appscode/cluster-ui/commit/6a9514a5) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [7ad5999e](https://github.com/appscode/cluster-ui/commit/7ad5999e) fixing db create
+- [528067cc](https://github.com/appscode/cluster-ui/commit/528067cc) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [1e2b0229](https://github.com/appscode/cluster-ui/commit/1e2b0229) Get disk-type in create-disk (api call), unregister PVC, show `id (name)` for aws in list page
+- [f7ab84bb](https://github.com/appscode/cluster-ui/commit/f7ab84bb) fixing
+- [827b8ae2](https://github.com/appscode/cluster-ui/commit/827b8ae2) adding roles subject
+- [3db8f7dd](https://github.com/appscode/cluster-ui/commit/3db8f7dd) adding selector in roles
+- [7a417aa9](https://github.com/appscode/cluster-ui/commit/7a417aa9) modal dialog hide when change url for kube instance
+- [9d902fa8](https://github.com/appscode/cluster-ui/commit/9d902fa8) db delete modal
+- [a97371ab](https://github.com/appscode/cluster-ui/commit/a97371ab) fix db delete modal text and view
+- [4a286c05](https://github.com/appscode/cluster-ui/commit/4a286c05) fixed db table's bootstrap table view
+- [38ad78d7](https://github.com/appscode/cluster-ui/commit/38ad78d7) fixed delete modal text for kube instance
+- [5c5cfeea](https://github.com/appscode/cluster-ui/commit/5c5cfeea) use phid as name
+- [a6643717](https://github.com/appscode/cluster-ui/commit/a6643717) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [510f6871](https://github.com/appscode/cluster-ui/commit/510f6871) Show latest name/status/size etc (various logic), render details, PV/PVC register, redirect URL after PV unregister (use regex)
+- [6c33007e](https://github.com/appscode/cluster-ui/commit/6c33007e) trying to fixing node label appending
+- [ab98e1f2](https://github.com/appscode/cluster-ui/commit/ab98e1f2) fixing..
+- [0f3ed082](https://github.com/appscode/cluster-ui/commit/0f3ed082) fixing append label in various list
+- [0d047c2b](https://github.com/appscode/cluster-ui/commit/0d047c2b) fixing appending labels
+- [32ab94ae](https://github.com/appscode/cluster-ui/commit/32ab94ae) fixing role details route for edit
+- [7cc38ca2](https://github.com/appscode/cluster-ui/commit/7cc38ca2) remove namespace from storage class second level sidebar
+- [b9317e27](https://github.com/appscode/cluster-ui/commit/b9317e27) template added in events in storage class
+- [bbcb8d7a](https://github.com/appscode/cluster-ui/commit/bbcb8d7a) fix second lavel sidebar select for replicaset
+- [b2e1d8ac](https://github.com/appscode/cluster-ui/commit/b2e1d8ac) removed deleted-cluster-list-view(deprecated)
+- [31417e6f](https://github.com/appscode/cluster-ui/commit/31417e6f) removed details link from cluster list
+- [aa8b5f92](https://github.com/appscode/cluster-ui/commit/aa8b5f92) cluster deleted list fixing
+- [6117c067](https://github.com/appscode/cluster-ui/commit/6117c067) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [a6147de7](https://github.com/appscode/cluster-ui/commit/a6147de7) sending actual role binding name
+- [e80c295e](https://github.com/appscode/cluster-ui/commit/e80c295e) added binding in route
+- [aa5b00c8](https://github.com/appscode/cluster-ui/commit/aa5b00c8) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [b7aebfa8](https://github.com/appscode/cluster-ui/commit/b7aebfa8) changing route in role binding details
+- [e9beec1e](https://github.com/appscode/cluster-ui/commit/e9beec1e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [6e9244fb](https://github.com/appscode/cluster-ui/commit/6e9244fb) role resource route
+- [d7dee585](https://github.com/appscode/cluster-ui/commit/d7dee585) added timeline in roles basic page
+- [4a7d37b2](https://github.com/appscode/cluster-ui/commit/4a7d37b2) Fix conflicts with master
+- [0f1a51d7](https://github.com/appscode/cluster-ui/commit/0f1a51d7) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [a0ea8a0d](https://github.com/appscode/cluster-ui/commit/a0ea8a0d) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [35adf1f3](https://github.com/appscode/cluster-ui/commit/35adf1f3) Disk-list page, details page etc
+- [9786161a](https://github.com/appscode/cluster-ui/commit/9786161a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [4c7451cd](https://github.com/appscode/cluster-ui/commit/4c7451cd) pods in statefulset basic
+- [67cc51ad](https://github.com/appscode/cluster-ui/commit/67cc51ad) remove namespace from namespace basic tempalte
+- [4cb028a2](https://github.com/appscode/cluster-ui/commit/4cb028a2) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [4480114f](https://github.com/appscode/cluster-ui/commit/4480114f) WIP
+- [c25c4914](https://github.com/appscode/cluster-ui/commit/c25c4914) trying to fix breadcrumb query string
+- [15c24de6](https://github.com/appscode/cluster-ui/commit/15c24de6) added more infos in breadcrumb json file
+- [ae118acc](https://github.com/appscode/cluster-ui/commit/ae118acc) WIP
+- [3cd71fd8](https://github.com/appscode/cluster-ui/commit/3cd71fd8) removed some console and shift breadcrumb data to separate file
+- [aa7ae58a](https://github.com/appscode/cluster-ui/commit/aa7ae58a) fixed pods rendering in daemonset basic page
+- [16a40cc8](https://github.com/appscode/cluster-ui/commit/16a40cc8) Comment out disk-details page
+- [ea341354](https://github.com/appscode/cluster-ui/commit/ea341354) Fix
+- [a483bebc](https://github.com/appscode/cluster-ui/commit/a483bebc) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [4333aa41](https://github.com/appscode/cluster-ui/commit/4333aa41) /disk, create-disk, create-pvc, list page, js, html huge change,  etc
+- [8f23cc6a](https://github.com/appscode/cluster-ui/commit/8f23cc6a) change rawview->resource definition role basic page
+- [6d22a361](https://github.com/appscode/cluster-ui/commit/6d22a361) adding pods information completely
+- [84aec4f0](https://github.com/appscode/cluster-ui/commit/84aec4f0) made raw view full page
+- [46310af8](https://github.com/appscode/cluster-ui/commit/46310af8) resource->Resource in breadcrumb Capitalize kube instance type
+- [5fb97dc8](https://github.com/appscode/cluster-ui/commit/5fb97dc8) cody from text area
+- [4ee729f8](https://github.com/appscode/cluster-ui/commit/4ee729f8) fixed cred edit
+- [c4ea605e](https://github.com/appscode/cluster-ui/commit/c4ea605e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [79cde311](https://github.com/appscode/cluster-ui/commit/79cde311) fixed gcecredential create
+- [efcc7b69](https://github.com/appscode/cluster-ui/commit/efcc7b69) Fix Attic routes link
+- [57e6bbc0](https://github.com/appscode/cluster-ui/commit/57e6bbc0) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [9d646bdf](https://github.com/appscode/cluster-ui/commit/9d646bdf) WIP disk
+- [7425e45c](https://github.com/appscode/cluster-ui/commit/7425e45c) fix credential information show and added bootstrap table
+- [13832b54](https://github.com/appscode/cluster-ui/commit/13832b54) Fix conflicts
+- [23230601](https://github.com/appscode/cluster-ui/commit/23230601) disk WIP
+- [f4a50f9b](https://github.com/appscode/cluster-ui/commit/f4a50f9b) Add load-balancer nodeSelector, show options in details page
+- [86255964](https://github.com/appscode/cluster-ui/commit/86255964) added containers in pods details
+- [a96f90cc](https://github.com/appscode/cluster-ui/commit/a96f90cc) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [f50706e8](https://github.com/appscode/cluster-ui/commit/f50706e8) added more infos in basic pages
+- [a3655fbd](https://github.com/appscode/cluster-ui/commit/a3655fbd) clean up pharm.router.js file
+- [e7eafbef](https://github.com/appscode/cluster-ui/commit/e7eafbef) change /raw->/resource in routes file for without namespace query
+- [d5c6cba8](https://github.com/appscode/cluster-ui/commit/d5c6cba8) append status as string in basic page
+- [68ba187b](https://github.com/appscode/cluster-ui/commit/68ba187b) added system_info in node details page
+- [400ddd3f](https://github.com/appscode/cluster-ui/commit/400ddd3f) added pod list in service basic page and some clean up
+- [7d2dfbac](https://github.com/appscode/cluster-ui/commit/7d2dfbac) Rename artifactory to attic.
+- [8d194020](https://github.com/appscode/cluster-ui/commit/8d194020) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [972f01f6](https://github.com/appscode/cluster-ui/commit/972f01f6) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [38169c5a](https://github.com/appscode/cluster-ui/commit/38169c5a) =daemonset pods
+- [f0a8c6c5](https://github.com/appscode/cluster-ui/commit/f0a8c6c5) added services and pods in replicaset and rc details page
+- [9ac91163](https://github.com/appscode/cluster-ui/commit/9ac91163) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [ed36ab0d](https://github.com/appscode/cluster-ui/commit/ed36ab0d) adding replicaset services and pods
+- [c4c319ae](https://github.com/appscode/cluster-ui/commit/c4c319ae) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [b0d651e3](https://github.com/appscode/cluster-ui/commit/b0d651e3) WIP
+- [9f523675](https://github.com/appscode/cluster-ui/commit/9f523675) Upgrade yarn.lock
+- [a556573f](https://github.com/appscode/cluster-ui/commit/a556573f) clean up time.js file
+- [5625aa1a](https://github.com/appscode/cluster-ui/commit/5625aa1a) added moment for times in Time model
+- [f458ab17](https://github.com/appscode/cluster-ui/commit/f458ab17) Change ssl -> certificate, each label per line, Fix multiple call for Clipborad (copy), remove btn text & add tooltip etc.
+- [732d44c4](https://github.com/appscode/cluster-ui/commit/732d44c4) handle day/days in Time file and added timeline in cluster detials
+- [a5b25ff8](https://github.com/appscode/cluster-ui/commit/a5b25ff8) added snapshot list and tempalte file comlete
+- [4868c672](https://github.com/appscode/cluster-ui/commit/4868c672) added database details and snapshot view
+- [c9bd9aad](https://github.com/appscode/cluster-ui/commit/c9bd9aad) change rawview-> resource definition in second level sidebar
+- [b36d3015](https://github.com/appscode/cluster-ui/commit/b36d3015) database description and details page
+- [6ef5fa1e](https://github.com/appscode/cluster-ui/commit/6ef5fa1e) Fix typo
+- [96a8d8cd](https://github.com/appscode/cluster-ui/commit/96a8d8cd) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [5de0bd96](https://github.com/appscode/cluster-ui/commit/5de0bd96) Fix stop label deleting by backspace, add age, dynamic icon-color, header etc
+- [db3438cc](https://github.com/appscode/cluster-ui/commit/db3438cc) rmove test code
+- [9cba6599](https://github.com/appscode/cluster-ui/commit/9cba6599) add some more infos in pod details and show a label in one line
+- [5940843a](https://github.com/appscode/cluster-ui/commit/5940843a) change raw->resource in URL
+- [ccea1de2](https://github.com/appscode/cluster-ui/commit/ccea1de2) raw->resource in template files
+- [6812dff4](https://github.com/appscode/cluster-ui/commit/6812dff4) remove created at from list page
+- [c594f176](https://github.com/appscode/cluster-ui/commit/c594f176) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [7c4dc486](https://github.com/appscode/cluster-ui/commit/7c4dc486) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [4fce14a8](https://github.com/appscode/cluster-ui/commit/4fce14a8) fixed chacking invalid date
+- [ff19d3df](https://github.com/appscode/cluster-ui/commit/ff19d3df) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [be045181](https://github.com/appscode/cluster-ui/commit/be045181) changing time lib
+- [81114454](https://github.com/appscode/cluster-ui/commit/81114454) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [5e4b40ff](https://github.com/appscode/cluster-ui/commit/5e4b40ff) WIP
+- [fb8073df](https://github.com/appscode/cluster-ui/commit/fb8073df) added replicaset list in deployment
+- [649fec46](https://github.com/appscode/cluster-ui/commit/649fec46) added timelines[created_at]
+- [087fcf91](https://github.com/appscode/cluster-ui/commit/087fcf91) added library for pods list with ancestor and show ca_cert in text area
+- [371da328](https://github.com/appscode/cluster-ui/commit/371da328) added credential provider from cloud credential json file
+- [ba3c949e](https://github.com/appscode/cluster-ui/commit/ba3c949e) fixed sidebar for credential and text of create credential
+- [a8070305](https://github.com/appscode/cluster-ui/commit/a8070305) fixed sidebar of credentials
+- [89c90af2](https://github.com/appscode/cluster-ui/commit/89c90af2) Merge branch 'master' into ph-pharm-h
+- [c80e19c4](https://github.com/appscode/cluster-ui/commit/c80e19c4) added sidebar with details event and rawview
+- [b60a6371](https://github.com/appscode/cluster-ui/commit/b60a6371) fixing sidebar selecting element issue and redirect url for when cancel create form
+- [f2d68ae1](https://github.com/appscode/cluster-ui/commit/f2d68ae1) fixed role redirect urklif (this.type === 'role' || this.type === 'clusterrole') {       if (cnt) {         reDirentUrl += '&';       } else {         reDirentUrl += '?';       }       reDirentUrl += 'type=' + this.type;     }
+- [0b5bc22e](https://github.com/appscode/cluster-ui/commit/0b5bc22e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [41469983](https://github.com/appscode/cluster-ui/commit/41469983) fxing sidebar for event and rawview page
+- [311854b2](https://github.com/appscode/cluster-ui/commit/311854b2) Show label for kube alert list page row
+- [96926822](https://github.com/appscode/cluster-ui/commit/96926822) save change and cancel button works
+- [329b3c67](https://github.com/appscode/cluster-ui/commit/329b3c67) type basics -> basics
+- [1959fd35](https://github.com/appscode/cluster-ui/commit/1959fd35) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [7747fbac](https://github.com/appscode/cluster-ui/commit/7747fbac) create at -> created at
+- [be11e32e](https://github.com/appscode/cluster-ui/commit/be11e32e) Change Submit -> Save Changes (edit page)
+- [9d3c007d](https://github.com/appscode/cluster-ui/commit/9d3c007d) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [b35225e2](https://github.com/appscode/cluster-ui/commit/b35225e2) Fix various issues (edit page body title, redirect page url, lb http edit, cleanup etc)
+- [c47a4877](https://github.com/appscode/cluster-ui/commit/c47a4877) add label and age
+- [b6dff204](https://github.com/appscode/cluster-ui/commit/b6dff204) added age and labels in list page
+- [4d581434](https://github.com/appscode/cluster-ui/commit/4d581434) checking cluster details modals
+- [d6240375](https://github.com/appscode/cluster-ui/commit/d6240375) remove console
+- [ba4c5e19](https://github.com/appscode/cluster-ui/commit/ba4c5e19) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [72b43bd8](https://github.com/appscode/cluster-ui/commit/72b43bd8) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [a9ece490](https://github.com/appscode/cluster-ui/commit/a9ece490) fix modal render issue
+- [65cfb731](https://github.com/appscode/cluster-ui/commit/65cfb731) Fix path for rev build
+- [b72767dd](https://github.com/appscode/cluster-ui/commit/b72767dd) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [eb8de153](https://github.com/appscode/cluster-ui/commit/eb8de153) Upgrade yarn
+- [1f1770ad](https://github.com/appscode/cluster-ui/commit/1f1770ad) remove linter error
+- [3da5b58a](https://github.com/appscode/cluster-ui/commit/3da5b58a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [bbacfc3b](https://github.com/appscode/cluster-ui/commit/bbacfc3b) added event file name
+- [98517fac](https://github.com/appscode/cluster-ui/commit/98517fac) remove unnecessary codes
+- [6edbe5dd](https://github.com/appscode/cluster-ui/commit/6edbe5dd) fix job details labels
+- [4e89211a](https://github.com/appscode/cluster-ui/commit/4e89211a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [67dbba93](https://github.com/appscode/cluster-ui/commit/67dbba93) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [629e252c](https://github.com/appscode/cluster-ui/commit/629e252c) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [a81664f9](https://github.com/appscode/cluster-ui/commit/a81664f9) Fix many issues of incident, lb, secrets, ssl etc.
+- [f751f5d1](https://github.com/appscode/cluster-ui/commit/f751f5d1) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [20737fd1](https://github.com/appscode/cluster-ui/commit/20737fd1) change detais
+- [c9a1de68](https://github.com/appscode/cluster-ui/commit/c9a1de68) remove right sidebar from rawview
+- [8facea84](https://github.com/appscode/cluster-ui/commit/8facea84) remove textarea from cluster details
+- [d95c585e](https://github.com/appscode/cluster-ui/commit/d95c585e) remove console.log from *.app.js files
+- [08989fc6](https://github.com/appscode/cluster-ui/commit/08989fc6) Merge branch 'ph-pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [f4d0d1a7](https://github.com/appscode/cluster-ui/commit/f4d0d1a7) added health api check in artifactory
+- [ce9e7a2f](https://github.com/appscode/cluster-ui/commit/ce9e7a2f) added health api in pharm and ci
+- [92d92acf](https://github.com/appscode/cluster-ui/commit/92d92acf) Add /alert `raw-view`, `events`. Fix redirect url Edit -> Details
+- [88b6c39a](https://github.com/appscode/cluster-ui/commit/88b6c39a) fix text in cluster delete and lock toggle
+- [51e747b6](https://github.com/appscode/cluster-ui/commit/51e747b6) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [c773ea34](https://github.com/appscode/cluster-ui/commit/c773ea34) Add created_at time in time details page
+- [9be970eb](https://github.com/appscode/cluster-ui/commit/9be970eb) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [b43c4bcd](https://github.com/appscode/cluster-ui/commit/b43c4bcd) fixed cluster role details and route from raw view
+- [4a652efd](https://github.com/appscode/cluster-ui/commit/4a652efd) /alert, Make labels dynamic & also prevent deleting of fixed alert.appscode.com.** labels
+- [a5fe4743](https://github.com/appscode/cluster-ui/commit/a5fe4743) added labels in statefulset details
+- [d27c850b](https://github.com/appscode/cluster-ui/commit/d27c850b) fixed statefulset details and rawview
+- [753492b2](https://github.com/appscode/cluster-ui/commit/753492b2) change all url pattern in edit buttton
+- [7de4bb9e](https://github.com/appscode/cluster-ui/commit/7de4bb9e) fixing raw view route from edit button
+- [e0ddd1e0](https://github.com/appscode/cluster-ui/commit/e0ddd1e0) list header text and sidebar text fixed
+- [1b532737](https://github.com/appscode/cluster-ui/commit/1b532737) disable delete button when cluster locked
+- [3f647d23](https://github.com/appscode/cluster-ui/commit/3f647d23) pass name to cluster modals
+- [1ba9f584](https://github.com/appscode/cluster-ui/commit/1ba9f584) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [a3958488](https://github.com/appscode/cluster-ui/commit/a3958488) adding appropriate text for cluster modal
+- [06212076](https://github.com/appscode/cluster-ui/commit/06212076) /alert, Add labels in details page
+- [7a2016d4](https://github.com/appscode/cluster-ui/commit/7a2016d4) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [7ee27607](https://github.com/appscode/cluster-ui/commit/7ee27607) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [548a445e](https://github.com/appscode/cluster-ui/commit/548a445e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [e6bea10a](https://github.com/appscode/cluster-ui/commit/e6bea10a) /alert, Fix list page, details page issues
+- [973a6618](https://github.com/appscode/cluster-ui/commit/973a6618) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [3405de0f](https://github.com/appscode/cluster-ui/commit/3405de0f) added some more details info in cluster details
+- [bdbb30f1](https://github.com/appscode/cluster-ui/commit/bdbb30f1) delete modal in cluster list
+- [ec9f7108](https://github.com/appscode/cluster-ui/commit/ec9f7108) remove some console
+- [dcb6dc86](https://github.com/appscode/cluster-ui/commit/dcb6dc86) added cluster filtering
+- [4ad23603](https://github.com/appscode/cluster-ui/commit/4ad23603) fixed filter in cluster list and remove console.log
+- [07ae1630](https://github.com/appscode/cluster-ui/commit/07ae1630) Fix ssl
+- [7d31462b](https://github.com/appscode/cluster-ui/commit/7d31462b) fix cluster list filter
+- [3d43651e](https://github.com/appscode/cluster-ui/commit/3d43651e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [d92fb5e8](https://github.com/appscode/cluster-ui/commit/d92fb5e8) /ssl, Use common events, raw view js codes
+- [a493850c](https://github.com/appscode/cluster-ui/commit/a493850c) fixed links from raw view
+- [09f3fc32](https://github.com/appscode/cluster-ui/commit/09f3fc32) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [7598d0fc](https://github.com/appscode/cluster-ui/commit/7598d0fc) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [272e73c3](https://github.com/appscode/cluster-ui/commit/272e73c3) CLuster SSL, list page, details page (second sidebar, Basics, right sidebar, delete) done
+- [6f720465](https://github.com/appscode/cluster-ui/commit/6f720465) replicaset details labels
+- [40681780](https://github.com/appscode/cluster-ui/commit/40681780) added pod details and fix basic headers
+- [a43ae4aa](https://github.com/appscode/cluster-ui/commit/a43ae4aa) fix sidebar basic route and added some details option
+- [d81aeea5](https://github.com/appscode/cluster-ui/commit/d81aeea5) dynamic types
+- [4120e872](https://github.com/appscode/cluster-ui/commit/4120e872) remove some console
+- [86b9d755](https://github.com/appscode/cluster-ui/commit/86b9d755) added labels selector in common palce
+- [e53ee3ce](https://github.com/appscode/cluster-ui/commit/e53ee3ce) added bootstrap table properly
+- [23be3158](https://github.com/appscode/cluster-ui/commit/23be3158) fix time issue and shift cluster list tempate to pharm/cluster
+- [f8f9a68f](https://github.com/appscode/cluster-ui/commit/f8f9a68f) added tag in deployment details
+- [dd7876a5](https://github.com/appscode/cluster-ui/commit/dd7876a5) Re-added ph-pharm
+- [ba689504](https://github.com/appscode/cluster-ui/commit/ba689504) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [0de85b61](https://github.com/appscode/cluster-ui/commit/0de85b61) added deleted files
+- [81d337ee](https://github.com/appscode/cluster-ui/commit/81d337ee) change petset to statefulset and
+- [49a58b62](https://github.com/appscode/cluster-ui/commit/49a58b62) change petset to statefullset in pharm
+- [1c03c105](https://github.com/appscode/cluster-ui/commit/1c03c105) fixed cluster details links as basic
+- [fd87a88c](https://github.com/appscode/cluster-ui/commit/fd87a88c) fixed some icon css issue[artifactory]
+- [acdbb7e4](https://github.com/appscode/cluster-ui/commit/acdbb7e4) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [3648e6fa](https://github.com/appscode/cluster-ui/commit/3648e6fa) fixed icon for details (artifactory)
+- [4371f7cb](https://github.com/appscode/cluster-ui/commit/4371f7cb) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [ca82e18e](https://github.com/appscode/cluster-ui/commit/ca82e18e) Fix ssl-import conflict( ssl/import -> /ssl-import)
+- [202a7705](https://github.com/appscode/cluster-ui/commit/202a7705) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [bfc9162c](https://github.com/appscode/cluster-ui/commit/bfc9162c) Fix root /incident empty page
+- [ec5197e7](https://github.com/appscode/cluster-ui/commit/ec5197e7) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [70196592](https://github.com/appscode/cluster-ui/commit/70196592) change type in raw view
+- [b2aa352e](https://github.com/appscode/cluster-ui/commit/b2aa352e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [fea285bf](https://github.com/appscode/cluster-ui/commit/fea285bf) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [ec682dd1](https://github.com/appscode/cluster-ui/commit/ec682dd1) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [4fae04be](https://github.com/appscode/cluster-ui/commit/4fae04be) create binding
+- [77608ece](https://github.com/appscode/cluster-ui/commit/77608ece) /ssl root, Details page Copy, Download, show/hide, delete ssl etc. Deploy page
+- [38dd3978](https://github.com/appscode/cluster-ui/commit/38dd3978) delete apps unused js and template files
+- [8df68188](https://github.com/appscode/cluster-ui/commit/8df68188) adding clusterrole
+- [2b2fa8ce](https://github.com/appscode/cluster-ui/commit/2b2fa8ce) added bindgins in  role details
+- [8c8aabdb](https://github.com/appscode/cluster-ui/commit/8c8aabdb) change in some details tempalte of roles
+- [91fbbb12](https://github.com/appscode/cluster-ui/commit/91fbbb12) roles describe butotn add bindings
+- [6932f1d8](https://github.com/appscode/cluster-ui/commit/6932f1d8) added details nunj for roles
+- [9bd1ea14](https://github.com/appscode/cluster-ui/commit/9bd1ea14) List, Details page for root /ssl
+- [358bba8d](https://github.com/appscode/cluster-ui/commit/358bba8d) fixing cluster role details
+- [de682ec6](https://github.com/appscode/cluster-ui/commit/de682ec6) adding cluster roles details page
+- [eb553175](https://github.com/appscode/cluster-ui/commit/eb553175) added bootstrap table
+- [7c14a6b9](https://github.com/appscode/cluster-ui/commit/7c14a6b9) cluster secret shift to modal view
+- [605236e5](https://github.com/appscode/cluster-ui/commit/605236e5) added nunj for cluster secret
+- [9e5acc31](https://github.com/appscode/cluster-ui/commit/9e5acc31) separate cluster role and role
+- [bf2b5e90](https://github.com/appscode/cluster-ui/commit/bf2b5e90) adding cluster route
+- [60548b22](https://github.com/appscode/cluster-ui/commit/60548b22) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [f79a40a6](https://github.com/appscode/cluster-ui/commit/f79a40a6) /incident, details page, events, comment, acknowledge are done (generic)
+- [826be661](https://github.com/appscode/cluster-ui/commit/826be661) shift connection infos
+- [ef6f4173](https://github.com/appscode/cluster-ui/commit/ef6f4173) transfer delete cluster query paramete form deleteLB to keepLB
+- [db3d25ad](https://github.com/appscode/cluster-ui/commit/db3d25ad) fixed data passing
+- [06c4ce4f](https://github.com/appscode/cluster-ui/commit/06c4ce4f) cred update api call done
+- [a05cde39](https://github.com/appscode/cluster-ui/commit/a05cde39) edit form completed
+- [8a9e2ec8](https://github.com/appscode/cluster-ui/commit/8a9e2ec8) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [54b597f2](https://github.com/appscode/cluster-ui/commit/54b597f2) Fix conflicts with master
+- [74c19db9](https://github.com/appscode/cluster-ui/commit/74c19db9) /incident, make list page generic, details page js, html etc rendering. (except events portion)
+- [1efd1631](https://github.com/appscode/cluster-ui/commit/1efd1631) credential edit
+- [30a46fb7](https://github.com/appscode/cluster-ui/commit/30a46fb7) added details in cred details
+- [1eb39042](https://github.com/appscode/cluster-ui/commit/1eb39042) added all route for events
+- [ce797492](https://github.com/appscode/cluster-ui/commit/ce797492) fixed event route in all template and added event in replicaset
+- [a2fcd1d6](https://github.com/appscode/cluster-ui/commit/a2fcd1d6) made a module function for events
+- [0d4c4747](https://github.com/appscode/cluster-ui/commit/0d4c4747) change package.json for appscode data
+- [5c6cdc06](https://github.com/appscode/cluster-ui/commit/5c6cdc06) fixed header render sequence in rawview
+- [a86fdf2e](https://github.com/appscode/cluster-ui/commit/a86fdf2e) fix header view render sequence, and added events list in deployment
+- [b9b57079](https://github.com/appscode/cluster-ui/commit/b9b57079) cleans
+- [3e1c3201](https://github.com/appscode/cluster-ui/commit/3e1c3201) appending event for pods
+- [078c41f1](https://github.com/appscode/cluster-ui/commit/078c41f1) evetns template join done
+- [47a32ba2](https://github.com/appscode/cluster-ui/commit/47a32ba2) clean some code and remove unnecessary file
+- [ff24476a](https://github.com/appscode/cluster-ui/commit/ff24476a) remove more template
+- [2eee7ef9](https://github.com/appscode/cluster-ui/commit/2eee7ef9) credential delete complete
+- [37be767f](https://github.com/appscode/cluster-ui/commit/37be767f) provider specific fields append done
+- [aa9cef55](https://github.com/appscode/cluster-ui/commit/aa9cef55) generic cred form
+- [620ab586](https://github.com/appscode/cluster-ui/commit/620ab586) added cred create page
+- [ae3e1e08](https://github.com/appscode/cluster-ui/commit/ae3e1e08) credential details fixing
+- [6cf2b96f](https://github.com/appscode/cluster-ui/commit/6cf2b96f) credential list fixed
+- [4252cedb](https://github.com/appscode/cluster-ui/commit/4252cedb) more deleted template
+- [e31a9a17](https://github.com/appscode/cluster-ui/commit/e31a9a17) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [24986775](https://github.com/appscode/cluster-ui/commit/24986775) delete some unnecessary template
+- [e2ddfd96](https://github.com/appscode/cluster-ui/commit/e2ddfd96) fixed cred list
+- [680aecdd](https://github.com/appscode/cluster-ui/commit/680aecdd) /secret, done details page `copy`, `download`, `delete`, `update`, `show`
+- [a93d8904](https://github.com/appscode/cluster-ui/commit/a93d8904) more language fix
+- [56a7d792](https://github.com/appscode/cluster-ui/commit/56a7d792) more language fix
+- [bcfcfaae](https://github.com/appscode/cluster-ui/commit/bcfcfaae) delete unnecessary files
+- [7db93e0a](https://github.com/appscode/cluster-ui/commit/7db93e0a) change delete and rawview text
+- [d22e65e3](https://github.com/appscode/cluster-ui/commit/d22e65e3) Changed: lb.appscode.com -> ingress.appscode.com
+- [f26a254f](https://github.com/appscode/cluster-ui/commit/f26a254f) remove some unnecessary code
+- [f2a6ae67](https://github.com/appscode/cluster-ui/commit/f2a6ae67) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [e06a6735](https://github.com/appscode/cluster-ui/commit/e06a6735) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [c32729b6](https://github.com/appscode/cluster-ui/commit/c32729b6) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [b7c31736](https://github.com/appscode/cluster-ui/commit/b7c31736) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [2466b933](https://github.com/appscode/cluster-ui/commit/2466b933) /secret, Made secret independent, list page, details page (add key, delete secret) done
+- [279c6959](https://github.com/appscode/cluster-ui/commit/279c6959) fixed adding label and status
+- [091407e7](https://github.com/appscode/cluster-ui/commit/091407e7) petset raw view
+- [89fc6767](https://github.com/appscode/cluster-ui/commit/89fc6767) fix petset details
+- [515bfdbb](https://github.com/appscode/cluster-ui/commit/515bfdbb) fixing petset details
+- [12a7e885](https://github.com/appscode/cluster-ui/commit/12a7e885) fix template get data
+- [9c34c544](https://github.com/appscode/cluster-ui/commit/9c34c544) fixing node details
+- [7eeba944](https://github.com/appscode/cluster-ui/commit/7eeba944) change raw view type
+- [2370ed52](https://github.com/appscode/cluster-ui/commit/2370ed52) fix delete option in service
+- [f34f33dc](https://github.com/appscode/cluster-ui/commit/f34f33dc) fix issue: when back from list details page to cluster list page, header and sidebar still present
+- [50dd75c6](https://github.com/appscode/cluster-ui/commit/50dd75c6) /configmap, done details page `Copy`, `Download`, `Delete-key`, `Update-key`
+- [88c57a89](https://github.com/appscode/cluster-ui/commit/88c57a89) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [0d05a75c](https://github.com/appscode/cluster-ui/commit/0d05a75c) added petset details
+- [90fb949b](https://github.com/appscode/cluster-ui/commit/90fb949b) daemonset detele
+- [222cbff8](https://github.com/appscode/cluster-ui/commit/222cbff8) replication controller delete
+- [0d2cd9fb](https://github.com/appscode/cluster-ui/commit/0d2cd9fb) replicaset delete
+- [708b84ab](https://github.com/appscode/cluster-ui/commit/708b84ab) delete works for deployment
+- [9dc24022](https://github.com/appscode/cluster-ui/commit/9dc24022) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [04920788](https://github.com/appscode/cluster-ui/commit/04920788) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [ee76a827](https://github.com/appscode/cluster-ui/commit/ee76a827) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [e45ee408](https://github.com/appscode/cluster-ui/commit/e45ee408) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [9a140c87](https://github.com/appscode/cluster-ui/commit/9a140c87) /configmap, Fixed routes, list page done, rename many files
+- [6604c22a](https://github.com/appscode/cluster-ui/commit/6604c22a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [b5eda893](https://github.com/appscode/cluster-ui/commit/b5eda893) added all create options
+- [d4478144](https://github.com/appscode/cluster-ui/commit/d4478144) adding all create page
+- [9ce28e23](https://github.com/appscode/cluster-ui/commit/9ce28e23) Fix conflicts
+- [9079a0ec](https://github.com/appscode/cluster-ui/commit/9079a0ec) Added alert pages for daemonset, pods, nodes, services
+- [93883919](https://github.com/appscode/cluster-ui/commit/93883919) Fix router conflists (for /new & /details), fix alert list table header
+- [b9c99140](https://github.com/appscode/cluster-ui/commit/b9c99140) added new kube-instance route
+- [daca51da](https://github.com/appscode/cluster-ui/commit/daca51da) added gce project name when select provider gce
+- [e6b8c359](https://github.com/appscode/cluster-ui/commit/e6b8c359) added gceproject name in cluster create form
+- [d7e1b7e3](https://github.com/appscode/cluster-ui/commit/d7e1b7e3) trying to fix ci
+- [d32eb194](https://github.com/appscode/cluster-ui/commit/d32eb194) fixed css for ci and artifactory
+- [d8640402](https://github.com/appscode/cluster-ui/commit/d8640402) fix
+- [8ffecc2b](https://github.com/appscode/cluster-ui/commit/8ffecc2b) fix template form
+- [c19e9094](https://github.com/appscode/cluster-ui/commit/c19e9094) clean template file
+- [62db7592](https://github.com/appscode/cluster-ui/commit/62db7592) kube instance create
+- [fb3131a8](https://github.com/appscode/cluster-ui/commit/fb3131a8) change code refactor
+- [12ca9b57](https://github.com/appscode/cluster-ui/commit/12ca9b57) added create form for kube object
+- [d710b2d0](https://github.com/appscode/cluster-ui/commit/d710b2d0) Done deployment | alert
+- [4d614868](https://github.com/appscode/cluster-ui/commit/4d614868) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [1fe66a63](https://github.com/appscode/cluster-ui/commit/1fe66a63) change routrer methods
+- [688c9ec9](https://github.com/appscode/cluster-ui/commit/688c9ec9) deployment -> alert list page, details page
+- [3394c0d7](https://github.com/appscode/cluster-ui/commit/3394c0d7) WIP: deployment -> alert
+- [145f06a0](https://github.com/appscode/cluster-ui/commit/145f06a0) Update yarn.lock
+- [6eb14c2f](https://github.com/appscode/cluster-ui/commit/6eb14c2f) Fix router func for cluster details
+- [92eead19](https://github.com/appscode/cluster-ui/commit/92eead19) Fix asidebar
+- [f60a1754](https://github.com/appscode/cluster-ui/commit/f60a1754) /lb, new http and tcp rules are creating
+- [474400ef](https://github.com/appscode/cluster-ui/commit/474400ef) /lb, edit tcp rules, new https rule is creating
+- [e6450d92](https://github.com/appscode/cluster-ui/commit/e6450d92) /lb, raw view and tcp edit
+- [d75338e3](https://github.com/appscode/cluster-ui/commit/d75338e3) /lb edit pages nunjucks, delete etc.
+- [c69b7528](https://github.com/appscode/cluster-ui/commit/c69b7528) /lb, new http rule, change routers, html codes
+- [6096a6ed](https://github.com/appscode/cluster-ui/commit/6096a6ed) /lb, lb -> load-balancer, create new lb, delete lb, redirect urls
+- [b1750c7c](https://github.com/appscode/cluster-ui/commit/b1750c7c) /lb, details, body header, http & https edit
+- [b58184e4](https://github.com/appscode/cluster-ui/commit/b58184e4) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [1e003046](https://github.com/appscode/cluster-ui/commit/1e003046) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [cdf2750f](https://github.com/appscode/cluster-ui/commit/cdf2750f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [68612a40](https://github.com/appscode/cluster-ui/commit/68612a40) /lb, /edit for http & https (form with previous data, modal), fixed many critical logics
+- [cade9e73](https://github.com/appscode/cluster-ui/commit/cade9e73) remove unnecessary comment from code
+- [162f5416](https://github.com/appscode/cluster-ui/commit/162f5416) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [2dfc819e](https://github.com/appscode/cluster-ui/commit/2dfc819e) fix linter error
+- [5d0c8e60](https://github.com/appscode/cluster-ui/commit/5d0c8e60) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [7ee440e3](https://github.com/appscode/cluster-ui/commit/7ee440e3) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [c70ec776](https://github.com/appscode/cluster-ui/commit/c70ec776) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [c93dda55](https://github.com/appscode/cluster-ui/commit/c93dda55) /lb, Added delete modal, edit page render. Added edit page for http (form render with values)
+- [8ff3ece1](https://github.com/appscode/cluster-ui/commit/8ff3ece1) added delete modal for db delete
+- [04e54b3b](https://github.com/appscode/cluster-ui/commit/04e54b3b) fixed file location from cluster/create
+- [69f60b15](https://github.com/appscode/cluster-ui/commit/69f60b15) move db create js file into cluster floder's database section
+- [66448674](https://github.com/appscode/cluster-ui/commit/66448674) rearrange router method
+- [1c53185e](https://github.com/appscode/cluster-ui/commit/1c53185e) added database describe
+- [a8e95c7d](https://github.com/appscode/cluster-ui/commit/a8e95c7d) database list fix
+- [aeccadfc](https://github.com/appscode/cluster-ui/commit/aeccadfc) fixed linter error
+- [76549e85](https://github.com/appscode/cluster-ui/commit/76549e85) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [a43b21d0](https://github.com/appscode/cluster-ui/commit/a43b21d0) change raw view footer
+- [8504088e](https://github.com/appscode/cluster-ui/commit/8504088e) Use unified billing apis.
+- [bc6d9403](https://github.com/appscode/cluster-ui/commit/bc6d9403) Added new routers/views for http/https/tcp/-details.
+- [ada6c9e5](https://github.com/appscode/cluster-ui/commit/ada6c9e5) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [37e4f076](https://github.com/appscode/cluster-ui/commit/37e4f076) added raw view and edit option
+- [45eea1b1](https://github.com/appscode/cluster-ui/commit/45eea1b1) changed second level sidebar
+- [a69c2ae4](https://github.com/appscode/cluster-ui/commit/a69c2ae4) added second level sidebar tempalte and done raw view edit for replicaset
+- [fbb6acc2](https://github.com/appscode/cluster-ui/commit/fbb6acc2) fixed replicaset describe
+- [d83960c9](https://github.com/appscode/cluster-ui/commit/d83960c9) generic raw view added in deployment
+- [1d3ceb52](https://github.com/appscode/cluster-ui/commit/1d3ceb52) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [36c902ea](https://github.com/appscode/cluster-ui/commit/36c902ea) generic raw view
+- [5e2b8eba](https://github.com/appscode/cluster-ui/commit/5e2b8eba) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [7a3df23a](https://github.com/appscode/cluster-ui/commit/7a3df23a) edit works
+- [e9b11a69](https://github.com/appscode/cluster-ui/commit/e9b11a69) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [381fccff](https://github.com/appscode/cluster-ui/commit/381fccff) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [18566ec8](https://github.com/appscode/cluster-ui/commit/18566ec8) /lb edit, details page
+- [157d9b55](https://github.com/appscode/cluster-ui/commit/157d9b55) service details
+- [a957c1cc](https://github.com/appscode/cluster-ui/commit/a957c1cc) node details
+- [2f177649](https://github.com/appscode/cluster-ui/commit/2f177649) storage class details
+- [eef41008](https://github.com/appscode/cluster-ui/commit/eef41008) namespace details
+- [cdc3a6df](https://github.com/appscode/cluster-ui/commit/cdc3a6df) change kube describe
+- [23a41109](https://github.com/appscode/cluster-ui/commit/23a41109) storage class describe
+- [0728db4a](https://github.com/appscode/cluster-ui/commit/0728db4a) storage class added
+- [8f299e1f](https://github.com/appscode/cluster-ui/commit/8f299e1f) remove unncessary comment
+- [d852d33a](https://github.com/appscode/cluster-ui/commit/d852d33a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [36d97b3e](https://github.com/appscode/cluster-ui/commit/36d97b3e) edit option added
+- [6470f245](https://github.com/appscode/cluster-ui/commit/6470f245) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [b1cf8f17](https://github.com/appscode/cluster-ui/commit/b1cf8f17) /lb, list page
+- [e1e28068](https://github.com/appscode/cluster-ui/commit/e1e28068) rawview code-mirror works
+- [85a0b60b](https://github.com/appscode/cluster-ui/commit/85a0b60b) remove states and raw view
+- [05786d90](https://github.com/appscode/cluster-ui/commit/05786d90) fixed sidebar rawview link
+- [fefb46af](https://github.com/appscode/cluster-ui/commit/fefb46af) fix linter error
+- [d87ecf8d](https://github.com/appscode/cluster-ui/commit/d87ecf8d) remove linter error
+- [444f1330](https://github.com/appscode/cluster-ui/commit/444f1330) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [83d8648c](https://github.com/appscode/cluster-ui/commit/83d8648c) refactoring
+- [da605537](https://github.com/appscode/cluster-ui/commit/da605537) remove unnecessary code from pharm.router
+- [8e17ffcf](https://github.com/appscode/cluster-ui/commit/8e17ffcf) /incident, list page
+- [fec34125](https://github.com/appscode/cluster-ui/commit/fec34125) completing deployment describe
+- [bcbef6c6](https://github.com/appscode/cluster-ui/commit/bcbef6c6) added generic modal for edit kube instance
+- [d7535461](https://github.com/appscode/cluster-ui/commit/d7535461) edit kube describe api call
+- [b439579d](https://github.com/appscode/cluster-ui/commit/b439579d) daemonset details
+- [f9049e1b](https://github.com/appscode/cluster-ui/commit/f9049e1b) pull master
+- [a2bce8b6](https://github.com/appscode/cluster-ui/commit/a2bce8b6) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [d5b17418](https://github.com/appscode/cluster-ui/commit/d5b17418) replication controller details page
+- [211f9784](https://github.com/appscode/cluster-ui/commit/211f9784) replication controller describe
+- [3e8ce91d](https://github.com/appscode/cluster-ui/commit/3e8ce91d) added rc details
+- [4c61a6ee](https://github.com/appscode/cluster-ui/commit/4c61a6ee) more details view added
+- [8b4cdede](https://github.com/appscode/cluster-ui/commit/8b4cdede) added describe view
+- [c4613b1a](https://github.com/appscode/cluster-ui/commit/c4613b1a) /incident, modifiy routes, rename files, structure
+- [4a7a708b](https://github.com/appscode/cluster-ui/commit/4a7a708b) delete deployment modal finish
+- [3b80a7c8](https://github.com/appscode/cluster-ui/commit/3b80a7c8) added labels in deployment details
+- [951d1c24](https://github.com/appscode/cluster-ui/commit/951d1c24) deployment details
+- [07c497ee](https://github.com/appscode/cluster-ui/commit/07c497ee) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [a2d545d2](https://github.com/appscode/cluster-ui/commit/a2d545d2) Fix appscode-data/icinga -> serarch-data
+- [4162adaf](https://github.com/appscode/cluster-ui/commit/4162adaf) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [226fe3bb](https://github.com/appscode/cluster-ui/commit/226fe3bb) Fix router for `alert apps`, (make generic)
+- [b7090acd](https://github.com/appscode/cluster-ui/commit/b7090acd) Fix alert/edit redirect url
+- [4561c6e6](https://github.com/appscode/cluster-ui/commit/4561c6e6) Fix resource -> raw
+- [743c9b0f](https://github.com/appscode/cluster-ui/commit/743c9b0f) Fix alert/edit, v1 -> v1beta1
+- [16b4db15](https://github.com/appscode/cluster-ui/commit/16b4db15) Fix redirect url, alert delete working,
+- [a2a812b1](https://github.com/appscode/cluster-ui/commit/a2a812b1) Fix namespace
+- [07b3580d](https://github.com/appscode/cluster-ui/commit/07b3580d) alert edit cluster-alert-form -> alert-form
+- [dcfaa357](https://github.com/appscode/cluster-ui/commit/dcfaa357) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [692448ff](https://github.com/appscode/cluster-ui/commit/692448ff) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [ccc03782](https://github.com/appscode/cluster-ui/commit/ccc03782) fix selectedName -> selectedPhid
+- [0fd60bb5](https://github.com/appscode/cluster-ui/commit/0fd60bb5) db form complete functionality
+- [fc3616ff](https://github.com/appscode/cluster-ui/commit/fc3616ff) Fix edit notifier_param, send `default` ns for edit
+- [7173e73f](https://github.com/appscode/cluster-ui/commit/7173e73f) /alert, fix notificationParam dynamic index change
+- [96d55b11](https://github.com/appscode/cluster-ui/commit/96d55b11) /alert, details.html all logics are done
+- [d319e26c](https://github.com/appscode/cluster-ui/commit/d319e26c) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [d5d882a8](https://github.com/appscode/cluster-ui/commit/d5d882a8) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [ba625c8c](https://github.com/appscode/cluster-ui/commit/ba625c8c) Fix edit notifier_param, send `default` ns for edit
+- [155bc863](https://github.com/appscode/cluster-ui/commit/155bc863) added db form
+- [e1a6aa66](https://github.com/appscode/cluster-ui/commit/e1a6aa66) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [5b4f5e05](https://github.com/appscode/cluster-ui/commit/5b4f5e05) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [985eb3e9](https://github.com/appscode/cluster-ui/commit/985eb3e9) added header view in db create
+- [5b65e4e2](https://github.com/appscode/cluster-ui/commit/5b65e4e2) /alert, fix notificationParam dynamic index change
+- [b956b644](https://github.com/appscode/cluster-ui/commit/b956b644) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [9b5e9aa7](https://github.com/appscode/cluster-ui/commit/9b5e9aa7) /alert, details.html all logics are done
+- [c1385b3a](https://github.com/appscode/cluster-ui/commit/c1385b3a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [fccae564](https://github.com/appscode/cluster-ui/commit/fccae564) remove some unnecessary code
+- [ca922500](https://github.com/appscode/cluster-ui/commit/ca922500) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm
+- [e30d383b](https://github.com/appscode/cluster-ui/commit/e30d383b) /alert, add 'default' namespace (details page)
+- [92b5ed89](https://github.com/appscode/cluster-ui/commit/92b5ed89) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [f0cf980c](https://github.com/appscode/cluster-ui/commit/f0cf980c) nodes list added
+- [d6db23d4](https://github.com/appscode/cluster-ui/commit/d6db23d4) .aphront -> .ph
+- [cf8ea247](https://github.com/appscode/cluster-ui/commit/cf8ea247) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [d15512da](https://github.com/appscode/cluster-ui/commit/d15512da) Fix conflicts
+- [8163f77c](https://github.com/appscode/cluster-ui/commit/8163f77c) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [1caa2a36](https://github.com/appscode/cluster-ui/commit/1caa2a36) Fix conflicts with master branch
+- [e20f9d4c](https://github.com/appscode/cluster-ui/commit/e20f9d4c) /alert, new alert object is ready
+- [012805a5](https://github.com/appscode/cluster-ui/commit/012805a5) added roles list
+- [fc573402](https://github.com/appscode/cluster-ui/commit/fc573402) added namespace list and roles list js
+- [190b4a5f](https://github.com/appscode/cluster-ui/commit/190b4a5f) remove bootstrap table render in template file and fix file EL
+- [64c3e5ae](https://github.com/appscode/cluster-ui/commit/64c3e5ae) /alert, working on edit, new pages.
+- [349e69d9](https://github.com/appscode/cluster-ui/commit/349e69d9) fixing pharm table issue
+- [212efbda](https://github.com/appscode/cluster-ui/commit/212efbda) fix route after scale api call
+- [b5585bc3](https://github.com/appscode/cluster-ui/commit/b5585bc3) complete reconfigure cluster form
+- [d8913cc3](https://github.com/appscode/cluster-ui/commit/d8913cc3) added additional node-set adding option
+- [b71ed0a0](https://github.com/appscode/cluster-ui/commit/b71ed0a0) cluster reconfigure modifying
+- [ed512c8f](https://github.com/appscode/cluster-ui/commit/ed512c8f) fixed show sidebar in cluster list when go from dashboard
+- [b0068733](https://github.com/appscode/cluster-ui/commit/b0068733) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [a96fecb8](https://github.com/appscode/cluster-ui/commit/a96fecb8) added cluster-reconfigure header
+- [c77b6a5b](https://github.com/appscode/cluster-ui/commit/c77b6a5b) Fix conflicts with master branch
+- [ad4773ae](https://github.com/appscode/cluster-ui/commit/ad4773ae) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm into ph-master
+- [eec61d6d](https://github.com/appscode/cluster-ui/commit/eec61d6d) /alert remove demo data for list, details page
+- [c5caa6a8](https://github.com/appscode/cluster-ui/commit/c5caa6a8) fixed text of cluster reconfigure
+- [b6030438](https://github.com/appscode/cluster-ui/commit/b6030438) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-master
+- [30f4c149](https://github.com/appscode/cluster-ui/commit/30f4c149) shift delete template and added delete option in ph-pharm
+- [9d322a12](https://github.com/appscode/cluster-ui/commit/9d322a12) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [5d2bbac2](https://github.com/appscode/cluster-ui/commit/5d2bbac2) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-master
+- [295dcf7a](https://github.com/appscode/cluster-ui/commit/295dcf7a) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [b64f1013](https://github.com/appscode/cluster-ui/commit/b64f1013) /alert, fix global modal, router, details page (done), edit page (demo data) rendaring
+- [18629a7f](https://github.com/appscode/cluster-ui/commit/18629a7f) lock/unlock cluster
+- [44245dd6](https://github.com/appscode/cluster-ui/commit/44245dd6) done cluster creation functionality
+- [82035a92](https://github.com/appscode/cluster-ui/commit/82035a92) added close btn for remove nodeset btn
+- [fc4ba4cf](https://github.com/appscode/cluster-ui/commit/fc4ba4cf) Merge diffusion.appscode.com:appscode/60/pharm into ph-master
+- [643a4e0f](https://github.com/appscode/cluster-ui/commit/643a4e0f) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [2c668ca6](https://github.com/appscode/cluster-ui/commit/2c668ca6) fixed add more then one node-set
+- [7a9a6b8d](https://github.com/appscode/cluster-ui/commit/7a9a6b8d) cluster creation
+- [b2d21cb2](https://github.com/appscode/cluster-ui/commit/b2d21cb2) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [b76c1f6d](https://github.com/appscode/cluster-ui/commit/b76c1f6d) /alert, details page body-header, body-details, events.
+- [33da3213](https://github.com/appscode/cluster-ui/commit/33da3213) cluster creation form complete
+- [b3a778a9](https://github.com/appscode/cluster-ui/commit/b3a778a9) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [02f6cf85](https://github.com/appscode/cluster-ui/commit/02f6cf85) added nodeset field in cluster creation form
+- [57611e63](https://github.com/appscode/cluster-ui/commit/57611e63) added basic form for cluster creation
+- [bc8dd9e3](https://github.com/appscode/cluster-ui/commit/bc8dd9e3) fixing cluster creation form
+- [357460f8](https://github.com/appscode/cluster-ui/commit/357460f8) remove test console.log
+- [cf44d07f](https://github.com/appscode/cluster-ui/commit/cf44d07f) fix cluster create form route
+- [aabcf4ff](https://github.com/appscode/cluster-ui/commit/aabcf4ff) Fix conflicts
+- [f313acbe](https://github.com/appscode/cluster-ui/commit/f313acbe) /alert details page
+- [22307e25](https://github.com/appscode/cluster-ui/commit/22307e25) fixed kibana, grafana, icinga link in template
+- [9a101ac2](https://github.com/appscode/cluster-ui/commit/9a101ac2) fixed template of cluster list
+- [7cc1b8e4](https://github.com/appscode/cluster-ui/commit/7cc1b8e4) added gulpfile and remove unneccessary template
+- [5a5eacc5](https://github.com/appscode/cluster-ui/commit/5a5eacc5) flaticon fixed
+- [03bb0aba](https://github.com/appscode/cluster-ui/commit/03bb0aba) remove display of sidebar
+- [e31e4187](https://github.com/appscode/cluster-ui/commit/e31e4187) change path to _appsocde
+- [e7ab6c96](https://github.com/appscode/cluster-ui/commit/e7ab6c96) data-table -> pharm-table
+- [9e64f978](https://github.com/appscode/cluster-ui/commit/9e64f978) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [c2229845](https://github.com/appscode/cluster-ui/commit/c2229845) stash
+- [59b82812](https://github.com/appscode/cluster-ui/commit/59b82812) Fix conflicts with master
+- [ae3292e9](https://github.com/appscode/cluster-ui/commit/ae3292e9) Get ph-pharm Working (modify gulpfile, pharm, index etc.)
+- [ec743d20](https://github.com/appscode/cluster-ui/commit/ec743d20) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [63705061](https://github.com/appscode/cluster-ui/commit/63705061) fix alert update router `phid -> alertName`
+- [0d580a27](https://github.com/appscode/cluster-ui/commit/0d580a27) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [5e04bb20](https://github.com/appscode/cluster-ui/commit/5e04bb20) fix alert update object 2
+- [257b8dde](https://github.com/appscode/cluster-ui/commit/257b8dde) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [8dd3c9dc](https://github.com/appscode/cluster-ui/commit/8dd3c9dc) fix alert update object
+- [8512b34a](https://github.com/appscode/cluster-ui/commit/8512b34a) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [31ba151f](https://github.com/appscode/cluster-ui/commit/31ba151f) fix alert update object
+- [dce9fded](https://github.com/appscode/cluster-ui/commit/dce9fded) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [8153786a](https://github.com/appscode/cluster-ui/commit/8153786a) v1 -> v1beta1 (alert update)
+- [e24d9d49](https://github.com/appscode/cluster-ui/commit/e24d9d49) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [94f4d69f](https://github.com/appscode/cluster-ui/commit/94f4d69f) /alert, Check visibility = true/false (appscode-data logic is changed)
+- [a6e274ea](https://github.com/appscode/cluster-ui/commit/a6e274ea) tmp committ
+- [e8a900a8](https://github.com/appscode/cluster-ui/commit/e8a900a8) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [37f8e084](https://github.com/appscode/cluster-ui/commit/37f8e084) /alert, render update form with previous data
+- [b1d803fc](https://github.com/appscode/cluster-ui/commit/b1d803fc) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [315caed3](https://github.com/appscode/cluster-ui/commit/315caed3) /alert, modify describe req ob (update page)
+- [8b837681](https://github.com/appscode/cluster-ui/commit/8b837681) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [d6c2ddd4](https://github.com/appscode/cluster-ui/commit/d6c2ddd4) /alert, phid -> alertName
+- [2645c1dd](https://github.com/appscode/cluster-ui/commit/2645c1dd) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [5cf6f7ad](https://github.com/appscode/cluster-ui/commit/5cf6f7ad) /alert, fix alert list resp obj, delete with `name` instead of `phid`
+- [04eda9ac](https://github.com/appscode/cluster-ui/commit/04eda9ac) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [766846e4](https://github.com/appscode/cluster-ui/commit/766846e4) Fix conflicts with master
+- [1da35cc6](https://github.com/appscode/cluster-ui/commit/1da35cc6) /alert, Modify list resp data object
+- [a128e835](https://github.com/appscode/cluster-ui/commit/a128e835) /alert, list page renering with demo server data
+- [dd8f2467](https://github.com/appscode/cluster-ui/commit/dd8f2467) /alert list page with new gui
+- [08a49892](https://github.com/appscode/cluster-ui/commit/08a49892) Merge branch 'master' into ph-master
+- [bad58b14](https://github.com/appscode/cluster-ui/commit/bad58b14) Add ie to js_ext
+- [4ae4dd27](https://github.com/appscode/cluster-ui/commit/4ae4dd27) Merge branch 'master' into ph-master
+- [6261d5ba](https://github.com/appscode/cluster-ui/commit/6261d5ba) Upgrade js client
+- [f95a8d4e](https://github.com/appscode/cluster-ui/commit/f95a8d4e) Fix template
+- [015c27b6](https://github.com/appscode/cluster-ui/commit/015c27b6) /appscode -> /appscode
+- [cd688702](https://github.com/appscode/cluster-ui/commit/cd688702) Change /appscode -> /_appscode prefix
+- [43972dcc](https://github.com/appscode/cluster-ui/commit/43972dcc) added use health api for detecting ENV if environment is not prod or qa
+- [2ef53497](https://github.com/appscode/cluster-ui/commit/2ef53497) Upgrade yarn
+- [57436d30](https://github.com/appscode/cluster-ui/commit/57436d30) Fix template
+- [336fcd00](https://github.com/appscode/cluster-ui/commit/336fcd00) tmp commit
+- [42fd3d2f](https://github.com/appscode/cluster-ui/commit/42fd3d2f) /appscode -> /appscode
+- [0e5a2b3e](https://github.com/appscode/cluster-ui/commit/0e5a2b3e) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-master
+- [5eb4e77c](https://github.com/appscode/cluster-ui/commit/5eb4e77c) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [3ab9119b](https://github.com/appscode/cluster-ui/commit/3ab9119b) applied it(env detect using health api) into master of pharm
+- [f8a3efd1](https://github.com/appscode/cluster-ui/commit/f8a3efd1) detect environment in all three apps
+- [31834543](https://github.com/appscode/cluster-ui/commit/31834543) Change /appscode -> /_appscode prefix
+- [e6c71c07](https://github.com/appscode/cluster-ui/commit/e6c71c07) added use health api for detecting ENV if environment is not prod or qa
+- [8ba215f1](https://github.com/appscode/cluster-ui/commit/8ba215f1) Upgrade yarn
+- [1924bea8](https://github.com/appscode/cluster-ui/commit/1924bea8) /ssl, obtain -> load
+- [03e002fc](https://github.com/appscode/cluster-ui/commit/03e002fc) Change /appscode -> /_appscode prefix
+- [c705b61c](https://github.com/appscode/cluster-ui/commit/c705b61c) use all kube list #body-details as $el
+- [36635cfb](https://github.com/appscode/cluster-ui/commit/36635cfb) fixed replicaset list el
+- [8c33cbdb](https://github.com/appscode/cluster-ui/commit/8c33cbdb) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [a0560516](https://github.com/appscode/cluster-ui/commit/a0560516) added use health api for detecting ENV if environment is not prod or qa
+- [9ab6eca3](https://github.com/appscode/cluster-ui/commit/9ab6eca3) added replicaset details
+- [211facfc](https://github.com/appscode/cluster-ui/commit/211facfc) replica set description and describe route
+- [0eeaa78a](https://github.com/appscode/cluster-ui/commit/0eeaa78a) Upgrade yarn
+- [75333bcc](https://github.com/appscode/cluster-ui/commit/75333bcc) Merge diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [42d96342](https://github.com/appscode/cluster-ui/commit/42d96342) added clean html element
+- [5f65247c](https://github.com/appscode/cluster-ui/commit/5f65247c) /ssl, obtain -> load
+- [64dbba36](https://github.com/appscode/cluster-ui/commit/64dbba36) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [e7718993](https://github.com/appscode/cluster-ui/commit/e7718993) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-master
+- [8e13f648](https://github.com/appscode/cluster-ui/commit/8e13f648) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm into ph-master
+- [197483bd](https://github.com/appscode/cluster-ui/commit/197483bd) Fix conflicts
+- [466bd02c](https://github.com/appscode/cluster-ui/commit/466bd02c) global.cleanAllHtmlContent(), /alert list js, html rendering successful
+- [b40ac3ee](https://github.com/appscode/cluster-ui/commit/b40ac3ee) adding deployment details
+- [cccb4ef0](https://github.com/appscode/cluster-ui/commit/cccb4ef0) Working on alert
+- [85b41b3b](https://github.com/appscode/cluster-ui/commit/85b41b3b) done append details sidebar and details nunj
+- [ce849b22](https://github.com/appscode/cluster-ui/commit/ce849b22) done getting kube description response
+- [a7939a05](https://github.com/appscode/cluster-ui/commit/a7939a05) remove test templates
+- [9a018637](https://github.com/appscode/cluster-ui/commit/9a018637) fixed cluster route list
+- [c09edc8e](https://github.com/appscode/cluster-ui/commit/c09edc8e) added deployment list
+- [d38bedde](https://github.com/appscode/cluster-ui/commit/d38bedde) Add `default` namespace for cluster (alert new/update)
+- [ce4ff859](https://github.com/appscode/cluster-ui/commit/ce4ff859) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [05db93c9](https://github.com/appscode/cluster-ui/commit/05db93c9) commit describe page in deployemtn
+- [0a37dd58](https://github.com/appscode/cluster-ui/commit/0a37dd58) service list complete
+- [78482a5c](https://github.com/appscode/cluster-ui/commit/78482a5c) complete workload list
+- [885fcd64](https://github.com/appscode/cluster-ui/commit/885fcd64) complete append to table
+- [b547562c](https://github.com/appscode/cluster-ui/commit/b547562c) workload list complete partial
+- [c2e07428](https://github.com/appscode/cluster-ui/commit/c2e07428) daemonset list and database list
+- [47c61177](https://github.com/appscode/cluster-ui/commit/47c61177) Merge branch 'ph-sajib' of diffusion.appscode.com:appscode/60/pharm into ph-master
+- [c1e78bee](https://github.com/appscode/cluster-ui/commit/c1e78bee) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-sajib
+- [197c81fb](https://github.com/appscode/cluster-ui/commit/197c81fb) Fixed fonts, sidebar, icon, css etc.
+- [f7821886](https://github.com/appscode/cluster-ui/commit/f7821886) database list
+- [6ed43ff8](https://github.com/appscode/cluster-ui/commit/6ed43ff8) seelcted deployment in deployment list
+- [81cfdbbc](https://github.com/appscode/cluster-ui/commit/81cfdbbc) fixed deployment and replicaset template path
+- [07edd7b5](https://github.com/appscode/cluster-ui/commit/07edd7b5) fix cluster details selected basic option
+- [51b2c08f](https://github.com/appscode/cluster-ui/commit/51b2c08f) shift tempalte
+- [fe63307f](https://github.com/appscode/cluster-ui/commit/fe63307f) replication controller template
+- [1ae58277](https://github.com/appscode/cluster-ui/commit/1ae58277) replication controller list
+- [afed6a8d](https://github.com/appscode/cluster-ui/commit/afed6a8d) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [4318c000](https://github.com/appscode/cluster-ui/commit/4318c000) fix replicaset idname
+- [09d730d0](https://github.com/appscode/cluster-ui/commit/09d730d0) Second-sidebar html & js codes structure
+- [aa4d270b](https://github.com/appscode/cluster-ui/commit/aa4d270b) added replicaset list
+- [0c993c32](https://github.com/appscode/cluster-ui/commit/0c993c32) fixed sidebar
+- [edbbce05](https://github.com/appscode/cluster-ui/commit/edbbce05) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [56dbdc9e](https://github.com/appscode/cluster-ui/commit/56dbdc9e) Done asidebar & filter-sidebar
+- [b8e1507d](https://github.com/appscode/cluster-ui/commit/b8e1507d) added cluster detials page
+- [ae9c95ee](https://github.com/appscode/cluster-ui/commit/ae9c95ee) Merge branch 'ph-master' of diffusion.appscode.com:appscode/60/pharm into ph-pharm-h
+- [bbdc7748](https://github.com/appscode/cluster-ui/commit/bbdc7748) new list common files
+- [2389fb09](https://github.com/appscode/cluster-ui/commit/2389fb09) pharm top lavel html design
+- [9e3b1ef7](https://github.com/appscode/cluster-ui/commit/9e3b1ef7) Cleanup & rename authors of package.json
+- [753dedb5](https://github.com/appscode/cluster-ui/commit/753dedb5) Fix conflicts with master
+- [ddef7c9e](https://github.com/appscode/cluster-ui/commit/ddef7c9e) Fix /alert
+- [bd44e9e5](https://github.com/appscode/cluster-ui/commit/bd44e9e5) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [5979f56b](https://github.com/appscode/cluster-ui/commit/5979f56b) Fix alert
+- [8036003e](https://github.com/appscode/cluster-ui/commit/8036003e) Update yarn.lock for LB api fix.
+- [bcd9fdcd](https://github.com/appscode/cluster-ui/commit/bcd9fdcd) done dependency injection in details render code
+- [d8527b0e](https://github.com/appscode/cluster-ui/commit/d8527b0e) testing
+- [b3480b47](https://github.com/appscode/cluster-ui/commit/b3480b47) Remove unused gulp tasks.
+- [99c43afa](https://github.com/appscode/cluster-ui/commit/99c43afa) t push origin Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [7e4bcc98](https://github.com/appscode/cluster-ui/commit/7e4bcc98) Fix /alert
+- [244b1b4f](https://github.com/appscode/cluster-ui/commit/244b1b4f) addded cred edit view
+- [5ba72eb8](https://github.com/appscode/cluster-ui/commit/5ba72eb8) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [4181c9d1](https://github.com/appscode/cluster-ui/commit/4181c9d1) Fix /alert
+- [14248d65](https://github.com/appscode/cluster-ui/commit/14248d65) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm
+- [cf8cae1a](https://github.com/appscode/cluster-ui/commit/cf8cae1a) Upgrade yarn.lock
+- [5d2835e0](https://github.com/appscode/cluster-ui/commit/5d2835e0) Change /incident object for list & describe
+- [9af9b1ab](https://github.com/appscode/cluster-ui/commit/9af9b1ab) added cred update route
+- [36cbe5a0](https://github.com/appscode/cluster-ui/commit/36cbe5a0) credential delete complete with new details page
+- [bfe794b7](https://github.com/appscode/cluster-ui/commit/bfe794b7) Merge branch 'alert' of diffusion.appscode.com:appscode/60/pharm into alert
+- [3e12dd40](https://github.com/appscode/cluster-ui/commit/3e12dd40) Change req object for /alert create & update
+- [883eba07](https://github.com/appscode/cluster-ui/commit/883eba07) showed credential details secret
+- [fad6cd7d](https://github.com/appscode/cluster-ui/commit/fad6cd7d) gce details
+- [8eb44bc8](https://github.com/appscode/cluster-ui/commit/8eb44bc8) fixed data send in cred create
+- [f2da3126](https://github.com/appscode/cluster-ui/commit/f2da3126) create api call complete
+- [d4e060d3](https://github.com/appscode/cluster-ui/commit/d4e060d3) remove some console.log
+- [2e82cd5c](https://github.com/appscode/cluster-ui/commit/2e82cd5c) credential create func
+- [7b88dea1](https://github.com/appscode/cluster-ui/commit/7b88dea1) added various template for cloud_provider cred
+- [5c5bb91b](https://github.com/appscode/cluster-ui/commit/5c5bb91b) added header-common view for details and create page
+- [0fbfc3c1](https://github.com/appscode/cluster-ui/commit/0fbfc3c1) added cred create form view
+- [c03d464c](https://github.com/appscode/cluster-ui/commit/c03d464c) - added bootstrap-table - remove comp header when back from details of credential
+- [333afb80](https://github.com/appscode/cluster-ui/commit/333afb80) done deployment list and details route
+- [fbf0526a](https://github.com/appscode/cluster-ui/commit/fbf0526a) fixed predeployment list template
+- [5db1af21](https://github.com/appscode/cluster-ui/commit/5db1af21) added deployment route and view
+- [d0b9331e](https://github.com/appscode/cluster-ui/commit/d0b9331e) cred details
+- [5c7da93a](https://github.com/appscode/cluster-ui/commit/5c7da93a) marge with master
+- [3a5d124d](https://github.com/appscode/cluster-ui/commit/3a5d124d) credential list
+- [9653ced9](https://github.com/appscode/cluster-ui/commit/9653ced9) cluster lock and cluster-delete modal done
+- [93c8ede0](https://github.com/appscode/cluster-ui/commit/93c8ede0) fixed details sidebar route url
+- [55cc847a](https://github.com/appscode/cluster-ui/commit/55cc847a) cluster details values
+- [4f6afcb5](https://github.com/appscode/cluster-ui/commit/4f6afcb5) fixed cluster details sidebar css issue
+- [86b2d1e5](https://github.com/appscode/cluster-ui/commit/86b2d1e5) remove side bar in cluster create
+- [2da672fc](https://github.com/appscode/cluster-ui/commit/2da672fc) fix font path in dist file
+- [33a7acab](https://github.com/appscode/cluster-ui/commit/33a7acab) fixed fonts urls
+- [7d6366f4](https://github.com/appscode/cluster-ui/commit/7d6366f4) added all scss files
+- [6f8f2a5d](https://github.com/appscode/cluster-ui/commit/6f8f2a5d) Update LB, incident apis.
+- [88cd78f7](https://github.com/appscode/cluster-ui/commit/88cd78f7) remove deleted database button from daemon, pet, replica sets
+- [cf8f8423](https://github.com/appscode/cluster-ui/commit/cf8f8423) remove old UI elemnt in dashboar
+- [e49c2ae5](https://github.com/appscode/cluster-ui/commit/e49c2ae5) added-all
+- [21099497](https://github.com/appscode/cluster-ui/commit/21099497) added hide 0 in route
+- [e9f3a046](https://github.com/appscode/cluster-ui/commit/e9f3a046) upgrade data to 0.1.17
+- [a78904df](https://github.com/appscode/cluster-ui/commit/a78904df) Upgrade dependencies.
+- [b5a2aa63](https://github.com/appscode/cluster-ui/commit/b5a2aa63) added empty ph-main-element div
+- [b4b7c2f8](https://github.com/appscode/cluster-ui/commit/b4b7c2f8) calll remove header button in cluster list
+- [d054ceae](https://github.com/appscode/cluster-ui/commit/d054ceae) added header button section
+- [c51e6d0c](https://github.com/appscode/cluster-ui/commit/c51e6d0c) added-all
+- [380ae742](https://github.com/appscode/cluster-ui/commit/380ae742) change route function of appsList
+- [87b7678a](https://github.com/appscode/cluster-ui/commit/87b7678a) added cluster list sidebar
+- [cfcc5d90](https://github.com/appscode/cluster-ui/commit/cfcc5d90) fixed dashboard route's hide sidebar issue and added side bar in credentials
+- [baafbb1b](https://github.com/appscode/cluster-ui/commit/baafbb1b) integrated new css with old css
+- [0b208f94](https://github.com/appscode/cluster-ui/commit/0b208f94) new scss
+- [e77d17fd](https://github.com/appscode/cluster-ui/commit/e77d17fd) Update data file.
+- [763cfe14](https://github.com/appscode/cluster-ui/commit/763cfe14) details fixed
+- [efd768e3](https://github.com/appscode/cluster-ui/commit/efd768e3) done cluster details page
+- [a8802ba6](https://github.com/appscode/cluster-ui/commit/a8802ba6) Add flow checker. https://github.com/facebook/flow
+- [9a6ade22](https://github.com/appscode/cluster-ui/commit/9a6ade22) Add flow.
+- [631181a8](https://github.com/appscode/cluster-ui/commit/631181a8) Merge branch 'data-table-h' of diffusion.appscode.com:appscode/60/pharm
+- [342b331f](https://github.com/appscode/cluster-ui/commit/342b331f) added cred describe link in cred list page
+- [3bb9493e](https://github.com/appscode/cluster-ui/commit/3bb9493e) added route for credential describe in pharm.route.js
+- [5a7572b1](https://github.com/appscode/cluster-ui/commit/5a7572b1) added details view of credential
+- [5718ee77](https://github.com/appscode/cluster-ui/commit/5718ee77) Upgrade deps
+- [1b347876](https://github.com/appscode/cluster-ui/commit/1b347876) Add test rules.
+- [5fd21c75](https://github.com/appscode/cluster-ui/commit/5fd21c75) fix other kube object addition
+- [58a1052a](https://github.com/appscode/cluster-ui/commit/58a1052a) remove linter error
+- [3aebcd7d](https://github.com/appscode/cluster-ui/commit/3aebcd7d) added other kube object
+- [d7b49166](https://github.com/appscode/cluster-ui/commit/d7b49166) done showing additional kubernetes instance
+- [45b1ad1b](https://github.com/appscode/cluster-ui/commit/45b1ad1b) added new kubernetes element in sidebar
+- [af86a725](https://github.com/appscode/cluster-ui/commit/af86a725) remove test datatable code
+- [55aa8255](https://github.com/appscode/cluster-ui/commit/55aa8255) remove  empty alert template's extra row class
+- [826c8572](https://github.com/appscode/cluster-ui/commit/826c8572) check condition in deleted db list whether it is deleted or not
+- [077e55ae](https://github.com/appscode/cluster-ui/commit/077e55ae) added storage class in influx durable and remove some console.log
+- [a0e23550](https://github.com/appscode/cluster-ui/commit/a0e23550) show database name in snashot list
+- [979dae82](https://github.com/appscode/cluster-ui/commit/979dae82) fix db lock toggle
+- [dd944db2](https://github.com/appscode/cluster-ui/commit/dd944db2) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [5d61a339](https://github.com/appscode/cluster-ui/commit/5d61a339) added legend in back restoer list
+- [9d8a3853](https://github.com/appscode/cluster-ui/commit/9d8a3853) tested data tables
+- [8aabcdd8](https://github.com/appscode/cluster-ui/commit/8aabcdd8) added-all
+- [5c18e11b](https://github.com/appscode/cluster-ui/commit/5c18e11b) Generate correct user profile
+- [420ab0cc](https://github.com/appscode/cluster-ui/commit/420ab0cc) Upgrade yarn
+- [76e5ed9a](https://github.com/appscode/cluster-ui/commit/76e5ed9a) fix influx value
+- [9ddaa7a4](https://github.com/appscode/cluster-ui/commit/9ddaa7a4) fix influx value
+- [0e78a3f6](https://github.com/appscode/cluster-ui/commit/0e78a3f6) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [dd001a6a](https://github.com/appscode/cluster-ui/commit/dd001a6a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [61cff670](https://github.com/appscode/cluster-ui/commit/61cff670) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm
+- [88085cf1](https://github.com/appscode/cluster-ui/commit/88085cf1) Fix incident (stop calling both `acknowledge`, `comment` for comment)
+- [dd2729ff](https://github.com/appscode/cluster-ui/commit/dd2729ff) added hostname in influx restore form
+- [56513901](https://github.com/appscode/cluster-ui/commit/56513901) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [054af332](https://github.com/appscode/cluster-ui/commit/054af332) added auth-secret name in influx restore
+- [bf8a66a1](https://github.com/appscode/cluster-ui/commit/bf8a66a1) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm
+- [4ca4d589](https://github.com/appscode/cluster-ui/commit/4ca4d589) Modify /alert list column name, add notifi. param, /incident date > 0, show ack.button when type = PROBLEM
+- [1a38d1d7](https://github.com/appscode/cluster-ui/commit/1a38d1d7) separate influx restore from normal restore
+- [9e4021f5](https://github.com/appscode/cluster-ui/commit/9e4021f5) separate dump-backup for influx
+- [448e7cfc](https://github.com/appscode/cluster-ui/commit/448e7cfc) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [24ab0307](https://github.com/appscode/cluster-ui/commit/24ab0307) influx restoer form done
+- [66c27bd8](https://github.com/appscode/cluster-ui/commit/66c27bd8) Fix ci console_output
+- [87c9a765](https://github.com/appscode/cluster-ui/commit/87c9a765) Fix
+- [506d81a4](https://github.com/appscode/cluster-ui/commit/506d81a4) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm
+- [bdf5b62f](https://github.com/appscode/cluster-ui/commit/bdf5b62f) Fixed various issues of ci, incident and ssl
+- [6a93fff9](https://github.com/appscode/cluster-ui/commit/6a93fff9) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [c736062d](https://github.com/appscode/cluster-ui/commit/c736062d) fix passdata in template for sidebar-cluster
+- [2aae2403](https://github.com/appscode/cluster-ui/commit/2aae2403) added cluster details information
+- [0ac17279](https://github.com/appscode/cluster-ui/commit/0ac17279) modify cluster details sidebar
+- [48eb790d](https://github.com/appscode/cluster-ui/commit/48eb790d) fixed
+- [af337c06](https://github.com/appscode/cluster-ui/commit/af337c06) fixing db restore for influxdb. already fixed render form
+- [7d26ab8f](https://github.com/appscode/cluster-ui/commit/7d26ab8f) fix hide sidebar issue
+- [8900c36f](https://github.com/appscode/cluster-ui/commit/8900c36f) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm
+- [06f69806](https://github.com/appscode/cluster-ui/commit/06f69806) Fix lb, configmaps, alert issues
+- [3f2ef2b3](https://github.com/appscode/cluster-ui/commit/3f2ef2b3) Add asyn await support via babel es2017 preset.
+- [b8607528](https://github.com/appscode/cluster-ui/commit/b8607528) fixed zone in cluster list
+- [5bd9c4ce](https://github.com/appscode/cluster-ui/commit/5bd9c4ce) done cluster list view
+- [91747b13](https://github.com/appscode/cluster-ui/commit/91747b13) fixed dashboard nunj
+- [78f07ed6](https://github.com/appscode/cluster-ui/commit/78f07ed6) done dashboard page and adding cluster list page
+- [92a2167f](https://github.com/appscode/cluster-ui/commit/92a2167f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [b9b9c001](https://github.com/appscode/cluster-ui/commit/b9b9c001) added-all
+- [6b5fae3e](https://github.com/appscode/cluster-ui/commit/6b5fae3e) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm
+- [5b98c742](https://github.com/appscode/cluster-ui/commit/5b98c742) Fix
+- [4b5a2e39](https://github.com/appscode/cluster-ui/commit/4b5a2e39) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm
+- [ef31e7ad](https://github.com/appscode/cluster-ui/commit/ef31e7ad) Fix /artifactoty details sidebar
+- [470a99b3](https://github.com/appscode/cluster-ui/commit/470a99b3) Upgrade to 0.1.11 data
+- [58be1ed8](https://github.com/appscode/cluster-ui/commit/58be1ed8) going to 0.2 ph-pharm
+- [1032b245](https://github.com/appscode/cluster-ui/commit/1032b245) handle auto-backup sign for ignored in deleted snapshot list
+- [720c7ca4](https://github.com/appscode/cluster-ui/commit/720c7ca4) added auto-backup sign in snapshot list
+- [19983d42](https://github.com/appscode/cluster-ui/commit/19983d42) remove testing code for cluster details cert data
+- [7a76ca68](https://github.com/appscode/cluster-ui/commit/7a76ca68) fix download cert in cluster details
+- [9f42c90e](https://github.com/appscode/cluster-ui/commit/9f42c90e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [49f6210a](https://github.com/appscode/cluster-ui/commit/49f6210a) added images for cloud_provider
+- [4f29081d](https://github.com/appscode/cluster-ui/commit/4f29081d) Remove fullfillDeleteCluster
+- [6e89b348](https://github.com/appscode/cluster-ui/commit/6e89b348) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm
+- [fdd77be5](https://github.com/appscode/cluster-ui/commit/fdd77be5) Fix /loadbalancers various issues (make repeated field plural, RSVP, create new rules.. etc)
+- [69e38a99](https://github.com/appscode/cluster-ui/commit/69e38a99) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [6343407f](https://github.com/appscode/cluster-ui/commit/6343407f) deleted db recover works
+- [b018d978](https://github.com/appscode/cluster-ui/commit/b018d978) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [10a7a717](https://github.com/appscode/cluster-ui/commit/10a7a717) Upgrade yarn
+- [064bbd9d](https://github.com/appscode/cluster-ui/commit/064bbd9d) fixed destroy modal text
+- [76f87b3f](https://github.com/appscode/cluster-ui/commit/76f87b3f) destroy of db works
+- [a3cce6af](https://github.com/appscode/cluster-ui/commit/a3cce6af) fix snapshot suggested name
+- [26e62765](https://github.com/appscode/cluster-ui/commit/26e62765) remove debugger line
+- [0aed3f7e](https://github.com/appscode/cluster-ui/commit/0aed3f7e) fix cancel auto backup
+- [70ba3693](https://github.com/appscode/cluster-ui/commit/70ba3693) fix data parse in credemntial
+- [7951aac8](https://github.com/appscode/cluster-ui/commit/7951aac8) fix parse data in credential create
+- [327e2e4d](https://github.com/appscode/cluster-ui/commit/327e2e4d) fixed: show auto backup infos in db details
+- [8dd69734](https://github.com/appscode/cluster-ui/commit/8dd69734) added new cloud_provider credential;s
+- [13f1b460](https://github.com/appscode/cluster-ui/commit/13f1b460) shift credential template
+- [446cbeb0](https://github.com/appscode/cluster-ui/commit/446cbeb0) fixed render db list in backup from deleted db backup
+- [383c6b22](https://github.com/appscode/cluster-ui/commit/383c6b22) fix icon issue for auto-backup in deleted dbs snapshot list
+- [7701baf6](https://github.com/appscode/cluster-ui/commit/7701baf6) fixing db backup(auto)
+- [dd768010](https://github.com/appscode/cluster-ui/commit/dd768010) change scale button text
+- [00f6c726](https://github.com/appscode/cluster-ui/commit/00f6c726) fix snapshot name
+- [fc065dd7](https://github.com/appscode/cluster-ui/commit/fc065dd7) check whether node is unschedulable in db create
+- [9f97569c](https://github.com/appscode/cluster-ui/commit/9f97569c) selected node_set will be selected when re-rendering node_set(whole)
+- [6946d5d3](https://github.com/appscode/cluster-ui/commit/6946d5d3) added removed node_set to current node_set
+- [35703d60](https://github.com/appscode/cluster-ui/commit/35703d60) appeare deleted node_set consecutive node_set
+- [c274fe78](https://github.com/appscode/cluster-ui/commit/c274fe78) fix selected node_set array issue
+- [dbd716c7](https://github.com/appscode/cluster-ui/commit/dbd716c7) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [63d80258](https://github.com/appscode/cluster-ui/commit/63d80258) fixed hide previously selected node_set
+- [722d1e6f](https://github.com/appscode/cluster-ui/commit/722d1e6f) fix
+- [65312095](https://github.com/appscode/cluster-ui/commit/65312095) Fix conflicts
+- [11a1a4a7](https://github.com/appscode/cluster-ui/commit/11a1a4a7) Fixed /artifactory, /ci ,/disks various issues
+- [a9c8c237](https://github.com/appscode/cluster-ui/commit/a9c8c237) fixing node_set render
+- [0825759b](https://github.com/appscode/cluster-ui/commit/0825759b) don't append machine type which already append previously
+- [f02cca0f](https://github.com/appscode/cluster-ui/commit/f02cca0f) check node_set value
+- [adea879f](https://github.com/appscode/cluster-ui/commit/adea879f) testing value of node_set select
+- [72bb96f4](https://github.com/appscode/cluster-ui/commit/72bb96f4) added color in background
+- [fb8dd030](https://github.com/appscode/cluster-ui/commit/fb8dd030) update resize node_set logic
+- [fda8dd1e](https://github.com/appscode/cluster-ui/commit/fda8dd1e) change header test in resize node_set
+- [19605825](https://github.com/appscode/cluster-ui/commit/19605825) set different templates for node_set field
+- [7ee363e8](https://github.com/appscode/cluster-ui/commit/7ee363e8) fix cluster creation node_set field
+- [4aefb4c2](https://github.com/appscode/cluster-ui/commit/4aefb4c2) read meta field accurately
+- [e8303481](https://github.com/appscode/cluster-ui/commit/e8303481) fixed response handle
+- [2ff7df8e](https://github.com/appscode/cluster-ui/commit/2ff7df8e) added some dubuging lines
+- [cb7f4980](https://github.com/appscode/cluster-ui/commit/cb7f4980) test resp obj
+- [59e03bc1](https://github.com/appscode/cluster-ui/commit/59e03bc1) again fix response handle
+- [6e6d3915](https://github.com/appscode/cluster-ui/commit/6e6d3915) handle new response for nodes
+- [27e38100](https://github.com/appscode/cluster-ui/commit/27e38100) adding hostname in db creation
+- [c1f166b8](https://github.com/appscode/cluster-ui/commit/c1f166b8) fix text in node_set value
+- [9c303d7e](https://github.com/appscode/cluster-ui/commit/9c303d7e) fix UI issue
+- [be852a4b](https://github.com/appscode/cluster-ui/commit/be852a4b) fix UI issue in show new node_set
+- [9d5e126f](https://github.com/appscode/cluster-ui/commit/9d5e126f) fix sent node_set map
+- [cb2083a7](https://github.com/appscode/cluster-ui/commit/cb2083a7) fix machine type dp in node_set
+- [d93ce99a](https://github.com/appscode/cluster-ui/commit/d93ce99a) fix previous node_set
+- [de73b60a](https://github.com/appscode/cluster-ui/commit/de73b60a) added result node in reconfigure cluster
+- [1abd3246](https://github.com/appscode/cluster-ui/commit/1abd3246) previous value disabled
+- [f19a6b03](https://github.com/appscode/cluster-ui/commit/f19a6b03) fix some issue as add node_set
+- [15c1841e](https://github.com/appscode/cluster-ui/commit/15c1841e) fix previous value render in node_set
+- [72cefc2b](https://github.com/appscode/cluster-ui/commit/72cefc2b) Merge branch 'jsc-h' of diffusion.appscode.com:appscode/60/pharm
+- [8b2c43cc](https://github.com/appscode/cluster-ui/commit/8b2c43cc) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [02133ac0](https://github.com/appscode/cluster-ui/commit/02133ac0) fix node set form UI
+- [9c0fe7b0](https://github.com/appscode/cluster-ui/commit/9c0fe7b0) new form style in reconfigure cluster ndoe
+- [65f167ce](https://github.com/appscode/cluster-ui/commit/65f167ce) fix sidebar db create
+- [21509093](https://github.com/appscode/cluster-ui/commit/21509093) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm
+- [49442bb2](https://github.com/appscode/cluster-ui/commit/49442bb2) added-all
+- [46e1fe43](https://github.com/appscode/cluster-ui/commit/46e1fe43) Modify /glusterfs codes for api change (storageClasses, size, etc.)
+- [98707858](https://github.com/appscode/cluster-ui/commit/98707858) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [a174025b](https://github.com/appscode/cluster-ui/commit/a174025b) remove console
+- [e071fe0b](https://github.com/appscode/cluster-ui/commit/e071fe0b) added-all
+- [525c2497](https://github.com/appscode/cluster-ui/commit/525c2497) Upgrade yarn.lock
+- [0f3c6cb1](https://github.com/appscode/cluster-ui/commit/0f3c6cb1) fix io to prod
+- [a30c7c83](https://github.com/appscode/cluster-ui/commit/a30c7c83) when storage class not present hide storage class section in db details
+- [95ad83af](https://github.com/appscode/cluster-ui/commit/95ad83af) show storage_class in db details
+- [c5e8436b](https://github.com/appscode/cluster-ui/commit/c5e8436b) added storage class in db create and use storageClass collection and model
+- [817f9d5a](https://github.com/appscode/cluster-ui/commit/817f9d5a) added-all
+- [1936bd8c](https://github.com/appscode/cluster-ui/commit/1936bd8c) Upgrade yarn
+- [331378f4](https://github.com/appscode/cluster-ui/commit/331378f4) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [77b8f8bc](https://github.com/appscode/cluster-ui/commit/77b8f8bc) Reload on dev mode.
+- [6ce1b028](https://github.com/appscode/cluster-ui/commit/6ce1b028) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into clusters
+- [14569106](https://github.com/appscode/cluster-ui/commit/14569106) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into clusters
+- [f3fc38a8](https://github.com/appscode/cluster-ui/commit/f3fc38a8) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [501d7f85](https://github.com/appscode/cluster-ui/commit/501d7f85) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm
+- [fab6b41c](https://github.com/appscode/cluster-ui/commit/fab6b41c) Add /alert empty list page
+- [0043ff16](https://github.com/appscode/cluster-ui/commit/0043ff16) Merge branch 'jsc-h' of diffusion.appscode.com:appscode/60/pharm
+- [763bba29](https://github.com/appscode/cluster-ui/commit/763bba29) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [1ba60b15](https://github.com/appscode/cluster-ui/commit/1ba60b15) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [c7e0f0c8](https://github.com/appscode/cluster-ui/commit/c7e0f0c8) remove commented line
+- [f0e98daa](https://github.com/appscode/cluster-ui/commit/f0e98daa) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc
+- [8da47cd2](https://github.com/appscode/cluster-ui/commit/8da47cd2) add svg icon & remove font-mfizz
+- [e484d24c](https://github.com/appscode/cluster-ui/commit/e484d24c) fix snapshot name in db backup modal
+- [99de5b44](https://github.com/appscode/cluster-ui/commit/99de5b44) fix node scale
+- [bbb8bc5e](https://github.com/appscode/cluster-ui/commit/bbb8bc5e) Route to login page if missing authentication.
+- [eddd29c3](https://github.com/appscode/cluster-ui/commit/eddd29c3) Start versioning css, js, template files.
+- [cdcadd2d](https://github.com/appscode/cluster-ui/commit/cdcadd2d) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [f90d6897](https://github.com/appscode/cluster-ui/commit/f90d6897) Update dependencies.
+- [3f79ccc1](https://github.com/appscode/cluster-ui/commit/3f79ccc1) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm
+- [f0b186e0](https://github.com/appscode/cluster-ui/commit/f0b186e0) Fix various url redirection
+- [781b6ad6](https://github.com/appscode/cluster-ui/commit/781b6ad6) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm
+- [caf0455e](https://github.com/appscode/cluster-ui/commit/caf0455e) Fix glusterfs
+- [7e135be5](https://github.com/appscode/cluster-ui/commit/7e135be5) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [6182f3b3](https://github.com/appscode/cluster-ui/commit/6182f3b3) Fix glusterfs disks resp obj
+- [cacf6e84](https://github.com/appscode/cluster-ui/commit/cacf6e84) Make /alert -> list page generic
+- [a3ca016d](https://github.com/appscode/cluster-ui/commit/a3ca016d) remove region for taking backup in aws cluster
+- [44cfeedc](https://github.com/appscode/cluster-ui/commit/44cfeedc) complete tempalte shift
+- [cb28b654](https://github.com/appscode/cluster-ui/commit/cb28b654) change db backup templates
+- [fe85f1b7](https://github.com/appscode/cluster-ui/commit/fe85f1b7) remove console and fix some css issue
+- [20658266](https://github.com/appscode/cluster-ui/commit/20658266) fix remove node_set option
+- [6eb31a3f](https://github.com/appscode/cluster-ui/commit/6eb31a3f) change node_set value type to integer
+- [0c7a2679](https://github.com/appscode/cluster-ui/commit/0c7a2679) rearrange db creation form
+- [f39ac13c](https://github.com/appscode/cluster-ui/commit/f39ac13c) finalize db mode render option
+- [a723a260](https://github.com/appscode/cluster-ui/commit/a723a260) fix db mode render
+- [3db9eae7](https://github.com/appscode/cluster-ui/commit/3db9eae7) show pending cluster in cluster list
+- [2485ff9e](https://github.com/appscode/cluster-ui/commit/2485ff9e) fixing node configure
+- [7612fec4](https://github.com/appscode/cluster-ui/commit/7612fec4) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc
+- [42fd32f0](https://github.com/appscode/cluster-ui/commit/42fd32f0) Working on /alert list page
+- [21186513](https://github.com/appscode/cluster-ui/commit/21186513) check whether node-set is selected
+- [f0a690ed](https://github.com/appscode/cluster-ui/commit/f0a690ed) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [a63f5dd4](https://github.com/appscode/cluster-ui/commit/a63f5dd4) fixded node st
+- [8adc92d8](https://github.com/appscode/cluster-ui/commit/8adc92d8) fixing node reconfigure
+- [3c173438](https://github.com/appscode/cluster-ui/commit/3c173438) Update yarn
+- [0b7c9f75](https://github.com/appscode/cluster-ui/commit/0b7c9f75) move deleted databases list templates in pharm/database
+- [65c7d8d4](https://github.com/appscode/cluster-ui/commit/65c7d8d4) rearrange code in cluster card details
+- [bda8665a](https://github.com/appscode/cluster-ui/commit/bda8665a) fix cert dispaly in cluster detials
+- [07c9a72c](https://github.com/appscode/cluster-ui/commit/07c9a72c) Add option to release reserved IP
+- [c242dff8](https://github.com/appscode/cluster-ui/commit/c242dff8) Merge branch 'jsc-h' of diffusion.appscode.com:appscode/60/pharm
+- [495d3450](https://github.com/appscode/cluster-ui/commit/495d3450) fix cluster details cert sectin
+- [7640450a](https://github.com/appscode/cluster-ui/commit/7640450a) Fix /loadbalancer list resp ob
+- [ade9b47a](https://github.com/appscode/cluster-ui/commit/ade9b47a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc
+- [4f9befd6](https://github.com/appscode/cluster-ui/commit/4f9befd6) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [d64ca394](https://github.com/appscode/cluster-ui/commit/d64ca394) fix after create cred route
+- [b2097058](https://github.com/appscode/cluster-ui/commit/b2097058) /alert->update: Written views+template files
+- [dea7e416](https://github.com/appscode/cluster-ui/commit/dea7e416) show failing and deleting dbs in deleted db list
+- [16e6dc27](https://github.com/appscode/cluster-ui/commit/16e6dc27) clean some code
+- [8ea51495](https://github.com/appscode/cluster-ui/commit/8ea51495) fix last backup time in db details
+- [7e0745c1](https://github.com/appscode/cluster-ui/commit/7e0745c1) remove kube object section in db details
+- [ddec2ea5](https://github.com/appscode/cluster-ui/commit/ddec2ea5) fix time
+- [21ee014f](https://github.com/appscode/cluster-ui/commit/21ee014f) show normal time in deleted db list
+- [89f6dd7e](https://github.com/appscode/cluster-ui/commit/89f6dd7e) fix deleted snapshot list render
+- [dc980520](https://github.com/appscode/cluster-ui/commit/dc980520) fix render bucket list in restoer db
+- [489993dc](https://github.com/appscode/cluster-ui/commit/489993dc) remove phid from db details and restore-backup url
+- [6289942d](https://github.com/appscode/cluster-ui/commit/6289942d) fix render bucket list
+- [37668d3c](https://github.com/appscode/cluster-ui/commit/37668d3c) remv console
+- [64be2067](https://github.com/appscode/cluster-ui/commit/64be2067) fix enable create cluster button
+- [0efc353d](https://github.com/appscode/cluster-ui/commit/0efc353d) disabe create cluster button whne cred is unauthorized
+- [40c1e1ec](https://github.com/appscode/cluster-ui/commit/40c1e1ec) fix influx type
+- [23026537](https://github.com/appscode/cluster-ui/commit/23026537) influxdb form render
+- [fbbbd319](https://github.com/appscode/cluster-ui/commit/fbbbd319) remove some console.log
+- [43e2426f](https://github.com/appscode/cluster-ui/commit/43e2426f) fix db create show toastr
+- [ae841e85](https://github.com/appscode/cluster-ui/commit/ae841e85) fix es node -> size
+- [71a0445b](https://github.com/appscode/cluster-ui/commit/71a0445b) added-all
+- [257bbef0](https://github.com/appscode/cluster-ui/commit/257bbef0) added-all
+- [a5fec210](https://github.com/appscode/cluster-ui/commit/a5fec210) Fix credential authorization check.
+- [08544cdc](https://github.com/appscode/cluster-ui/commit/08544cdc) added-all
+- [0ea90ab9](https://github.com/appscode/cluster-ui/commit/0ea90ab9) Fix credential loading.
+- [e399d4b7](https://github.com/appscode/cluster-ui/commit/e399d4b7) Pass credential
+- [36e52ab1](https://github.com/appscode/cluster-ui/commit/36e52ab1) Doing /alert update page generic
+- [03156928](https://github.com/appscode/cluster-ui/commit/03156928) show error toastr for unauthorized credential
+- [c9626064](https://github.com/appscode/cluster-ui/commit/c9626064) fix isAuthorized api for validate cloud_credential
+- [73b111fb](https://github.com/appscode/cluster-ui/commit/73b111fb) fix new aws zones render
+- [eacfe774](https://github.com/appscode/cluster-ui/commit/eacfe774) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [76ca8b83](https://github.com/appscode/cluster-ui/commit/76ca8b83) fix time
+- [de4c535e](https://github.com/appscode/cluster-ui/commit/de4c535e) Merge branch 'jsc-h' of diffusion.appscode.com:appscode/60/pharm
+- [c96698d5](https://github.com/appscode/cluster-ui/commit/c96698d5) Merge branch 'toastr' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [b1ae8483](https://github.com/appscode/cluster-ui/commit/b1ae8483) fix db restore from deleted db snaps
+- [a74b051a](https://github.com/appscode/cluster-ui/commit/a74b051a) remove dependencies
+- [3f3ef193](https://github.com/appscode/cluster-ui/commit/3f3ef193) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [40aafd36](https://github.com/appscode/cluster-ui/commit/40aafd36) clean up some more code
+- [63047eb1](https://github.com/appscode/cluster-ui/commit/63047eb1) Merge branch 'toastr' of diffusion.appscode.com:appscode/60/pharm
+- [d0071094](https://github.com/appscode/cluster-ui/commit/d0071094) rmove linter error
+- [0e4359a8](https://github.com/appscode/cluster-ui/commit/0e4359a8) remove apiClient
+- [b6c1b597](https://github.com/appscode/cluster-ui/commit/b6c1b597) remove global.success mesg and addStatusResponse and also showwarning mesg
+- [49963af8](https://github.com/appscode/cluster-ui/commit/49963af8) remove global.success and addStatusResponse
+- [828da9a3](https://github.com/appscode/cluster-ui/commit/828da9a3) added-all
+- [b0e809d2](https://github.com/appscode/cluster-ui/commit/b0e809d2) remove global.status
+- [a8a0a6ce](https://github.com/appscode/cluster-ui/commit/a8a0a6ce) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm
+- [e3ac0514](https://github.com/appscode/cluster-ui/commit/e3ac0514) Merge branch 'jsc-h' of diffusion.appscode.com:appscode/60/pharm
+- [f8fe86b8](https://github.com/appscode/cluster-ui/commit/f8fe86b8) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [1b074c09](https://github.com/appscode/cluster-ui/commit/1b074c09) Update version
+- [0c728129](https://github.com/appscode/cluster-ui/commit/0c728129) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [486511ba](https://github.com/appscode/cluster-ui/commit/486511ba) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [b738d4bb](https://github.com/appscode/cluster-ui/commit/b738d4bb) Destry -> Delete
+- [00a4b501](https://github.com/appscode/cluster-ui/commit/00a4b501) Add checkboxes to cluster delete dialog.
+- [6a9c8567](https://github.com/appscode/cluster-ui/commit/6a9c8567) Delete/cleanup many files. Fix unregister pv, disk describe, ssl list, doing alert update page generic
+- [404635a4](https://github.com/appscode/cluster-ui/commit/404635a4) fixed deleted snapshot list
+- [3927cb40](https://github.com/appscode/cluster-ui/commit/3927cb40) fix deleted databases route
+- [ecf3beac](https://github.com/appscode/cluster-ui/commit/ecf3beac) testing db create and then routeing, db delete and routing, db backup and response etc
+- [7a854f72](https://github.com/appscode/cluster-ui/commit/7a854f72) fix db restore form backup
+- [7324bc23](https://github.com/appscode/cluster-ui/commit/7324bc23) remove some console.log
+- [7bbfed65](https://github.com/appscode/cluster-ui/commit/7bbfed65) fixing time with specifc time zone
+- [728fd394](https://github.com/appscode/cluster-ui/commit/728fd394) remove console form gulpfile.js
+- [90188b67](https://github.com/appscode/cluster-ui/commit/90188b67) db restore okay
+- [72102856](https://github.com/appscode/cluster-ui/commit/72102856) fixing db details
+- [95582899](https://github.com/appscode/cluster-ui/commit/95582899) fix cred update
+- [4ef6774f](https://github.com/appscode/cluster-ui/commit/4ef6774f) Tmp commit
+- [06844ee0](https://github.com/appscode/cluster-ui/commit/06844ee0) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [895971ba](https://github.com/appscode/cluster-ui/commit/895971ba) fix ssl list render
+- [22f85f40](https://github.com/appscode/cluster-ui/commit/22f85f40) Merge providerCredentials
+- [4b731a8e](https://github.com/appscode/cluster-ui/commit/4b731a8e) Use data files package.
+- [59bb85e6](https://github.com/appscode/cluster-ui/commit/59bb85e6) remove test code
+- [a5eacbdd](https://github.com/appscode/cluster-ui/commit/a5eacbdd) fix cluster deleted list img
+- [f715497c](https://github.com/appscode/cluster-ui/commit/f715497c) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [3f372d9a](https://github.com/appscode/cluster-ui/commit/3f372d9a) added some debug line
+- [06f16d82](https://github.com/appscode/cluster-ui/commit/06f16d82) added response toastr
+- [634ef3fe](https://github.com/appscode/cluster-ui/commit/634ef3fe) show error in cluster delete
+- [11cb436e](https://github.com/appscode/cluster-ui/commit/11cb436e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [2ba0d7fb](https://github.com/appscode/cluster-ui/commit/2ba0d7fb) Fix configmaps delete/add-key redirect url
+- [845d01f8](https://github.com/appscode/cluster-ui/commit/845d01f8) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [03d42d2c](https://github.com/appscode/cluster-ui/commit/03d42d2c) fix render credential in db backup modal
+- [59ce715c](https://github.com/appscode/cluster-ui/commit/59ce715c) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm into jsc
+- [1a4d4eae](https://github.com/appscode/cluster-ui/commit/1a4d4eae) Fix, various issues of configmaps, secrets, disks, loadbalancer.
+- [8a35cb51](https://github.com/appscode/cluster-ui/commit/8a35cb51) fix snapshot list route
+- [c045aa8c](https://github.com/appscode/cluster-ui/commit/c045aa8c) added catch
+- [0921ab64](https://github.com/appscode/cluster-ui/commit/0921ab64) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [48d4a2ae](https://github.com/appscode/cluster-ui/commit/48d4a2ae) db details fixed
+- [b31b35a0](https://github.com/appscode/cluster-ui/commit/b31b35a0) fixed database list render and database details route
+- [64acd825](https://github.com/appscode/cluster-ui/commit/64acd825) Fix messages & links for first impression.
+- [fa3ae286](https://github.com/appscode/cluster-ui/commit/fa3ae286) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [cec2bbf7](https://github.com/appscode/cluster-ui/commit/cec2bbf7) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [b56bc983](https://github.com/appscode/cluster-ui/commit/b56bc983) added delete cluster request
+- [c919269b](https://github.com/appscode/cluster-ui/commit/c919269b) Use certificate obtain method.
+- [e319ff99](https://github.com/appscode/cluster-ui/commit/e319ff99) Update data files.
+- [6f07ab97](https://github.com/appscode/cluster-ui/commit/6f07ab97) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm into jsc
+- [0ab51bdd](https://github.com/appscode/cluster-ui/commit/0ab51bdd) Fix Toastr warning.
+- [dee76a27](https://github.com/appscode/cluster-ui/commit/dee76a27) remove database route
+- [6f1617f4](https://github.com/appscode/cluster-ui/commit/6f1617f4) remove database from sidebar
+- [4a718f1d](https://github.com/appscode/cluster-ui/commit/4a718f1d) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [1717bac3](https://github.com/appscode/cluster-ui/commit/1717bac3) use beta tag in alert, glusterfs, incidents
+- [8972bb09](https://github.com/appscode/cluster-ui/commit/8972bb09) added beta tag in database list header
+- [d910551e](https://github.com/appscode/cluster-ui/commit/d910551e) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm into jsc
+- [69c18875](https://github.com/appscode/cluster-ui/commit/69c18875) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm into jsc
+- [46e5e7ae](https://github.com/appscode/cluster-ui/commit/46e5e7ae) /loadbalancer, fix various issues
+- [c857128b](https://github.com/appscode/cluster-ui/commit/c857128b) fix template path
+- [4bf3d527](https://github.com/appscode/cluster-ui/commit/4bf3d527) fix
+- [f95b8392](https://github.com/appscode/cluster-ui/commit/f95b8392) cluster update works
+- [24ece911](https://github.com/appscode/cluster-ui/commit/24ece911) Merge branch 'clusters' of diffusion.appscode.com:appscode/60/pharm
+- [078114cf](https://github.com/appscode/cluster-ui/commit/078114cf) fix module require
+- [f0110fe5](https://github.com/appscode/cluster-ui/commit/f0110fe5) fix clusters view in macbook
+- [1f2dc9c9](https://github.com/appscode/cluster-ui/commit/1f2dc9c9) remove console
+- [40ee0f33](https://github.com/appscode/cluster-ui/commit/40ee0f33) Fix conflicts
+- [9397aa43](https://github.com/appscode/cluster-ui/commit/9397aa43) fix cluster secrets and services render with new api
+- [767cc2c9](https://github.com/appscode/cluster-ui/commit/767cc2c9) /alert, fixed list and update pages
+- [b7477508](https://github.com/appscode/cluster-ui/commit/b7477508) new provider cluster logo added
+- [69af6670](https://github.com/appscode/cluster-ui/commit/69af6670) fix app pods
+- [1296a521](https://github.com/appscode/cluster-ui/commit/1296a521) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [0fde26ba](https://github.com/appscode/cluster-ui/commit/0fde26ba) with new datafile and apps list with new api client
+- [d9a91715](https://github.com/appscode/cluster-ui/commit/d9a91715) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [df777daf](https://github.com/appscode/cluster-ui/commit/df777daf) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [747339e2](https://github.com/appscode/cluster-ui/commit/747339e2) remove global.ajaxcall
+- [c18c62b0](https://github.com/appscode/cluster-ui/commit/c18c62b0) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into jsc
+- [8f6575a6](https://github.com/appscode/cluster-ui/commit/8f6575a6) fix duplicate method
+- [a6f7954a](https://github.com/appscode/cluster-ui/commit/a6f7954a) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm into jsc
+- [43258f1a](https://github.com/appscode/cluster-ui/commit/43258f1a) remove linter error
+- [885bc629](https://github.com/appscode/cluster-ui/commit/885bc629) fix marging
+- [a65a2a3d](https://github.com/appscode/cluster-ui/commit/a65a2a3d) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm into jsc-h
+- [f528401e](https://github.com/appscode/cluster-ui/commit/f528401e) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm into jsc
+- [37c69d5b](https://github.com/appscode/cluster-ui/commit/37c69d5b) linter fix
+- [e90b40c1](https://github.com/appscode/cluster-ui/commit/e90b40c1) more lint:js erros fixed
+- [370d13b6](https://github.com/appscode/cluster-ui/commit/370d13b6) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm into jsc
+- [bec33e76](https://github.com/appscode/cluster-ui/commit/bec33e76) Fix conflicts
+- [9cebd9e0](https://github.com/appscode/cluster-ui/commit/9cebd9e0) Fix app
+- [0b214e9d](https://github.com/appscode/cluster-ui/commit/0b214e9d) Fixed lint:js errors
+- [f9388e58](https://github.com/appscode/cluster-ui/commit/f9388e58) cvhange db api client
+- [4fdb592a](https://github.com/appscode/cluster-ui/commit/4fdb592a) complete changing db section
+- [6ef0e1f9](https://github.com/appscode/cluster-ui/commit/6ef0e1f9) changing dbs
+- [1f478a83](https://github.com/appscode/cluster-ui/commit/1f478a83) More cleanup
+- [b23748f3](https://github.com/appscode/cluster-ui/commit/b23748f3) Remove ajaxCall
+- [c5dce07d](https://github.com/appscode/cluster-ui/commit/c5dce07d) added-all
+- [0dc74825](https://github.com/appscode/cluster-ui/commit/0dc74825) Update LB
+- [97b2553c](https://github.com/appscode/cluster-ui/commit/97b2553c) accept updated js/data/cloud_provider.json
+- [d3334a54](https://github.com/appscode/cluster-ui/commit/d3334a54) Merge remote-tracking branch 'origin/jsc'
+- [48c9f851](https://github.com/appscode/cluster-ui/commit/48c9f851) Fix js:lint errors
+- [f0e9155a](https://github.com/appscode/cluster-ui/commit/f0e9155a) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm into jsc
+- [7dd45e42](https://github.com/appscode/cluster-ui/commit/7dd45e42) /alert, use new api client and various cleanup
+- [f566288d](https://github.com/appscode/cluster-ui/commit/f566288d) Merge branch 'jsc-h' of diffusion.appscode.com:appscode/60/pharm
+- [227185d6](https://github.com/appscode/cluster-ui/commit/227185d6) create db with new api client
+- [0c83ff11](https://github.com/appscode/cluster-ui/commit/0c83ff11) clean code
+- [6b68758f](https://github.com/appscode/cluster-ui/commit/6b68758f) added error response in db create
+- [3e89940b](https://github.com/appscode/cluster-ui/commit/3e89940b) added checkStatus in db create (pg-basic)
+- [141edbe5](https://github.com/appscode/cluster-ui/commit/141edbe5) fix router for database create
+- [102d7654](https://github.com/appscode/cluster-ui/commit/102d7654) incidnets, lb
+- [70b32ac0](https://github.com/appscode/cluster-ui/commit/70b32ac0) pull head
+- [db6bbd5e](https://github.com/appscode/cluster-ui/commit/db6bbd5e) Merge branch 'jsc' of diffusion.appscode.com:appscode/60/pharm into jsc
+- [1b23d45c](https://github.com/appscode/cluster-ui/commit/1b23d45c) added-all
+- [5400456b](https://github.com/appscode/cluster-ui/commit/5400456b) added-all
+- [d6f0b7f8](https://github.com/appscode/cluster-ui/commit/d6f0b7f8) Fix build errors
+- [bd0cd01a](https://github.com/appscode/cluster-ui/commit/bd0cd01a) remove cluster from database creation form nunj
+- [7a5fef1e](https://github.com/appscode/cluster-ui/commit/7a5fef1e) Use new api client in cluster views.
+- [f40d0f96](https://github.com/appscode/cluster-ui/commit/f40d0f96) fix router for database create
+- [4de09ce4](https://github.com/appscode/cluster-ui/commit/4de09ce4) fix
+- [114bc71d](https://github.com/appscode/cluster-ui/commit/114bc71d) fix rendering dbs
+- [1b26d06e](https://github.com/appscode/cluster-ui/commit/1b26d06e) shift router to cluster section
+- [965e6485](https://github.com/appscode/cluster-ui/commit/965e6485) Delete alert view
+- [199d2aff](https://github.com/appscode/cluster-ui/commit/199d2aff) cluster create.
+- [aae5bf04](https://github.com/appscode/cluster-ui/commit/aae5bf04) Use schema from jsc pkg.
+- [5ec1f6a6](https://github.com/appscode/cluster-ui/commit/5ec1f6a6) added-all
+- [61f65ff1](https://github.com/appscode/cluster-ui/commit/61f65ff1) Fix links
+- [4a1c3cdb](https://github.com/appscode/cluster-ui/commit/4a1c3cdb) Use ensureCsrfToken
+- [de04b286](https://github.com/appscode/cluster-ui/commit/de04b286) Upgrade js-client
+- [82c54e13](https://github.com/appscode/cluster-ui/commit/82c54e13) Upgrade Backbone to 1.3.x and Lodash 4.x
+- [5042cc54](https://github.com/appscode/cluster-ui/commit/5042cc54) Upgrade nunjucks to stop using vulnerable version.
+- [b30b6628](https://github.com/appscode/cluster-ui/commit/b30b6628) Update data files.
+- [9733e7f7](https://github.com/appscode/cluster-ui/commit/9733e7f7) Delete json schema
+- [000f8359](https://github.com/appscode/cluster-ui/commit/000f8359) fix
+- [e3fbe9af](https://github.com/appscode/cluster-ui/commit/e3fbe9af) fix
+- [a5598222](https://github.com/appscode/cluster-ui/commit/a5598222) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [d30ae875](https://github.com/appscode/cluster-ui/commit/d30ae875) credential create with new api library
+- [cd53c27c](https://github.com/appscode/cluster-ui/commit/cd53c27c) clena some code
+- [be077605](https://github.com/appscode/cluster-ui/commit/be077605) use csrf token generator with new api library
+- [00bdd12c](https://github.com/appscode/cluster-ui/commit/00bdd12c) new xhrconfig
+- [651e10ef](https://github.com/appscode/cluster-ui/commit/651e10ef) Merge branch 'haproxy-conf' of diffusion.appscode.com:appscode/60/pharm
+- [cc5dcdd9](https://github.com/appscode/cluster-ui/commit/cc5dcdd9) Add haproxy.cfg
+- [cd253e0b](https://github.com/appscode/cluster-ui/commit/cd253e0b) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [61040e39](https://github.com/appscode/cluster-ui/commit/61040e39) render credential list with new api library
+- [3fd4ffd6](https://github.com/appscode/cluster-ui/commit/3fd4ffd6) test api library
+- [6da67b0c](https://github.com/appscode/cluster-ui/commit/6da67b0c) Merge branch 'glusterfs' of diffusion.appscode.com:appscode/60/pharm
+- [5a8a12f3](https://github.com/appscode/cluster-ui/commit/5a8a12f3) /glusterfs, fix describe
+- [3090bb48](https://github.com/appscode/cluster-ui/commit/3090bb48) Merge branch 'glusterfs' of diffusion.appscode.com:appscode/60/pharm
+- [f458d10c](https://github.com/appscode/cluster-ui/commit/f458d10c) /glusterfs, fix describe
+- [0e50b6d7](https://github.com/appscode/cluster-ui/commit/0e50b6d7) Merge branch 'glusterfs' of diffusion.appscode.com:appscode/60/pharm
+- [fac16598](https://github.com/appscode/cluster-ui/commit/fac16598) /glusterfs, fix describe object
+- [e2eece3c](https://github.com/appscode/cluster-ui/commit/e2eece3c) Merge remote-tracking branch 'origin/glusterfs'
+- [cf0e4fe7](https://github.com/appscode/cluster-ui/commit/cf0e4fe7) /glusterfs delete confirm modal, describe code modified
+- [435a4faa](https://github.com/appscode/cluster-ui/commit/435a4faa) new datafile
+- [d852c048](https://github.com/appscode/cluster-ui/commit/d852c048) /glusterfs, describe & delete code modified
+- [cf7601e3](https://github.com/appscode/cluster-ui/commit/cf7601e3) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [c0ce6fe8](https://github.com/appscode/cluster-ui/commit/c0ce6fe8) added-all
+- [60d66d49](https://github.com/appscode/cluster-ui/commit/60d66d49) Fix conflicts with configmaps
+- [ed89123a](https://github.com/appscode/cluster-ui/commit/ed89123a) Merge remote-tracking branch 'origin/configmaps'
+- [7633ebdb](https://github.com/appscode/cluster-ui/commit/7633ebdb) Gfs cluster list & create process working
+- [a5d210ad](https://github.com/appscode/cluster-ui/commit/a5d210ad) added-all
+- [19843709](https://github.com/appscode/cluster-ui/commit/19843709) Various chages for /glusterfs, Fix conflicts
+- [4b7a62d0](https://github.com/appscode/cluster-ui/commit/4b7a62d0) added-all
+- [66a7dc53](https://github.com/appscode/cluster-ui/commit/66a7dc53) added-all
+- [bad2b98a](https://github.com/appscode/cluster-ui/commit/bad2b98a) fix whoami
+- [97e60e8b](https://github.com/appscode/cluster-ui/commit/97e60e8b) added-all
+- [2f601fb3](https://github.com/appscode/cluster-ui/commit/2f601fb3) conduits -> conduit
+- [c121ad18](https://github.com/appscode/cluster-ui/commit/c121ad18) fix image render
+- [feb8f823](https://github.com/appscode/cluster-ui/commit/feb8f823) update datafile
+- [f2ef5297](https://github.com/appscode/cluster-ui/commit/f2ef5297) new datafile
+- [1741ce59](https://github.com/appscode/cluster-ui/commit/1741ce59) fix cluster details infoo
+- [1ea3c6f1](https://github.com/appscode/cluster-ui/commit/1ea3c6f1) new schema
+- [7db8bac7](https://github.com/appscode/cluster-ui/commit/7db8bac7) Merge branch 'pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [2fcaf38a](https://github.com/appscode/cluster-ui/commit/2fcaf38a) fix cloud credential update
+- [febe3157](https://github.com/appscode/cluster-ui/commit/febe3157) fix api path
+- [fc4100a6](https://github.com/appscode/cluster-ui/commit/fc4100a6) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into pharm-h
+- [24c270b7](https://github.com/appscode/cluster-ui/commit/24c270b7) added new schema
+- [a0d34c07](https://github.com/appscode/cluster-ui/commit/a0d34c07) Merge branch 'pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [95c575a7](https://github.com/appscode/cluster-ui/commit/95c575a7) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [e52f611e](https://github.com/appscode/cluster-ui/commit/e52f611e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into pharm-h
+- [a3f4c541](https://github.com/appscode/cluster-ui/commit/a3f4c541) added json file
+- [f8012174](https://github.com/appscode/cluster-ui/commit/f8012174) new datafile
+- [95d6d5f0](https://github.com/appscode/cluster-ui/commit/95d6d5f0) Merge branch 'glusterfs' of diffusion.appscode.com:appscode/60/pharm
+- [953c41e0](https://github.com/appscode/cluster-ui/commit/953c41e0) Added missing namespace
+- [56b9bc11](https://github.com/appscode/cluster-ui/commit/56b9bc11) Merge branch 'glusterfs' of diffusion.appscode.com:appscode/60/pharm
+- [57f30b7a](https://github.com/appscode/cluster-ui/commit/57f30b7a) Render /glusterfs list page, modify describe page
+- [9b063bfe](https://github.com/appscode/cluster-ui/commit/9b063bfe) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into pharm-h
+- [cb0111af](https://github.com/appscode/cluster-ui/commit/cb0111af) Merge branch 'glusterfs' of diffusion.appscode.com:appscode/60/pharm
+- [9b418e54](https://github.com/appscode/cluster-ui/commit/9b418e54) Add /glusterfs describe page templates
+- [bf16fa5c](https://github.com/appscode/cluster-ui/commit/bf16fa5c) clean up
+- [33190994](https://github.com/appscode/cluster-ui/commit/33190994) convert kube_version->version
+- [94132624](https://github.com/appscode/cluster-ui/commit/94132624) added kube-version and use v1beta1 schema
+- [acc975a2](https://github.com/appscode/cluster-ui/commit/acc975a2) Merge branch 'glusterfs' of diffusion.appscode.com:appscode/60/pharm
+- [a95da776](https://github.com/appscode/cluster-ui/commit/a95da776) fix statusCode to 0
+- [b4831529](https://github.com/appscode/cluster-ui/commit/b4831529) fix getQuota fucntion
+- [ec833844](https://github.com/appscode/cluster-ui/commit/ec833844) Add glusterfs describe page
+- [37006e49](https://github.com/appscode/cluster-ui/commit/37006e49) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into glusterfs
+- [3f1ea65a](https://github.com/appscode/cluster-ui/commit/3f1ea65a) move cluster creation nunj to pharm forlder
+- [fb3b68d8](https://github.com/appscode/cluster-ui/commit/fb3b68d8) added information in cluster details
+- [55e3a31a](https://github.com/appscode/cluster-ui/commit/55e3a31a) Merge branch 'glusterfs' of diffusion.appscode.com:appscode/60/pharm
+- [2bc0d7f6](https://github.com/appscode/cluster-ui/commit/2bc0d7f6) Modify gfs list page (cleanup volume, make gfsName linkable to go describe page)
+- [fb2d709f](https://github.com/appscode/cluster-ui/commit/fb2d709f) remove unneccessary line
+- [bde9d8da](https://github.com/appscode/cluster-ui/commit/bde9d8da) Merge branch 'pharm-h' of diffusion.appscode.com:appscode/60/pharm
+- [33343aa8](https://github.com/appscode/cluster-ui/commit/33343aa8) fix secret route
+- [b4607910](https://github.com/appscode/cluster-ui/commit/b4607910) added new cluster details infos
+- [ef277b3c](https://github.com/appscode/cluster-ui/commit/ef277b3c) fix time in cluster details
+- [12d90305](https://github.com/appscode/cluster-ui/commit/12d90305) fix if else
+- [42935e5e](https://github.com/appscode/cluster-ui/commit/42935e5e) remove console
+- [0364e9f8](https://github.com/appscode/cluster-ui/commit/0364e9f8) fix env + namespace specific routing and render credential update cloud-provider properly
+- [2145bd0a](https://github.com/appscode/cluster-ui/commit/2145bd0a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [b154a637](https://github.com/appscode/cluster-ui/commit/b154a637) fix env + namespace specific route and credential create schema
+- [35ffbae1](https://github.com/appscode/cluster-ui/commit/35ffbae1) Fix disks issues with new api
+- [8c1fff9e](https://github.com/appscode/cluster-ui/commit/8c1fff9e) Merge branch 'update-ajax-put-post' of diffusion.appscode.com:appscode/60/pharm
+- [54f31d06](https://github.com/appscode/cluster-ui/commit/54f31d06) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [32268177](https://github.com/appscode/cluster-ui/commit/32268177) Update ssl api codes(missing one)
+- [b806f39f](https://github.com/appscode/cluster-ui/commit/b806f39f) fixing env and company specific show
+- [711088b6](https://github.com/appscode/cluster-ui/commit/711088b6) handle Env and namespace specifc url routing
+- [1274baee](https://github.com/appscode/cluster-ui/commit/1274baee) Fix conflicts
+- [43871918](https://github.com/appscode/cluster-ui/commit/43871918) Handle server down error globally (cleanup many codes), swap put <-> post, update api url (/loadbalancers, conduits.. etc.)
+- [f1309f57](https://github.com/appscode/cluster-ui/commit/f1309f57) fix rendering schema.json file
+- [8a2245d9](https://github.com/appscode/cluster-ui/commit/8a2245d9) fix
+- [2576b062](https://github.com/appscode/cluster-ui/commit/2576b062) finalize
+- [cb13499c](https://github.com/appscode/cluster-ui/commit/cb13499c) remove unnecessary code
+- [e62a1270](https://github.com/appscode/cluster-ui/commit/e62a1270) pull master
+- [0a2c835f](https://github.com/appscode/cluster-ui/commit/0a2c835f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into pharm-h
+- [d8f047c8](https://github.com/appscode/cluster-ui/commit/d8f047c8) fix apps details
+- [27247e97](https://github.com/appscode/cluster-ui/commit/27247e97) convert v1beta1 for kubernetes schema
+- [afacc3a0](https://github.com/appscode/cluster-ui/commit/afacc3a0) fix db lock toggle
+- [8b1132a4](https://github.com/appscode/cluster-ui/commit/8b1132a4) fix kubernetes stuff
+- [5ab3d7a1](https://github.com/appscode/cluster-ui/commit/5ab3d7a1) fix credentials->credential in api url
+- [2caedb88](https://github.com/appscode/cluster-ui/commit/2caedb88) fix credential part for v1beta1
+- [eed8a92b](https://github.com/appscode/cluster-ui/commit/eed8a92b) added v1beta1 apis change : cluster reconfigure, cluster create, cluster delete
+- [dfea9f76](https://github.com/appscode/cluster-ui/commit/dfea9f76) added cluster delete and details in cluster model
+- [457ac2fb](https://github.com/appscode/cluster-ui/commit/457ac2fb) convert apis to new v1beta1
+- [cfaeb2e8](https://github.com/appscode/cluster-ui/commit/cfaeb2e8) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [e44537c7](https://github.com/appscode/cluster-ui/commit/e44537c7) Update json schema.
+- [bed4e84b](https://github.com/appscode/cluster-ui/commit/bed4e84b) v0.1 -> v1beta1
+- [8619ba9d](https://github.com/appscode/cluster-ui/commit/8619ba9d) v0.1 -> v1beta1
+- [6af066e6](https://github.com/appscode/cluster-ui/commit/6af066e6) remove console
+- [afc9d7ac](https://github.com/appscode/cluster-ui/commit/afc9d7ac) fix namespaces route
+- [1efdbe11](https://github.com/appscode/cluster-ui/commit/1efdbe11) added cluster-sidebar dynamically
+- [e5278337](https://github.com/appscode/cluster-ui/commit/e5278337) fix button and header text
+- [0d8d634c](https://github.com/appscode/cluster-ui/commit/0d8d634c) give node-set section in cluster creation a label
+- [dcfb0f09](https://github.com/appscode/cluster-ui/commit/dcfb0f09) fix button text
+- [4e86fbbd](https://github.com/appscode/cluster-ui/commit/4e86fbbd) pass label in node-set template
+- [735cdc94](https://github.com/appscode/cluster-ui/commit/735cdc94) fix credential data for new cloud-providers
+- [983ad5d0](https://github.com/appscode/cluster-ui/commit/983ad5d0) added checkbox option for force delete cluster
+- [9eb5b7f2](https://github.com/appscode/cluster-ui/commit/9eb5b7f2) fix when select no cloud-provider don't show warning message
+- [8a397312](https://github.com/appscode/cluster-ui/commit/8a397312) fixing cluster creating support for new cloud-providers
+- [01489183](https://github.com/appscode/cluster-ui/commit/01489183) added append instance_types
+- [771cb22a](https://github.com/appscode/cluster-ui/commit/771cb22a) added new updated datafile, fix append instance type in cluster create
+- [327413e7](https://github.com/appscode/cluster-ui/commit/327413e7) Merge remote-tracking branch 'origin/master'
+- [0ba5dde9](https://github.com/appscode/cluster-ui/commit/0ba5dde9) Added missing files
+- [05bfafa1](https://github.com/appscode/cluster-ui/commit/05bfafa1) remove console and ahndl;e icon click in cluster creation
+- [9e864976](https://github.com/appscode/cluster-ui/commit/9e864976) added default instance view
+- [5a2a560c](https://github.com/appscode/cluster-ui/commit/5a2a560c) fix view missing
+- [0727c4b1](https://github.com/appscode/cluster-ui/commit/0727c4b1) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into pharm-h
+- [00953c76](https://github.com/appscode/cluster-ui/commit/00953c76) added evs in credential create and added options to add linode, digital ocean and vultr credentials creat
+- [9819a4bd](https://github.com/appscode/cluster-ui/commit/9819a4bd) updated *.json, merged configmaps+secrets+incidents branches
+- [9231962c](https://github.com/appscode/cluster-ui/commit/9231962c) pull updated datafile, show appropriate api response, toastr implementation
+- [393f80d2](https://github.com/appscode/cluster-ui/commit/393f80d2) Merge remote-tracking branch 'origin/secrets'
+- [5ade3270](https://github.com/appscode/cluster-ui/commit/5ade3270) Merge remote-tracking branch 'origin/incidents'
+- [22601866](https://github.com/appscode/cluster-ui/commit/22601866) Merge branch 'configmaps' of diffusion.appscode.com:appscode/60/pharm
+- [0929eb81](https://github.com/appscode/cluster-ui/commit/0929eb81) added description in cluster node-set
+- [300d0ce6](https://github.com/appscode/cluster-ui/commit/300d0ce6) use envs from cloud_provider.json in cluster creation
+- [ad0a41a7](https://github.com/appscode/cluster-ui/commit/ad0a41a7) clean some code
+- [57c9bd11](https://github.com/appscode/cluster-ui/commit/57c9bd11) fix cluster force delete
+- [ff2d2c18](https://github.com/appscode/cluster-ui/commit/ff2d2c18) added force delete
+- [2a748761](https://github.com/appscode/cluster-ui/commit/2a748761) cluster configure -> cluster resize, implementing toastr library
+- [2a3f0e6f](https://github.com/appscode/cluster-ui/commit/2a3f0e6f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into pharm-h
+- [3eaf33f8](https://github.com/appscode/cluster-ui/commit/3eaf33f8) added cluster tostr-view
+- [36bcd290](https://github.com/appscode/cluster-ui/commit/36bcd290) Merge remote-tracking branch 'origin/cluster-alert-68'
+- [e35c64ef](https://github.com/appscode/cluster-ui/commit/e35c64ef) pull new datafile
+- [6c59b765](https://github.com/appscode/cluster-ui/commit/6c59b765) Apps->Atert, modify routers, js, views
+- [7b1295d2](https://github.com/appscode/cluster-ui/commit/7b1295d2) Detect `ENV`, fix `notification-parameter`
+- [bb5ee08a](https://github.com/appscode/cluster-ui/commit/bb5ee08a) completed render apps list aitomatically; from list library
+- [3b215a5e](https://github.com/appscode/cluster-ui/commit/3b215a5e) added region selct in cluster create
+- [6e945428](https://github.com/appscode/cluster-ui/commit/6e945428) Updated data and schema files
+- [e35636e9](https://github.com/appscode/cluster-ui/commit/e35636e9) Dynamically generate form for Cluster -> Alert creation
+- [ca59024a](https://github.com/appscode/cluster-ui/commit/ca59024a) fix option of use a clickable link
+- [aa802750](https://github.com/appscode/cluster-ui/commit/aa802750) use tableView in namespaces list
+- [2683b337](https://github.com/appscode/cluster-ui/commit/2683b337) fix and testing time mdel
+- [9ce052c5](https://github.com/appscode/cluster-ui/commit/9ce052c5) added date library in pharm
+- [68731d28](https://github.com/appscode/cluster-ui/commit/68731d28) remove linter error
+- [311754fa](https://github.com/appscode/cluster-ui/commit/311754fa) Get `notification-param`, `variables`, `icinga-parm` input values (html, js codes modified)
+- [d046d360](https://github.com/appscode/cluster-ui/commit/d046d360) remove console and remove some unnecessary code from route.app.js
+- [6c73ef99](https://github.com/appscode/cluster-ui/commit/6c73ef99) Dynamically generate the form for cluster -> alert creation reading `icinga.json` file
+- [639606f8](https://github.com/appscode/cluster-ui/commit/639606f8) complete table generate common js file
+- [8bd05c30](https://github.com/appscode/cluster-ui/commit/8bd05c30) added table view generator library
+- [d87f6a7e](https://github.com/appscode/cluster-ui/commit/d87f6a7e) dynamacillay changing `notification parameter`, show default visible variables, add non-visible variables in `Add variables` dropdown btn
+- [e04653a0](https://github.com/appscode/cluster-ui/commit/e04653a0) adding tableView common list generator
+- [658656e0](https://github.com/appscode/cluster-ui/commit/658656e0) Backup, doing cleanup/delete & start from scratch
+- [9f0cba05](https://github.com/appscode/cluster-ui/commit/9f0cba05) Rearrange cluster alert files and fix relative paths
+- [cec20360](https://github.com/appscode/cluster-ui/commit/cec20360) rearrage apps-alert-list-view.js
+- [352dbb11](https://github.com/appscode/cluster-ui/commit/352dbb11) added title change in artifactory
+- [9c219bd7](https://github.com/appscode/cluster-ui/commit/9c219bd7) fixing artifactory title
+- [ac3195e8](https://github.com/appscode/cluster-ui/commit/ac3195e8) Fix: dynamically change `clipboard-text` while changing in CodeMirror editor
+- [28cb947e](https://github.com/appscode/cluster-ui/commit/28cb947e) Show status.message, stop modal-dismiss if key-add failed, dynamically change `clipboard-text` etc
+- [2c365cd8](https://github.com/appscode/cluster-ui/commit/2c365cd8) handle generate csrf token in ajaxCall when csrf token not yet generated
+- [371ffedb](https://github.com/appscode/cluster-ui/commit/371ffedb) rearrage alert-create form
+- [3bbdc7b4](https://github.com/appscode/cluster-ui/commit/3bbdc7b4) Show status.message, stop modal-dismiss if key-add failed
+- [637ecf89](https://github.com/appscode/cluster-ui/commit/637ecf89) rearrage cluster-create form view code
+- [856f1eb3](https://github.com/appscode/cluster-ui/commit/856f1eb3) remove linter error
+- [752d1cc3](https://github.com/appscode/cluster-ui/commit/752d1cc3) added additional infos field in cluster description
+- [3d8acc2c](https://github.com/appscode/cluster-ui/commit/3d8acc2c) made some changes in alert delete modal view
+- [6e2d0ba9](https://github.com/appscode/cluster-ui/commit/6e2d0ba9) shift update and delete api call to alert.model
+- [29a5980d](https://github.com/appscode/cluster-ui/commit/29a5980d) Added `add-key, delete-key, update-key & delete-configmap` options
+- [45f6540f](https://github.com/appscode/cluster-ui/commit/45f6540f) Fix key-update js codes (works for multiline, horizontal/vertical space etc now)
+- [92c9fbba](https://github.com/appscode/cluster-ui/commit/92c9fbba) fixed in alert create form check-interval is 60 by default
+- [a19f7442](https://github.com/appscode/cluster-ui/commit/a19f7442) fixed cluster details and list
+- [7918977f](https://github.com/appscode/cluster-ui/commit/7918977f) fixed cluster details
+- [001f6c48](https://github.com/appscode/cluster-ui/commit/001f6c48) remove console
+- [9fd71fd3](https://github.com/appscode/cluster-ui/commit/9fd71fd3) use alert description in cluster alert update
+- [6c448e36](https://github.com/appscode/cluster-ui/commit/6c448e36) use alert description in alert update
+- [d1cf347a](https://github.com/appscode/cluster-ui/commit/d1cf347a) use phid instead of service_name in alert update
+- [65670097](https://github.com/appscode/cluster-ui/commit/65670097) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [e6a9d07d](https://github.com/appscode/cluster-ui/commit/e6a9d07d) fix linter error
+- [575f2c40](https://github.com/appscode/cluster-ui/commit/575f2c40) fix linter error
+- [59db22a5](https://github.com/appscode/cluster-ui/commit/59db22a5) pull master
+- [cc6b7d15](https://github.com/appscode/cluster-ui/commit/cc6b7d15) Add various options for /secrets (add-key, delete-key, update-key, delete-secret)
+- [5df9c97a](https://github.com/appscode/cluster-ui/commit/5df9c97a) handle networkd error
+- [de7404ed](https://github.com/appscode/cluster-ui/commit/de7404ed) Load secrets for influx
+- [ba51dcaf](https://github.com/appscode/cluster-ui/commit/ba51dcaf) Add add-key option for /secrets
+- [aeb197b5](https://github.com/appscode/cluster-ui/commit/aeb197b5) added apps-alert update completed
+- [91300cce](https://github.com/appscode/cluster-ui/commit/91300cce) added apps-alert create completed
+- [4a4d6b34](https://github.com/appscode/cluster-ui/commit/4a4d6b34) added apps-alert update
+- [728673dd](https://github.com/appscode/cluster-ui/commit/728673dd) complete cluster alert update create
+- [3acbf5cb](https://github.com/appscode/cluster-ui/commit/3acbf5cb) complete cluster alert update complete
+- [d1b5da0d](https://github.com/appscode/cluster-ui/commit/d1b5da0d) cluster alert update, list fix
+- [0a1f9355](https://github.com/appscode/cluster-ui/commit/0a1f9355) complete cluster alert check kubernetes create
+- [52f055c5](https://github.com/appscode/cluster-ui/commit/52f055c5) cluster create
+- [2680cbed](https://github.com/appscode/cluster-ui/commit/2680cbed) arrange templates in pharm/datrabase
+- [5b066006](https://github.com/appscode/cluster-ui/commit/5b066006) js and html codes for apps->incident
+- [2d3cd878](https://github.com/appscode/cluster-ui/commit/2d3cd878) handle trial for cluster create
+- [e46e630d](https://github.com/appscode/cluster-ui/commit/e46e630d) handle trial for db
+- [140d67eb](https://github.com/appscode/cluster-ui/commit/140d67eb) handle trail
+- [30327876](https://github.com/appscode/cluster-ui/commit/30327876) Add tooltip for 'comment' col, cleanup
+- [f90da5e7](https://github.com/appscode/cluster-ui/commit/f90da5e7) fix code-mirror issues as add cert in cluster details
+- [8424a508](https://github.com/appscode/cluster-ui/commit/8424a508) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [fd4769dd](https://github.com/appscode/cluster-ui/commit/fd4769dd) Merge branch 'incidents' of diffusion.appscode.com:appscode/60/pharm
+- [43e9a1cb](https://github.com/appscode/cluster-ui/commit/43e9a1cb) /incident events list html fixes
+- [37e1506b](https://github.com/appscode/cluster-ui/commit/37e1506b) Css fixes
+- [b1dbeaad](https://github.com/appscode/cluster-ui/commit/b1dbeaad) /incident details page js events
+- [dd557553](https://github.com/appscode/cluster-ui/commit/dd557553) remove cluster_name, database_name,database_type from db backup form
+- [8075f398](https://github.com/appscode/cluster-ui/commit/8075f398) added authsecretname for all PG
+- [f745710b](https://github.com/appscode/cluster-ui/commit/f745710b) completing bucket list render in
+- [f99ea5b8](https://github.com/appscode/cluster-ui/commit/f99ea5b8) completing bucket list render in db creation form
+- [8308af51](https://github.com/appscode/cluster-ui/commit/8308af51) completing auth-secret-name from drop-down list
+- [caaac633](https://github.com/appscode/cluster-ui/commit/caaac633) added secret model and collection
+- [50027a64](https://github.com/appscode/cluster-ui/commit/50027a64) fix invalid payment method db-creation-form
+- [b282bfda](https://github.com/appscode/cluster-ui/commit/b282bfda) sync CI and Pharm payment method not okay text
+- [f90f0183](https://github.com/appscode/cluster-ui/commit/f90f0183) added all empty el
+- [a5d4b9c5](https://github.com/appscode/cluster-ui/commit/a5d4b9c5) added all empty el
+- [e6df2794](https://github.com/appscode/cluster-ui/commit/e6df2794) empty el in secret render
+- [500e1067](https://github.com/appscode/cluster-ui/commit/500e1067) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [f4ec4d79](https://github.com/appscode/cluster-ui/commit/f4ec4d79) Merge branch 'ci' of diffusion.appscode.com:appscode/60/pharm
+- [0349dab5](https://github.com/appscode/cluster-ui/commit/0349dab5) /ci disk-details -> <job-name>
+- [6bd02fb0](https://github.com/appscode/cluster-ui/commit/6bd02fb0) /incident, tmp commit
+- [66bd6612](https://github.com/appscode/cluster-ui/commit/66bd6612) handling unnecessary JS code
+- [21fff5ee](https://github.com/appscode/cluster-ui/commit/21fff5ee) /incidents, add js codes for details page
+- [20c57a7f](https://github.com/appscode/cluster-ui/commit/20c57a7f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into incidents
+- [a8dfde9f](https://github.com/appscode/cluster-ui/commit/a8dfde9f) Fixing codeMirror width
+- [f014b74e](https://github.com/appscode/cluster-ui/commit/f014b74e) .Codemirror-> height: 80vh
+- [3988f2f9](https://github.com/appscode/cluster-ui/commit/3988f2f9) Fixing codemirror width
+- [458a85b4](https://github.com/appscode/cluster-ui/commit/458a85b4) try to increase <textarea> codemirror
+- [c546812c](https://github.com/appscode/cluster-ui/commit/c546812c) raw data html view.. row=18
+- [1da13520](https://github.com/appscode/cluster-ui/commit/1da13520) /incident, add list page
+- [a749877a](https://github.com/appscode/cluster-ui/commit/a749877a) adding code mirror
+- [fcebf58d](https://github.com/appscode/cluster-ui/commit/fcebf58d) added cluster description with previous value
+- [b5c9578d](https://github.com/appscode/cluster-ui/commit/b5c9578d) again fix checking firld
+- [6d15a70d](https://github.com/appscode/cluster-ui/commit/6d15a70d) fix checking field
+- [c23f844e](https://github.com/appscode/cluster-ui/commit/c23f844e) adding checking is_master
+- [26fb5ef5](https://github.com/appscode/cluster-ui/commit/26fb5ef5) fix zone list
+- [47e125e7](https://github.com/appscode/cluster-ui/commit/47e125e7) fixing restore db from deleted db list
+- [b740cee7](https://github.com/appscode/cluster-ui/commit/b740cee7) fixed lock/unlock cluster details
+- [28700a55](https://github.com/appscode/cluster-ui/commit/28700a55) fixed lock/unlock cluster details
+- [863988fb](https://github.com/appscode/cluster-ui/commit/863988fb) remove console
+- [2a3a025f](https://github.com/appscode/cluster-ui/commit/2a3a025f) fix
+- [70687ae9](https://github.com/appscode/cluster-ui/commit/70687ae9) fixing notification messg when cluster deleted
+- [7a786476](https://github.com/appscode/cluster-ui/commit/7a786476) fix more implementations
+- [7529552c](https://github.com/appscode/cluster-ui/commit/7529552c) fix some of breadcrumb
+- [d5afb02c](https://github.com/appscode/cluster-ui/commit/d5afb02c) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [a53ecb5b](https://github.com/appscode/cluster-ui/commit/a53ecb5b) added all test breadcrumb
+- [db5ab2b2](https://github.com/appscode/cluster-ui/commit/db5ab2b2) added-all
+- [7321d899](https://github.com/appscode/cluster-ui/commit/7321d899) fix
+- [5af660ce](https://github.com/appscode/cluster-ui/commit/5af660ce) remv lintr err
+- [01a6c48f](https://github.com/appscode/cluster-ui/commit/01a6c48f) test breadcrumb impl
+- [049de696](https://github.com/appscode/cluster-ui/commit/049de696) added test breadcrumb
+- [45fee6aa](https://github.com/appscode/cluster-ui/commit/45fee6aa) added CI title
+- [5567009e](https://github.com/appscode/cluster-ui/commit/5567009e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [f61d6872](https://github.com/appscode/cluster-ui/commit/f61d6872) added all route different title in pharm
+- [1cd3f75e](https://github.com/appscode/cluster-ui/commit/1cd3f75e) handled if response.spec undefined
+- [cb7a8dd9](https://github.com/appscode/cluster-ui/commit/cb7a8dd9) Cleanup
+- [b9effe83](https://github.com/appscode/cluster-ui/commit/b9effe83) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [6df09fb8](https://github.com/appscode/cluster-ui/commit/6df09fb8) Fix: CurrUrl -> url
+- [191c0b82](https://github.com/appscode/cluster-ui/commit/191c0b82) test-1
+- [72445b14](https://github.com/appscode/cluster-ui/commit/72445b14) added breadcrumb.js in CI
+- [583bba7e](https://github.com/appscode/cluster-ui/commit/583bba7e) Fix
+- [1e2e8976](https://github.com/appscode/cluster-ui/commit/1e2e8976) Merge branch 'config-maps' of diffusion.appscode.com:appscode/60/pharm
+- [c6ce6a85](https://github.com/appscode/cluster-ui/commit/c6ce6a85) /configmaps, update js, rearrange templates html.
+- [7bc95e94](https://github.com/appscode/cluster-ui/commit/7bc95e94) Merge branch 'ci' of diffusion.appscode.com:appscode/60/pharm
+- [ee6cbcbd](https://github.com/appscode/cluster-ui/commit/ee6cbcbd) unbind events, handle api failure in api call
+- [c40349a2](https://github.com/appscode/cluster-ui/commit/c40349a2) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into secrets
+- [981fc749](https://github.com/appscode/cluster-ui/commit/981fc749) Update /ci js codes
+- [287057bc](https://github.com/appscode/cluster-ui/commit/287057bc) Merge branch 'load-balancer' of diffusion.appscode.com:appscode/60/pharm
+- [48a34183](https://github.com/appscode/cluster-ui/commit/48a34183) /loadbalancer, update tcp update+create form, change/rearrange lots of js codes
+- [8908854b](https://github.com/appscode/cluster-ui/commit/8908854b) remove scale node option from node list
+- [fdef2ab8](https://github.com/appscode/cluster-ui/commit/fdef2ab8) added replace "home" with "pharm" in breadcrumb
+- [e5ae7d1e](https://github.com/appscode/cluster-ui/commit/e5ae7d1e) pull master
+- [d01663f5](https://github.com/appscode/cluster-ui/commit/d01663f5) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [3a583188](https://github.com/appscode/cluster-ui/commit/3a583188) hide ack modal
+- [51210473](https://github.com/appscode/cluster-ui/commit/51210473) Update cluster detail to use updated api.
+- [81c05120](https://github.com/appscode/cluster-ui/commit/81c05120) complete cluster reconfigure
+- [9886197a](https://github.com/appscode/cluster-ui/commit/9886197a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [8f1400a7](https://github.com/appscode/cluster-ui/commit/8f1400a7) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [baa26c99](https://github.com/appscode/cluster-ui/commit/baa26c99) added with close method node set temp
+- [04b68426](https://github.com/appscode/cluster-ui/commit/04b68426) Update js describe-view, http-view
+- [a3e969c8](https://github.com/appscode/cluster-ui/commit/a3e969c8) added node collection and model
+- [b187f11b](https://github.com/appscode/cluster-ui/commit/b187f11b) Merge branch 'glusterfs' of diffusion.appscode.com:appscode/60/pharm
+- [fccfb190](https://github.com/appscode/cluster-ui/commit/fccfb190) Fix volume create
+- [82eec65e](https://github.com/appscode/cluster-ui/commit/82eec65e) Merge branch 'glusterfs' of diffusion.appscode.com:appscode/60/pharm
+- [91b77bb9](https://github.com/appscode/cluster-ui/commit/91b77bb9) Update, rearrange, rename, cleanup /glusterfs codes.
+- [65779dd9](https://github.com/appscode/cluster-ui/commit/65779dd9) Merge branch 'list-status' of diffusion.appscode.com:appscode/60/pharm
+- [4408ae7f](https://github.com/appscode/cluster-ui/commit/4408ae7f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [66df162b](https://github.com/appscode/cluster-ui/commit/66df162b) complete pharm acknowledge call
+- [95e0586c](https://github.com/appscode/cluster-ui/commit/95e0586c) modify notification list. added count and status field and disable acknowledge field
+- [3e9d1579](https://github.com/appscode/cluster-ui/commit/3e9d1579) add bucket list dropdown in pg->Cloud
+- [0cd63325](https://github.com/appscode/cluster-ui/commit/0cd63325) remove previous mode->map
+- [3c05eb77](https://github.com/appscode/cluster-ui/commit/3c05eb77) Update data file.
+- [8ca747c5](https://github.com/appscode/cluster-ui/commit/8ca747c5) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into glusterfs
+- [561bfd12](https://github.com/appscode/cluster-ui/commit/561bfd12) Merge branch 'secrets' of diffusion.appscode.com:appscode/60/pharm
+- [7f7f17cb](https://github.com/appscode/cluster-ui/commit/7f7f17cb) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into secrets
+- [0680aab4](https://github.com/appscode/cluster-ui/commit/0680aab4) Fixed 'Download button does not work if the string itself is json'
+- [2906b725](https://github.com/appscode/cluster-ui/commit/2906b725) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [6e62c05c](https://github.com/appscode/cluster-ui/commit/6e62c05c) fix map modeMap. now mode map directly from datafile
+- [4d7ce6b9](https://github.com/appscode/cluster-ui/commit/4d7ce6b9) Fix
+- [5e16d59d](https://github.com/appscode/cluster-ui/commit/5e16d59d) Merge branch 'lb' of diffusion.appscode.com:appscode/60/pharm
+- [d7e7c0d7](https://github.com/appscode/cluster-ui/commit/d7e7c0d7) Cleanup
+- [7ea21c05](https://github.com/appscode/cluster-ui/commit/7ea21c05) Merge branch 'lb' of diffusion.appscode.com:appscode/60/pharm
+- [37ed11bb](https://github.com/appscode/cluster-ui/commit/37ed11bb) Fix 'SSL_secret_name' optional
+- [52c48332](https://github.com/appscode/cluster-ui/commit/52c48332) set do_not_delete false by default
+- [66359624](https://github.com/appscode/cluster-ui/commit/66359624) Merge branch 'list-status' of diffusion.appscode.com:appscode/60/pharm
+- [4e5dbfa5](https://github.com/appscode/cluster-ui/commit/4e5dbfa5) fix render db modes
+- [197aa1c1](https://github.com/appscode/cluster-ui/commit/197aa1c1) fix header text in empty glusterfs list
+- [a5fffe75](https://github.com/appscode/cluster-ui/commit/a5fffe75) Tmp commit gfs
+- [2481604d](https://github.com/appscode/cluster-ui/commit/2481604d) fix header text in empty glusterfs list
+- [ab95e3bc](https://github.com/appscode/cluster-ui/commit/ab95e3bc) fix header text and icon for empty glusterfs page
+- [35f2a64a](https://github.com/appscode/cluster-ui/commit/35f2a64a) fix header text for ssl list
+- [b2b965cd](https://github.com/appscode/cluster-ui/commit/b2b965cd) fix header text for deleted database list
+- [e436c903](https://github.com/appscode/cluster-ui/commit/e436c903) Merge branch 'list-status' of diffusion.appscode.com:appscode/60/pharm
+- [61578a80](https://github.com/appscode/cluster-ui/commit/61578a80) fix header text for database list
+- [8f8792d9](https://github.com/appscode/cluster-ui/commit/8f8792d9) fix header text for apps details text
+- [9540644c](https://github.com/appscode/cluster-ui/commit/9540644c) fix header text for cluster alert list
+- [f76ffc94](https://github.com/appscode/cluster-ui/commit/f76ffc94) fix header text for snapshot list
+- [20a5dead](https://github.com/appscode/cluster-ui/commit/20a5dead) fix default value of node_set 1
+- [137a1645](https://github.com/appscode/cluster-ui/commit/137a1645) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [0782cc31](https://github.com/appscode/cluster-ui/commit/0782cc31) added wanring message for invalid payment information
+- [21a56a7f](https://github.com/appscode/cluster-ui/commit/21a56a7f) Merge branch 'artifact' of diffusion.appscode.com:appscode/60/pharm
+- [8986f5ae](https://github.com/appscode/cluster-ui/commit/8986f5ae) Add toaster, handle ajax api, fix copy tooltip
+- [402d5a77](https://github.com/appscode/cluster-ui/commit/402d5a77) fix empty db list text
+- [0f47f833](https://github.com/appscode/cluster-ui/commit/0f47f833) fixing header od payment not ok
+- [80fb2e45](https://github.com/appscode/cluster-ui/commit/80fb2e45) fixing zombies in credential modals
+- [4f8cc2a6](https://github.com/appscode/cluster-ui/commit/4f8cc2a6) Merge branch 'config-maps' of diffusion.appscode.com:appscode/60/pharm
+- [b49b72db](https://github.com/appscode/cluster-ui/commit/b49b72db) Add `download` btn for secrets.
+- [a0eb134f](https://github.com/appscode/cluster-ui/commit/a0eb134f) remove console
+- [b02d9b73](https://github.com/appscode/cluster-ui/commit/b02d9b73) modify empty deleted cluster list
+- [04717d27](https://github.com/appscode/cluster-ui/commit/04717d27) fixed some text of header
+- [8f6fa48b](https://github.com/appscode/cluster-ui/commit/8f6fa48b) fix header table test
+- [19367e8e](https://github.com/appscode/cluster-ui/commit/19367e8e) fix header text for alert-list
+- [9b1d3ac2](https://github.com/appscode/cluster-ui/commit/9b1d3ac2) fix header text for cluster details
+- [467c64de](https://github.com/appscode/cluster-ui/commit/467c64de) create node to scale node
+- [8d8d6674](https://github.com/appscode/cluster-ui/commit/8d8d6674) remove console
+- [7a552eab](https://github.com/appscode/cluster-ui/commit/7a552eab) change node_set to node_changes
+- [a0de4938](https://github.com/appscode/cluster-ui/commit/a0de4938) added node_set field
+- [1e5e7548](https://github.com/appscode/cluster-ui/commit/1e5e7548) added node create func
+- [d590c43c](https://github.com/appscode/cluster-ui/commit/d590c43c) adding some console
+- [b9e2437d](https://github.com/appscode/cluster-ui/commit/b9e2437d) fix icon for header button
+- [59e13ef5](https://github.com/appscode/cluster-ui/commit/59e13ef5) adding node scale
+- [7f4257e3](https://github.com/appscode/cluster-ui/commit/7f4257e3) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [3ab3a422](https://github.com/appscode/cluster-ui/commit/3ab3a422) Fix templates path
+- [729a0f38](https://github.com/appscode/cluster-ui/commit/729a0f38) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [fcf25e92](https://github.com/appscode/cluster-ui/commit/fcf25e92) https
+- [637048f4](https://github.com/appscode/cluster-ui/commit/637048f4) complete node scale
+- [0723e413](https://github.com/appscode/cluster-ui/commit/0723e413) Fix
+- [dd991b1f](https://github.com/appscode/cluster-ui/commit/dd991b1f) Add disk-describe-view
+- [62f9fad6](https://github.com/appscode/cluster-ui/commit/62f9fad6) test commit
+- [8a477370](https://github.com/appscode/cluster-ui/commit/8a477370) adding create node form
+- [b65e3a34](https://github.com/appscode/cluster-ui/commit/b65e3a34) Merge branch 'disks' of diffusion.appscode.com:appscode/60/pharm
+- [fda753eb](https://github.com/appscode/cluster-ui/commit/fda753eb) Fix /disks page isssues (disable threeDotOption, handle api failure/netword cases, rearrange template files.. etc)
+- [7f01f340](https://github.com/appscode/cluster-ui/commit/7f01f340) completing notification acknowledge
+- [fce59916](https://github.com/appscode/cluster-ui/commit/fce59916) notification temp
+- [5a5374e3](https://github.com/appscode/cluster-ui/commit/5a5374e3) Merge branch 'disks' of diffusion.appscode.com:appscode/60/pharm
+- [0cfa97a0](https://github.com/appscode/cluster-ui/commit/0cfa97a0) Fix /disks page isssues (disable threeDotOption, handle api failure/netword cases, rearrange template files.. etc)
+- [784a2f6c](https://github.com/appscode/cluster-ui/commit/784a2f6c) fix
+- [aed2d97d](https://github.com/appscode/cluster-ui/commit/aed2d97d) notification collection and model
+- [16c88a84](https://github.com/appscode/cluster-ui/commit/16c88a84) set node_set minimum value 1
+- [40fc216a](https://github.com/appscode/cluster-ui/commit/40fc216a) remove debugger
+- [d152c679](https://github.com/appscode/cluster-ui/commit/d152c679) Update js/html codes, fix various issues in /disks page
+- [987a4ad7](https://github.com/appscode/cluster-ui/commit/987a4ad7) complete unlock/lock cluster
+- [a1c49fed](https://github.com/appscode/cluster-ui/commit/a1c49fed) remv linter error
+- [77650cd4](https://github.com/appscode/cluster-ui/commit/77650cd4) fix disk breadcrumb
+- [f4051ac4](https://github.com/appscode/cluster-ui/commit/f4051ac4) complete cluster lock/unlock
+- [25c872ff](https://github.com/appscode/cluster-ui/commit/25c872ff) Handle api/network issue, clear events when changin routes
+- [739482aa](https://github.com/appscode/cluster-ui/commit/739482aa) fix toggle data (do_not_delete toggle)
+- [186147e4](https://github.com/appscode/cluster-ui/commit/186147e4) add button and icon for cluster unlcok and lock
+- [c92b0951](https://github.com/appscode/cluster-ui/commit/c92b0951) change restore/back to snapshot list
+- [927e2bcf](https://github.com/appscode/cluster-ui/commit/927e2bcf) add lock/unlock option to db
+- [3e425465](https://github.com/appscode/cluster-ui/commit/3e425465) add icons
+- [b91c8c85](https://github.com/appscode/cluster-ui/commit/b91c8c85) fix lock unlock restore delete db icons
+- [41d34712](https://github.com/appscode/cluster-ui/commit/41d34712) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [7d528e48](https://github.com/appscode/cluster-ui/commit/7d528e48) fix db lock option
+- [f3f9d82e](https://github.com/appscode/cluster-ui/commit/f3f9d82e) adding db lck
+- [418cfcce](https://github.com/appscode/cluster-ui/commit/418cfcce) fixed
+- [10c5fbf5](https://github.com/appscode/cluster-ui/commit/10c5fbf5) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [7a321888](https://github.com/appscode/cluster-ui/commit/7a321888) modified
+- [30161f29](https://github.com/appscode/cluster-ui/commit/30161f29) Add download btn in /configmaps, fix `copy` btn
+- [25641b7d](https://github.com/appscode/cluster-ui/commit/25641b7d) Merge branch 'ssl' of diffusion.appscode.com:appscode/60/pharm
+- [442350e9](https://github.com/appscode/cluster-ui/commit/442350e9) Add download btn in /ssl describe page
+- [41039a5e](https://github.com/appscode/cluster-ui/commit/41039a5e) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [360c9c9b](https://github.com/appscode/cluster-ui/commit/360c9c9b) fixing apps-alert update "add more user"
+- [d5b12e03](https://github.com/appscode/cluster-ui/commit/d5b12e03) fixing interval sec
+- [b1c26ded](https://github.com/appscode/cluster-ui/commit/b1c26ded) fix undefined check interval sec
+- [7cbde91d](https://github.com/appscode/cluster-ui/commit/7cbde91d) fix undefined alert interval sec
+- [f7b3624b](https://github.com/appscode/cluster-ui/commit/f7b3624b) fix status cluster
+- [a061f1f6](https://github.com/appscode/cluster-ui/commit/a061f1f6) fix linter error
+- [28beb011](https://github.com/appscode/cluster-ui/commit/28beb011) pull list-stasusa
+- [701a7637](https://github.com/appscode/cluster-ui/commit/701a7637) fixing alert update
+- [7fb5e0b9](https://github.com/appscode/cluster-ui/commit/7fb5e0b9) fix staus for cluster list
+- [b85b1766](https://github.com/appscode/cluster-ui/commit/b85b1766) remove console
+- [6d19c9c5](https://github.com/appscode/cluster-ui/commit/6d19c9c5) fix node-set issu
+- [a6e64eae](https://github.com/appscode/cluster-ui/commit/a6e64eae) fix node-set issue
+- [2e0aba97](https://github.com/appscode/cluster-ui/commit/2e0aba97) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [409a2482](https://github.com/appscode/cluster-ui/commit/409a2482) fix node-set issue
+- [64444e57](https://github.com/appscode/cluster-ui/commit/64444e57) added-all
+- [69b13ab9](https://github.com/appscode/cluster-ui/commit/69b13ab9) Merge branch 'ssl' of diffusion.appscode.com:appscode/60/pharm
+- [d2417fea](https://github.com/appscode/cluster-ui/commit/d2417fea) cleanup
+- [4e94ee06](https://github.com/appscode/cluster-ui/commit/4e94ee06) Merge branch 'ssl' of diffusion.appscode.com:appscode/60/pharm
+- [34cf102f](https://github.com/appscode/cluster-ui/commit/34cf102f) Fix `text-capitalization: none`
+- [8797e845](https://github.com/appscode/cluster-ui/commit/8797e845) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [91f5d12e](https://github.com/appscode/cluster-ui/commit/91f5d12e) Merge branch 'ssl' of diffusion.appscode.com:appscode/60/pharm
+- [359954e0](https://github.com/appscode/cluster-ui/commit/359954e0) Add codemirror, show cert/key data with fixed width fonts, cleanup
+- [ffc59b39](https://github.com/appscode/cluster-ui/commit/ffc59b39) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [b5595942](https://github.com/appscode/cluster-ui/commit/b5595942) fix db empty list test
+- [02b397e5](https://github.com/appscode/cluster-ui/commit/02b397e5) Merge branch 'ssl' of diffusion.appscode.com:appscode/60/pharm
+- [ffb3bf43](https://github.com/appscode/cluster-ui/commit/ffb3bf43) Change deploy-form
+- [50c265a3](https://github.com/appscode/cluster-ui/commit/50c265a3) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [6dc8852b](https://github.com/appscode/cluster-ui/commit/6dc8852b) Merge branch 'ssl' of diffusion.appscode.com:appscode/60/pharm
+- [08c53876](https://github.com/appscode/cluster-ui/commit/08c53876) Fix getFragment
+- [d790fd6d](https://github.com/appscode/cluster-ui/commit/d790fd6d) fix route
+- [5fd8b6dc](https://github.com/appscode/cluster-ui/commit/5fd8b6dc) fix undefined node set
+- [321c243c](https://github.com/appscode/cluster-ui/commit/321c243c) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [e13503e3](https://github.com/appscode/cluster-ui/commit/e13503e3) fix undefined node set
+- [f9f93f21](https://github.com/appscode/cluster-ui/commit/f9f93f21) Merge branch 'ssl' of diffusion.appscode.com:appscode/60/pharm
+- [9e425343](https://github.com/appscode/cluster-ui/commit/9e425343) Update ajax call, remove events when event change
+- [3a604a1c](https://github.com/appscode/cluster-ui/commit/3a604a1c) adding modal for lock button
+- [1a435f75](https://github.com/appscode/cluster-ui/commit/1a435f75) adding allow deleted button
+- [197507d8](https://github.com/appscode/cluster-ui/commit/197507d8) Fix ssl-describe page(delete/deploy btn, js, modal etc)
+- [4b74eb2c](https://github.com/appscode/cluster-ui/commit/4b74eb2c) added spaces between deleted-cluster and create-cluster button
+- [377bd20e](https://github.com/appscode/cluster-ui/commit/377bd20e) fix deleted cluster list route
+- [bf731b9c](https://github.com/appscode/cluster-ui/commit/bf731b9c) added view fr deleted cluster
+- [75b8bb1d](https://github.com/appscode/cluster-ui/commit/75b8bb1d) adding sidebar view for deleted cluster list
+- [04b75b1e](https://github.com/appscode/cluster-ui/commit/04b75b1e) remove linter error
+- [be5d76af](https://github.com/appscode/cluster-ui/commit/be5d76af) Merge branch 'list-status' of diffusion.appscode.com:appscode/60/pharm
+- [360e3a29](https://github.com/appscode/cluster-ui/commit/360e3a29) fixing deleted cluster
+- [560366b3](https://github.com/appscode/cluster-ui/commit/560366b3) fix
+- [abeebf0b](https://github.com/appscode/cluster-ui/commit/abeebf0b) fix snapshot append to dp
+- [e11e806a](https://github.com/appscode/cluster-ui/commit/e11e806a) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [190c4023](https://github.com/appscode/cluster-ui/commit/190c4023) fix
+- [760ca1fa](https://github.com/appscode/cluster-ui/commit/760ca1fa) fix snapshot render for db restore
+- [e1470f20](https://github.com/appscode/cluster-ui/commit/e1470f20) fix route of alert form
+- [13a0d233](https://github.com/appscode/cluster-ui/commit/13a0d233) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [64a420e7](https://github.com/appscode/cluster-ui/commit/64a420e7) added-all
+- [6f179d18](https://github.com/appscode/cluster-ui/commit/6f179d18) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [e2c4be99](https://github.com/appscode/cluster-ui/commit/e2c4be99) fix spells
+- [2681a644](https://github.com/appscode/cluster-ui/commit/2681a644) Update data files.
+- [22bf7758](https://github.com/appscode/cluster-ui/commit/22bf7758) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [dae11c8e](https://github.com/appscode/cluster-ui/commit/dae11c8e) removed console.log from database, alert, modal,
+- [3a5bb31a](https://github.com/appscode/cluster-ui/commit/3a5bb31a) removing console
+- [0398f3a6](https://github.com/appscode/cluster-ui/commit/0398f3a6) Merge branch 'artifact' of diffusion.appscode.com:appscode/60/pharm
+- [f14459af](https://github.com/appscode/cluster-ui/commit/f14459af) Fix
+- [7f54e47c](https://github.com/appscode/cluster-ui/commit/7f54e47c) remove unnessecary lines
+- [4e1d2418](https://github.com/appscode/cluster-ui/commit/4e1d2418) fix influx durable pv value
+- [6f55d596](https://github.com/appscode/cluster-ui/commit/6f55d596) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [9dea2f5e](https://github.com/appscode/cluster-ui/commit/9dea2f5e) Merge branch 'list-status' of diffusion.appscode.com:appscode/60/pharm
+- [18be9466](https://github.com/appscode/cluster-ui/commit/18be9466) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [88bd9ba1](https://github.com/appscode/cluster-ui/commit/88bd9ba1) fix database pv size and pv-name
+- [f57fe86e](https://github.com/appscode/cluster-ui/commit/f57fe86e) Merge branch 'artifact' of diffusion.appscode.com:appscode/60/pharm
+- [a4c931ca](https://github.com/appscode/cluster-ui/commit/a4c931ca) Fix /artifactory api-urls, fix /ci invalid urls
+- [5dadc7cf](https://github.com/appscode/cluster-ui/commit/5dadc7cf) fix route
+- [84e29ab5](https://github.com/appscode/cluster-ui/commit/84e29ab5) fix router path
+- [dc75d01c](https://github.com/appscode/cluster-ui/commit/dc75d01c) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [d82a5414](https://github.com/appscode/cluster-ui/commit/d82a5414) added deleted cluster list
+- [56b5424d](https://github.com/appscode/cluster-ui/commit/56b5424d) Reorder agent-describe tags
+- [0d34de87](https://github.com/appscode/cluster-ui/commit/0d34de87) move sidebar
+- [bcfd24fe](https://github.com/appscode/cluster-ui/commit/bcfd24fe) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [7f795bc5](https://github.com/appscode/cluster-ui/commit/7f795bc5) move sidebar templates
+- [7bf7a2a4](https://github.com/appscode/cluster-ui/commit/7bf7a2a4) Update data files.
+- [ce2518c3](https://github.com/appscode/cluster-ui/commit/ce2518c3) Fix status values for regular list views.
+- [8561a07f](https://github.com/appscode/cluster-ui/commit/8561a07f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [2c0d7284](https://github.com/appscode/cluster-ui/commit/2c0d7284) fix typos
+- [36359c33](https://github.com/appscode/cluster-ui/commit/36359c33) Merge branch 'ci' of diffusion.appscode.com:appscode/60/pharm
+- [9df6a859](https://github.com/appscode/cluster-ui/commit/9df6a859) Add views/js for deleted-agent list, rename/refactor, more well-structured codes of /ci
+- [e2e58123](https://github.com/appscode/cluster-ui/commit/e2e58123) rearrange col of backup/restoer
+- [ba9831ef](https://github.com/appscode/cluster-ui/commit/ba9831ef) added auto-backup
+- [8a9cc32f](https://github.com/appscode/cluster-ui/commit/8a9cc32f) handle is_schedule_back
+- [c5a053c3](https://github.com/appscode/cluster-ui/commit/c5a053c3) added additional bakup to basckup/restore list
+- [45ada80d](https://github.com/appscode/cluster-ui/commit/45ada80d) fix deleted db
+- [444e575e](https://github.com/appscode/cluster-ui/commit/444e575e) fix apps-alert-list
+- [52f17142](https://github.com/appscode/cluster-ui/commit/52f17142) fix scheduale expr delete
+- [86502872](https://github.com/appscode/cluster-ui/commit/86502872) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [b5f0ef6a](https://github.com/appscode/cluster-ui/commit/b5f0ef6a) change to schedule_cron_expr
+- [5cb88b21](https://github.com/appscode/cluster-ui/commit/5cb88b21) fix alert list for cluster
+- [487f4653](https://github.com/appscode/cluster-ui/commit/487f4653) added snapshot list
+- [d3cec7b6](https://github.com/appscode/cluster-ui/commit/d3cec7b6) added type from database info in backup
+- [c2d930bb](https://github.com/appscode/cluster-ui/commit/c2d930bb) completed cluster alert notification list
+- [0901b10f](https://github.com/appscode/cluster-ui/commit/0901b10f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [2e5de901](https://github.com/appscode/cluster-ui/commit/2e5de901) Merge branch 'list-status' of diffusion.appscode.com:appscode/60/pharm
+- [a27c9dd8](https://github.com/appscode/cluster-ui/commit/a27c9dd8) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into list-status
+- [60f6c51b](https://github.com/appscode/cluster-ui/commit/60f6c51b) complete deleted db list
+- [4b6f5e93](https://github.com/appscode/cluster-ui/commit/4b6f5e93) Update data files.
+- [04e1a96a](https://github.com/appscode/cluster-ui/commit/04e1a96a) Reorder aws cred fields.
+- [1586d42f](https://github.com/appscode/cluster-ui/commit/1586d42f) Use correct keys for credentials.
+- [d5b963a3](https://github.com/appscode/cluster-ui/commit/d5b963a3) Update credential delete modal text
+- [710952a9](https://github.com/appscode/cluster-ui/commit/710952a9) Fix bug in updating AWS secret key
+- [30a10aae](https://github.com/appscode/cluster-ui/commit/30a10aae) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [fd535ffc](https://github.com/appscode/cluster-ui/commit/fd535ffc) Merge branch 'cluster-alert' of diffusion.appscode.com:appscode/60/pharm
+- [c0f0075d](https://github.com/appscode/cluster-ui/commit/c0f0075d) fix epoch time convert to local time
+- [b4129782](https://github.com/appscode/cluster-ui/commit/b4129782) added class in status
+- [44b0ab82](https://github.com/appscode/cluster-ui/commit/44b0ab82) fix alert update
+- [b696fc83](https://github.com/appscode/cluster-ui/commit/b696fc83) alert update fix
+- [4bd816ad](https://github.com/appscode/cluster-ui/commit/4bd816ad) Redesign /ssl/import form, handle api-error/network failure in api-call
+- [568ffabe](https://github.com/appscode/cluster-ui/commit/568ffabe) fixed memory typos
+- [de87c6f4](https://github.com/appscode/cluster-ui/commit/de87c6f4) fixed total memopry
+- [c187b3b9](https://github.com/appscode/cluster-ui/commit/c187b3b9) added notifications in apps alert
+- [9111d6a2](https://github.com/appscode/cluster-ui/commit/9111d6a2) added notifications in alert update
+- [2d149efb](https://github.com/appscode/cluster-ui/commit/2d149efb) added notification in cluster create
+- [c3ded71e](https://github.com/appscode/cluster-ui/commit/c3ded71e) adding pop-up notification in laert create
+- [f92f7164](https://github.com/appscode/cluster-ui/commit/f92f7164) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [d16939b9](https://github.com/appscode/cluster-ui/commit/d16939b9) Merge branch 'artifact' of diffusion.appscode.com:appscode/60/pharm
+- [c3544a98](https://github.com/appscode/cluster-ui/commit/c3544a98) Fix /artifactory version-list api
+- [460084d7](https://github.com/appscode/cluster-ui/commit/460084d7) added cluster create
+- [864dce5d](https://github.com/appscode/cluster-ui/commit/864dce5d) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into cluster-alert
+- [82075f19](https://github.com/appscode/cluster-ui/commit/82075f19) sync UI as sku changed to external sku
+- [ecbf301f](https://github.com/appscode/cluster-ui/commit/ecbf301f) Load instance_type skus correctly.
+- [4e1d7948](https://github.com/appscode/cluster-ui/commit/4e1d7948) added-all
+- [fe1c83f0](https://github.com/appscode/cluster-ui/commit/fe1c83f0) Fix modal-show (agent delete/restart)
+- [64ee5ba0](https://github.com/appscode/cluster-ui/commit/64ee5ba0) testing cluster alert update
+- [7ca86907](https://github.com/appscode/cluster-ui/commit/7ca86907) Merge remote-tracking branch 'origin/ci'
+- [bb713368](https://github.com/appscode/cluster-ui/commit/bb713368) Fix api urls of ssl
+- [a9bff1c2](https://github.com/appscode/cluster-ui/commit/a9bff1c2) fixed cluster alert update
+- [7c81d19a](https://github.com/appscode/cluster-ui/commit/7c81d19a) fix cluster alert update route
+- [3618f433](https://github.com/appscode/cluster-ui/commit/3618f433) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [2c92f704](https://github.com/appscode/cluster-ui/commit/2c92f704) Show Table header for empty ssl, fix import ssl
+- [7da1dc22](https://github.com/appscode/cluster-ui/commit/7da1dc22) fix UI ssl import
+- [931b8b59](https://github.com/appscode/cluster-ui/commit/931b8b59) Merge branch 'ci' of diffusion.appscode.com:appscode/60/pharm
+- [4639e5cb](https://github.com/appscode/cluster-ui/commit/4639e5cb) Fix
+- [9d5cc214](https://github.com/appscode/cluster-ui/commit/9d5cc214) merged with master
+- [120833ff](https://github.com/appscode/cluster-ui/commit/120833ff) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into cluster-alert
+- [bbbc108a](https://github.com/appscode/cluster-ui/commit/bbbc108a) remving console
+- [1fc675d5](https://github.com/appscode/cluster-ui/commit/1fc675d5) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [06a54d1d](https://github.com/appscode/cluster-ui/commit/06a54d1d) Merge branch 'artifact' of diffusion.appscode.com:appscode/60/pharm
+- [f2cb3a9e](https://github.com/appscode/cluster-ui/commit/f2cb3a9e) Agents in order ONLINE, OFFLINE, PENDING, DELETED
+- [d3072fd8](https://github.com/appscode/cluster-ui/commit/d3072fd8) Fix copy-artifact (all-type), bug
+- [8770f79b](https://github.com/appscode/cluster-ui/commit/8770f79b) added cluster alert update count and selector value
+- [01e2898a](https://github.com/appscode/cluster-ui/commit/01e2898a) adding new nunj for cluster alert update
+- [8be5eff8](https://github.com/appscode/cluster-ui/commit/8be5eff8) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into cluster-alert
+- [e9144477](https://github.com/appscode/cluster-ui/commit/e9144477) test
+- [4876456d](https://github.com/appscode/cluster-ui/commit/4876456d) finished Ui for cluster alert update
+- [dd9d3560](https://github.com/appscode/cluster-ui/commit/dd9d3560) finishing up alert update for cluster
+- [1b0ccb03](https://github.com/appscode/cluster-ui/commit/1b0ccb03) Add ... button in agent-list-row
+- [86e236d5](https://github.com/appscode/cluster-ui/commit/86e236d5) added cluster alert update route
+- [3b2ed56c](https://github.com/appscode/cluster-ui/commit/3b2ed56c) Fixed ci issues (add tags, toaster, icon, image... etc)
+- [9f609a7b](https://github.com/appscode/cluster-ui/commit/9f609a7b) Fixed various issues (route, navigation, copy-button, empty-field.. etc)
+- [b35f0b94](https://github.com/appscode/cluster-ui/commit/b35f0b94) Merge branch 'cluster-alert' of diffusion.appscode.com:appscode/60/pharm
+- [645c89a2](https://github.com/appscode/cluster-ui/commit/645c89a2) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [df8c804f](https://github.com/appscode/cluster-ui/commit/df8c804f) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into cluster-alert
+- [cb6df3a7](https://github.com/appscode/cluster-ui/commit/cb6df3a7) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm
+- [28e1e068](https://github.com/appscode/cluster-ui/commit/28e1e068) Merge branch 'ci' of diffusion.appscode.com:appscode/60/pharm
+- [8c525924](https://github.com/appscode/cluster-ui/commit/8c525924) Change ci-agent-create html/js etc.
+- [e855caa6](https://github.com/appscode/cluster-ui/commit/e855caa6) removing console
+- [9b52cb53](https://github.com/appscode/cluster-ui/commit/9b52cb53) fix rendering anthor view element
+- [e7939349](https://github.com/appscode/cluster-ui/commit/e7939349) added icinga weburl to cluster alert list
+- [2959cae0](https://github.com/appscode/cluster-ui/commit/2959cae0) completed cluster alert list
+- [c0a90fd4](https://github.com/appscode/cluster-ui/commit/c0a90fd4) added cluster alert list nunj
+- [e3d1d71f](https://github.com/appscode/cluster-ui/commit/e3d1d71f) added cluster alert list
+- [d2ac177d](https://github.com/appscode/cluster-ui/commit/d2ac177d) Merge branch 'master' of diffusion.appscode.com:appscode/60/pharm into ci
+- [cf0d2419](https://github.com/appscode/cluster-ui/commit/cf0d2419) added user name instead of phid in alert list
+- [baefbfa6](https://github.com/appscode/cluster-ui/commit/baefbfa6) Cleanup
+- [af4a1714](https://github.com/appscode/cluster-ui/commit/af4a1714) Merge version-list and describe page,
+- [ee8a09be](https://github.com/appscode/cluster-ui/commit/ee8a09be) mapping user:uid
+- [55b0263d](https://github.com/appscode/cluster-ui/commit/55b0263d) complete cluster alert
+- [5f100063](https://github.com/appscode/cluster-ui/commit/5f100063) modify placeholder
+- [dea145ca](https://github.com/appscode/cluster-ui/commit/dea145ca) complete cluster alert create, now checking
+- [2152f5f0](https://github.com/appscode/cluster-ui/commit/2152f5f0) added cluster alert create freom pod status field
+- [41b268b2](https://github.com/appscode/cluster-ui/commit/41b268b2) combined version-list and details pages for java
+- [8705e9ea](https://github.com/appscode/cluster-ui/commit/8705e9ea) added cluster alert creation form
+- [fb05c95e](https://github.com/appscode/cluster-ui/commit/fb05c95e) remove console
+- [93ac05b8](https://github.com/appscode/cluster-ui/commit/93ac05b8) complete alert update with new UI design and data value
+- [b7c52a4d](https://github.com/appscode/cluster-ui/commit/b7c52a4d) complete show previous alert notifier list as alert create form
+- [2b98c4dd](https://github.com/appscode/cluster-ui/commit/2b98c4dd) alert update form modifying
+- [82e38433](https://github.com/appscode/cluster-ui/commit/82e38433) merge with master
+- [02046639](https://github.com/appscode/cluster-ui/commit/02046639) remove update button
+- [912471e8](https://github.com/appscode/cluster-ui/commit/912471e8) fix alert list
+- [3bc8e116](https://github.com/appscode/cluster-ui/commit/3bc8e116) clean up template fiel
+- [446f8f37](https://github.com/appscode/cluster-ui/commit/446f8f37) completed UI for alert create
+- [5e0a03f2](https://github.com/appscode/cluster-ui/commit/5e0a03f2) remove debug line
+- [e591d694](https://github.com/appscode/cluster-ui/commit/e591d694) complete modifying alert form
+- [da91993f](https://github.com/appscode/cluster-ui/commit/da91993f) Merged in load-balancer (pull request #189)
+- [546a27d6](https://github.com/appscode/cluster-ui/commit/546a27d6) modify alert list complete
+- [df756639](https://github.com/appscode/cluster-ui/commit/df756639) latest /data files
+- [e20b40c5](https://github.com/appscode/cluster-ui/commit/e20b40c5) Merge branch 'master' of bitbucket.org:thetigerworks/pharm into load-balancer
+- [08c4278d](https://github.com/appscode/cluster-ui/commit/08c4278d) Merged in ci (pull request #190)
+- [a3b27cbe](https://github.com/appscode/cluster-ui/commit/a3b27cbe) Add option-selection for lb-new service, show service.namespace
+- [035c70a2](https://github.com/appscode/cluster-ui/commit/035c70a2) modifying alert form
+- [78f9bf92](https://github.com/appscode/cluster-ui/commit/78f9bf92) added cluster route and complete form
+- [bf04718b](https://github.com/appscode/cluster-ui/commit/bf04718b) added cluster alert create route
+- [7725096d](https://github.com/appscode/cluster-ui/commit/7725096d) added cluster alert create button
+- [d2289809](https://github.com/appscode/cluster-ui/commit/d2289809) Fix
+- [cc35d889](https://github.com/appscode/cluster-ui/commit/cc35d889) Merged in ci (pull request #188)
+- [62f4d45d](https://github.com/appscode/cluster-ui/commit/62f4d45d) Add not-found page for empty job-list
+- [ed0afcf6](https://github.com/appscode/cluster-ui/commit/ed0afcf6) fix creadential create buttton
+- [a6774aee](https://github.com/appscode/cluster-ui/commit/a6774aee) Merged in db-testing (pull request #187)
+- [0e2e3125](https://github.com/appscode/cluster-ui/commit/0e2e3125) Merged in ci (pull request #186)
+- [91c7bce5](https://github.com/appscode/cluster-ui/commit/91c7bce5) Add not-found-page for empty job-list, update router, cleanup.
+- [78429a7c](https://github.com/appscode/cluster-ui/commit/78429a7c) pull master
+- [dd69bf39](https://github.com/appscode/cluster-ui/commit/dd69bf39) remove previous credential create button
+- [26a6fd8b](https://github.com/appscode/cluster-ui/commit/26a6fd8b) credential create button unification
+- [879d74de](https://github.com/appscode/cluster-ui/commit/879d74de) move credential update to model
+- [9cc0762b](https://github.com/appscode/cluster-ui/commit/9cc0762b) move delete credential api call to credential model
+- [8cdcf262](https://github.com/appscode/cluster-ui/commit/8cdcf262) Merged in ci (pull request #185)
+- [10803101](https://github.com/appscode/cluster-ui/commit/10803101) Fix conflicts
+- [1d8d3168](https://github.com/appscode/cluster-ui/commit/1d8d3168) Update router, go build-describe selecting option
+- [a3a8e554](https://github.com/appscode/cluster-ui/commit/a3a8e554) move credential update, delete to one dropdown
+- [cd219436](https://github.com/appscode/cluster-ui/commit/cd219436) Working: build-describe, console-output, delete top/folder job
+- [71392ef3](https://github.com/appscode/cluster-ui/commit/71392ef3) fixing credential page
+- [4511adcc](https://github.com/appscode/cluster-ui/commit/4511adcc) sync alert update
+- [42aeec62](https://github.com/appscode/cluster-ui/commit/42aeec62) changing temp for alert update
+- [ef0aabcf](https://github.com/appscode/cluster-ui/commit/ef0aabcf) fix alert method
+- [719a56f6](https://github.com/appscode/cluster-ui/commit/719a56f6) completing alert delete
+- [c656549b](https://github.com/appscode/cluster-ui/commit/c656549b) alert list sync with api change
+- [b988c21a](https://github.com/appscode/cluster-ui/commit/b988c21a) alert create sync with api change
+- [9fd24f2e](https://github.com/appscode/cluster-ui/commit/9fd24f2e) Update schema and data files.
+- [81e4a5d8](https://github.com/appscode/cluster-ui/commit/81e4a5d8) Merged in ci (pull request #184)
+- [1bb7d5fe](https://github.com/appscode/cluster-ui/commit/1bb7d5fe) Fix
+- [2c9df671](https://github.com/appscode/cluster-ui/commit/2c9df671) Merged in ci (pull request #183)
+- [d71ddb44](https://github.com/appscode/cluster-ui/commit/d71ddb44) Fix
+- [24d4252e](https://github.com/appscode/cluster-ui/commit/24d4252e) remove console
+- [2543beb6](https://github.com/appscode/cluster-ui/commit/2543beb6) Merged in ci (pull request #182)
+- [c2944315](https://github.com/appscode/cluster-ui/commit/c2944315) Fix build-list, build-describe, add new/more api response data
+- [e10c2a97](https://github.com/appscode/cluster-ui/commit/e10c2a97) complete api call from collection
+- [a898df24](https://github.com/appscode/cluster-ui/commit/a898df24) call snapshot apis from one place
+- [42f5e495](https://github.com/appscode/cluster-ui/commit/42f5e495) Merge branch 'master' of bitbucket.org:thetigerworks/pharm into ci
+- [35c9763a](https://github.com/appscode/cluster-ui/commit/35c9763a) Merged in artifact (pull request #181)
+- [c5a1c0cf](https://github.com/appscode/cluster-ui/commit/c5a1c0cf) Fix `Clipboard-pre` front spacing
+- [c7acfe2a](https://github.com/appscode/cluster-ui/commit/c7acfe2a) Merged in artifact (pull request #180)
+- [f7bbfef6](https://github.com/appscode/cluster-ui/commit/f7bbfef6) Add ci.latest.json and cloud_provider.json
+- [3bbd5a84](https://github.com/appscode/cluster-ui/commit/3bbd5a84) Merged in fix-ui-2 (pull request #179)
+- [6a05efcf](https://github.com/appscode/cluster-ui/commit/6a05efcf) Fix CSS for artifact details page
+- [54c1147f](https://github.com/appscode/cluster-ui/commit/54c1147f) Merged in artifact (pull request #178)
+- [0459b809](https://github.com/appscode/cluster-ui/commit/0459b809) Fix not showing php/composer details page. Not matching any route bcs item-name can contain `/` itself.
+- [8efc6d2c](https://github.com/appscode/cluster-ui/commit/8efc6d2c) fix Conflicts
+- [231ffc5d](https://github.com/appscode/cluster-ui/commit/231ffc5d) fix artifactory code details
+- [0e7067e8](https://github.com/appscode/cluster-ui/commit/0e7067e8) Merged in artifact (pull request #176)
+- [2fe497bb](https://github.com/appscode/cluster-ui/commit/2fe497bb) Fix 'spacing' in clipboard
+- [2b32ac65](https://github.com/appscode/cluster-ui/commit/2b32ac65) Tmp commit
+- [9b218d90](https://github.com/appscode/cluster-ui/commit/9b218d90) Merge branch 'master' of bitbucket.org:thetigerworks/pharm into ci
+- [c0cc7b93](https://github.com/appscode/cluster-ui/commit/c0cc7b93) Merged in artifact (pull request #175)
+- [09b1e4ff](https://github.com/appscode/cluster-ui/commit/09b1e4ff) Fix word capitalization
+- [c8b43eb5](https://github.com/appscode/cluster-ui/commit/c8b43eb5) Merged in load-balancer (pull request #174)
+- [1a55eb34](https://github.com/appscode/cluster-ui/commit/1a55eb34) Allow empty secret in tcp rule create/update
+- [79a560d7](https://github.com/appscode/cluster-ui/commit/79a560d7) Merged in db-testing (pull request #173)
+- [e1991dd4](https://github.com/appscode/cluster-ui/commit/e1991dd4) fixing close methdo clall
+- [d8fe1d89](https://github.com/appscode/cluster-ui/commit/d8fe1d89) Merged in db-testing (pull request #172)
+- [980c3fe0](https://github.com/appscode/cluster-ui/commit/980c3fe0) tested alert update
+- [c5b6d51d](https://github.com/appscode/cluster-ui/commit/c5b6d51d) added check-cluster-influx in alert update
+- [3a6ab21e](https://github.com/appscode/cluster-ui/commit/3a6ab21e) Update route, shows buid descibe, refactor views code
+- [dc0eb97f](https://github.com/appscode/cluster-ui/commit/dc0eb97f) get cluster_name and db_name from database_info
+- [4ed7451d](https://github.com/appscode/cluster-ui/commit/4ed7451d) Merged in db-testing (pull request #171)
+- [b9e1c8f3](https://github.com/appscode/cluster-ui/commit/b9e1c8f3) showed response message from server
+- [e8dffc1f](https://github.com/appscode/cluster-ui/commit/e8dffc1f) Merged in db-testing (pull request #170)
+- [817ecb18](https://github.com/appscode/cluster-ui/commit/817ecb18) fix linter error
+- [3ed071ba](https://github.com/appscode/cluster-ui/commit/3ed071ba) Merged in db-testing (pull request #169)
+- [24274425](https://github.com/appscode/cluster-ui/commit/24274425) Merge branch 'master' of bitbucket.org:thetigerworks/pharm into db-testing
+- [e66016f5](https://github.com/appscode/cluster-ui/commit/e66016f5) added check-cluster-influx instead of heapsterT1
+- [3366b51e](https://github.com/appscode/cluster-ui/commit/3366b51e) fix backup in pg
+- [5112811a](https://github.com/appscode/cluster-ui/commit/5112811a) render bucket list from collection
+- [84d32cf3](https://github.com/appscode/cluster-ui/commit/84d32cf3) added bucket models colletion
+- [112c266b](https://github.com/appscode/cluster-ui/commit/112c266b) database apicall databases
+- [13c2055a](https://github.com/appscode/cluster-ui/commit/13c2055a) clusters api call from clusters
+- [cb3ae0ec](https://github.com/appscode/cluster-ui/commit/cb3ae0ec) credentials api call from collections
+- [83498ee2](https://github.com/appscode/cluster-ui/commit/83498ee2) shift wall to wal in backup type
+- [3b75eed4](https://github.com/appscode/cluster-ui/commit/3b75eed4) merging master
+- [15aa1710](https://github.com/appscode/cluster-ui/commit/15aa1710) Merged in ci (pull request #168)
+- [7056bb43](https://github.com/appscode/cluster-ui/commit/7056bb43) Url, Job describe, build list of a job working.
+- [0fe0ce38](https://github.com/appscode/cluster-ui/commit/0fe0ce38) Fix conflicts.
+- [83a2ae67](https://github.com/appscode/cluster-ui/commit/83a2ae67) Merged in artifact (pull request #167)
+- [a70e66f0](https://github.com/appscode/cluster-ui/commit/a70e66f0) Remove unnecessary `stop` html
+- [623700c7](https://github.com/appscode/cluster-ui/commit/623700c7) Refactor url/views codes, use `regex` in routes, change logic in views as api response concept is changed
+- [23b7f3ac](https://github.com/appscode/cluster-ui/commit/23b7f3ac) added wal-backup restore
+- [640d9b4c](https://github.com/appscode/cluster-ui/commit/640d9b4c) Use regex in route successfully
+- [ca5e86cb](https://github.com/appscode/cluster-ui/commit/ca5e86cb) passing dbinfos
+- [77027672](https://github.com/appscode/cluster-ui/commit/77027672) complete form
+- [5e734f0d](https://github.com/appscode/cluster-ui/commit/5e734f0d) generate restore wal-backup nunj
+- [5b7fe284](https://github.com/appscode/cluster-ui/commit/5b7fe284) make backdrop static for backup row modal
+- [0b30a53e](https://github.com/appscode/cluster-ui/commit/0b30a53e) hide modal after wal-backup
+- [e450ce61](https://github.com/appscode/cluster-ui/commit/e450ce61) pg wal backup completing
+- [ad9cb987](https://github.com/appscode/cluster-ui/commit/ad9cb987) Merged in ci (pull request #166)
+- [c44116cc](https://github.com/appscode/cluster-ui/commit/c44116cc) Change
+- [04734a00](https://github.com/appscode/cluster-ui/commit/04734a00) Merged in db-testing (pull request #165)
+- [f73d2d1a](https://github.com/appscode/cluster-ui/commit/f73d2d1a) Merged in ci (pull request #164)
+- [cb9c4dc5](https://github.com/appscode/cluster-ui/commit/cb9c4dc5) Show job describe and builds list (fixing)
+- [0aa51cd7](https://github.com/appscode/cluster-ui/commit/0aa51cd7) remv console and added db-restore for pg
+- [2a1328ff](https://github.com/appscode/cluster-ui/commit/2a1328ff) Change title.
+- [2a522820](https://github.com/appscode/cluster-ui/commit/2a522820) Merged in artifact (pull request #163)
+- [bc1d2991](https://github.com/appscode/cluster-ui/commit/bc1d2991) Cleanup
+- [977bfd36](https://github.com/appscode/cluster-ui/commit/977bfd36) Merged in artifact (pull request #162)
+- [d636e62a](https://github.com/appscode/cluster-ui/commit/d636e62a) cleanup
+- [3033955d](https://github.com/appscode/cluster-ui/commit/3033955d) Merged in artifact (pull request #161)
+- [03b712ce](https://github.com/appscode/cluster-ui/commit/03b712ce) Fix
+- [6e8646ec](https://github.com/appscode/cluster-ui/commit/6e8646ec) Merged in artifact (pull request #160)
+- [556c8495](https://github.com/appscode/cluster-ui/commit/556c8495) Fix
+- [9e8e584b](https://github.com/appscode/cluster-ui/commit/9e8e584b) Merged in artifact (pull request #159)
+- [ea5eaffe](https://github.com/appscode/cluster-ui/commit/ea5eaffe) Fix
+- [3bb16ba8](https://github.com/appscode/cluster-ui/commit/3bb16ba8) Merged in artifact (pull request #158)
+- [53996776](https://github.com/appscode/cluster-ui/commit/53996776) Fix topSearch
+- [7a4b7567](https://github.com/appscode/cluster-ui/commit/7a4b7567) Merged in artifact (pull request #157)
+- [13e30238](https://github.com/appscode/cluster-ui/commit/13e30238) Fix
+- [8697efcd](https://github.com/appscode/cluster-ui/commit/8697efcd) Merged in artifact (pull request #156)
+- [338c0281](https://github.com/appscode/cluster-ui/commit/338c0281) Fix `version`, `header`, `top-search`
+- [586f886b](https://github.com/appscode/cluster-ui/commit/586f886b) Fix artifactory paths.
+- [7ac78f53](https://github.com/appscode/cluster-ui/commit/7ac78f53) Merged in patch (pull request #155)
+- [442c708e](https://github.com/appscode/cluster-ui/commit/442c708e) fix artifactory describe
+- [98870fc1](https://github.com/appscode/cluster-ui/commit/98870fc1) fix artifactory describe
+- [2cafdaaf](https://github.com/appscode/cluster-ui/commit/2cafdaaf) Merged in artifact (pull request #153)
+- [49741802](https://github.com/appscode/cluster-ui/commit/49741802) Fix url
+- [fff25b0f](https://github.com/appscode/cluster-ui/commit/fff25b0f) new api call restore from db details
+- [5032f8fa](https://github.com/appscode/cluster-ui/commit/5032f8fa) Merged in artifact (pull request #152)
+- [353b2e85](https://github.com/appscode/cluster-ui/commit/353b2e85) Print console for debug purpose
+- [a4caac4b](https://github.com/appscode/cluster-ui/commit/a4caac4b) fix status-handling
+- [7c7caf1f](https://github.com/appscode/cluster-ui/commit/7c7caf1f) Fix `configuring workstations` link
+- [79cdb085](https://github.com/appscode/cluster-ui/commit/79cdb085) Merged in artifact (pull request #151)
+- [6bd0a3fd](https://github.com/appscode/cluster-ui/commit/6bd0a3fd) Fix api urls
+- [b56c0866](https://github.com/appscode/cluster-ui/commit/b56c0866) implete new restore modal
+- [fb7573d5](https://github.com/appscode/cluster-ui/commit/fb7573d5) fix db done status
+- [e886b452](https://github.com/appscode/cluster-ui/commit/e886b452) testing specific db type
+- [8d5febc7](https://github.com/appscode/cluster-ui/commit/8d5febc7) Merged in db-testing (pull request #150)
+- [f5e1acdb](https://github.com/appscode/cluster-ui/commit/f5e1acdb) add new snapshot status
+- [cc5db70b](https://github.com/appscode/cluster-ui/commit/cc5db70b) Merged in db-testing (pull request #149)
+- [e7e9dc54](https://github.com/appscode/cluster-ui/commit/e7e9dc54) Merge branch 'master' of bitbucket.org:thetigerworks/pharm into db-testing
+- [e1c2d057](https://github.com/appscode/cluster-ui/commit/e1c2d057) clean up cluster creation form
+- [8d9d1f0d](https://github.com/appscode/cluster-ui/commit/8d9d1f0d) added cloud wal backup
+- [9e1db05e](https://github.com/appscode/cluster-ui/commit/9e1db05e) changing snapshot status
+- [fd19585f](https://github.com/appscode/cluster-ui/commit/fd19585f) implementing wal backup info
+- [8e40fc72](https://github.com/appscode/cluster-ui/commit/8e40fc72) fix db sku type for cloud wal backup
+- [c3f61052](https://github.com/appscode/cluster-ui/commit/c3f61052) finalizing pg-cloud backup
+- [1a0a21e8](https://github.com/appscode/cluster-ui/commit/1a0a21e8) Merged in ci (pull request #148)
+- [fa26cf53](https://github.com/appscode/cluster-ui/commit/fa26cf53) Change
+- [41156c0f](https://github.com/appscode/cluster-ui/commit/41156c0f) Merged in ci (pull request #147)
+- [f2552388](https://github.com/appscode/cluster-ui/commit/f2552388) Change
+- [9ded6525](https://github.com/appscode/cluster-ui/commit/9ded6525) Merged in ci (pull request #146)
+- [3ba20338](https://github.com/appscode/cluster-ui/commit/3ba20338) Change
+- [5a0237e2](https://github.com/appscode/cluster-ui/commit/5a0237e2) Change
+- [05866ae9](https://github.com/appscode/cluster-ui/commit/05866ae9) added warning mess for promise catch
+- [a46bf61b](https://github.com/appscode/cluster-ui/commit/a46bf61b) Merged in ci (pull request #145)
+- [aea77f37](https://github.com/appscode/cluster-ui/commit/aea77f37) Change
+- [90080043](https://github.com/appscode/cluster-ui/commit/90080043) Confirm modal for ci-agent deletion/restart working
+- [d981931b](https://github.com/appscode/cluster-ui/commit/d981931b) Merged in db-testing (pull request #144)
+- [97745c92](https://github.com/appscode/cluster-ui/commit/97745c92) fix db create form validation
+- [4e015e84](https://github.com/appscode/cluster-ui/commit/4e015e84) Merged in ci (pull request #143)
+- [9d140c90](https://github.com/appscode/cluster-ui/commit/9d140c90) Change
+- [5d3caaac](https://github.com/appscode/cluster-ui/commit/5d3caaac) Merged in ci (pull request #142)
+- [0f85eb4e](https://github.com/appscode/cluster-ui/commit/0f85eb4e) Change
+- [3c66d6b8](https://github.com/appscode/cluster-ui/commit/3c66d6b8) Merged in db-testing (pull request #141)
+- [ce21ffcc](https://github.com/appscode/cluster-ui/commit/ce21ffcc) add pg restore
+- [16c66e46](https://github.com/appscode/cluster-ui/commit/16c66e46) Merged in ci (pull request #140)
+- [9dcd2ada](https://github.com/appscode/cluster-ui/commit/9dcd2ada) Change
+- [4c46c5fe](https://github.com/appscode/cluster-ui/commit/4c46c5fe) Change
+- [6638fb6b](https://github.com/appscode/cluster-ui/commit/6638fb6b) Merged in fix-ci (pull request #139)
+- [032e2116](https://github.com/appscode/cluster-ui/commit/032e2116) remv console
+- [3ecf61df](https://github.com/appscode/cluster-ui/commit/3ecf61df) test influx restoer
+- [a7bb844c](https://github.com/appscode/cluster-ui/commit/a7bb844c) added persistent volume size toggle
+- [7f0985ba](https://github.com/appscode/cluster-ui/commit/7f0985ba) Merged in ci (pull request #138)
+- [2ade4185](https://github.com/appscode/cluster-ui/commit/2ade4185) Change
+- [1be9fe92](https://github.com/appscode/cluster-ui/commit/1be9fe92) Merged in ci (pull request #137)
+- [09d6de3f](https://github.com/appscode/cluster-ui/commit/09d6de3f) Fix conflicts
+- [6161be96](https://github.com/appscode/cluster-ui/commit/6161be96) Add modal for ci-agent deletion/restart
+- [e7929cb5](https://github.com/appscode/cluster-ui/commit/e7929cb5) added persistent toggle button
+- [257f630e](https://github.com/appscode/cluster-ui/commit/257f630e) Merged in fix-ci (pull request #136)
+- [3d38464f](https://github.com/appscode/cluster-ui/commit/3d38464f) remv console
+- [19345b07](https://github.com/appscode/cluster-ui/commit/19345b07) added auth secret link to db deatisl
+- [d924d915](https://github.com/appscode/cluster-ui/commit/d924d915) Merged in fix-ci (pull request #135)
+- [bef1fa41](https://github.com/appscode/cluster-ui/commit/bef1fa41) added auth secret name to db details
+- [285c0060](https://github.com/appscode/cluster-ui/commit/285c0060) fix influx restoer create item
+- [64893d85](https://github.com/appscode/cluster-ui/commit/64893d85) fix cloud db create
+- [375a6c4f](https://github.com/appscode/cluster-ui/commit/375a6c4f) added error log in common direntoru
+- [ae896ecf](https://github.com/appscode/cluster-ui/commit/ae896ecf) added error log view
+- [b4454fa6](https://github.com/appscode/cluster-ui/commit/b4454fa6) Fix issue of not deleting ci-agent
+- [7377dbab](https://github.com/appscode/cluster-ui/commit/7377dbab) tmp commit
+- [27c32469](https://github.com/appscode/cluster-ui/commit/27c32469) js/data files
+- [3b57736f](https://github.com/appscode/cluster-ui/commit/3b57736f) merge with master
+- [8d0df027](https://github.com/appscode/cluster-ui/commit/8d0df027) Merge branch 'master' of bitbucket.org:thetigerworks/pharm into fix-ci
+- [8a159685](https://github.com/appscode/cluster-ui/commit/8a159685) Merged in kite-pharm (pull request #134)
+- [ce86683a](https://github.com/appscode/cluster-ui/commit/ce86683a) fixing credntial to pg cloud
+- [0a452950](https://github.com/appscode/cluster-ui/commit/0a452950) fix validation and move this to common form
+- [f0e5c6c8](https://github.com/appscode/cluster-ui/commit/f0e5c6c8) Merged in fix-ci (pull request #133)
+- [b8f9e6b2](https://github.com/appscode/cluster-ui/commit/b8f9e6b2) fix deleted restore history page
+- [1b1b27b7](https://github.com/appscode/cluster-ui/commit/1b1b27b7) Merged in fix-ci (pull request #132)
+- [cbfe1b5c](https://github.com/appscode/cluster-ui/commit/cbfe1b5c) fix sync credential schema
+- [32921a25](https://github.com/appscode/cluster-ui/commit/32921a25) check credential create
+- [20653463](https://github.com/appscode/cluster-ui/commit/20653463) Merged in fix-ci (pull request #131)
+- [227bb0b6](https://github.com/appscode/cluster-ui/commit/227bb0b6) add influx restore temp
+- [6df013bc](https://github.com/appscode/cluster-ui/commit/6df013bc) fix render unneccessary view render
+- [ed63a25a](https://github.com/appscode/cluster-ui/commit/ed63a25a) Merged in add-analytics (pull request #130)
+- [589392bd](https://github.com/appscode/cluster-ui/commit/589392bd) Add analytics to ci and artifactory
+- [df5a03c2](https://github.com/appscode/cluster-ui/commit/df5a03c2) Merged in fix-ci (pull request #129)
+- [e86a01ed](https://github.com/appscode/cluster-ui/commit/e86a01ed) fix influx form
+- [daf67f28](https://github.com/appscode/cluster-ui/commit/daf67f28) fix backup form header
+- [44df4ca4](https://github.com/appscode/cluster-ui/commit/44df4ca4) Merged in fix-ci (pull request #128)
+- [60a5d805](https://github.com/appscode/cluster-ui/commit/60a5d805) remove linter error
+- [c0cccb8a](https://github.com/appscode/cluster-ui/commit/c0cccb8a) fix influx auth secret name
+- [e5478e7c](https://github.com/appscode/cluster-ui/commit/e5478e7c) Merged in fix-ci (pull request #127)
+- [6a89e077](https://github.com/appscode/cluster-ui/commit/6a89e077) fix influx restore
+- [b73ffc90](https://github.com/appscode/cluster-ui/commit/b73ffc90) adding influx backup
+- [cb2437de](https://github.com/appscode/cluster-ui/commit/cb2437de) Merged in fix-ci (pull request #126)
+- [6f1a50a9](https://github.com/appscode/cluster-ui/commit/6f1a50a9) fix ci specification ui
+- [48eb1233](https://github.com/appscode/cluster-ui/commit/48eb1233) fix agent status
+- [6351c4f9](https://github.com/appscode/cluster-ui/commit/6351c4f9) Merged in fix-ci (pull request #125)
+- [4f5545ad](https://github.com/appscode/cluster-ui/commit/4f5545ad) added CI specification
+- [6057e1d7](https://github.com/appscode/cluster-ui/commit/6057e1d7) Merged in fix-ci (pull request #124)
+- [0c84d482](https://github.com/appscode/cluster-ui/commit/0c84d482) added db type to db restore
+- [dfab2ae6](https://github.com/appscode/cluster-ui/commit/dfab2ae6) Merged in fix-ci (pull request #123)
+- [1ec1c3d6](https://github.com/appscode/cluster-ui/commit/1ec1c3d6) fix db restore api path
+- [21d8f6f3](https://github.com/appscode/cluster-ui/commit/21d8f6f3) Merged in fix-ci (pull request #122)
+- [f9d4733c](https://github.com/appscode/cluster-ui/commit/f9d4733c) fix db restore
+- [8656c301](https://github.com/appscode/cluster-ui/commit/8656c301) Merged in fix-ci (pull request #121)
+- [cafc8941](https://github.com/appscode/cluster-ui/commit/cafc8941) fix check db_status for db-backup
+- [4a7a4da5](https://github.com/appscode/cluster-ui/commit/4a7a4da5) remove debugger from db-create-form
+- [d316b24e](https://github.com/appscode/cluster-ui/commit/d316b24e) Merged in fix-ci (pull request #120)
+- [2171893a](https://github.com/appscode/cluster-ui/commit/2171893a) fix deleted database list(influx-type)
+- [bdd0bad7](https://github.com/appscode/cluster-ui/commit/bdd0bad7) adding ci specification
+- [acfa4e0e](https://github.com/appscode/cluster-ui/commit/acfa4e0e) Merged in fix-ci (pull request #119)
+- [119d53f5](https://github.com/appscode/cluster-ui/commit/119d53f5) added service name instead of name
+- [82a9c73f](https://github.com/appscode/cluster-ui/commit/82a9c73f) added fixed db delete
+- [d9543ad1](https://github.com/appscode/cluster-ui/commit/d9543ad1) added db connection-info nunj
+- [1b2f38cf](https://github.com/appscode/cluster-ui/commit/1b2f38cf) added service name in db connection infos
+- [8b0e4aad](https://github.com/appscode/cluster-ui/commit/8b0e4aad) remove console
+- [e1ad6feb](https://github.com/appscode/cluster-ui/commit/e1ad6feb) fix connection info for db details
+- [1f7d8718](https://github.com/appscode/cluster-ui/commit/1f7d8718) added service name to db list
+- [ac6201e7](https://github.com/appscode/cluster-ui/commit/ac6201e7) convert dbName to service Name
+- [6d6186b5](https://github.com/appscode/cluster-ui/commit/6d6186b5) remove console
+- [2eb52dd6](https://github.com/appscode/cluster-ui/commit/2eb52dd6) Merged in fix-ci (pull request #118)
+- [112cce8b](https://github.com/appscode/cluster-ui/commit/112cce8b) remove linter error
+- [7e94d28b](https://github.com/appscode/cluster-ui/commit/7e94d28b) Merged in fix-ci (pull request #117)
+- [e7ff0482](https://github.com/appscode/cluster-ui/commit/e7ff0482) fix data credential update
+- [a2bcd008](https://github.com/appscode/cluster-ui/commit/a2bcd008) Merge branch 'kite-pharm' of bitbucket.org:thetigerworks/pharm into fix-ci
+- [c465e5a2](https://github.com/appscode/cluster-ui/commit/c465e5a2) fix
+- [c0e29fa6](https://github.com/appscode/cluster-ui/commit/c0e29fa6) Merged in fix-ci (pull request #116)
+- [47282d98](https://github.com/appscode/cluster-ui/commit/47282d98) added some console
+- [e7746522](https://github.com/appscode/cluster-ui/commit/e7746522) Merged in fix-ci (pull request #115)
+- [ca5267d3](https://github.com/appscode/cluster-ui/commit/ca5267d3) complete ci reboot delete
+- [1a7925ea](https://github.com/appscode/cluster-ui/commit/1a7925ea) Merged in fix-ci (pull request #114)
+- [1fab3ec5](https://github.com/appscode/cluster-ui/commit/1fab3ec5) added warning, error, success messg
+- [0cc29503](https://github.com/appscode/cluster-ui/commit/0cc29503) Merged in fix-ci (pull request #113)
+- [dc8655c1](https://github.com/appscode/cluster-ui/commit/dc8655c1) added close method to ci delete reboot
+- [c7ef0364](https://github.com/appscode/cluster-ui/commit/c7ef0364) added mess to reboot and delete of ci agent
+- [cd2678ce](https://github.com/appscode/cluster-ui/commit/cd2678ce) completing ci agent delete
+- [bf9a4db9](https://github.com/appscode/cluster-ui/commit/bf9a4db9) Merge branch 'master' of bitbucket.org:thetigerworks/pharm into fix-ci
+- [bb72e90c](https://github.com/appscode/cluster-ui/commit/bb72e90c) added ci delete modal nunj
+- [8a810ebd](https://github.com/appscode/cluster-ui/commit/8a810ebd) adding delete ci agent options
+- [72385653](https://github.com/appscode/cluster-ui/commit/72385653) Merged in fix-ci (pull request #112)
+- [2535c4c5](https://github.com/appscode/cluster-ui/commit/2535c4c5) added global url
+- [8a398478](https://github.com/appscode/cluster-ui/commit/8a398478) Merged in fix-ci (pull request #111)
+- [7cdcc5cc](https://github.com/appscode/cluster-ui/commit/7cdcc5cc) added restart api call
+- [2be56776](https://github.com/appscode/cluster-ui/commit/2be56776) Merged in kite-pharm (pull request #110)
+- [952abceb](https://github.com/appscode/cluster-ui/commit/952abceb) Merged master into alert
+- [cd1e51ca](https://github.com/appscode/cluster-ui/commit/cd1e51ca) fixing credential up[date
+- [8cdcccb9](https://github.com/appscode/cluster-ui/commit/8cdcccb9) successfully added restat agent modal
+- [b83280f1](https://github.com/appscode/cluster-ui/commit/b83280f1) Merged in fix-ci (pull request #109)
+- [6f99b1b5](https://github.com/appscode/cluster-ui/commit/6f99b1b5) fix modal target
+- [e9b7c11c](https://github.com/appscode/cluster-ui/commit/e9b7c11c) Merged in fix-ci (pull request #108)
+- [b27775be](https://github.com/appscode/cluster-ui/commit/b27775be) remove linter
+- [5a09cca8](https://github.com/appscode/cluster-ui/commit/5a09cca8) add temp
+- [69da0701](https://github.com/appscode/cluster-ui/commit/69da0701) Merged in fix-ci (pull request #107)
+- [9c103297](https://github.com/appscode/cluster-ui/commit/9c103297) fix modal path
+- [0d5bb74e](https://github.com/appscode/cluster-ui/commit/0d5bb74e) Merged in fix-ci (pull request #106)
+- [271fdc0a](https://github.com/appscode/cluster-ui/commit/271fdc0a) added restart modal complete
+- [da0fd4e3](https://github.com/appscode/cluster-ui/commit/da0fd4e3) added restart modal
+- [070964fa](https://github.com/appscode/cluster-ui/commit/070964fa) added restart and delete method
+- [a421af01](https://github.com/appscode/cluster-ui/commit/a421af01) Merged in fix-ci (pull request #105)
+- [e6fe37c9](https://github.com/appscode/cluster-ui/commit/e6fe37c9) remove console and fix ci-0list
+- [bc45d1eb](https://github.com/appscode/cluster-ui/commit/bc45d1eb) Merged in fix-ci (pull request #104)
+- [efcf8963](https://github.com/appscode/cluster-ui/commit/efcf8963) added console.log to route
+- [635ef72f](https://github.com/appscode/cluster-ui/commit/635ef72f) Merged in fix-ci (pull request #103)
+- [f260d187](https://github.com/appscode/cluster-ui/commit/f260d187) added console.log
+- [321dabbb](https://github.com/appscode/cluster-ui/commit/321dabbb) Merged in fix-ci (pull request #102)
+- [c7a96f0b](https://github.com/appscode/cluster-ui/commit/c7a96f0b) slave -> agents
+- [4a010799](https://github.com/appscode/cluster-ui/commit/4a010799) Merged in fix-ci (pull request #101)
+- [140a41bc](https://github.com/appscode/cluster-ui/commit/140a41bc) added-all
+- [f2be26db](https://github.com/appscode/cluster-ui/commit/f2be26db) added-all
+- [63511401](https://github.com/appscode/cluster-ui/commit/63511401) Fix requires.
+- [00b6a1ea](https://github.com/appscode/cluster-ui/commit/00b6a1ea) Update data files.
+- [98c34997](https://github.com/appscode/cluster-ui/commit/98c34997) Update paths to use agents instead of slaves.
+- [e7897ce4](https://github.com/appscode/cluster-ui/commit/e7897ce4) Update path.
+- [b6ea06e7](https://github.com/appscode/cluster-ui/commit/b6ea06e7) added values set for alert update
+- [0e3a3a89](https://github.com/appscode/cluster-ui/commit/0e3a3a89) Merged in alert-git (pull request #100)
+- [2abe92ef](https://github.com/appscode/cluster-ui/commit/2abe92ef) add beautifier
+- [a6f66ce0](https://github.com/appscode/cluster-ui/commit/a6f66ce0) add json stringify
+- [0c6a7582](https://github.com/appscode/cluster-ui/commit/0c6a7582) Merged in alert-git (pull request #99)
+- [62add77c](https://github.com/appscode/cluster-ui/commit/62add77c) fix json-parse
+- [b9156ab8](https://github.com/appscode/cluster-ui/commit/b9156ab8) Merged in alert-git (pull request #98)
+- [b102739d](https://github.com/appscode/cluster-ui/commit/b102739d) add json parse
+- [30dc5cfb](https://github.com/appscode/cluster-ui/commit/30dc5cfb) Merged in load-balancer (pull request #97)
+- [f69d85b4](https://github.com/appscode/cluster-ui/commit/f69d85b4) Fix LB raw view
+- [afabb0c2](https://github.com/appscode/cluster-ui/commit/afabb0c2) Merged in alert-git (pull request #96)
+- [2f9d1cdb](https://github.com/appscode/cluster-ui/commit/2f9d1cdb) fix icinga, grafana, kibana links order
+- [f0ceb580](https://github.com/appscode/cluster-ui/commit/f0ceb580) Merged in load-balancer (pull request #95)
+- [1e8611d4](https://github.com/appscode/cluster-ui/commit/1e8611d4) Add LB Raw view.
+- [c071f071](https://github.com/appscode/cluster-ui/commit/c071f071) added alert update view
+- [d9ceba50](https://github.com/appscode/cluster-ui/commit/d9ceba50) alert update finishing
+- [b67fb1bf](https://github.com/appscode/cluster-ui/commit/b67fb1bf) fix ci detials
+- [49a7fa6f](https://github.com/appscode/cluster-ui/commit/49a7fa6f) Merged in alert-git (pull request #94)
+- [590e3484](https://github.com/appscode/cluster-ui/commit/590e3484) fix text capitalization
+- [05f16cd4](https://github.com/appscode/cluster-ui/commit/05f16cd4) completing CI details page
+- [f050c168](https://github.com/appscode/cluster-ui/commit/f050c168) added CI header buttons
+- [a072bcd1](https://github.com/appscode/cluster-ui/commit/a072bcd1) adding CI header buttons
+- [ff5c7ac8](https://github.com/appscode/cluster-ui/commit/ff5c7ac8) Merged in load-balancer (pull request #92)
+- [10a75040](https://github.com/appscode/cluster-ui/commit/10a75040) Merged in alert-git (pull request #93)
+- [72908611](https://github.com/appscode/cluster-ui/commit/72908611) changing CI details page
+- [2d09a990](https://github.com/appscode/cluster-ui/commit/2d09a990) LB issues are fixed, fully functional now.
+- [4bcae735](https://github.com/appscode/cluster-ui/commit/4bcae735) complete fix data-file sync
+- [dae54ade](https://github.com/appscode/cluster-ui/commit/dae54ade) Merged in alert-git (pull request #91)
+- [79ca3143](https://github.com/appscode/cluster-ui/commit/79ca3143) fix influxDB type in the db list
+- [b2dbf12d](https://github.com/appscode/cluster-ui/commit/b2dbf12d) fix data-file change with credential create
+- [22c2168c](https://github.com/appscode/cluster-ui/commit/22c2168c) add api change in db-delete
+- [3990061f](https://github.com/appscode/cluster-ui/commit/3990061f) Merged in alert-git (pull request #90)
+- [38ddc559](https://github.com/appscode/cluster-ui/commit/38ddc559) completed links open in new window
+- [646ffbe2](https://github.com/appscode/cluster-ui/commit/646ffbe2) links open in new window
+- [da4ad4a3](https://github.com/appscode/cluster-ui/commit/da4ad4a3) added restore from backup
+- [ba48dd64](https://github.com/appscode/cluster-ui/commit/ba48dd64) added restore backup api change
+- [57bd3ebd](https://github.com/appscode/cluster-ui/commit/57bd3ebd) Merged in alert-git (pull request #89)
+- [1742c991](https://github.com/appscode/cluster-ui/commit/1742c991) remove unwanted
+- [0d4a910f](https://github.com/appscode/cluster-ui/commit/0d4a910f) Merged in alert-git (pull request #88)
+- [2898b5ae](https://github.com/appscode/cluster-ui/commit/2898b5ae) remove linter error
+- [2b8c1d62](https://github.com/appscode/cluster-ui/commit/2b8c1d62) Merged in alert-git (pull request #87)
+- [e580d5a8](https://github.com/appscode/cluster-ui/commit/e580d5a8) fixing restore backup
+- [3bd398b4](https://github.com/appscode/cluster-ui/commit/3bd398b4) fix db backup
+- [d280b536](https://github.com/appscode/cluster-ui/commit/d280b536) fix db description
+- [0ad84687](https://github.com/appscode/cluster-ui/commit/0ad84687) fix db create
+- [f9aa2789](https://github.com/appscode/cluster-ui/commit/f9aa2789) fix empty cluster page
+- [a5a96cc3](https://github.com/appscode/cluster-ui/commit/a5a96cc3) Merged in alert-git (pull request #86)
+- [66eb6033](https://github.com/appscode/cluster-ui/commit/66eb6033) remove conflict
+- [0653242a](https://github.com/appscode/cluster-ui/commit/0653242a) moving to CI agent list
+- [8b8934c2](https://github.com/appscode/cluster-ui/commit/8b8934c2) remove conflict
+- [de139da6](https://github.com/appscode/cluster-ui/commit/de139da6) updating alert
+- [71d7ee63](https://github.com/appscode/cluster-ui/commit/71d7ee63) finish alert list
+- [bb80edcd](https://github.com/appscode/cluster-ui/commit/bb80edcd) fix alert list
+- [f68e189f](https://github.com/appscode/cluster-ui/commit/f68e189f) fixing hide popover
+- [cc7960e8](https://github.com/appscode/cluster-ui/commit/cc7960e8) added alert spec
+- [ffb779c0](https://github.com/appscode/cluster-ui/commit/ffb779c0) adding alert spec
+- [5a727755](https://github.com/appscode/cluster-ui/commit/5a727755) update sms/email value
+- [e44a9d79](https://github.com/appscode/cluster-ui/commit/e44a9d79) fix adding user list
+- [8515f5c6](https://github.com/appscode/cluster-ui/commit/8515f5c6) fix temp
+- [291b22ba](https://github.com/appscode/cluster-ui/commit/291b22ba) adding alert update
+- [dd630e86](https://github.com/appscode/cluster-ui/commit/dd630e86) last commit
+- [386a7bc1](https://github.com/appscode/cluster-ui/commit/386a7bc1) added query in alert list
+- [d4713828](https://github.com/appscode/cluster-ui/commit/d4713828) fix hide popover on next click
+- [2fb3288a](https://github.com/appscode/cluster-ui/commit/2fb3288a) initial commit
+- [e67ba85a](https://github.com/appscode/cluster-ui/commit/e67ba85a) cherry pick
+- [a13a6cbc](https://github.com/appscode/cluster-ui/commit/a13a6cbc) Tmp commit
+- [831c33f0](https://github.com/appscode/cluster-ui/commit/831c33f0) added multiple ajax call
+- [311e1d2e](https://github.com/appscode/cluster-ui/commit/311e1d2e) adding multiple ajax call
+- [71cf66da](https://github.com/appscode/cluster-ui/commit/71cf66da) Fix various lb issues assigned in trello
+- [8986ba71](https://github.com/appscode/cluster-ui/commit/8986ba71) adding parent to job describe
+- [fab0d1f2](https://github.com/appscode/cluster-ui/commit/fab0d1f2) modifying job description
+- [ed84ea0b](https://github.com/appscode/cluster-ui/commit/ed84ea0b) fixed spell
+- [1aa35ce8](https://github.com/appscode/cluster-ui/commit/1aa35ce8) fixed artifactory + sign links
+- [2cef3dc0](https://github.com/appscode/cluster-ui/commit/2cef3dc0) fixed breadcrumb in lb
+- [f66be0c4](https://github.com/appscode/cluster-ui/commit/f66be0c4) Merged in recursive-job (pull request #84)
+- [8ca4bff3](https://github.com/appscode/cluster-ui/commit/8ca4bff3) Merged in ci-fix (pull request #81)
+- [fd67d666](https://github.com/appscode/cluster-ui/commit/fd67d666) remove linter error
+- [d159ef29](https://github.com/appscode/cluster-ui/commit/d159ef29) Merged in recursive-job (pull request #83)
+- [ac40cd42](https://github.com/appscode/cluster-ui/commit/ac40cd42) fixing breadcrumg
+- [b2366e5f](https://github.com/appscode/cluster-ui/commit/b2366e5f) Merged in recursive-job (pull request #82)
+- [3ffe1715](https://github.com/appscode/cluster-ui/commit/3ffe1715) fix breadcrumb
+- [079443f0](https://github.com/appscode/cluster-ui/commit/079443f0) fix logo
+- [8856dca0](https://github.com/appscode/cluster-ui/commit/8856dca0) Merged in recursive-job (pull request #80)
+- [7c65cd35](https://github.com/appscode/cluster-ui/commit/7c65cd35) added recursive job
+- [44c1b7bb](https://github.com/appscode/cluster-ui/commit/44c1b7bb) Merged in load-balancer (pull request #79)
+- [1598f035](https://github.com/appscode/cluster-ui/commit/1598f035) Done update for HTTPS/HTTP/TCP
+- [06c75a3a](https://github.com/appscode/cluster-ui/commit/06c75a3a) Merge branch 'master' into load-balancer
+- [3fb720ed](https://github.com/appscode/cluster-ui/commit/3fb720ed) Done update for HTTPS/HTTP/TCP
+- [5eaa6467](https://github.com/appscode/cluster-ui/commit/5eaa6467) Merged in testing-pharm (pull request #78)
+- [0afad140](https://github.com/appscode/cluster-ui/commit/0afad140) remove log
+- [046e7ddd](https://github.com/appscode/cluster-ui/commit/046e7ddd) remove linter error
+- [1afce4fa](https://github.com/appscode/cluster-ui/commit/1afce4fa) Merged in testing-pharm (pull request #77)
+- [4b8f03cd](https://github.com/appscode/cluster-ui/commit/4b8f03cd) remove log
+- [74c4e2a1](https://github.com/appscode/cluster-ui/commit/74c4e2a1) remove demo data
+- [b8a93005](https://github.com/appscode/cluster-ui/commit/b8a93005) completed ci recursive job list
+- [045b266d](https://github.com/appscode/cluster-ui/commit/045b266d) complete recursive folder traverse
+- [ac86aec1](https://github.com/appscode/cluster-ui/commit/ac86aec1) completing recursive job implementation
+- [bc674bd1](https://github.com/appscode/cluster-ui/commit/bc674bd1) Update working for lb HTTPS/HTTP.
+- [9a40bb1a](https://github.com/appscode/cluster-ui/commit/9a40bb1a) adding nested jobs
+- [a78a9e1e](https://github.com/appscode/cluster-ui/commit/a78a9e1e) add nested job list and folder route
+- [ae6f634a](https://github.com/appscode/cluster-ui/commit/ae6f634a) remove linter error
+- [260db7a6](https://github.com/appscode/cluster-ui/commit/260db7a6) Merged in testing-pharm (pull request #76)
+- [dffc45a9](https://github.com/appscode/cluster-ui/commit/dffc45a9) remove catch statement from job list
+- [5eb6f350](https://github.com/appscode/cluster-ui/commit/5eb6f350) added another col in joblist
+- [0dc72ca6](https://github.com/appscode/cluster-ui/commit/0dc72ca6) add jobs to collection
+- [24834fa2](https://github.com/appscode/cluster-ui/commit/24834fa2) add job collection and model
+- [0db9b11b](https://github.com/appscode/cluster-ui/commit/0db9b11b) Merged in artifact (pull request #72)
+- [452b3310](https://github.com/appscode/cluster-ui/commit/452b3310) Merged in ci (pull request #73)
+- [05cf7cef](https://github.com/appscode/cluster-ui/commit/05cf7cef) Merged in testing-pharm (pull request #75)
+- [8309b055](https://github.com/appscode/cluster-ui/commit/8309b055) new aws img
+- [2e3f3c66](https://github.com/appscode/cluster-ui/commit/2e3f3c66) Merged in testing-pharm (pull request #74)
+- [58f46d62](https://github.com/appscode/cluster-ui/commit/58f46d62) fix aws cluster picture
+- [6367d101](https://github.com/appscode/cluster-ui/commit/6367d101) Add Favicon for ci, pharm, artifactory
+- [0e91d999](https://github.com/appscode/cluster-ui/commit/0e91d999) add icinga links
+- [6dee78e4](https://github.com/appscode/cluster-ui/commit/6dee78e4) fix linter error and testing schema
+- [bed0aec9](https://github.com/appscode/cluster-ui/commit/bed0aec9) Change ci icon
+- [373c06bf](https://github.com/appscode/cluster-ui/commit/373c06bf) Merge branch 'fix-from-kite' of bitbucket.org:thetigerworks/dashboard into testing-pharm
+- [fb9c9d3d](https://github.com/appscode/cluster-ui/commit/fb9c9d3d) purchase.schema.json edited online with Bitbucket
+- [86e76a31](https://github.com/appscode/cluster-ui/commit/86e76a31) Fix top-search and describe issues
+- [a3ec2031](https://github.com/appscode/cluster-ui/commit/a3ec2031) added aws icon
+- [8241267b](https://github.com/appscode/cluster-ui/commit/8241267b) fix wanring and critical user list
+- [479e7c1b](https://github.com/appscode/cluster-ui/commit/479e7c1b) Merged in testing-pharm (pull request #70)
+- [a5f07773](https://github.com/appscode/cluster-ui/commit/a5f07773) fix credential parse
+- [00cfbb49](https://github.com/appscode/cluster-ui/commit/00cfbb49) Merged in testing-pharm (pull request #69)
+- [12e9bd9c](https://github.com/appscode/cluster-ui/commit/12e9bd9c) remove log
+- [003fd488](https://github.com/appscode/cluster-ui/commit/003fd488) fix aws access key and secret key
+- [0040b02b](https://github.com/appscode/cluster-ui/commit/0040b02b) Merged in testing-pharm (pull request #68)
+- [bab66cd5](https://github.com/appscode/cluster-ui/commit/bab66cd5) fix node-set
+- [a38b7f68](https://github.com/appscode/cluster-ui/commit/a38b7f68) added-all
+- [bebfddc3](https://github.com/appscode/cluster-ui/commit/bebfddc3) fix
+- [8d4c000a](https://github.com/appscode/cluster-ui/commit/8d4c000a) Merged in testing-pharm (pull request #67)
+- [8f39c320](https://github.com/appscode/cluster-ui/commit/8f39c320) fix credential parse
+- [e8693803](https://github.com/appscode/cluster-ui/commit/e8693803) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard
+- [99b16881](https://github.com/appscode/cluster-ui/commit/99b16881) fix
+- [9530c49b](https://github.com/appscode/cluster-ui/commit/9530c49b) Merged in testing-pharm (pull request #66)
+- [63eba26b](https://github.com/appscode/cluster-ui/commit/63eba26b) added specific errorgit a
+- [b7a0e7bb](https://github.com/appscode/cluster-ui/commit/b7a0e7bb) added specific errorgit a
+- [8d5eea67](https://github.com/appscode/cluster-ui/commit/8d5eea67) Working on updating lb rules
+- [19de67c9](https://github.com/appscode/cluster-ui/commit/19de67c9) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard
+- [d6b4461b](https://github.com/appscode/cluster-ui/commit/d6b4461b) Merged in ci-fix (pull request #65)
+- [6e24fa53](https://github.com/appscode/cluster-ui/commit/6e24fa53) Tmp commit 21-6-16 evening
+- [cc75f02c](https://github.com/appscode/cluster-ui/commit/cc75f02c) Fix  Billing Unavailabe page
+- [58860d66](https://github.com/appscode/cluster-ui/commit/58860d66) Merged in testing-pharm (pull request #64)
+- [4180f130](https://github.com/appscode/cluster-ui/commit/4180f130) added specific error
+- [f65c2860](https://github.com/appscode/cluster-ui/commit/f65c2860) add specif error
+- [164e9b46](https://github.com/appscode/cluster-ui/commit/164e9b46) fix Conflicts
+- [84cb3224](https://github.com/appscode/cluster-ui/commit/84cb3224) Fix
+- [5258beec](https://github.com/appscode/cluster-ui/commit/5258beec) Merged in artifact (pull request #57)
+- [ea412c42](https://github.com/appscode/cluster-ui/commit/ea412c42) Merged in ci (pull request #63)
+- [d52700bd](https://github.com/appscode/cluster-ui/commit/d52700bd) Fix ci-agent-describe and list show page, refactor lot of codes
+- [28e3514e](https://github.com/appscode/cluster-ui/commit/28e3514e) add a space to porst list in apps details
+- [8e8d8e68](https://github.com/appscode/cluster-ui/commit/8e8d8e68) remove app details text section
+- [82720989](https://github.com/appscode/cluster-ui/commit/82720989) refesh after successfull cancel auto backup
+- [33f24346](https://github.com/appscode/cluster-ui/commit/33f24346) Merged in testing-pharm (pull request #62)
+- [89386ff8](https://github.com/appscode/cluster-ui/commit/89386ff8) fix some ui
+- [02f213b9](https://github.com/appscode/cluster-ui/commit/02f213b9) added auto-backup modal
+- [dd8c3087](https://github.com/appscode/cluster-ui/commit/dd8c3087) adding auto-backup-cancel modal
+- [36a91be3](https://github.com/appscode/cluster-ui/commit/36a91be3) fixed auth-fail issue
+- [a2ed950b](https://github.com/appscode/cluster-ui/commit/a2ed950b) Merged in testing-pharm (pull request #61)
+- [a35f9a45](https://github.com/appscode/cluster-ui/commit/a35f9a45) fix apps details undefined port name
+- [8dc4b71d](https://github.com/appscode/cluster-ui/commit/8dc4b71d) Merged in ci-fix (pull request #59)
+- [d896837f](https://github.com/appscode/cluster-ui/commit/d896837f) Fix
+- [137a32b3](https://github.com/appscode/cluster-ui/commit/137a32b3) Merged in testing-pharm (pull request #60)
+- [debe74c2](https://github.com/appscode/cluster-ui/commit/debe74c2) fix data field
+- [c1773c57](https://github.com/appscode/cluster-ui/commit/c1773c57) Fix some logo and css
+- [5739719f](https://github.com/appscode/cluster-ui/commit/5739719f) Merged in testing-pharm (pull request #58)
+- [707261ee](https://github.com/appscode/cluster-ui/commit/707261ee) remove conflict
+- [6374174a](https://github.com/appscode/cluster-ui/commit/6374174a) remove console log
+- [324e1c0e](https://github.com/appscode/cluster-ui/commit/324e1c0e) added user list and valid csrf token
+- [9d7e8199](https://github.com/appscode/cluster-ui/commit/9d7e8199) add users into alert creation page
+- [df9d3256](https://github.com/appscode/cluster-ui/commit/df9d3256) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into artifact
+- [9949062a](https://github.com/appscode/cluster-ui/commit/9949062a) Updated search url and describe artifact working
+- [909bd55d](https://github.com/appscode/cluster-ui/commit/909bd55d) fixing loging auth
+- [36b149ac](https://github.com/appscode/cluster-ui/commit/36b149ac) Merged in ci (pull request #56)
+- [e1c11235](https://github.com/appscode/cluster-ui/commit/e1c11235) add backup sign in restore list
+- [7c677dda](https://github.com/appscode/cluster-ui/commit/7c677dda) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into load-balancer
+- [6e99ea03](https://github.com/appscode/cluster-ui/commit/6e99ea03) Fix conflicts
+- [00c6e284](https://github.com/appscode/cluster-ui/commit/00c6e284) Update json data files
+- [8070eb13](https://github.com/appscode/cluster-ui/commit/8070eb13) Add whoami and csrf token in ci.app.js
+- [9595f47b](https://github.com/appscode/cluster-ui/commit/9595f47b) Merged in testing-pharm (pull request #55)
+- [9b05c2ef](https://github.com/appscode/cluster-ui/commit/9b05c2ef) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into testing-pharm
+- [6bdc1a55](https://github.com/appscode/cluster-ui/commit/6bdc1a55) UI handle for backup ignore
+- [d1e7eedd](https://github.com/appscode/cluster-ui/commit/d1e7eedd) handle ignore status for restore db
+- [fda7ea50](https://github.com/appscode/cluster-ui/commit/fda7ea50) shift template
+- [d9eea0ab](https://github.com/appscode/cluster-ui/commit/d9eea0ab) refine codes
+- [1c8b0891](https://github.com/appscode/cluster-ui/commit/1c8b0891) fix ui for set duration backup
+- [8d3c4696](https://github.com/appscode/cluster-ui/commit/8d3c4696) add db auto backup option in UI
+- [de0999f5](https://github.com/appscode/cluster-ui/commit/de0999f5) Working on updating https/http/tcp rules
+- [399d6d1f](https://github.com/appscode/cluster-ui/commit/399d6d1f) adding cluster form validation
+- [5cf3ae28](https://github.com/appscode/cluster-ui/commit/5cf3ae28) cluster form
+- [bd906198](https://github.com/appscode/cluster-ui/commit/bd906198) refine code
+- [b0d3df13](https://github.com/appscode/cluster-ui/commit/b0d3df13) Merged in testing-pharm (pull request #54)
+- [415c55b5](https://github.com/appscode/cluster-ui/commit/415c55b5) remove console
+- [bac79255](https://github.com/appscode/cluster-ui/commit/bac79255) finish validation db create
+- [14d6e24e](https://github.com/appscode/cluster-ui/commit/14d6e24e) add errors in create db
+- [aecdb7f2](https://github.com/appscode/cluster-ui/commit/aecdb7f2) fix cluster creation form
+- [da3efbd3](https://github.com/appscode/cluster-ui/commit/da3efbd3) Merge branch 'ci' of bitbucket.org:thetigerworks/dashboard into testing-pharm
+- [6759a559](https://github.com/appscode/cluster-ui/commit/6759a559) merging with ci change
+- [b73890d2](https://github.com/appscode/cluster-ui/commit/b73890d2) test schema.json
+- [7af5b05e](https://github.com/appscode/cluster-ui/commit/7af5b05e) db create validation with jquery
+- [8304af80](https://github.com/appscode/cluster-ui/commit/8304af80) Change hour -> min
+- [1afbf9c8](https://github.com/appscode/cluster-ui/commit/1afbf9c8) Fix conflicts
+- [e8b4c244](https://github.com/appscode/cluster-ui/commit/e8b4c244) Fix /ci/#/new slave creation issues.
+- [6ca5dec3](https://github.com/appscode/cluster-ui/commit/6ca5dec3) Deleting all types of  rules now
+- [89341c85](https://github.com/appscode/cluster-ui/commit/89341c85) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into alert-finalize
+- [1caabea1](https://github.com/appscode/cluster-ui/commit/1caabea1) disabled create button when cluster not selected
+- [5c20ec02](https://github.com/appscode/cluster-ui/commit/5c20ec02) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard
+- [456854b3](https://github.com/appscode/cluster-ui/commit/456854b3) disabled create button when cluster not selected
+- [a430bfb9](https://github.com/appscode/cluster-ui/commit/a430bfb9) render db create from template
+- [861923c6](https://github.com/appscode/cluster-ui/commit/861923c6) Tmp commit 15-6-16-11:58
+- [0ced4184](https://github.com/appscode/cluster-ui/commit/0ced4184) Creates multiple header and rewrite rules
+- [2496ca52](https://github.com/appscode/cluster-ui/commit/2496ca52) fix ssl url
+- [2ed392ff](https://github.com/appscode/cluster-ui/commit/2ed392ff) fix containers popover
+- [02f94cbb](https://github.com/appscode/cluster-ui/commit/02f94cbb) added links and containers in apps pods list
+- [ededa591](https://github.com/appscode/cluster-ui/commit/ededa591) Merged in alert-finalize (pull request #51)
+- [bc573bca](https://github.com/appscode/cluster-ui/commit/bc573bca) remove console
+- [cbfa8647](https://github.com/appscode/cluster-ui/commit/cbfa8647) fix css
+- [072a99e8](https://github.com/appscode/cluster-ui/commit/072a99e8) fix artifact ui
+- [f8dfa195](https://github.com/appscode/cluster-ui/commit/f8dfa195) added links in pod list
+- [3df9e8f2](https://github.com/appscode/cluster-ui/commit/3df9e8f2) adding link and refine ui
+- [4aa2cea3](https://github.com/appscode/cluster-ui/commit/4aa2cea3) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into alert-finalize
+- [bb062eb8](https://github.com/appscode/cluster-ui/commit/bb062eb8) remove console
+- [bbeee253](https://github.com/appscode/cluster-ui/commit/bbeee253) add grafana url in cluster list
+- [7c56448d](https://github.com/appscode/cluster-ui/commit/7c56448d) Creates all HTTPS, HTTP, TCP rules
+- [4b0d84ed](https://github.com/appscode/cluster-ui/commit/4b0d84ed) add grafa url in cluster list
+- [de853367](https://github.com/appscode/cluster-ui/commit/de853367) backup okay
+- [a9422a3c](https://github.com/appscode/cluster-ui/commit/a9422a3c) refine cluster details pods list
+- [d31fae4b](https://github.com/appscode/cluster-ui/commit/d31fae4b) restore from db details
+- [b95d871c](https://github.com/appscode/cluster-ui/commit/b95d871c) database restore okay
+- [8e3f660c](https://github.com/appscode/cluster-ui/commit/8e3f660c) fix db route after delete
+- [caaf63b6](https://github.com/appscode/cluster-ui/commit/caaf63b6) remove json files for breadcrumb
+- [068826a5](https://github.com/appscode/cluster-ui/commit/068826a5) fix cluster details
+- [fe4aa975](https://github.com/appscode/cluster-ui/commit/fe4aa975) popovr hide when click outside
+- [8157881e](https://github.com/appscode/cluster-ui/commit/8157881e) popovr hide when click outside
+- [9c795bab](https://github.com/appscode/cluster-ui/commit/9c795bab) Merged in ci (pull request #50)
+- [3152cad0](https://github.com/appscode/cluster-ui/commit/3152cad0) sumbit restore from backup-list
+- [238806a7](https://github.com/appscode/cluster-ui/commit/238806a7) Fix ci lists show issues.
+- [cd6568ac](https://github.com/appscode/cluster-ui/commit/cd6568ac) fix restore/backup list row ui and complete db restore
+- [74aa3ad5](https://github.com/appscode/cluster-ui/commit/74aa3ad5) disable restoer submit button
+- [b3755eed](https://github.com/appscode/cluster-ui/commit/b3755eed) adding db restore form db backup
+- [8b69b5c2](https://github.com/appscode/cluster-ui/commit/8b69b5c2) db backup create route fix
+- [c07e60e4](https://github.com/appscode/cluster-ui/commit/c07e60e4) add disabled to restore/backup while pending
+- [3b5ffbe7](https://github.com/appscode/cluster-ui/commit/3b5ffbe7) change db backup form
+- [c964d9e7](https://github.com/appscode/cluster-ui/commit/c964d9e7) modify db details
+- [d607738f](https://github.com/appscode/cluster-ui/commit/d607738f) Done LB creation, working on LB http, https, tcp rules, header/rewrite rules creation
+- [da41325c](https://github.com/appscode/cluster-ui/commit/da41325c) Merged in alert-finalize (pull request #49)
+- [a7487c53](https://github.com/appscode/cluster-ui/commit/a7487c53) added link search links etc
+- [5c2871a1](https://github.com/appscode/cluster-ui/commit/5c2871a1) adding links
+- [1a9b5a0c](https://github.com/appscode/cluster-ui/commit/1a9b5a0c) adding links
+- [07c8d7c2](https://github.com/appscode/cluster-ui/commit/07c8d7c2) complete alert list
+- [153373d6](https://github.com/appscode/cluster-ui/commit/153373d6) add profile image link
+- [ffbbd1cc](https://github.com/appscode/cluster-ui/commit/ffbbd1cc) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard
+- [1d5a5b49](https://github.com/appscode/cluster-ui/commit/1d5a5b49) fix
+- [b932dcf0](https://github.com/appscode/cluster-ui/commit/b932dcf0) Fix conflicts
+- [57aa12f8](https://github.com/appscode/cluster-ui/commit/57aa12f8) Http, https, tcp rules creation
+- [a6c2e24a](https://github.com/appscode/cluster-ui/commit/a6c2e24a) Merged in refine-ui (pull request #48)
+- [dc81d3c2](https://github.com/appscode/cluster-ui/commit/dc81d3c2) fix image border-radius
+- [f0c574b4](https://github.com/appscode/cluster-ui/commit/f0c574b4) Merged in refine-ui (pull request #47)
+- [d07eb8cd](https://github.com/appscode/cluster-ui/commit/d07eb8cd) merge with ci
+- [38ec1aa4](https://github.com/appscode/cluster-ui/commit/38ec1aa4) fix image to iamge
+- [8ee85653](https://github.com/appscode/cluster-ui/commit/8ee85653) Fix api paths, change ci_products.json to ci.latest.json
+- [aff20292](https://github.com/appscode/cluster-ui/commit/aff20292) Merged in refine-ui (pull request #46)
+- [5a105368](https://github.com/appscode/cluster-ui/commit/5a105368) Done http, https, tcp list show
+- [68022481](https://github.com/appscode/cluster-ui/commit/68022481) remove console
+- [c835c1e4](https://github.com/appscode/cluster-ui/commit/c835c1e4) add whoami api
+- [4296769f](https://github.com/appscode/cluster-ui/commit/4296769f) HTTP, HTTPS, TCP rules pages
+- [eef81eca](https://github.com/appscode/cluster-ui/commit/eef81eca) add title change each route
+- [65292aa6](https://github.com/appscode/cluster-ui/commit/65292aa6) add auth check all ajax call
+- [1beb2958](https://github.com/appscode/cluster-ui/commit/1beb2958) fix ui
+- [8a4e9f4f](https://github.com/appscode/cluster-ui/commit/8a4e9f4f) fix node list
+- [1b492d6d](https://github.com/appscode/cluster-ui/commit/1b492d6d) fix node list
+- [d955afd7](https://github.com/appscode/cluster-ui/commit/d955afd7) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into pharm-datafile
+- [b6865a4d](https://github.com/appscode/cluster-ui/commit/b6865a4d) remove console.log
+- [1737fb64](https://github.com/appscode/cluster-ui/commit/1737fb64) change url if auth not present
+- [c5e7fb9d](https://github.com/appscode/cluster-ui/commit/c5e7fb9d) Working on  laad-balancer creation page
+- [348f6183](https://github.com/appscode/cluster-ui/commit/348f6183) adding form serialize
+- [790994b7](https://github.com/appscode/cluster-ui/commit/790994b7) fix db form after data file change
+- [9fbe8a37](https://github.com/appscode/cluster-ui/commit/9fbe8a37) fix add csrf token
+- [8d7c0162](https://github.com/appscode/cluster-ui/commit/8d7c0162) add breadcrumb to all route
+- [e05ef379](https://github.com/appscode/cluster-ui/commit/e05ef379) Tmp commit
+- [03b11bbc](https://github.com/appscode/cluster-ui/commit/03b11bbc) database validation check and add schema check to database create
+- [52b59a9c](https://github.com/appscode/cluster-ui/commit/52b59a9c) cluster creation validation fix
+- [4ef1fbd7](https://github.com/appscode/cluster-ui/commit/4ef1fbd7) add notification for invalid data for cluster creation
+- [a70c6e98](https://github.com/appscode/cluster-ui/commit/a70c6e98) merge artifact, ci, pharm-datafile
+- [dafce69f](https://github.com/appscode/cluster-ui/commit/dafce69f) add Auth
+- [445413c2](https://github.com/appscode/cluster-ui/commit/445413c2) merge artidact, ci
+- [a5c5b6aa](https://github.com/appscode/cluster-ui/commit/a5c5b6aa) Merge remote-tracking branch 'remotes/origin/artifact' into pharm-datafile
+- [c395937d](https://github.com/appscode/cluster-ui/commit/c395937d) Merge remote-tracking branch 'remotes/origin/ci' into pharm-datafile
+- [ecb6ac04](https://github.com/appscode/cluster-ui/commit/ecb6ac04) fix breadcrumb
+- [64ece670](https://github.com/appscode/cluster-ui/commit/64ece670) Change user_script to user_startup_script, fix auth
+- [b548bb82](https://github.com/appscode/cluster-ui/commit/b548bb82) Add skeleton of load-balancer list show + delete
+- [a01e597c](https://github.com/appscode/cluster-ui/commit/a01e597c) fix restore/backup list
+- [ff7d18f1](https://github.com/appscode/cluster-ui/commit/ff7d18f1) fix restore/backup list
+- [1a98dfb9](https://github.com/appscode/cluster-ui/commit/1a98dfb9) fix zone addition from data file
+- [b6b36c5f](https://github.com/appscode/cluster-ui/commit/b6b36c5f) add schema validator to db-create-form
+- [e802991d](https://github.com/appscode/cluster-ui/commit/e802991d) done es
+- [24ed70e6](https://github.com/appscode/cluster-ui/commit/24ed70e6) Add left menu `local configuration` options.
+- [cb86d92e](https://github.com/appscode/cluster-ui/commit/cb86d92e) Add `clipboardjs copy` in artifactory describe pages
+- [d7740434](https://github.com/appscode/cluster-ui/commit/d7740434) refine
+- [47d9759b](https://github.com/appscode/cluster-ui/commit/47d9759b) fix database details, database backup, database restore
+- [522a6157](https://github.com/appscode/cluster-ui/commit/522a6157) Add search on all items
+- [8354b142](https://github.com/appscode/cluster-ui/commit/8354b142) Amend this commit
+- [6af36698](https://github.com/appscode/cluster-ui/commit/6af36698) Fix conflicts
+- [6ce7bcb5](https://github.com/appscode/cluster-ui/commit/6ce7bcb5) Add paymentInfo checking (cluster create page), Fix ci api + ssl api urls
+- [f51a40ee](https://github.com/appscode/cluster-ui/commit/f51a40ee) deleted db restore/backup list
+- [a23d3e19](https://github.com/appscode/cluster-ui/commit/a23d3e19) Merge branch 'css-modify' of bitbucket.org:thetigerworks/dashboard into pharm-datafile
+- [87dc2981](https://github.com/appscode/cluster-ui/commit/87dc2981) Merge branch 'add-glusterfs' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [4fde1bfb](https://github.com/appscode/cluster-ui/commit/4fde1bfb) fix artifactory css
+- [9be1ebef](https://github.com/appscode/cluster-ui/commit/9be1ebef) fix
+- [b7add6af](https://github.com/appscode/cluster-ui/commit/b7add6af) add deleted database list
+- [9569dbb7](https://github.com/appscode/cluster-ui/commit/9569dbb7) fix
+- [6039f86b](https://github.com/appscode/cluster-ui/commit/6039f86b) Merged in pharm-datafile (pull request #40)
+- [0742e9ce](https://github.com/appscode/cluster-ui/commit/0742e9ce) remove login_check
+- [8f4f7fe3](https://github.com/appscode/cluster-ui/commit/8f4f7fe3) Merged in pharm-datafile (pull request #39)
+- [82f9d240](https://github.com/appscode/cluster-ui/commit/82f9d240) add X-Phabricator-Csrf
+- [cbd22da5](https://github.com/appscode/cluster-ui/commit/cbd22da5) add letest phtkn
+- [7e20953e](https://github.com/appscode/cluster-ui/commit/7e20953e) Initial commit
+- [069bfe8b](https://github.com/appscode/cluster-ui/commit/069bfe8b) Remove atifactory css
+- [4f621d95](https://github.com/appscode/cluster-ui/commit/4f621d95) remove artifactory css
+- [69b15fa3](https://github.com/appscode/cluster-ui/commit/69b15fa3) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into ci
+- [b7ce3221](https://github.com/appscode/cluster-ui/commit/b7ce3221) Check paymentInfo while creating new ci agent
+- [fa270ccb](https://github.com/appscode/cluster-ui/commit/fa270ccb) Change $.ajax() -> global.ajaxCall()
+- [aee5e7d5](https://github.com/appscode/cluster-ui/commit/aee5e7d5) Change all $.ajax -> global.ajaxCall()
+- [dd50b6f8](https://github.com/appscode/cluster-ui/commit/dd50b6f8) merge with master
+- [58d5a611](https://github.com/appscode/cluster-ui/commit/58d5a611) Merged in asset (pull request #38)
+- [3f2c5bec](https://github.com/appscode/cluster-ui/commit/3f2c5bec) Move Pharm assets to /appscode/assets/ from /appscode-assets/
+- [0313a8fd](https://github.com/appscode/cluster-ui/commit/0313a8fd) Merged in artifact (pull request #37)
+- [503ae69e](https://github.com/appscode/cluster-ui/commit/503ae69e) Artifactory done (list show, search, details)
+- [13530d15](https://github.com/appscode/cluster-ui/commit/13530d15) add withCredentialsTrue
+- [0070f231](https://github.com/appscode/cluster-ui/commit/0070f231) tmp commit, all lists show + search working
+- [6c646e43](https://github.com/appscode/cluster-ui/commit/6c646e43) Add artifactory as separate apps
+- [dc224cb1](https://github.com/appscode/cluster-ui/commit/dc224cb1) Fix auth.js conflicts
+- [051d1f2c](https://github.com/appscode/cluster-ui/commit/051d1f2c) Modify auth.js
+- [ba77ee2e](https://github.com/appscode/cluster-ui/commit/ba77ee2e) Merged in pharm-datafile (pull request #35)
+- [31d692d1](https://github.com/appscode/cluster-ui/commit/31d692d1) merge complete
+- [ee1884e7](https://github.com/appscode/cluster-ui/commit/ee1884e7) merge with master
+- [1be86354](https://github.com/appscode/cluster-ui/commit/1be86354) merge with master
+- [b7430363](https://github.com/appscode/cluster-ui/commit/b7430363) Merged in ci (pull request #36)
+- [4ff75c25](https://github.com/appscode/cluster-ui/commit/4ff75c25) Load product info from data/ci_products.json
+- [1888cc78](https://github.com/appscode/cluster-ui/commit/1888cc78) Update ci data files.
+- [519face9](https://github.com/appscode/cluster-ui/commit/519face9) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into ci
+- [bac41c66](https://github.com/appscode/cluster-ui/commit/bac41c66) Update ci data files.
+- [3ead29de](https://github.com/appscode/cluster-ui/commit/3ead29de) Fix conflicts
+- [7b382b6a](https://github.com/appscode/cluster-ui/commit/7b382b6a) 16-5-16 afternoon
+- [8c656078](https://github.com/appscode/cluster-ui/commit/8c656078) JSON-parse and normal all OK
+- [4922cb1c](https://github.com/appscode/cluster-ui/commit/4922cb1c) fix json parse
+- [d73b7aba](https://github.com/appscode/cluster-ui/commit/d73b7aba) fix pvsize, name issue
+- [aa4f706b](https://github.com/appscode/cluster-ui/commit/aa4f706b) fix
+- [1d7c5d96](https://github.com/appscode/cluster-ui/commit/1d7c5d96) commit pg create form
+- [796fb000](https://github.com/appscode/cluster-ui/commit/796fb000) update datafile
+- [dcfc73bc](https://github.com/appscode/cluster-ui/commit/dcfc73bc) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into pharm-datafile
+- [7fc914db](https://github.com/appscode/cluster-ui/commit/7fc914db) Update json data files.
+- [958b5c06](https://github.com/appscode/cluster-ui/commit/958b5c06) database create form complete
+- [dd493ae0](https://github.com/appscode/cluster-ui/commit/dd493ae0) render data file
+- [4e1d9432](https://github.com/appscode/cluster-ui/commit/4e1d9432) highest query string 5 in alert form
+- [1d1a75d7](https://github.com/appscode/cluster-ui/commit/1d1a75d7) adding load-balancer section within cluster section
+- [2c514435](https://github.com/appscode/cluster-ui/commit/2c514435) change alert form ui
+- [325d3f94](https://github.com/appscode/cluster-ui/commit/325d3f94) fix apps specification list
+- [57292549](https://github.com/appscode/cluster-ui/commit/57292549) change apps alert creation
+- [cff42f85](https://github.com/appscode/cluster-ui/commit/cff42f85) render data from datafile
+- [bb2c01af](https://github.com/appscode/cluster-ui/commit/bb2c01af) finish up pg all mode
+- [77833fa8](https://github.com/appscode/cluster-ui/commit/77833fa8) delete idea
+- [412371ae](https://github.com/appscode/cluster-ui/commit/412371ae) Merged in pharm-datafile (pull request #34)
+- [9578106b](https://github.com/appscode/cluster-ui/commit/9578106b) add toggle persistent size and persistent volume
+- [832fc5b3](https://github.com/appscode/cluster-ui/commit/832fc5b3) merge with shahriar-pharm
+- [78ce425c](https://github.com/appscode/cluster-ui/commit/78ce425c) comitting my changes
+- [e78c7272](https://github.com/appscode/cluster-ui/commit/e78c7272) change db infos
+- [4f86b3bb](https://github.com/appscode/cluster-ui/commit/4f86b3bb) change sku to all lower
+- [d5ff6407](https://github.com/appscode/cluster-ui/commit/d5ff6407) add data file to cluster creation
+- [7ad8d4cd](https://github.com/appscode/cluster-ui/commit/7ad8d4cd) added-all
+- [e63ec1e8](https://github.com/appscode/cluster-ui/commit/e63ec1e8) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard
+- [4e6f1ded](https://github.com/appscode/cluster-ui/commit/4e6f1ded) copy:data
+- [d1746f06](https://github.com/appscode/cluster-ui/commit/d1746f06) Merged in pharm-alert (pull request #33)
+- [27a021be](https://github.com/appscode/cluster-ui/commit/27a021be) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into pharm-alert
+- [043bfa6a](https://github.com/appscode/cluster-ui/commit/043bfa6a) ready to merge with master
+- [9df00410](https://github.com/appscode/cluster-ui/commit/9df00410) complete alert list view
+- [116675c8](https://github.com/appscode/cluster-ui/commit/116675c8) finalize alert create, alert list and alert list empty section
+- [9c90f363](https://github.com/appscode/cluster-ui/commit/9c90f363) Merged in pg-backup (pull request #32)
+- [11bd64a8](https://github.com/appscode/cluster-ui/commit/11bd64a8) fix alert creation process
+- [575728ce](https://github.com/appscode/cluster-ui/commit/575728ce) done alert creation process
+- [b455eed2](https://github.com/appscode/cluster-ui/commit/b455eed2) merge into master with ci pull request
+- [277a5bb9](https://github.com/appscode/cluster-ui/commit/277a5bb9) remove linter error
+- [31381b30](https://github.com/appscode/cluster-ui/commit/31381b30) Merged in pg-backup (pull request #30)
+- [37c63898](https://github.com/appscode/cluster-ui/commit/37c63898) merge with master
+- [ecc837ce](https://github.com/appscode/cluster-ui/commit/ecc837ce) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into pg-backup
+- [19ff5927](https://github.com/appscode/cluster-ui/commit/19ff5927) merge with ci and remoce linter error
+- [e15bb8e3](https://github.com/appscode/cluster-ui/commit/e15bb8e3) merge with ci
+- [0d9d7129](https://github.com/appscode/cluster-ui/commit/0d9d7129) push tile work
+- [f23412e1](https://github.com/appscode/cluster-ui/commit/f23412e1) initiaize title view
+- [b16fe01e](https://github.com/appscode/cluster-ui/commit/b16fe01e) fix name camel case issue
+- [2ed0f378](https://github.com/appscode/cluster-ui/commit/2ed0f378) add default empty cluster list template
+- [400fd83a](https://github.com/appscode/cluster-ui/commit/400fd83a) Merged in pg-backup (pull request #29)
+- [58145c33](https://github.com/appscode/cluster-ui/commit/58145c33) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into pg-backup
+- [3d38ad5f](https://github.com/appscode/cluster-ui/commit/3d38ad5f) stop multiple view rendering
+- [eb512e88](https://github.com/appscode/cluster-ui/commit/eb512e88) added url hashchange global.route func
+- [e575bd51](https://github.com/appscode/cluster-ui/commit/e575bd51) add url change event
+- [6bd28319](https://github.com/appscode/cluster-ui/commit/6bd28319) add header hard code links
+- [e4002463](https://github.com/appscode/cluster-ui/commit/e4002463) remove credential deprecated route
+- [a6515236](https://github.com/appscode/cluster-ui/commit/a6515236) remove cluster create button card
+- [1ab42262](https://github.com/appscode/cluster-ui/commit/1ab42262) merge with css-glusterfs
+- [b0146d0f](https://github.com/appscode/cluster-ui/commit/b0146d0f) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard
+- [22504fb4](https://github.com/appscode/cluster-ui/commit/22504fb4) Merged in pg-backup (pull request #28)
+- [75ce9251](https://github.com/appscode/cluster-ui/commit/75ce9251) remove linter error
+- [ff3dd4cd](https://github.com/appscode/cluster-ui/commit/ff3dd4cd) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into pg-backup
+- [7f3be345](https://github.com/appscode/cluster-ui/commit/7f3be345) add empty list view
+- [70d5dbd5](https://github.com/appscode/cluster-ui/commit/70d5dbd5) remove unneccessary code
+- [e92e63d8](https://github.com/appscode/cluster-ui/commit/e92e63d8) complete alert creation form functionality
+- [41cb5822](https://github.com/appscode/cluster-ui/commit/41cb5822) add ssl into sidebar and fix apps alert form
+- [538427e1](https://github.com/appscode/cluster-ui/commit/538427e1) Fix conflicts
+- [2f7a0e43](https://github.com/appscode/cluster-ui/commit/2f7a0e43) Console output with codeMirror, job+build describe & deletion
+- [315acea1](https://github.com/appscode/cluster-ui/commit/315acea1) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard
+- [36d799de](https://github.com/appscode/cluster-ui/commit/36d799de) Merged in pg-backup (pull request #26)
+- [1ab72cc5](https://github.com/appscode/cluster-ui/commit/1ab72cc5) remove linter error and merge with master
+- [aceaffd1](https://github.com/appscode/cluster-ui/commit/aceaffd1) merge with pg-backup
+- [734e3dfd](https://github.com/appscode/cluster-ui/commit/734e3dfd) Merged in pg-backup (pull request #25)
+- [b6ffee95](https://github.com/appscode/cluster-ui/commit/b6ffee95) database restore for pg complete
+- [70bd97ea](https://github.com/appscode/cluster-ui/commit/70bd97ea) fix
+- [9ce886bc](https://github.com/appscode/cluster-ui/commit/9ce886bc) fix db details, restore/backup view
+- [24dff154](https://github.com/appscode/cluster-ui/commit/24dff154) remove linter error
+- [35a1dfbd](https://github.com/appscode/cluster-ui/commit/35a1dfbd) fix app details route
+- [c0e4d647](https://github.com/appscode/cluster-ui/commit/c0e4d647) fix
+- [6912a268](https://github.com/appscode/cluster-ui/commit/6912a268) fix credential modal-view delete
+- [e21ca831](https://github.com/appscode/cluster-ui/commit/e21ca831) fix credential modal-view update
+- [680cecee](https://github.com/appscode/cluster-ui/commit/680cecee) fix credential modal-view
+- [0ccbd07b](https://github.com/appscode/cluster-ui/commit/0ccbd07b) change phtkn for deploy
+- [d49eb22b](https://github.com/appscode/cluster-ui/commit/d49eb22b) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard
+- [d84f2932](https://github.com/appscode/cluster-ui/commit/d84f2932) Merged in tw-pharm-2 (pull request #24)
+- [33bad052](https://github.com/appscode/cluster-ui/commit/33bad052) ready for deploy
+- [15989616](https://github.com/appscode/cluster-ui/commit/15989616) ready for deploy
+- [345de149](https://github.com/appscode/cluster-ui/commit/345de149) remove main-elements redundancy
+- [10fc1e46](https://github.com/appscode/cluster-ui/commit/10fc1e46) Latest 5 builds, buids describe, sidebar, console output
+- [589a936d](https://github.com/appscode/cluster-ui/commit/589a936d) begin merge with tw-kube-dashboard
+- [b520e897](https://github.com/appscode/cluster-ui/commit/b520e897) added-all
+- [3f564896](https://github.com/appscode/cluster-ui/commit/3f564896) added-all
+- [d9ec35bb](https://github.com/appscode/cluster-ui/commit/d9ec35bb) added-all
+- [7f22c7e6](https://github.com/appscode/cluster-ui/commit/7f22c7e6) Fix Cookies loading and remove mailtest paths.
+- [0090d230](https://github.com/appscode/cluster-ui/commit/0090d230) working on job builds list show
+- [865e33cc](https://github.com/appscode/cluster-ui/commit/865e33cc) Merged in fix-js-errors (pull request #23)
+- [2c170b6c](https://github.com/appscode/cluster-ui/commit/2c170b6c) Fix js errors
+- [57f14bc1](https://github.com/appscode/cluster-ui/commit/57f14bc1) Merged in tw-kube-dashboard (pull request #17)
+- [8f3fb127](https://github.com/appscode/cluster-ui/commit/8f3fb127) Fix conflicts
+- [75f3bc81](https://github.com/appscode/cluster-ui/commit/75f3bc81) fix ci
+- [5c23ae9c](https://github.com/appscode/cluster-ui/commit/5c23ae9c) fix 29
+- [77b6dde7](https://github.com/appscode/cluster-ui/commit/77b6dde7) Remove js errors
+- [71490a8a](https://github.com/appscode/cluster-ui/commit/71490a8a) fix 29
+- [35ec54c6](https://github.com/appscode/cluster-ui/commit/35ec54c6) Add job list, job describe page
+- [7a7f2def](https://github.com/appscode/cluster-ui/commit/7a7f2def) remove $.ajax
+- [5607b66a](https://github.com/appscode/cluster-ui/commit/5607b66a) fix
+- [5698a07a](https://github.com/appscode/cluster-ui/commit/5698a07a) remove linter error
+- [f8309887](https://github.com/appscode/cluster-ui/commit/f8309887) fix merge issues
+- [c5f55bdd](https://github.com/appscode/cluster-ui/commit/c5f55bdd) Fix conflicts
+- [c0e53f2b](https://github.com/appscode/cluster-ui/commit/c0e53f2b) fix
+- [6f9bf463](https://github.com/appscode/cluster-ui/commit/6f9bf463) fix merge issues
+- [94702f62](https://github.com/appscode/cluster-ui/commit/94702f62) merge tw-pharm-2
+- [86d16bbf](https://github.com/appscode/cluster-ui/commit/86d16bbf) merger with css-glsterfs
+- [7a6c12df](https://github.com/appscode/cluster-ui/commit/7a6c12df) fix cluster node-set
+- [3c7896ee](https://github.com/appscode/cluster-ui/commit/3c7896ee) fix header
+- [1db45401](https://github.com/appscode/cluster-ui/commit/1db45401) fix cluster node-set ui
+- [2f46ac69](https://github.com/appscode/cluster-ui/commit/2f46ac69) add database backup secret temp
+- [0e498f3a](https://github.com/appscode/cluster-ui/commit/0e498f3a) whoami call complete
+- [814db234](https://github.com/appscode/cluster-ui/commit/814db234) fix header
+- [0f29ac9e](https://github.com/appscode/cluster-ui/commit/0f29ac9e) db breadcrumb navigation complete
+- [f2ef1669](https://github.com/appscode/cluster-ui/commit/f2ef1669) fix restore-backup breadcrumb and routing
+- [eee40765](https://github.com/appscode/cluster-ui/commit/eee40765) removes consoles from breadcrumb
+- [6a0b05a7](https://github.com/appscode/cluster-ui/commit/6a0b05a7) fix db sidebar
+- [36687c48](https://github.com/appscode/cluster-ui/commit/36687c48) fix db add
+- [a64dbac8](https://github.com/appscode/cluster-ui/commit/a64dbac8) fix db add
+- [6a608cee](https://github.com/appscode/cluster-ui/commit/6a608cee) fix db cluster select issue
+- [e7f64efd](https://github.com/appscode/cluster-ui/commit/e7f64efd) fix breadcrumb
+- [a7003b32](https://github.com/appscode/cluster-ui/commit/a7003b32) fix apps-section tree
+- [0de26ca0](https://github.com/appscode/cluster-ui/commit/0de26ca0) fix apps-section tree
+- [1c1d10b5](https://github.com/appscode/cluster-ui/commit/1c1d10b5) fix breadcrumb.json bug
+- [167eafc8](https://github.com/appscode/cluster-ui/commit/167eafc8) Convert $.ajax -> global.ajaxCall, fix wrong template replace/append issue with url
+- [39d2d534](https://github.com/appscode/cluster-ui/commit/39d2d534) fix bread-crumb
+- [9a54e2e7](https://github.com/appscode/cluster-ui/commit/9a54e2e7) restore form restore list
+- [2f62d68e](https://github.com/appscode/cluster-ui/commit/2f62d68e) Merge branch 'tw-kube-dashboard' of bitbucket.org:thetigerworks/dashboard into tw-pharm-db
+- [560fa2bd](https://github.com/appscode/cluster-ui/commit/560fa2bd) complete es part
+- [2a5eec57](https://github.com/appscode/cluster-ui/commit/2a5eec57) fix
+- [10fb347a](https://github.com/appscode/cluster-ui/commit/10fb347a) Fix duplicate ns, space after comma(,)
+- [c9e13fe2](https://github.com/appscode/cluster-ui/commit/c9e13fe2) merge with ssl
+- [ee5265cb](https://github.com/appscode/cluster-ui/commit/ee5265cb) merge with tw-pharm-db
+- [d2c8b362](https://github.com/appscode/cluster-ui/commit/d2c8b362) change db ui
+- [25bc606f](https://github.com/appscode/cluster-ui/commit/25bc606f) css change
+- [dbe3b5b7](https://github.com/appscode/cluster-ui/commit/dbe3b5b7) Romove /api, Working ssl list show, describe, deploy, delete
+- [ad323e97](https://github.com/appscode/cluster-ui/commit/ad323e97) css change
+- [82be91bd](https://github.com/appscode/cluster-ui/commit/82be91bd) es restore-backup complete
+- [5982985a](https://github.com/appscode/cluster-ui/commit/5982985a) fix multiple view append
+- [6ee1461b](https://github.com/appscode/cluster-ui/commit/6ee1461b) db-delete functionality
+- [ab020de9](https://github.com/appscode/cluster-ui/commit/ab020de9) fix cluter name issue
+- [96bd63e4](https://github.com/appscode/cluster-ui/commit/96bd63e4) remove linter error
+- [5b43fbcb](https://github.com/appscode/cluster-ui/commit/5b43fbcb) fix conflict
+- [0bf83365](https://github.com/appscode/cluster-ui/commit/0bf83365) Merge branch 'tw-kube-dashboard' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [44660bf4](https://github.com/appscode/cluster-ui/commit/44660bf4) fix conflict
+- [869e0067](https://github.com/appscode/cluster-ui/commit/869e0067) merge with tw-hanif-pharm
+- [3128eedf](https://github.com/appscode/cluster-ui/commit/3128eedf) Done ssl list show, describe, deploy, delete
+- [ae82128f](https://github.com/appscode/cluster-ui/commit/ae82128f) Merged in add-schema (pull request #20)
+- [b648f487](https://github.com/appscode/cluster-ui/commit/b648f487) Add json schema
+- [9884c556](https://github.com/appscode/cluster-ui/commit/9884c556) Ssl list show, describe, deploy, import page template
+- [486a561f](https://github.com/appscode/cluster-ui/commit/486a561f) added-all
+- [7c870271](https://github.com/appscode/cluster-ui/commit/7c870271) Add routes, views, templates for ssl 4 pages (list show, describe, deploy, import)
+- [ad7c4b19](https://github.com/appscode/cluster-ui/commit/ad7c4b19) fix restore-backup page
+- [b5f686bc](https://github.com/appscode/cluster-ui/commit/b5f686bc) integrate cluster delete-update button with cluster details page
+- [169a39de](https://github.com/appscode/cluster-ui/commit/169a39de) remove cluster delete-update button
+- [556b46bd](https://github.com/appscode/cluster-ui/commit/556b46bd) Fix conflicts
+- [6d0d66a0](https://github.com/appscode/cluster-ui/commit/6d0d66a0) render bucket-list
+- [95c64157](https://github.com/appscode/cluster-ui/commit/95c64157) merge config-maps
+- [d94332c7](https://github.com/appscode/cluster-ui/commit/d94332c7) added-all
+- [5e851666](https://github.com/appscode/cluster-ui/commit/5e851666) added-all
+- [04737c61](https://github.com/appscode/cluster-ui/commit/04737c61) Done all, Fix `Copied` tooltip, Show/Hide secrets etc.
+- [bdcc52c0](https://github.com/appscode/cluster-ui/commit/bdcc52c0) database backup pop up
+- [e506d8eb](https://github.com/appscode/cluster-ui/commit/e506d8eb) Done configMaps describe, secret describe, clipboard.js ,codeMirror
+- [6fe3093b](https://github.com/appscode/cluster-ui/commit/6fe3093b) fix modal issue
+- [1a5c2639](https://github.com/appscode/cluster-ui/commit/1a5c2639) refine db restore/backup list
+- [c96314ca](https://github.com/appscode/cluster-ui/commit/c96314ca) refine db restore/backup list
+- [050491af](https://github.com/appscode/cluster-ui/commit/050491af) Fix conflicts
+- [e6b6b410](https://github.com/appscode/cluster-ui/commit/e6b6b410) Fix conflicts
+- [40c3f97f](https://github.com/appscode/cluster-ui/commit/40c3f97f) pnle fix
+- [679785fd](https://github.com/appscode/cluster-ui/commit/679785fd) Done configMaps describe, secret describe, clipboard.js ,codeMirror
+- [539fa15a](https://github.com/appscode/cluster-ui/commit/539fa15a) db details kube infos
+- [6ccfb9f3](https://github.com/appscode/cluster-ui/commit/6ccfb9f3) Fix conflicts
+- [49bb334a](https://github.com/appscode/cluster-ui/commit/49bb334a) Done configMaps describe, secret describe, clipboard.js ,codeMirror
+- [39407c0e](https://github.com/appscode/cluster-ui/commit/39407c0e) add grafana icinga kibana url
+- [4808afbd](https://github.com/appscode/cluster-ui/commit/4808afbd) merge with css-glusterfs with new restore/backup list ui
+- [990486e2](https://github.com/appscode/cluster-ui/commit/990486e2) added-all
+- [a31123dd](https://github.com/appscode/cluster-ui/commit/a31123dd) Fix
+- [1a2dbb80](https://github.com/appscode/cluster-ui/commit/1a2dbb80) fix hostory bd
+- [1ba008e3](https://github.com/appscode/cluster-ui/commit/1ba008e3) fix hostory bd
+- [2e0f5ff2](https://github.com/appscode/cluster-ui/commit/2e0f5ff2) fix cc
+- [7694114c](https://github.com/appscode/cluster-ui/commit/7694114c) cluster delete
+- [5b3d8ee0](https://github.com/appscode/cluster-ui/commit/5b3d8ee0) Merge remote-tracking branch 'origin/config-maps' into css-glusterfs
+- [5d350767](https://github.com/appscode/cluster-ui/commit/5d350767) ConfigMaps describe, clipboard.js ,codeMirror.
+- [e30c76c1](https://github.com/appscode/cluster-ui/commit/e30c76c1) Merge remote-tracking branch 'origin/config-maps' into css-glusterfs
+- [a62e468a](https://github.com/appscode/cluster-ui/commit/a62e468a) ConfigMaps, Secrets pages.
+- [e4a10740](https://github.com/appscode/cluster-ui/commit/e4a10740) add cluster creation machine-name(json)
+- [7d03af0d](https://github.com/appscode/cluster-ui/commit/7d03af0d) database restore-backup
+- [7d7142bb](https://github.com/appscode/cluster-ui/commit/7d7142bb) added ga
+- [d01f818e](https://github.com/appscode/cluster-ui/commit/d01f818e) merge with css-glusterfs
+- [e2f07cba](https://github.com/appscode/cluster-ui/commit/e2f07cba) fix glusterfs page
+- [a71d6573](https://github.com/appscode/cluster-ui/commit/a71d6573) use toastr for notification
+- [0c9ada4e](https://github.com/appscode/cluster-ui/commit/0c9ada4e) notification hide add
+- [58365bd6](https://github.com/appscode/cluster-ui/commit/58365bd6) fix glusterfs page
+- [a4f2f293](https://github.com/appscode/cluster-ui/commit/a4f2f293) refine notification list view
+- [0a994f6a](https://github.com/appscode/cluster-ui/commit/0a994f6a) merge with config-maps
+- [62a05c21](https://github.com/appscode/cluster-ui/commit/62a05c21) merge with css-glusterfs
+- [86fbfc49](https://github.com/appscode/cluster-ui/commit/86fbfc49) backup restore apis complete
+- [06942793](https://github.com/appscode/cluster-ui/commit/06942793) elastic search complete
+- [d5bbd360](https://github.com/appscode/cluster-ui/commit/d5bbd360) fix
+- [ae13836d](https://github.com/appscode/cluster-ui/commit/ae13836d) fix ci page
+- [08ee4a5a](https://github.com/appscode/cluster-ui/commit/08ee4a5a) Fix ci.app.js all js errors
+- [43618c00](https://github.com/appscode/cluster-ui/commit/43618c00) Fix conflicts
+- [44e9753b](https://github.com/appscode/cluster-ui/commit/44e9753b) Fix auth.url, auth.token etc
+- [a50383de](https://github.com/appscode/cluster-ui/commit/a50383de) fix ci page
+- [25fc1ea8](https://github.com/appscode/cluster-ui/commit/25fc1ea8) Modify database page view
+- [7d5671fa](https://github.com/appscode/cluster-ui/commit/7d5671fa) db-details api call complete
+- [e5d33c72](https://github.com/appscode/cluster-ui/commit/e5d33c72) db details complete
+- [f429525a](https://github.com/appscode/cluster-ui/commit/f429525a) Merge branch 'tw-kube-dashboard' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [cfaefb46](https://github.com/appscode/cluster-ui/commit/cfaefb46) db details complete
+- [4808065c](https://github.com/appscode/cluster-ui/commit/4808065c) Fix pharm, auth
+- [875aeb5e](https://github.com/appscode/cluster-ui/commit/875aeb5e) Modify auth.js
+- [c3ef7782](https://github.com/appscode/cluster-ui/commit/c3ef7782) added-all
+- [09292049](https://github.com/appscode/cluster-ui/commit/09292049) db details page
+- [853a57ea](https://github.com/appscode/cluster-ui/commit/853a57ea) Modify auth.js
+- [94c12613](https://github.com/appscode/cluster-ui/commit/94c12613) Merge branch 'tw-kube-dashboard' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [66105a35](https://github.com/appscode/cluster-ui/commit/66105a35) added-all
+- [d4ec43e6](https://github.com/appscode/cluster-ui/commit/d4ec43e6) added-all
+- [f1ee8ff6](https://github.com/appscode/cluster-ui/commit/f1ee8ff6) Merge branch 'tw-kube-dashboard' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [59bf3371](https://github.com/appscode/cluster-ui/commit/59bf3371) Fix showing `Register PV` when only pvc exits.
+- [c945a75c](https://github.com/appscode/cluster-ui/commit/c945a75c) added-all
+- [f0bef041](https://github.com/appscode/cluster-ui/commit/f0bef041) Merge branch 'tw-kube-dashboard' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [7e1de884](https://github.com/appscode/cluster-ui/commit/7e1de884) added-all
+- [42fb5975](https://github.com/appscode/cluster-ui/commit/42fb5975) Merge branch 'tw-kube-dashboard' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [ab4f6815](https://github.com/appscode/cluster-ui/commit/ab4f6815) bring back token parsing.
+- [f542282e](https://github.com/appscode/cluster-ui/commit/f542282e) style change creat db
+- [550bd69e](https://github.com/appscode/cluster-ui/commit/550bd69e) style change creat db
+- [797b9f69](https://github.com/appscode/cluster-ui/commit/797b9f69) added-all
+- [8655f4f7](https://github.com/appscode/cluster-ui/commit/8655f4f7) added-all
+- [efc920eb](https://github.com/appscode/cluster-ui/commit/efc920eb) db details
+- [5154f174](https://github.com/appscode/cluster-ui/commit/5154f174) style change creat db
+- [0ce31354](https://github.com/appscode/cluster-ui/commit/0ce31354) ready to deploy
+- [7398a6c2](https://github.com/appscode/cluster-ui/commit/7398a6c2) Merge branch 'tw-kube-dashboard' of bitbucket.org:thetigerworks/dashboard into css-modify-2
+- [3e315c90](https://github.com/appscode/cluster-ui/commit/3e315c90) refactor POST, PUT request
+- [9f516b00](https://github.com/appscode/cluster-ui/commit/9f516b00) css fix W-15 3
+- [222d46fc](https://github.com/appscode/cluster-ui/commit/222d46fc) Fix js errors of glusterfs page
+- [374fab91](https://github.com/appscode/cluster-ui/commit/374fab91) Merge branch 'tw-kube-dashboard' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [c046a868](https://github.com/appscode/cluster-ui/commit/c046a868) added-all
+- [f60f5817](https://github.com/appscode/cluster-ui/commit/f60f5817) Done gfs cluster list show, create, delete, volumes list show, create, delete
+- [3bc5e8b7](https://github.com/appscode/cluster-ui/commit/3bc5e8b7) added-all
+- [b45c9653](https://github.com/appscode/cluster-ui/commit/b45c9653) added-all
+- [3ec03a35](https://github.com/appscode/cluster-ui/commit/3ec03a35) refactor POST, PUT request
+- [46472067](https://github.com/appscode/cluster-ui/commit/46472067) css fix W-15 2
+- [ab3ca1b0](https://github.com/appscode/cluster-ui/commit/ab3ca1b0) Fix
+- [3fbb6759](https://github.com/appscode/cluster-ui/commit/3fbb6759) Move static assets to appscode-assets folder
+- [a9632a9e](https://github.com/appscode/cluster-ui/commit/a9632a9e) refactor POST, PUT request
+- [ae68bd87](https://github.com/appscode/cluster-ui/commit/ae68bd87) css fix W-15 2
+- [2d386145](https://github.com/appscode/cluster-ui/commit/2d386145) cluster update
+- [caf58871](https://github.com/appscode/cluster-ui/commit/caf58871) Merge branch 'css-modify-2' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [ccc52f3d](https://github.com/appscode/cluster-ui/commit/ccc52f3d) css fix W-15 2
+- [f283066a](https://github.com/appscode/cluster-ui/commit/f283066a) Merge branch 'tw-kube-dashboard' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [7bb8940e](https://github.com/appscode/cluster-ui/commit/7bb8940e) cluster update
+- [e6aefc02](https://github.com/appscode/cluster-ui/commit/e6aefc02) css fix W-15 2
+- [d194e967](https://github.com/appscode/cluster-ui/commit/d194e967) cluster update
+- [0eb8ea5e](https://github.com/appscode/cluster-ui/commit/0eb8ea5e) auth token
+- [5cace678](https://github.com/appscode/cluster-ui/commit/5cace678) refactor ajax-delete
+- [ff13a3db](https://github.com/appscode/cluster-ui/commit/ff13a3db) css fix W-15 2
+- [e710117c](https://github.com/appscode/cluster-ui/commit/e710117c) refactor ajax-delete
+- [6106117f](https://github.com/appscode/cluster-ui/commit/6106117f) cluster delete
+- [73148337](https://github.com/appscode/cluster-ui/commit/73148337) refinement of db-list
+- [31073ec8](https://github.com/appscode/cluster-ui/commit/31073ec8) css fix W-15 1
+- [0e1d6eac](https://github.com/appscode/cluster-ui/commit/0e1d6eac) db filter
+- [b3d77bb2](https://github.com/appscode/cluster-ui/commit/b3d77bb2) Merge branch 'css-modify-2' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [c6f77cca](https://github.com/appscode/cluster-ui/commit/c6f77cca) css fix W-15
+- [0218b319](https://github.com/appscode/cluster-ui/commit/0218b319) uniform get request
+- [ee4622bd](https://github.com/appscode/cluster-ui/commit/ee4622bd) css fix W-15
+- [8f88e6ea](https://github.com/appscode/cluster-ui/commit/8f88e6ea) uniform get request
+- [70160b9c](https://github.com/appscode/cluster-ui/commit/70160b9c) uniform get request
+- [c56d04f7](https://github.com/appscode/cluster-ui/commit/c56d04f7) uniform ajax call
+- [b8b9af9d](https://github.com/appscode/cluster-ui/commit/b8b9af9d) db filter button complete
+- [3bc91592](https://github.com/appscode/cluster-ui/commit/3bc91592) GlusterFS list show, create cluster
+- [3f74421d](https://github.com/appscode/cluster-ui/commit/3f74421d) add filter button
+- [20cecfe6](https://github.com/appscode/cluster-ui/commit/20cecfe6) add filter button
+- [84c4a37e](https://github.com/appscode/cluster-ui/commit/84c4a37e) css fix W-15
+- [be12b16b](https://github.com/appscode/cluster-ui/commit/be12b16b) GlusterFS list show, create cluster
+- [d75b3175](https://github.com/appscode/cluster-ui/commit/d75b3175) Fix conflicts
+- [e495ef39](https://github.com/appscode/cluster-ui/commit/e495ef39) Merge branch content_web
+- [e2f43466](https://github.com/appscode/cluster-ui/commit/e2f43466) Merge branch content_web
+- [3b14a92a](https://github.com/appscode/cluster-ui/commit/3b14a92a) move to pharm
+- [727d7daa](https://github.com/appscode/cluster-ui/commit/727d7daa) Merge branch 'tw-kube-dashboard' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [356954a1](https://github.com/appscode/cluster-ui/commit/356954a1) remove conflict
+- [7c5a2a58](https://github.com/appscode/cluster-ui/commit/7c5a2a58) read session token and hostname
+- [cf883b0b](https://github.com/appscode/cluster-ui/commit/cf883b0b) remove conflict
+- [f252f62f](https://github.com/appscode/cluster-ui/commit/f252f62f) remove conflict
+- [85a244eb](https://github.com/appscode/cluster-ui/commit/85a244eb) Fix
+- [7052e779](https://github.com/appscode/cluster-ui/commit/7052e779) uniform ajax call
+- [04227c8b](https://github.com/appscode/cluster-ui/commit/04227c8b) rows gce secret
+- [95f91fb0](https://github.com/appscode/cluster-ui/commit/95f91fb0) fix breadcrumbs
+- [e9c405fb](https://github.com/appscode/cluster-ui/commit/e9c405fb) fix breadcrumbs
+- [3d754668](https://github.com/appscode/cluster-ui/commit/3d754668) restore es list
+- [53084950](https://github.com/appscode/cluster-ui/commit/53084950) restore es
+- [ebb412b3](https://github.com/appscode/cluster-ui/commit/ebb412b3) Rename all urls, templates, *.js files (volumes->disks)
+- [6747a37d](https://github.com/appscode/cluster-ui/commit/6747a37d) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [7301e3e9](https://github.com/appscode/cluster-ui/commit/7301e3e9) Merge branch 'master' of bitbucket.org:thetigerworks/dashboard into tw-kube-dashboard
+- [9a0f434e](https://github.com/appscode/cluster-ui/commit/9a0f434e) Add delete confirmation, disk/pv create page, localstorage, etc
+- [59d0644e](https://github.com/appscode/cluster-ui/commit/59d0644e) fix linter error
+- [01f79745](https://github.com/appscode/cluster-ui/commit/01f79745) fix linter error
+- [ea8a75d3](https://github.com/appscode/cluster-ui/commit/ea8a75d3) db restore complete
+- [64df0b90](https://github.com/appscode/cluster-ui/commit/64df0b90) test
+- [6a63425a](https://github.com/appscode/cluster-ui/commit/6a63425a) db snapshot: db_name cluster_name
+- [824e73ab](https://github.com/appscode/cluster-ui/commit/824e73ab) fix linter error
+- [9da3341e](https://github.com/appscode/cluster-ui/commit/9da3341e) Done all, fix routing.
+- [ec4f65ed](https://github.com/appscode/cluster-ui/commit/ec4f65ed) fix linter error
+- [78fe9ab3](https://github.com/appscode/cluster-ui/commit/78fe9ab3) Fix conflicts
+- [8623df27](https://github.com/appscode/cluster-ui/commit/8623df27) All operations of disk, pv, pvc are working.
+- [7c99b8a5](https://github.com/appscode/cluster-ui/commit/7c99b8a5) modify job list
+- [9bc8eadc](https://github.com/appscode/cluster-ui/commit/9bc8eadc) db snapshot-list complete
+- [714a052f](https://github.com/appscode/cluster-ui/commit/714a052f) db snapshot-list
+- [8a94fbc1](https://github.com/appscode/cluster-ui/commit/8a94fbc1) backup force complete
+- [870db5bb](https://github.com/appscode/cluster-ui/commit/870db5bb) backup response message
+- [b2dfdabe](https://github.com/appscode/cluster-ui/commit/b2dfdabe) backup complete
+- [f3394f7d](https://github.com/appscode/cluster-ui/commit/f3394f7d) Style fixes.
+- [0fbacfd1](https://github.com/appscode/cluster-ui/commit/0fbacfd1) Use gulp-clean-css instead of deprecated gulp-minify-css
+- [33039ae8](https://github.com/appscode/cluster-ui/commit/33039ae8) Merged in working-version-for-DB-cluster (pull request #15)
+- [7d7ace6a](https://github.com/appscode/cluster-ui/commit/7d7ace6a) backup db comlete
+- [4940f561](https://github.com/appscode/cluster-ui/commit/4940f561) backup db
+- [e1bcbe90](https://github.com/appscode/cluster-ui/commit/e1bcbe90) add status response
+- [5a1c4472](https://github.com/appscode/cluster-ui/commit/5a1c4472) db create and delete
+- [7c17c4ce](https://github.com/appscode/cluster-ui/commit/7c17c4ce) modify db creation form
+- [04ae9555](https://github.com/appscode/cluster-ui/commit/04ae9555) fix lint-error
+- [807da119](https://github.com/appscode/cluster-ui/commit/807da119) fix postgres-arc
+- [9cb536f3](https://github.com/appscode/cluster-ui/commit/9cb536f3) db form
+- [36a6bd56](https://github.com/appscode/cluster-ui/commit/36a6bd56) credential create
+- [6b4f7bf6](https://github.com/appscode/cluster-ui/commit/6b4f7bf6) Combined page and disk describe done
+- [148d1713](https://github.com/appscode/cluster-ui/commit/148d1713) add modal view
+- [6815cc94](https://github.com/appscode/cluster-ui/commit/6815cc94) add modal view
+- [15297b25](https://github.com/appscode/cluster-ui/commit/15297b25) add modal view
+- [c7e6b1db](https://github.com/appscode/cluster-ui/commit/c7e6b1db) database form view
+- [cb7c09ed](https://github.com/appscode/cluster-ui/commit/cb7c09ed) Combined page done with arrow
+- [94e16626](https://github.com/appscode/cluster-ui/commit/94e16626) database form view
+- [741d6ca7](https://github.com/appscode/cluster-ui/commit/741d6ca7) all apis complete
+- [3579b76c](https://github.com/appscode/cluster-ui/commit/3579b76c) fixing alert creation form
+- [084fbff8](https://github.com/appscode/cluster-ui/commit/084fbff8) fixing alert creation form
+- [521454bb](https://github.com/appscode/cluster-ui/commit/521454bb) fixing alert creation form
+- [456c4881](https://github.com/appscode/cluster-ui/commit/456c4881) fixing alert creation form
+- [a06d0195](https://github.com/appscode/cluster-ui/commit/a06d0195) change app details template
+- [c70ce00c](https://github.com/appscode/cluster-ui/commit/c70ce00c) fix routing
+- [5c397e24](https://github.com/appscode/cluster-ui/commit/5c397e24) fix routing
+- [814e912b](https://github.com/appscode/cluster-ui/commit/814e912b) Delete disk, fix js error, status color, create pv, dynamically changing state and vertical option
+- [e490f498](https://github.com/appscode/cluster-ui/commit/e490f498) new apis dashboard
+- [c8783ed4](https://github.com/appscode/cluster-ui/commit/c8783ed4) new apis dashboard
+- [01671fc6](https://github.com/appscode/cluster-ui/commit/01671fc6) done integration between gulpfile and json-schema
+- [5924c972](https://github.com/appscode/cluster-ui/commit/5924c972) done integration between gulpfile and json-schema
+- [60a7e18d](https://github.com/appscode/cluster-ui/commit/60a7e18d) remove extra input field
+- [fdec0c24](https://github.com/appscode/cluster-ui/commit/fdec0c24) Combined page, show name depending on state, disk creation working.
+- [0cc58755](https://github.com/appscode/cluster-ui/commit/0cc58755) json-schema with edited gulpfile
+- [97b6f843](https://github.com/appscode/cluster-ui/commit/97b6f843) json-schema with edited gulpfile
+- [45214463](https://github.com/appscode/cluster-ui/commit/45214463) json-schema added
+- [a57f8ec3](https://github.com/appscode/cluster-ui/commit/a57f8ec3) voliumes  page fix 3
+- [c1f1c9ef](https://github.com/appscode/cluster-ui/commit/c1f1c9ef) merged with css-modify
+- [e101b78b](https://github.com/appscode/cluster-ui/commit/e101b78b) add new data field for cluster create
+- [19d880ed](https://github.com/appscode/cluster-ui/commit/19d880ed) add new data field for cluster create
+- [28b7dbc2](https://github.com/appscode/cluster-ui/commit/28b7dbc2) Merge branch 'working-version-for-DB-cluster' of bitbucket.org:thetigerworks/dashboard into working-version-for-DB-cluster
+- [fd56f57f](https://github.com/appscode/cluster-ui/commit/fd56f57f) add new PHID Type
+- [c20891b7](https://github.com/appscode/cluster-ui/commit/c20891b7) fix
+- [31031959](https://github.com/appscode/cluster-ui/commit/31031959) Disk list show, create and delete working
+- [b73970ea](https://github.com/appscode/cluster-ui/commit/b73970ea) refine cluster apis
+- [e9a1c2a7](https://github.com/appscode/cluster-ui/commit/e9a1c2a7) refine cluster apis
+- [b980605d](https://github.com/appscode/cluster-ui/commit/b980605d) refine cluster apis
+- [bfdc24c9](https://github.com/appscode/cluster-ui/commit/bfdc24c9) refine cluster apis
+- [a1a6c0e2](https://github.com/appscode/cluster-ui/commit/a1a6c0e2) refine cluster apis
+- [c6677453](https://github.com/appscode/cluster-ui/commit/c6677453) refine cluster apis
+- [0adb4aa4](https://github.com/appscode/cluster-ui/commit/0adb4aa4) refine cluster apis
+- [35f3a22b](https://github.com/appscode/cluster-ui/commit/35f3a22b) refine DB apis
+- [73a38c7c](https://github.com/appscode/cluster-ui/commit/73a38c7c) refine DB apis
+- [b99af4c7](https://github.com/appscode/cluster-ui/commit/b99af4c7) refine DB apis
+- [00aba9b3](https://github.com/appscode/cluster-ui/commit/00aba9b3) refine DB apis
+- [64926aa7](https://github.com/appscode/cluster-ui/commit/64926aa7) refine DB apis
+- [c54b4b20](https://github.com/appscode/cluster-ui/commit/c54b4b20) refine DB list
+- [6eb71696](https://github.com/appscode/cluster-ui/commit/6eb71696) refine DB list
+- [6cffd739](https://github.com/appscode/cluster-ui/commit/6cffd739) fix tooltip all page
+- [1aadf157](https://github.com/appscode/cluster-ui/commit/1aadf157) Disk creation working
+- [45192efa](https://github.com/appscode/cluster-ui/commit/45192efa) fix tooltip
+- [e3e16e6f](https://github.com/appscode/cluster-ui/commit/e3e16e6f) Merge branch 'css-modify' of bitbucket.org:thetigerworks/dashboard into add-volumes
+- [bdd1dce6](https://github.com/appscode/cluster-ui/commit/bdd1dce6) Merge branch 'add-volumes' of bitbucket.org:thetigerworks/dashboard into css-modify
+- [69c8fc31](https://github.com/appscode/cluster-ui/commit/69c8fc31) Show disk table data
+- [8698de57](https://github.com/appscode/cluster-ui/commit/8698de57) c
+- [8cd36682](https://github.com/appscode/cluster-ui/commit/8cd36682) Merge branch 'css-modify' of bitbucket.org:thetigerworks/dashboard into add-volumes
+- [95e55f35](https://github.com/appscode/cluster-ui/commit/95e55f35) Working on disks
+- [621ea403](https://github.com/appscode/cluster-ui/commit/621ea403) fix slimscroll method
+- [68b91ecb](https://github.com/appscode/cluster-ui/commit/68b91ecb) Merge branch 'css-modify' of bitbucket.org:thetigerworks/dashboard into add-volumes
+- [728459a5](https://github.com/appscode/cluster-ui/commit/728459a5) btn fix
+- [1232bdcd](https://github.com/appscode/cluster-ui/commit/1232bdcd) Merge branch 'css-modify' of bitbucket.org:thetigerworks/dashboard into add-volumes
+- [a5f94f89](https://github.com/appscode/cluster-ui/commit/a5f94f89) Working clusters, volumes
+- [7b6a1427](https://github.com/appscode/cluster-ui/commit/7b6a1427) Fix api url
+- [d73470dd](https://github.com/appscode/cluster-ui/commit/d73470dd)  js modify V2
+- [2d42f025](https://github.com/appscode/cluster-ui/commit/2d42f025) js modify V1
+- [e844b2e4](https://github.com/appscode/cluster-ui/commit/e844b2e4) js modify
+- [dd434beb](https://github.com/appscode/cluster-ui/commit/dd434beb) fix css V3
+- [69af7c0f](https://github.com/appscode/cluster-ui/commit/69af7c0f) removed css v2
+- [d0eb88a2](https://github.com/appscode/cluster-ui/commit/d0eb88a2)  removed css
+- [aae3d81e](https://github.com/appscode/cluster-ui/commit/aae3d81e)  removed css
+- [8b730399](https://github.com/appscode/cluster-ui/commit/8b730399)  removed top notifications
+- [d7460d6d](https://github.com/appscode/cluster-ui/commit/d7460d6d) with up and running database
+- [de62fea8](https://github.com/appscode/cluster-ui/commit/de62fea8)  start cleaner css
+- [132842ff](https://github.com/appscode/cluster-ui/commit/132842ff) Modify gulpfile and cleanup
+- [b10436e8](https://github.com/appscode/cluster-ui/commit/b10436e8) Modify gulpfile and cleanup
+- [cd5d8e39](https://github.com/appscode/cluster-ui/commit/cd5d8e39) split dashboard, ci
+- [a5fc8f39](https://github.com/appscode/cluster-ui/commit/a5fc8f39) Merged in new_ci (pull request #13)
+- [8cfeda13](https://github.com/appscode/cluster-ui/commit/8cfeda13) fix url
+- [a9754753](https://github.com/appscode/cluster-ui/commit/a9754753) Add css
+- [e6d30e61](https://github.com/appscode/cluster-ui/commit/e6d30e61) Remove js errors, add loader while deleting or restarting ci agent.
+- [a2d98eef](https://github.com/appscode/cluster-ui/commit/a2d98eef) Merged in new_ci (pull request #12)
+- [df084365](https://github.com/appscode/cluster-ui/commit/df084365) fix
+- [2a8cc198](https://github.com/appscode/cluster-ui/commit/2a8cc198) Update bootstrap theme
+- [502fba9a](https://github.com/appscode/cluster-ui/commit/502fba9a) Fix slider img
+- [ff2be4b9](https://github.com/appscode/cluster-ui/commit/ff2be4b9) Implement ci pages in Dashboard
+- [21d1d898](https://github.com/appscode/cluster-ui/commit/21d1d898) Merged in gulp_fix (pull request #11)
+- [de556647](https://github.com/appscode/cluster-ui/commit/de556647) added-all
+- [79933a80](https://github.com/appscode/cluster-ui/commit/79933a80) added-all
+- [1d419c57](https://github.com/appscode/cluster-ui/commit/1d419c57) added-all
+- [49bdf6da](https://github.com/appscode/cluster-ui/commit/49bdf6da) added-all
+- [a70e6c1e](https://github.com/appscode/cluster-ui/commit/a70e6c1e) added-all
+- [cfe66f4b](https://github.com/appscode/cluster-ui/commit/cfe66f4b) Fix
+- [227274b3](https://github.com/appscode/cluster-ui/commit/227274b3) Fix Gulp build files.
+- [5f148213](https://github.com/appscode/cluster-ui/commit/5f148213) added-all
+- [06e6d7ff](https://github.com/appscode/cluster-ui/commit/06e6d7ff) ready for prod
+- [6d20f57b](https://github.com/appscode/cluster-ui/commit/6d20f57b) remove unnecessary code
+- [e892697f](https://github.com/appscode/cluster-ui/commit/e892697f) remove unnecessary code
+- [8dd94622](https://github.com/appscode/cluster-ui/commit/8dd94622) remove unnecessary code
+- [0de9556e](https://github.com/appscode/cluster-ui/commit/0de9556e) remove unnecessary code
+- [3051191b](https://github.com/appscode/cluster-ui/commit/3051191b) eslint
+- [4307b73a](https://github.com/appscode/cluster-ui/commit/4307b73a) eslint
+- [86304442](https://github.com/appscode/cluster-ui/commit/86304442) eslint
+- [84a896f3](https://github.com/appscode/cluster-ui/commit/84a896f3) eslint
+- [0a0e3db5](https://github.com/appscode/cluster-ui/commit/0a0e3db5) eslint
+- [55a8927c](https://github.com/appscode/cluster-ui/commit/55a8927c) eslint
+- [46aaa0e7](https://github.com/appscode/cluster-ui/commit/46aaa0e7) eslint
+- [bdf72d8d](https://github.com/appscode/cluster-ui/commit/bdf72d8d) eslint
+- [a172b130](https://github.com/appscode/cluster-ui/commit/a172b130) added new cluster-list page
+- [337c4744](https://github.com/appscode/cluster-ui/commit/337c4744) added new cluster-list page
+- [a4f32699](https://github.com/appscode/cluster-ui/commit/a4f32699) added new cluster-list page
+- [b70ac5a8](https://github.com/appscode/cluster-ui/commit/b70ac5a8) added new cluster-list page
+- [fff09449](https://github.com/appscode/cluster-ui/commit/fff09449) added new cluster-list page
+- [cce3f46c](https://github.com/appscode/cluster-ui/commit/cce3f46c) added new cluster-list page
+- [e8829d3e](https://github.com/appscode/cluster-ui/commit/e8829d3e) adding token to json file
+- [294c05af](https://github.com/appscode/cluster-ui/commit/294c05af) adding token to json file
+- [774f47f7](https://github.com/appscode/cluster-ui/commit/774f47f7) redesign some works
+- [98be9b56](https://github.com/appscode/cluster-ui/commit/98be9b56) im
+- [61e71067](https://github.com/appscode/cluster-ui/commit/61e71067) new cluster details page
+- [32216ece](https://github.com/appscode/cluster-ui/commit/32216ece) new cluster details page
+- [c5650df5](https://github.com/appscode/cluster-ui/commit/c5650df5) add alert creation form
+- [076038d2](https://github.com/appscode/cluster-ui/commit/076038d2) add alert creation form
+- [01dfd5a2](https://github.com/appscode/cluster-ui/commit/01dfd5a2) add alert creation form
+- [27d09110](https://github.com/appscode/cluster-ui/commit/27d09110) add alert creation form
+- [efbaac39](https://github.com/appscode/cluster-ui/commit/efbaac39) add alert creation form
+- [5e1ead62](https://github.com/appscode/cluster-ui/commit/5e1ead62) refine
+- [e0514edd](https://github.com/appscode/cluster-ui/commit/e0514edd) refine
+- [10022014](https://github.com/appscode/cluster-ui/commit/10022014) refine
+- [7d20bdb9](https://github.com/appscode/cluster-ui/commit/7d20bdb9) working breadcrumb url
+- [1e2731b1](https://github.com/appscode/cluster-ui/commit/1e2731b1) working breadcrumb url
+- [32d3b28e](https://github.com/appscode/cluster-ui/commit/32d3b28e) working breadcrumb url
+- [12e36b85](https://github.com/appscode/cluster-ui/commit/12e36b85) card-view to list-view
+- [28d2045a](https://github.com/appscode/cluster-ui/commit/28d2045a) card-view to list-view
+- [fe356053](https://github.com/appscode/cluster-ui/commit/fe356053) card-view to list-view
+- [0f0480ef](https://github.com/appscode/cluster-ui/commit/0f0480ef) card-view to list-view
+- [38b82017](https://github.com/appscode/cluster-ui/commit/38b82017) breadcrumb
+- [6a5fbe4f](https://github.com/appscode/cluster-ui/commit/6a5fbe4f) breadcrumb
+- [ea7e5b2b](https://github.com/appscode/cluster-ui/commit/ea7e5b2b) breadcrumb
+- [f4a41b23](https://github.com/appscode/cluster-ui/commit/f4a41b23) breadcrumb
+- [b94777a9](https://github.com/appscode/cluster-ui/commit/b94777a9) Merge bitbucket.org:thetigerworks/dashboard into remove_zombies
+- [1e0bb85c](https://github.com/appscode/cluster-ui/commit/1e0bb85c) add custom bootstrap table
+- [18a92053](https://github.com/appscode/cluster-ui/commit/18a92053) add custom bootstrap table
+- [5871ecf4](https://github.com/appscode/cluster-ui/commit/5871ecf4) cluster creation form
+- [4f58a8b7](https://github.com/appscode/cluster-ui/commit/4f58a8b7) Merged in happy-linter-v.01 (pull request #9)
+- [acc73332](https://github.com/appscode/cluster-ui/commit/acc73332) sent zombies to heaven
+- [b6db5d4d](https://github.com/appscode/cluster-ui/commit/b6db5d4d) sent zombies to heaven
+- [3d0424cf](https://github.com/appscode/cluster-ui/commit/3d0424cf) pods list view
+- [30a58636](https://github.com/appscode/cluster-ui/commit/30a58636) Merged happy-linter-v.01 into master
+- [5869bcde](https://github.com/appscode/cluster-ui/commit/5869bcde) pods list
+- [426396de](https://github.com/appscode/cluster-ui/commit/426396de) pods list
+- [a7e6355e](https://github.com/appscode/cluster-ui/commit/a7e6355e) pods list
+- [343bf50f](https://github.com/appscode/cluster-ui/commit/343bf50f) Merged in happy-linter-v.01 (pull request #8)
+- [a6522179](https://github.com/appscode/cluster-ui/commit/a6522179) pods list
+- [855e740b](https://github.com/appscode/cluster-ui/commit/855e740b) pods list
+- [0ba59cee](https://github.com/appscode/cluster-ui/commit/0ba59cee) fixing cred css
+- [4082a4e1](https://github.com/appscode/cluster-ui/commit/4082a4e1) fixing cred css
+- [c7950999](https://github.com/appscode/cluster-ui/commit/c7950999) with loading during ajax call
+- [3dac732c](https://github.com/appscode/cluster-ui/commit/3dac732c) apps notification list
+- [6d7ea658](https://github.com/appscode/cluster-ui/commit/6d7ea658) apps pod-list
+- [5bb75fcf](https://github.com/appscode/cluster-ui/commit/5bb75fcf) alert create
+- [1f06e1d6](https://github.com/appscode/cluster-ui/commit/1f06e1d6) refactoring kube-section
+- [2abb3b4a](https://github.com/appscode/cluster-ui/commit/2abb3b4a) alert-create apis
+- [131221a3](https://github.com/appscode/cluster-ui/commit/131221a3) alert-create apis
+- [5e2e5ad6](https://github.com/appscode/cluster-ui/commit/5e2e5ad6) created alert for apps
+- [e769b5e9](https://github.com/appscode/cluster-ui/commit/e769b5e9) with working custom js
+- [8c2a9cd5](https://github.com/appscode/cluster-ui/commit/8c2a9cd5) remove almost all syntax error and change template name *-temp.html to *nunj.html
+- [0ed1eca0](https://github.com/appscode/cluster-ui/commit/0ed1eca0) modify custom js
+- [9e676c52](https://github.com/appscode/cluster-ui/commit/9e676c52) removed global customjs
+- [16bdfe6a](https://github.com/appscode/cluster-ui/commit/16bdfe6a) remove JS error without custom js and solve server problem and its functional
+- [da32c40a](https://github.com/appscode/cluster-ui/commit/da32c40a) Merged in ungo (pull request #7)
+- [d8e838fb](https://github.com/appscode/cluster-ui/commit/d8e838fb) Remove compiled files.
+- [d628d3df](https://github.com/appscode/cluster-ui/commit/d628d3df) Remove Macaron go code from UI.
+- [193eca4a](https://github.com/appscode/cluster-ui/commit/193eca4a) added-all
+- [d9ecdc79](https://github.com/appscode/cluster-ui/commit/d9ecdc79) added-all
+- [be040b24](https://github.com/appscode/cluster-ui/commit/be040b24) added-all
+- [d89f048a](https://github.com/appscode/cluster-ui/commit/d89f048a) added-all
+- [a265b78e](https://github.com/appscode/cluster-ui/commit/a265b78e) Update package.json
+- [0eab3de8](https://github.com/appscode/cluster-ui/commit/0eab3de8) Merged dashboard-with-global-customJS into master
+- [fca57db3](https://github.com/appscode/cluster-ui/commit/fca57db3) added global customjs
+- [2f382d3e](https://github.com/appscode/cluster-ui/commit/2f382d3e) added global customjs
+- [4ab8ad2b](https://github.com/appscode/cluster-ui/commit/4ab8ad2b) added global customjs
+- [8c9d5f14](https://github.com/appscode/cluster-ui/commit/8c9d5f14) added global customjs
+- [04cd41c3](https://github.com/appscode/cluster-ui/commit/04cd41c3) refine complete v6
+- [8c064a8b](https://github.com/appscode/cluster-ui/commit/8c064a8b) refine complete v5
+- [191f90de](https://github.com/appscode/cluster-ui/commit/191f90de) refine complete v3
+- [acf4bf7a](https://github.com/appscode/cluster-ui/commit/acf4bf7a) refine complete v2
+- [c5b0714e](https://github.com/appscode/cluster-ui/commit/c5b0714e) refine complete v1
+- [0885ee5e](https://github.com/appscode/cluster-ui/commit/0885ee5e) refine complete
+- [d8c95fe9](https://github.com/appscode/cluster-ui/commit/d8c95fe9) refine complete
+- [68adb7e8](https://github.com/appscode/cluster-ui/commit/68adb7e8) refine complete
+- [032c754b](https://github.com/appscode/cluster-ui/commit/032c754b) refine complete
+- [ef6cf8ae](https://github.com/appscode/cluster-ui/commit/ef6cf8ae) switching to another branch
+- [fd52c851](https://github.com/appscode/cluster-ui/commit/fd52c851) alert creation form
+- [1285a188](https://github.com/appscode/cluster-ui/commit/1285a188) alert list, alert details, alert form
+- [717ec361](https://github.com/appscode/cluster-ui/commit/717ec361) alert list, alert details, alert form
+- [68a8518a](https://github.com/appscode/cluster-ui/commit/68a8518a) Appslist alert form
+- [78828ace](https://github.com/appscode/cluster-ui/commit/78828ace) cluster creation form
+- [b2cb9f36](https://github.com/appscode/cluster-ui/commit/b2cb9f36) side-bar problem solved
+- [a68a53e4](https://github.com/appscode/cluster-ui/commit/a68a53e4) rearrange cluster details section
+- [b7b17a0c](https://github.com/appscode/cluster-ui/commit/b7b17a0c) pods alert service
+- [d5c70576](https://github.com/appscode/cluster-ui/commit/d5c70576) pods alert service
+- [3bad9cf7](https://github.com/appscode/cluster-ui/commit/3bad9cf7) all apis working
+- [be875313](https://github.com/appscode/cluster-ui/commit/be875313) complete without sliding button
+- [96ff0534](https://github.com/appscode/cluster-ui/commit/96ff0534) cluter-details sidebar routing compl;ete and node and secret view complete
+- [89618e77](https://github.com/appscode/cluster-ui/commit/89618e77) cluter-details sidebar routing compl;ete
+- [1ab6378e](https://github.com/appscode/cluster-ui/commit/1ab6378e) new cluster-details sidebar
+- [81b96e57](https://github.com/appscode/cluster-ui/commit/81b96e57) new cluster-details sidebar
+- [1e147a9b](https://github.com/appscode/cluster-ui/commit/1e147a9b) new branch
+- [3c258410](https://github.com/appscode/cluster-ui/commit/3c258410) add external JS
+- [d77b142d](https://github.com/appscode/cluster-ui/commit/d77b142d) add external JS
+- [bc14aa20](https://github.com/appscode/cluster-ui/commit/bc14aa20) pods aret service
+- [b93a8363](https://github.com/appscode/cluster-ui/commit/b93a8363) pod alert service bar chart
+- [fcc4e2de](https://github.com/appscode/cluster-ui/commit/fcc4e2de) pod alert service begin
+- [2c4f923f](https://github.com/appscode/cluster-ui/commit/2c4f923f) include some attribute incluster-temp
+- [a4c6b542](https://github.com/appscode/cluster-ui/commit/a4c6b542) cluster: urls added
+- [02704fc2](https://github.com/appscode/cluster-ui/commit/02704fc2) cluster: urls added
+- [d1a2f42c](https://github.com/appscode/cluster-ui/commit/d1a2f42c) cluster part
+- [7070a5ea](https://github.com/appscode/cluster-ui/commit/7070a5ea) test
+- [dc0d9e85](https://github.com/appscode/cluster-ui/commit/dc0d9e85) some refactoring
+- [4781fc10](https://github.com/appscode/cluster-ui/commit/4781fc10) cluster render
+- [aa907793](https://github.com/appscode/cluster-ui/commit/aa907793) with CI design integration complete
+- [7ff382d5](https://github.com/appscode/cluster-ui/commit/7ff382d5) with CI design integration complete
+- [be36dbf5](https://github.com/appscode/cluster-ui/commit/be36dbf5) with CI design
+- [49272396](https://github.com/appscode/cluster-ui/commit/49272396) with CI design
+- [0c71bbe0](https://github.com/appscode/cluster-ui/commit/0c71bbe0) database create, delete
+- [fbb0c41d](https://github.com/appscode/cluster-ui/commit/fbb0c41d) database credential dropdown api call done
+- [02c37b99](https://github.com/appscode/cluster-ui/commit/02c37b99) database credential dropdown api call done
+- [9b03fd35](https://github.com/appscode/cluster-ui/commit/9b03fd35) database form integration
+- [a7484a7e](https://github.com/appscode/cluster-ui/commit/a7484a7e) database form integration
+- [57d60923](https://github.com/appscode/cluster-ui/commit/57d60923) database creation form included
+- [91849df9](https://github.com/appscode/cluster-ui/commit/91849df9) complete database list view
+- [0a11bf90](https://github.com/appscode/cluster-ui/commit/0a11bf90) complete database list view
+- [ae064a21](https://github.com/appscode/cluster-ui/commit/ae064a21) with new CSS and tmp for database part
+- [b51a2030](https://github.com/appscode/cluster-ui/commit/b51a2030) database part
+- [577ec083](https://github.com/appscode/cluster-ui/commit/577ec083) done initial structuure of dashboard database part
+- [90260b60](https://github.com/appscode/cluster-ui/commit/90260b60) remove some unnecessary file
+- [a4c069ba](https://github.com/appscode/cluster-ui/commit/a4c069ba) remove some unnecessary file
+- [6f61ea18](https://github.com/appscode/cluster-ui/commit/6f61ea18) with latest appscodeCli and new credentials
+- [b3677789](https://github.com/appscode/cluster-ui/commit/b3677789) with latest appscodeCli and new credentials database
+- [e2823969](https://github.com/appscode/cluster-ui/commit/e2823969) solve update option provider select
+- [be44dbd6](https://github.com/appscode/cluster-ui/commit/be44dbd6) solve footer issue
+- [59847656](https://github.com/appscode/cluster-ui/commit/59847656) all input form divided into different template
+- [56a5fc60](https://github.com/appscode/cluster-ui/commit/56a5fc60) new-credential
+- [e6c86b2d](https://github.com/appscode/cluster-ui/commit/e6c86b2d) added some animation
+- [b81e9d13](https://github.com/appscode/cluster-ui/commit/b81e9d13) working on update
+- [60c8086e](https://github.com/appscode/cluster-ui/commit/60c8086e) trying
+- [9d90936f](https://github.com/appscode/cluster-ui/commit/9d90936f) ready for working on dashboard
+- [ec9ab0cd](https://github.com/appscode/cluster-ui/commit/ec9ab0cd) solve hiding problems
+- [8d839e92](https://github.com/appscode/cluster-ui/commit/8d839e92) with POST request
+- [98917ab1](https://github.com/appscode/cluster-ui/commit/98917ab1) with POST req
+- [c15d8023](https://github.com/appscode/cluster-ui/commit/c15d8023) showed credential list
+- [ae622bbe](https://github.com/appscode/cluster-ui/commit/ae622bbe) credential v1.0
+- [063ffc1d](https://github.com/appscode/cluster-ui/commit/063ffc1d) passing data to the info template
+- [8696d69a](https://github.com/appscode/cluster-ui/commit/8696d69a) credential page design
+- [9ba4c589](https://github.com/appscode/cluster-ui/commit/9ba4c589) fmt
+- [62360faf](https://github.com/appscode/cluster-ui/commit/62360faf) context middleware added.
+- [3efb5263](https://github.com/appscode/cluster-ui/commit/3efb5263) credential work
+- [4b8cd8e8](https://github.com/appscode/cluster-ui/commit/4b8cd8e8) credential work
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.2.0](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.2.0)
