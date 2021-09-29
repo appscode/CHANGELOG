@@ -150,3 +150,38 @@
 
 
 
+## [kmodules/resource-metadata](https://github.com/kmodules/resource-metadata)
+
+### [v0.6.0](https://github.com/kmodules/resource-metadata/releases/tag/v0.6.0)
+
+- [84f41dad](https://github.com/kmodules/resource-metadata/commit/84f41dad) Prepare for release v0.6.0 (#146)
+- [48585512](https://github.com/kmodules/resource-metadata/commit/48585512) Add release tracker script
+- [6d0f718b](https://github.com/kmodules/resource-metadata/commit/6d0f718b) Prepare for release v0.6.0-rc.0 (#145)
+- [c5915c1b](https://github.com/kmodules/resource-metadata/commit/c5915c1b) Update repository config (#144)
+- [6096c250](https://github.com/kmodules/resource-metadata/commit/6096c250) Update kubevault and voyager crds
+- [b6e0dbe0](https://github.com/kmodules/resource-metadata/commit/b6e0dbe0) Update crds
+- [44f08986](https://github.com/kmodules/resource-metadata/commit/44f08986) Update KubeDB v2021.09.09 crds
+- [8f6a3d70](https://github.com/kmodules/resource-metadata/commit/8f6a3d70) Update repository config (#143)
+- [ed8d9b48](https://github.com/kmodules/resource-metadata/commit/ed8d9b48) Add secrets-store-csi-driver crds
+- [0ee52978](https://github.com/kmodules/resource-metadata/commit/0ee52978) Update kubedb crds
+- [bbcf4d75](https://github.com/kmodules/resource-metadata/commit/bbcf4d75) Update KubeDB crds
+- [eaac6336](https://github.com/kmodules/resource-metadata/commit/eaac6336) Update README.md
+- [6e7f53af](https://github.com/kmodules/resource-metadata/commit/6e7f53af) Remove ResourceRequirements field from ResourceDescriptor
+- [71d20972](https://github.com/kmodules/resource-metadata/commit/71d20972) Update Database resource list columns and functions (#138)
+- [3baea37c](https://github.com/kmodules/resource-metadata/commit/3baea37c) Update crds
+- [76995fcb](https://github.com/kmodules/resource-metadata/commit/76995fcb) Update stash crds
+- [ae34dd1c](https://github.com/kmodules/resource-metadata/commit/ae34dd1c) Update repository config (#141)
+- [a7955c86](https://github.com/kmodules/resource-metadata/commit/a7955c86) Update repository config (#140)
+- [0faa61c3](https://github.com/kmodules/resource-metadata/commit/0faa61c3) Update ingress v1 crd
+- [dcc1abc0](https://github.com/kmodules/resource-metadata/commit/dcc1abc0) Use crd v1 api only (#139)
+- [688c6f0a](https://github.com/kmodules/resource-metadata/commit/688c6f0a) Add voyager ingress/v1 api
+- [5f7c6f0d](https://github.com/kmodules/resource-metadata/commit/5f7c6f0d) Fix formatting
+- [cb547963](https://github.com/kmodules/resource-metadata/commit/cb547963) Remove dependency on glog
+- [2d0db054](https://github.com/kmodules/resource-metadata/commit/2d0db054) Update kubedb and kubevault schema
+- [a7944092](https://github.com/kmodules/resource-metadata/commit/a7944092) Update postgres resource list columns and functions (#137)
+- [7ba38cda](https://github.com/kmodules/resource-metadata/commit/7ba38cda) Add column and page definitions for DB crds (#136)
+- [0b14f4a8](https://github.com/kmodules/resource-metadata/commit/0b14f4a8) Add columns for ops request crds (#135)
+- [77bc458f](https://github.com/kmodules/resource-metadata/commit/77bc458f) Switch to prod ui charts repo
+
+
+
