@@ -56,7 +56,8 @@
     {
       "github.com/appscode/gitea": {
         "tag": "v2021.09.27-rc.0",
-        "release_branch": "release-${TAG}"
+        "release_branch": "release-${TAG}",
+        "changelog": "Skip"
       }
     }
   ],
