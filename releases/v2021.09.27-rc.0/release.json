@@ -1,0 +1,71 @@
+{
+  "product_line": "Console",
+  "release": "v2021.09.27-rc.0",
+  "docs_url_template": "",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "github.com/bytebuilders/ui-wizards": {
+        "tag": "v0.2.0-rc.0",
+        "chartNames": [
+          "kubedbcom-mongodb-editor-options"
+        ],
+        "commands": [
+          "make update-charts CHART_VERSION=${BYTEBUILDERS_UI_WIZARDS_TAG} CHART_REGISTRY=${UI_REGISTRY} CHART_REGISTRY_URL=${UI_REGISTRY_URL}",
+          "make gen fmt"
+        ]
+      }
+    },
+    {
+      "github.com/bytebuilders/bundle-registry": {
+        "charts": [
+          "github.com/bytebuilders/ui-wizards"
+        ],
+        "changelog": "Skip"
+      }
+    },
+    {
+      "github.com/kmodules/resource-metadata": {
+        "tag": "v0.6.0-rc.0",
+        "commands": [
+          "go run cmd/ui-updater/main.go --chart.registry-url=${UI_REGISTRY_URL} --chart.version=${BYTEBUILDERS_UI_WIZARDS_TAG}",
+          "go run cmd/resourcedescriptor-fmt/main.go"
+        ]
+      }
+    },
+    {
+      "github.com/appscode/accounts-ui": {
+        "tag": "v0.1.0-rc.0",
+        "commands": [
+          "npm --no-git-tag-version --allow-same-version version ${TAG_WITHOUT_V_PREFIX}"
+        ]
+      },
+      "github.com/appscode/cluster-ui": {
+        "tag": "v0.1.0-rc.0",
+        "commands": [
+          "npm --no-git-tag-version --allow-same-version version ${TAG_WITHOUT_V_PREFIX}"
+        ]
+      },
+      "github.com/appscode/kubedb-ui": {
+        "tag": "v0.1.0-rc.0",
+        "commands": [
+          "npm --no-git-tag-version --allow-same-version version ${TAG_WITHOUT_V_PREFIX}"
+        ]
+      }
+    },
+    {
+      "github.com/appscode/gitea": {
+        "tag": "v2021.09.27-rc.0",
+        "release_branch": "release-${TAG}",
+        "changelog": "Skip"
+      }
+    }
+  ],
+  "external_projects": {
+    "github.com/appscode/products": {},
+    "github.com/kmodules/codespan-schema-checker": {},
+    "github.com/kmodules/metrics-configuration-checker": {},
+    "github.com/kubepack/kubepack": {},
+    "github.com/kubepack/lib-app": {}
+  }
+}
