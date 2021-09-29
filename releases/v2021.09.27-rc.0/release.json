@@ -28,8 +28,8 @@
       "github.com/kmodules/resource-metadata": {
         "tag": "v0.6.0-rc.0",
         "commands": [
-          "go run cmd/ui-updater/*.go --chart.registry-url=${UI_REGISTRY_URL} --chart.version=${BYTEBUILDERS_UI_WIZARDS_TAG}",
-          "go run cmd/resourcedescriptor-fmt/*.go"
+          "go run -v cmd/ui-updater/main.go --chart.registry-url=${UI_REGISTRY_URL} --chart.version=${BYTEBUILDERS_UI_WIZARDS_TAG}",
+          "go run -v cmd/resourcedescriptor-fmt/main.go"
         ]
       }
     },
