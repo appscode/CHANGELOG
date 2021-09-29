@@ -1,6 +1,229 @@
 # Console v2021.09.27-rc.0 (2021-09-29)
 
 
+## [appscode/accounts-ui](https://github.com/appscode/accounts-ui)
+
+### [v0.1.0-rc.0](https://github.com/appscode/accounts-ui/releases/tag/v0.1.0-rc.0)
+
+- [9483540](https://github.com/appscode/accounts-ui/commit/9483540) Prepare for release v0.1.0-rc.0 (#85)
+- [3e00bc6](https://github.com/appscode/accounts-ui/commit/3e00bc6) Add release tracker script
+- [6ab70b7](https://github.com/appscode/accounts-ui/commit/6ab70b7) Update scripts for dev command, remove unused packages, update sass-loader
+- [198d45f](https://github.com/appscode/accounts-ui/commit/198d45f) Fixed redirect issue of accounts-ui (#84)
+- [4b474e5](https://github.com/appscode/accounts-ui/commit/4b474e5) Fixed accounts-ui issues (#83)
+- [c759819](https://github.com/appscode/accounts-ui/commit/c759819) Refactored accounts ui using updated design system (#80)
+- [c69637f](https://github.com/appscode/accounts-ui/commit/c69637f) Update design system to v1.0.3-alpha.3, update signup sigin page
+- [b2f4a71](https://github.com/appscode/accounts-ui/commit/b2f4a71) Update meta tags to support description and image
+- [e614627](https://github.com/appscode/accounts-ui/commit/e614627) update package version to 1.0.0, update website title and description
+- [dbcc999](https://github.com/appscode/accounts-ui/commit/dbcc999) Update design system to v1.0.2, update ui buidler to v1.0.5, fix some issues (#77)
+- [ddac75b](https://github.com/appscode/accounts-ui/commit/ddac75b) run `npm run generate`
+- [36e8872](https://github.com/appscode/accounts-ui/commit/36e8872) pagination issue fixed
+- [899cedc](https://github.com/appscode/accounts-ui/commit/899cedc) Update add card page, and footer action area
+- [1b0856d](https://github.com/appscode/accounts-ui/commit/1b0856d) updated ui-builder integration
+- [45b90ad](https://github.com/appscode/accounts-ui/commit/45b90ad) updated ui.json and language.json for credential
+- [08548e7](https://github.com/appscode/accounts-ui/commit/08548e7) integrated updated nui-builder
+- [707485d](https://github.com/appscode/accounts-ui/commit/707485d) updated loader
+- [174ec1d](https://github.com/appscode/accounts-ui/commit/174ec1d) added credential titlebar
+- [bf10c47](https://github.com/appscode/accounts-ui/commit/bf10c47) updated design system
+- [00bac3f](https://github.com/appscode/accounts-ui/commit/00bac3f) Update public page css, loader and setting css
+- [5aafe1d](https://github.com/appscode/accounts-ui/commit/5aafe1d) Update various html change for updating design system
+- [4e6ce7e](https://github.com/appscode/accounts-ui/commit/4e6ce7e) Update add card, create page, payments page, auth page, tfa-enroll page
+- [10d0ac8](https://github.com/appscode/accounts-ui/commit/10d0ac8) Update overview page
+- [51899cd](https://github.com/appscode/accounts-ui/commit/51899cd) Update invoice page
+- [bc55716](https://github.com/appscode/accounts-ui/commit/bc55716) Update credential and organization page
+- [48feaba](https://github.com/appscode/accounts-ui/commit/48feaba) Update profile,account,security pages
+- [0a9bf07](https://github.com/appscode/accounts-ui/commit/0a9bf07) Remove hubspot script
+- [768fbda](https://github.com/appscode/accounts-ui/commit/768fbda) 2021.4.29
+- [e81a560](https://github.com/appscode/accounts-ui/commit/e81a560) Rename to accounts-ui (#72)
+- [4e209b3](https://github.com/appscode/accounts-ui/commit/4e209b3) Use listmonk
+- [aa15956](https://github.com/appscode/accounts-ui/commit/aa15956) Add app.html, add hubspot and tawk.to stript in app.html, comment out tawk.to script for now (#69)
+- [d2ebdbb](https://github.com/appscode/accounts-ui/commit/d2ebdbb) Updated ui-builder version and change disabled field in ui-builder to boolean (#68)
+- [14b757e](https://github.com/appscode/accounts-ui/commit/14b757e) added disabled input field in ui.json file on edit credential and some api changes(#67)
+- [7ce3f19](https://github.com/appscode/accounts-ui/commit/7ce3f19) added monaco editor resize functionality on window resize and updated googleOauth cred redirect_url (#65)
+- [2ecefe3](https://github.com/appscode/accounts-ui/commit/2ecefe3) Add credential management  (#63)
+- [c01e7c1](https://github.com/appscode/accounts-ui/commit/c01e7c1) shakib779/payment card update (#62)
+- [3cc661a](https://github.com/appscode/accounts-ui/commit/3cc661a) fixed domain problem and updated sidebar (#61)
+- [64a8e32](https://github.com/appscode/accounts-ui/commit/64a8e32) shakib779/move toaster to design system and Fix navbar issue (#59)
+- [75c8278](https://github.com/appscode/accounts-ui/commit/75c8278) fixed product tagline fetch from method instead of computed
+- [af7dfe4](https://github.com/appscode/accounts-ui/commit/af7dfe4) Update the stripe integration
+- [76c0368](https://github.com/appscode/accounts-ui/commit/76c0368) Merge pull request #54 from appscode/integrated-design-system
+- [2ee128a](https://github.com/appscode/accounts-ui/commit/2ee128a) fixed build failed issue
+- [2efda83](https://github.com/appscode/accounts-ui/commit/2efda83) run `npm run generate`
+- [1f98e26](https://github.com/appscode/accounts-ui/commit/1f98e26) moved all json file of multiselect to assests/json folder
+- [29e3e00](https://github.com/appscode/accounts-ui/commit/29e3e00) Merge branch 'integrated-design-system' of github.com:appscode/bytebuilders-nuxt into integrated-design-system
+- [bc02308](https://github.com/appscode/accounts-ui/commit/bc02308) removed unnecessary comment
+- [5dec2d7](https://github.com/appscode/accounts-ui/commit/5dec2d7) Fix conflicts
+- [be3abcd](https://github.com/appscode/accounts-ui/commit/be3abcd) comment added for ac-multiselet methods
+- [2177131](https://github.com/appscode/accounts-ui/commit/2177131) fixed object search problem in ac-multiselect
+- [6c1898d](https://github.com/appscode/accounts-ui/commit/6c1898d) Merge branch 'integrated-design-system' of github.com:appscode/bytebuilders-nuxt into integrated-design-system
+- [4c6f0a2](https://github.com/appscode/accounts-ui/commit/4c6f0a2) removed required rules from all input in card addition
+- [8d5d5f2](https://github.com/appscode/accounts-ui/commit/8d5d5f2) Add generated bindata
+- [9e0bc86](https://github.com/appscode/accounts-ui/commit/9e0bc86) added make default and delete card modal
+- [0f18cc8](https://github.com/appscode/accounts-ui/commit/0f18cc8) Fix overview table css payment card css
+- [6a5b8a8](https://github.com/appscode/accounts-ui/commit/6a5b8a8) payment card functionality added
+- [a2b8c38](https://github.com/appscode/accounts-ui/commit/a2b8c38) comment added for custom validation in image upload
+- [ba291c9](https://github.com/appscode/accounts-ui/commit/ba291c9) Run `npm run generate`
+- [0231ea0](https://github.com/appscode/accounts-ui/commit/0231ea0) removed test data
+- [5ebe608](https://github.com/appscode/accounts-ui/commit/5ebe608) updated public profile structure and image upload functionality
+- [c45057f](https://github.com/appscode/accounts-ui/commit/c45057f) updated design-system to alpha25
+- [a3b786f](https://github.com/appscode/accounts-ui/commit/a3b786f) Merge pull request #53 from appscode/fix-css-issue
+- [bef724f](https://github.com/appscode/accounts-ui/commit/bef724f) Fix CSS issue for general profile setting
+- [72c4b5a](https://github.com/appscode/accounts-ui/commit/72c4b5a) Update Profile section HTML CSS
+- [12ab4b7](https://github.com/appscode/accounts-ui/commit/12ab4b7) updated public profile functionality
+- [2c49cbd](https://github.com/appscode/accounts-ui/commit/2c49cbd) Merge pull request #52 from appscode/fix-css-issue
+- [56c6d40](https://github.com/appscode/accounts-ui/commit/56c6d40) Fix form divider
+- [c730941](https://github.com/appscode/accounts-ui/commit/c730941) updated no data image
+- [758efe1](https://github.com/appscode/accounts-ui/commit/758efe1) Added no-data-available image
+- [4bcd2c9](https://github.com/appscode/accounts-ui/commit/4bcd2c9) updated design-system to alpha-23
+- [4bc750c](https://github.com/appscode/accounts-ui/commit/4bc750c) review changes fix
+- [626b3d2](https://github.com/appscode/accounts-ui/commit/626b3d2) updated desing system version to alpha-22
+- [95d3bcb](https://github.com/appscode/accounts-ui/commit/95d3bcb) Merge pull request #51 from appscode/fix-css-issue
+- [e0b43d8](https://github.com/appscode/accounts-ui/commit/e0b43d8) Merge branch 'integrated-design-system' into fix-css-issue
+- [8e826f2](https://github.com/appscode/accounts-ui/commit/8e826f2) Fix navbar css and commented extra css
+- [3ee3c9a](https://github.com/appscode/accounts-ui/commit/3ee3c9a) fixed pagination margin and padding
+- [d9d960b](https://github.com/appscode/accounts-ui/commit/d9d960b) removed extra bottom margin in all table
+- [722c717](https://github.com/appscode/accounts-ui/commit/722c717) Merge pull request #50 from appscode/fix-css-issue
+- [b4551dc](https://github.com/appscode/accounts-ui/commit/b4551dc) Uncomment toast part
+- [be444af](https://github.com/appscode/accounts-ui/commit/be444af) Update toast,navbar private,application layout
+- [3785b5e](https://github.com/appscode/accounts-ui/commit/3785b5e) added dompurify and changed top margin of pagination section
+- [1d097e3](https://github.com/appscode/accounts-ui/commit/1d097e3) fixed alignment problem of logo with application name
+- [0e5de2b](https://github.com/appscode/accounts-ui/commit/0e5de2b) fixed css issues
+- [101775e](https://github.com/appscode/accounts-ui/commit/101775e) updated design-ssytem to alpha-16
+- [310a655](https://github.com/appscode/accounts-ui/commit/310a655) Merge pull request #49 from appscode/css-fix-integrated-design-system
+- [c6181cd](https://github.com/appscode/accounts-ui/commit/c6181cd) Merge branch 'integrated-design-system' into css-fix-integrated-design-system
+- [9a344f5](https://github.com/appscode/accounts-ui/commit/9a344f5) updated toaster style from design system
+- [3ae0381](https://github.com/appscode/accounts-ui/commit/3ae0381) Fix css issue from github
+- [22c06ae](https://github.com/appscode/accounts-ui/commit/22c06ae) Fix css issue from github
+- [66a5e1c](https://github.com/appscode/accounts-ui/commit/66a5e1c) fixed bgcolor of stripe input field and form padding
+- [6197168](https://github.com/appscode/accounts-ui/commit/6197168) added search and pagination in all table and mutation observer in sticky functionality
+- [7e5e08d](https://github.com/appscode/accounts-ui/commit/7e5e08d) updated design-system version to alpha-14
+- [49fdcf0](https://github.com/appscode/accounts-ui/commit/49fdcf0) Merge pull request #47 from appscode/css-fix-integrated-design-system
+- [7546e1d](https://github.com/appscode/accounts-ui/commit/7546e1d) class update
+- [b2b4756](https://github.com/appscode/accounts-ui/commit/b2b4756) replaced monaco editor by textarea in license details page
+- [8919057](https://github.com/appscode/accounts-ui/commit/8919057) Update body structure from design system,Navbar replace from design system, and left-sidebar css fix
+- [a68b26d](https://github.com/appscode/accounts-ui/commit/a68b26d) fixed margin spacing and alignment problem
+- [5823e73](https://github.com/appscode/accounts-ui/commit/5823e73) updated avatar image upload field and license issu form
+- [10c1125](https://github.com/appscode/accounts-ui/commit/10c1125) updated input field and integerated sticky section
+- [70a551f](https://github.com/appscode/accounts-ui/commit/70a551f) updated all input fields excluding payment cards
+- [a94c50d](https://github.com/appscode/accounts-ui/commit/a94c50d) updated application logo field to drag and drop image
+- [e8f88c3](https://github.com/appscode/accounts-ui/commit/e8f88c3) updated all modals and buttons
+- [7d2589a](https://github.com/appscode/accounts-ui/commit/7d2589a) all table contents updated
+- [973919f](https://github.com/appscode/accounts-ui/commit/973919f) api call fixed
+- [606c8b8](https://github.com/appscode/accounts-ui/commit/606c8b8) Generate dist files using package.json version (#45)
+- [0e21e2f](https://github.com/appscode/accounts-ui/commit/0e21e2f) Merge pull request #44 from appscode/user-settings
+- [d771947](https://github.com/appscode/accounts-ui/commit/d771947) Fix open-pr.sh script
+- [18a636f](https://github.com/appscode/accounts-ui/commit/18a636f) Enable GitHub actions (#43)
+- [e6292ba](https://github.com/appscode/accounts-ui/commit/e6292ba) sidebar-icons changed
+- [967a3d8](https://github.com/appscode/accounts-ui/commit/967a3d8) added image drag drop crop functionality
+- [a97cffe](https://github.com/appscode/accounts-ui/commit/a97cffe) refactored and added token copy functionality in application settings
+- [2687d7b](https://github.com/appscode/accounts-ui/commit/2687d7b) refactored security and organization settings
+- [5bc2957](https://github.com/appscode/accounts-ui/commit/5bc2957) fixed application create and update bug
+- [181e6b6](https://github.com/appscode/accounts-ui/commit/181e6b6) access token settings added
+- [67233e9](https://github.com/appscode/accounts-ui/commit/67233e9) organization settings page added
+- [d4f91c3](https://github.com/appscode/accounts-ui/commit/d4f91c3) two fa auth added
+- [79aa7c7](https://github.com/appscode/accounts-ui/commit/79aa7c7) Show email or user_name in signup/signin forms
+- [8276275](https://github.com/appscode/accounts-ui/commit/8276275) Fix Go template
+- [a71e114](https://github.com/appscode/accounts-ui/commit/a71e114) Add signup/signin routes for linked accounts (#42)
+- [4555008](https://github.com/appscode/accounts-ui/commit/4555008) Replace change_passwd.vue (#41)
+- [b134db3](https://github.com/appscode/accounts-ui/commit/b134db3) Added twofa pages (#40)
+- [91c49b6](https://github.com/appscode/accounts-ui/commit/91c49b6) Add /404 and /500 routes
+- [1a10f71](https://github.com/appscode/accounts-ui/commit/1a10f71) Add status/{404, 500} pages (#39)
+- [9e5688f](https://github.com/appscode/accounts-ui/commit/9e5688f) Fix Oauth template
+- [c2a17f0](https://github.com/appscode/accounts-ui/commit/c2a17f0) Fix Oauth2 provider view (#38)
+- [7ce78d3](https://github.com/appscode/accounts-ui/commit/7ce78d3) Add signup form component in bytebuilders home page (#37)
+- [4bbbf6b](https://github.com/appscode/accounts-ui/commit/4bbbf6b) Fix alert message (#36)
+- [2783bbd](https://github.com/appscode/accounts-ui/commit/2783bbd) Fix template fixes (#35)
+- [784b6ca](https://github.com/appscode/accounts-ui/commit/784b6ca) Remove nuxt -link, request page from server, add navbar logic to… (#34)
+- [a6266bc](https://github.com/appscode/accounts-ui/commit/a6266bc) Move change_password under templates (#33)
+- [c8d80fe](https://github.com/appscode/accounts-ui/commit/c8d80fe) notification/alert icon-update (#31)
+- [3128140](https://github.com/appscode/accounts-ui/commit/3128140) Add additional routes for link-account
+- [e6ec192](https://github.com/appscode/accounts-ui/commit/e6ec192) Fix grant_error template
+- [791e19e](https://github.com/appscode/accounts-ui/commit/791e19e) Fix go template for grant page (#32)
+- [9ef701e](https://github.com/appscode/accounts-ui/commit/9ef701e) alert/notification message add (#30)
+- [d5f1595](https://github.com/appscode/accounts-ui/commit/d5f1595) Activation process html (#29)
+- [03ccda9](https://github.com/appscode/accounts-ui/commit/03ccda9) Add NewTemplateFileSystem helper (#28)
+- [e7a9d6f](https://github.com/appscode/accounts-ui/commit/e7a9d6f) Add /status/200/indx.html template
+- [5b7a62d](https://github.com/appscode/accounts-ui/commit/5b7a62d) Prepare gitea templates (#22)
+- [3301cd0](https://github.com/appscode/accounts-ui/commit/3301cd0) Fix the modTime for embedded files (#26)
+- [faa027f](https://github.com/appscode/accounts-ui/commit/faa027f) Use prettier 2.0 (#24)
+- [2a2a099](https://github.com/appscode/accounts-ui/commit/2a2a099) Merge pull request #16 from appscode/fix-website-issue
+- [c911259](https://github.com/appscode/accounts-ui/commit/c911259) add 404 page, add contact page tabs and fix navbar
+- [caa973f](https://github.com/appscode/accounts-ui/commit/caa973f) fix navbar active link
+- [f3376d7](https://github.com/appscode/accounts-ui/commit/f3376d7) fix navbar active link
+- [dbeec2c](https://github.com/appscode/accounts-ui/commit/dbeec2c) Generate StaticFS and TemplateFS (#21)
+- [c3591dd](https://github.com/appscode/accounts-ui/commit/c3591dd) Gitea static templates (#18)
+- [8c1c840](https://github.com/appscode/accounts-ui/commit/8c1c840) Fix go server
+- [04569e6](https://github.com/appscode/accounts-ui/commit/04569e6) if error show, added red color
+- [aba4245](https://github.com/appscode/accounts-ui/commit/aba4245) Merge pull request #15 from appscode/fix-website-ui
+- [0c6e146](https://github.com/appscode/accounts-ui/commit/0c6e146) Add aos as dependency
+- [2c38445](https://github.com/appscode/accounts-ui/commit/2c38445) fix typography issue
+- [337770a](https://github.com/appscode/accounts-ui/commit/337770a) authorize page add
+- [2611f17](https://github.com/appscode/accounts-ui/commit/2611f17) fix data aos animation
+- [17aae53](https://github.com/appscode/accounts-ui/commit/17aae53) add aos
+- [ec7e8eb](https://github.com/appscode/accounts-ui/commit/ec7e8eb) top to buttom scrolling smoth and features area hero section animation add
+- [bf7445e](https://github.com/appscode/accounts-ui/commit/bf7445e) added 404 page, navbar public and privet css use own component
+- [01c8f53](https://github.com/appscode/accounts-ui/commit/01c8f53) Merge pull request #13 from appscode/bb-other-pages
+- [f27607e](https://github.com/appscode/accounts-ui/commit/f27607e) Add linting fixes for about, features, contact pages, add authentication
+- [fff6a2c](https://github.com/appscode/accounts-ui/commit/fff6a2c) fix css formate
+- [f211704](https://github.com/appscode/accounts-ui/commit/f211704) added features logo, single features component
+- [af18a4b](https://github.com/appscode/accounts-ui/commit/af18a4b) single features page add
+- [56ad44b](https://github.com/appscode/accounts-ui/commit/56ad44b) remove layloader and add contact, features html
+- [9f749ac](https://github.com/appscode/accounts-ui/commit/9f749ac) create layout, add about pages, structure components
+- [64add99](https://github.com/appscode/accounts-ui/commit/64add99) Merge pull request #12 from appscode/account-recover-html
+- [bc991ff](https://github.com/appscode/accounts-ui/commit/bc991ff) Fix linting errors, add authorization to new pages
+- [d6de82c](https://github.com/appscode/accounts-ui/commit/d6de82c) fix input alignment
+- [2347185](https://github.com/appscode/accounts-ui/commit/2347185) forgot page, recovery page, oauth page
+- [36ac1bc](https://github.com/appscode/accounts-ui/commit/36ac1bc) Fix bindata script
+- [c3be70e](https://github.com/appscode/accounts-ui/commit/c3be70e) Merge pull request #10 from appscode/sign-in-page
+- [335d9e9](https://github.com/appscode/accounts-ui/commit/335d9e9) Add linter fix, minor style fix
+- [b25ff81](https://github.com/appscode/accounts-ui/commit/b25ff81) fix url and hover style
+- [8ea302d](https://github.com/appscode/accounts-ui/commit/8ea302d) responsive design and fix small css issue
+- [1484bda](https://github.com/appscode/accounts-ui/commit/1484bda) remove sign_in_up css and organize css file
+- [88a0070](https://github.com/appscode/accounts-ui/commit/88a0070) sign-in and sign-up page ready
+- [1c8eb64](https://github.com/appscode/accounts-ui/commit/1c8eb64) Add props to ac input field component, add show hide password functionality
+- [71dcea3](https://github.com/appscode/accounts-ui/commit/71dcea3) Add signin page html
+- [7bcbcde](https://github.com/appscode/accounts-ui/commit/7bcbcde) Add server-side templates for user auth (#9)
+- [3ddc4be](https://github.com/appscode/accounts-ui/commit/3ddc4be) Merge pull request #7 from appscode/fix-bb-homepage
+- [46391a8](https://github.com/appscode/accounts-ui/commit/46391a8) Update manifest.json
+- [00e47f8](https://github.com/appscode/accounts-ui/commit/00e47f8) scroll to top test js add
+- [2f4d2c4](https://github.com/appscode/accounts-ui/commit/2f4d2c4) Merge pull request #6 from appscode/fix-dashboard-css
+- [7480ec7](https://github.com/appscode/accounts-ui/commit/7480ec7) fix navbar style
+- [1422d1a](https://github.com/appscode/accounts-ui/commit/1422d1a) Merge pull request #5 from appscode/add-icons
+- [604d321](https://github.com/appscode/accounts-ui/commit/604d321) Remove LIttleTableLoader from component loaders as it is not needed
+- [574501e](https://github.com/appscode/accounts-ui/commit/574501e) Add icons, manifest, theme color, tile color etc, and various other changes
+- [643fa12](https://github.com/appscode/accounts-ui/commit/643fa12) Merge pull request #4 from appscode/css-fix
+- [71a579c](https://github.com/appscode/accounts-ui/commit/71a579c) all data add dynamically without footer list items
+- [a9d8b20](https://github.com/appscode/accounts-ui/commit/a9d8b20) Merge pull request #3 from appscode/marketplace-settngs
+- [122c64a](https://github.com/appscode/accounts-ui/commit/122c64a) Add authentication type to all the pages
+- [9e4f8cf](https://github.com/appscode/accounts-ui/commit/9e4f8cf) Fix linter errors various console errors
+- [5378255](https://github.com/appscode/accounts-ui/commit/5378255) Add Add Card page
+- [2e12f66](https://github.com/appscode/accounts-ui/commit/2e12f66) Add deatils pages for licenses, payment methods, subscriptions, invioces and payments
+- [5a4fb41](https://github.com/appscode/accounts-ui/commit/5a4fb41) Add products, payment-methods, subscriptions, invoices and payments list pages
+- [05b7dc7](https://github.com/appscode/accounts-ui/commit/05b7dc7) Move all the settings pages under a common settings layout
+- [0940d6f](https://github.com/appscode/accounts-ui/commit/0940d6f) Add page and layout transition configuration
+- [0e493ca](https://github.com/appscode/accounts-ui/commit/0e493ca) Add marketplace settings list pages
+- [45a52ab](https://github.com/appscode/accounts-ui/commit/45a52ab) integrate marketplace settings api (payment, paymentMethods, subscirptions, products etc)
+- [3f16fb4](https://github.com/appscode/accounts-ui/commit/3f16fb4) Add marketplace overview page, required components and layouts, WIP: integrate required apis
+- [1fb2efe](https://github.com/appscode/accounts-ui/commit/1fb2efe) Merge pull request #2 from appscode/bb-homepage
+- [0f60de4](https://github.com/appscode/accounts-ui/commit/0f60de4) remove unnecessary code
+- [0123174](https://github.com/appscode/accounts-ui/commit/0123174) updated onscroll navbar, responsive menu
+- [7998c98](https://github.com/appscode/accounts-ui/commit/7998c98) add bb-home-page data from json
+- [22d40e5](https://github.com/appscode/accounts-ui/commit/22d40e5) add vue-carousel, all data from hugo template
+- [36a8514](https://github.com/appscode/accounts-ui/commit/36a8514) Add linting fixes
+- [35c0b3b](https://github.com/appscode/accounts-ui/commit/35c0b3b) Merge branch 'master' into bb-homepage
+- [6b26f07](https://github.com/appscode/accounts-ui/commit/6b26f07) Add linting error fixes
+- [e9bff1a](https://github.com/appscode/accounts-ui/commit/e9bff1a) Add account settings page, related components, store components
+- [a246cc0](https://github.com/appscode/accounts-ui/commit/a246cc0) Add home-page components
+- [7d1b9c1](https://github.com/appscode/accounts-ui/commit/7d1b9c1) Add all the general settings routes and add sidebar functionalit for active item and also page title change on route change
+- [cd61c5b](https://github.com/appscode/accounts-ui/commit/cd61c5b) Call necessary apis in profile page and fix some console errors regarding ssr, vee-validate plugin and vue-toasted plugin
+- [9abcd69](https://github.com/appscode/accounts-ui/commit/9abcd69) Add vee-validate, vue-toastedto the project, add profile settings page layout, store objects etc
+- [dbedaf2](https://github.com/appscode/accounts-ui/commit/dbedaf2) margin and padding update, navbar component addd
+- [7a40a66](https://github.com/appscode/accounts-ui/commit/7a40a66) Setup initial project structure, setup styles, icons and user authentication using axios
+- [453adb5](https://github.com/appscode/accounts-ui/commit/453adb5) Configure axios module, fix base url and read csrf token from cookie
+- [ec8aab7](https://github.com/appscode/accounts-ui/commit/ec8aab7) Add main.go to serve dist folder (#1)
+- [9cf8781](https://github.com/appscode/accounts-ui/commit/9cf8781) Clean the existing pre codes
+
+
+
 ## [appscode/cluster-ui](https://github.com/appscode/cluster-ui)
 
 ### [v0.1.0-rc.0](https://github.com/appscode/cluster-ui/releases/tag/v0.1.0-rc.0)
