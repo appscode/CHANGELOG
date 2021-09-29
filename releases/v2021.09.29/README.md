@@ -5442,6 +5442,97 @@
 
 
 
+## [appscode/kubedb-ui](https://github.com/appscode/kubedb-ui)
+
+### [v0.1.0](https://github.com/appscode/kubedb-ui/releases/tag/v0.1.0)
+
+- [0ec7009](https://github.com/appscode/kubedb-ui/commit/0ec7009) Prepare for release v0.1.0 (#17)
+- [7afe136](https://github.com/appscode/kubedb-ui/commit/7afe136) Fix release workflow
+- [06fe889](https://github.com/appscode/kubedb-ui/commit/06fe889) Prepare for release v0.1.0-rc.0 (#16)
+- [b7193c4](https://github.com/appscode/kubedb-ui/commit/b7193c4) Add release tracker script
+- [41e3e1a](https://github.com/appscode/kubedb-ui/commit/41e3e1a) Update design system, solves link unclickable issue
+- [05284db](https://github.com/appscode/kubedb-ui/commit/05284db) Add CI/CD yamls and configurations, docker file and build commands to package.json
+- [453431a](https://github.com/appscode/kubedb-ui/commit/453431a) Update design system, import theming functions from design system
+- [5355cb0](https://github.com/appscode/kubedb-ui/commit/5355cb0) Show node details overview charts in node details page
+- [1b6f256](https://github.com/appscode/kubedb-ui/commit/1b6f256) Show node details header and node insight headers in node details page
+- [de68f80](https://github.com/appscode/kubedb-ui/commit/de68f80) Integrate node details and charts mock api, along with their composables, typings and store module
+- [89fe1ac](https://github.com/appscode/kubedb-ui/commit/89fe1ac) Integrate node descriptor api, along with typees, composables and store modules
+- [2332bd5](https://github.com/appscode/kubedb-ui/commit/2332bd5) Make nodes table rows linkable, add node details page
+- [dea5b26](https://github.com/appscode/kubedb-ui/commit/dea5b26) Use overview headercards instead of overview cards in database insights, fix some css issues
+- [dc15005](https://github.com/appscode/kubedb-ui/commit/dc15005) Add theming support to kubedbui
+- [8506860](https://github.com/appscode/kubedb-ui/commit/8506860) Add theming capability
+- [78d1be6](https://github.com/appscode/kubedb-ui/commit/78d1be6) Update design system to have sortables tables with fixed issues
+- [262f57b](https://github.com/appscode/kubedb-ui/commit/262f57b) Add sortability in database list table
+- [6a02b78](https://github.com/appscode/kubedb-ui/commit/6a02b78) Remove vue-tsc validtion from build command, it caused weird errors
+- [8b1da80](https://github.com/appscode/kubedb-ui/commit/8b1da80) FIx typescript errors in database cluster analytics, overview headers cads
+- [3045d4a](https://github.com/appscode/kubedb-ui/commit/3045d4a) Refactor database overview, add database overview to store module
+- [e5fcb4e](https://github.com/appscode/kubedb-ui/commit/e5fcb4e) Refactor alert dropdown actions
+- [bcedf6c](https://github.com/appscode/kubedb-ui/commit/bcedf6c) Refactor nodes list, queries, collections and operations table
+- [911c891](https://github.com/appscode/kubedb-ui/commit/911c891) update design system, refactor cluster cell and databse type cell
+- [3fafe4d](https://github.com/appscode/kubedb-ui/commit/3fafe4d) Added nested dropdown element (#14)
+- [50bcf50](https://github.com/appscode/kubedb-ui/commit/50bcf50) Refactor database header columns, list filters and table for databse types
+- [05c9939](https://github.com/appscode/kubedb-ui/commit/05c9939) Refactor database list comopnent, lsit filter component
+- [9650c7c](https://github.com/appscode/kubedb-ui/commit/9650c7c) Add cluster cell and database type cell in backups list table and alerts list table
+- [5641092](https://github.com/appscode/kubedb-ui/commit/5641092) Add filters to backup list table, show recent backups in global backups page, mock global backups api
+- [8fc1d55](https://github.com/appscode/kubedb-ui/commit/8fc1d55) Add filters to alerts list table for global and database local context
+- [ac4dbf2](https://github.com/appscode/kubedb-ui/commit/ac4dbf2) Show global alerts and overview in alerts page
+- [9d484ae](https://github.com/appscode/kubedb-ui/commit/9d484ae) Add expandable feature in backups list and alerts list, add actions in alerts list (#13)
+- [ecb16ef](https://github.com/appscode/kubedb-ui/commit/ecb16ef) Add database details pages (#12)
+- [89c92e3](https://github.com/appscode/kubedb-ui/commit/89c92e3) Added static components (Overview page) (#6)
+- [528fc89](https://github.com/appscode/kubedb-ui/commit/528fc89) Adding fading animation css
+- [4763d32](https://github.com/appscode/kubedb-ui/commit/4763d32) Add loaders to cluster analytics chart component
+- [53f974e](https://github.com/appscode/kubedb-ui/commit/53f974e) Mock database overview header api, add loader for overview header
+- [2962900](https://github.com/appscode/kubedb-ui/commit/2962900) fix chart percent value not reaching full amountby adding percent as key of the chart component
+- [0c8e23c](https://github.com/appscode/kubedb-ui/commit/0c8e23c) Fix chart percentage value not reaching full amount
+- [d5e9c7f](https://github.com/appscode/kubedb-ui/commit/d5e9c7f) Integrate mock api to single database cluster analytics, add analytics loader component
+- [8afebe9](https://github.com/appscode/kubedb-ui/commit/8afebe9) Add number unit composable to separate number and unit from string
+- [0be22fd](https://github.com/appscode/kubedb-ui/commit/0be22fd) Add doughnut percent chart, show single database analytics cards and doughnut percent chart inside
+- [175718f](https://github.com/appscode/kubedb-ui/commit/175718f) Add single database cluster analytics cards component
+- [66ae4bf](https://github.com/appscode/kubedb-ui/commit/66ae4bf) Add animation to semi doughnut chart percent value
+- [5e7934b](https://github.com/appscode/kubedb-ui/commit/5e7934b) Add animation to numbers in databae overview header
+- [3b9f5bd](https://github.com/appscode/kubedb-ui/commit/3b9f5bd) Set overvie header card number according to minimum width of the header wrapper
+- [b9db6a4](https://github.com/appscode/kubedb-ui/commit/b9db6a4) Set overview header card width according to overview header element width
+- [37a97b7](https://github.com/appscode/kubedb-ui/commit/37a97b7) Fix pagination dots (#5)
+- [b9322c6](https://github.com/appscode/kubedb-ui/commit/b9322c6) Integrate ChartJS library and Add percent chart component on cluster analytics (#4)
+- [82a03bb](https://github.com/appscode/kubedb-ui/commit/82a03bb) Update dotted pagination style (#3)
+- [bba8d3a](https://github.com/appscode/kubedb-ui/commit/bba8d3a) Add dotted pagination component, paginate overview header items if length exceeds a limit
+- [e7662ee](https://github.com/appscode/kubedb-ui/commit/e7662ee) Added overview header markup and style and component(#1)
+- [e1ad0fe](https://github.com/appscode/kubedb-ui/commit/e1ad0fe) Add loader for database cluster analytics
+- [b46bcbf](https://github.com/appscode/kubedb-ui/commit/b46bcbf) Add cluster analytics cards animation
+- [1e71441](https://github.com/appscode/kubedb-ui/commit/1e71441) Add database cluster analytics cards according to design, show analytics table
+- [129c229](https://github.com/appscode/kubedb-ui/commit/129c229) Add database cluster analytics mock api, and show cluster wise analytics
+- [19c7920](https://github.com/appscode/kubedb-ui/commit/19c7920) Added Card Markup
+- [5fd4956](https://github.com/appscode/kubedb-ui/commit/5fd4956) Show recent database list for all the database overview pages
+- [fb70e5f](https://github.com/appscode/kubedb-ui/commit/fb70e5f) Show database statuses as tags, add diffrent modifier classes for different statuses
+- [4524a12](https://github.com/appscode/kubedb-ui/commit/4524a12) Show database environemnt as tags in table and add modifier classes to tags as required
+- [48ba203](https://github.com/appscode/kubedb-ui/commit/48ba203) Show database type icon in database table
+- [36adf0e](https://github.com/appscode/kubedb-ui/commit/36adf0e) Clear namespace when cluster is changed in databse filter selections
+- [a1218cf](https://github.com/appscode/kubedb-ui/commit/a1218cf) Add database filter functionality to the database list table
+- [8707add](https://github.com/appscode/kubedb-ui/commit/8707add) Add namespace select and environment select in database filter, randomize database mock api response, give type definitions to database types and database statys types
+- [4ef02ef](https://github.com/appscode/kubedb-ui/commit/4ef02ef) Add database select and cluster select to the filter dropdown
+- [6ff80ce](https://github.com/appscode/kubedb-ui/commit/6ff80ce) Add database list filter component
+- [856748e](https://github.com/appscode/kubedb-ui/commit/856748e) Add namespace to the database type declaration
+- [042b835](https://github.com/appscode/kubedb-ui/commit/042b835) Add transition effects in database table
+- [f41061f](https://github.com/appscode/kubedb-ui/commit/f41061f) Change theme color, use vue verison 3.2, Introduce table components along with loaders, search bars, pagination and modals
+- [9a3e2ae](https://github.com/appscode/kubedb-ui/commit/9a3e2ae) Add transition css, add page transition effects
+- [ba14b05](https://github.com/appscode/kubedb-ui/commit/ba14b05) Add header components to all the pages
+- [4d162c3](https://github.com/appscode/kubedb-ui/commit/4d162c3) Add global create button, global create page, show database selection cards, redirect to database create page, add database create page
+- [3af0a03](https://github.com/appscode/kubedb-ui/commit/3af0a03) Redirect user to login page if user api fails
+- [22d3cc9](https://github.com/appscode/kubedb-ui/commit/22d3cc9) Add sidebar along with sidebar items, include first level routes and page components
+- [a2fa9c8](https://github.com/appscode/kubedb-ui/commit/a2fa9c8) Add top navigation bar
+- [ef6c21e](https://github.com/appscode/kubedb-ui/commit/ef6c21e) Update wizard-resources for testing ui-builder validation
+- [204836a](https://github.com/appscode/kubedb-ui/commit/204836a) Add wizard resources for testing ui-builder reusable elements
+- [aecc383](https://github.com/appscode/kubedb-ui/commit/aecc383) Test single step form array implementation with ui-builder
+- [8cb8d94](https://github.com/appscode/kubedb-ui/commit/8cb8d94) Test monaco editor integration with ui-builder
+- [5236d8f](https://github.com/appscode/kubedb-ui/commit/5236d8f) Add wizard resources for testing ui-builder vue 3 integration
+- [2fcbebd](https://github.com/appscode/kubedb-ui/commit/2fcbebd) Testing ui builder integration with kubedb ui, error in single-step-form-mixin, getValue method
+- [bb5d053](https://github.com/appscode/kubedb-ui/commit/bb5d053) Integrate vue-i18n
+- [9a97712](https://github.com/appscode/kubedb-ui/commit/9a97712) Integrate axios to the project, make api calls, declare user interface and perform api call to fetch the user
+- [625b7fa](https://github.com/appscode/kubedb-ui/commit/625b7fa) Add vuex store to the project
+- [7eb56f1](https://github.com/appscode/kubedb-ui/commit/7eb56f1) Add vue-router 4 to the project
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.2.0](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.2.0)

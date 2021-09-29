@@ -1,7 +1,7 @@
 {
   "product_line": "Console",
   "release": "v2021.09.29",
-  "release_date": "2021-09-29T12:04:47.371858305Z",
+  "release_date": "2021-09-29T12:04:51.182013313Z",
   "release_project_url": "https://github.com/appscode/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2021.09.29)",
   "kubernetes_version": "1.16+",
@@ -21729,6 +21729,352 @@
             {
               "SHA": "4b8cd8e8",
               "Subject": "credential work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/appscode/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.1.0",
+          "commits": [
+            {
+              "SHA": "0ec7009",
+              "Subject": "Prepare for release v0.1.0 (#17)"
+            },
+            {
+              "SHA": "7afe136",
+              "Subject": "Fix release workflow"
+            },
+            {
+              "SHA": "06fe889",
+              "Subject": "Prepare for release v0.1.0-rc.0 (#16)"
+            },
+            {
+              "SHA": "b7193c4",
+              "Subject": "Add release tracker script"
+            },
+            {
+              "SHA": "41e3e1a",
+              "Subject": "Update design system, solves link unclickable issue"
+            },
+            {
+              "SHA": "05284db",
+              "Subject": "Add CI/CD yamls and configurations, docker file and build commands to package.json"
+            },
+            {
+              "SHA": "453431a",
+              "Subject": "Update design system, import theming functions from design system"
+            },
+            {
+              "SHA": "5355cb0",
+              "Subject": "Show node details overview charts in node details page"
+            },
+            {
+              "SHA": "1b6f256",
+              "Subject": "Show node details header and node insight headers in node details page"
+            },
+            {
+              "SHA": "de68f80",
+              "Subject": "Integrate node details and charts mock api, along with their composables, typings and store module"
+            },
+            {
+              "SHA": "89fe1ac",
+              "Subject": "Integrate node descriptor api, along with typees, composables and store modules"
+            },
+            {
+              "SHA": "2332bd5",
+              "Subject": "Make nodes table rows linkable, add node details page"
+            },
+            {
+              "SHA": "dea5b26",
+              "Subject": "Use overview headercards instead of overview cards in database insights, fix some css issues"
+            },
+            {
+              "SHA": "dc15005",
+              "Subject": "Add theming support to kubedbui"
+            },
+            {
+              "SHA": "8506860",
+              "Subject": "Add theming capability"
+            },
+            {
+              "SHA": "78d1be6",
+              "Subject": "Update design system to have sortables tables with fixed issues"
+            },
+            {
+              "SHA": "262f57b",
+              "Subject": "Add sortability in database list table"
+            },
+            {
+              "SHA": "6a02b78",
+              "Subject": "Remove vue-tsc validtion from build command, it caused weird errors"
+            },
+            {
+              "SHA": "8b1da80",
+              "Subject": "FIx typescript errors in database cluster analytics, overview headers cads"
+            },
+            {
+              "SHA": "3045d4a",
+              "Subject": "Refactor database overview, add database overview to store module"
+            },
+            {
+              "SHA": "e5fcb4e",
+              "Subject": "Refactor alert dropdown actions"
+            },
+            {
+              "SHA": "bcedf6c",
+              "Subject": "Refactor nodes list, queries, collections and operations table"
+            },
+            {
+              "SHA": "911c891",
+              "Subject": "update design system, refactor cluster cell and databse type cell"
+            },
+            {
+              "SHA": "3fafe4d",
+              "Subject": "Added nested dropdown element (#14)"
+            },
+            {
+              "SHA": "50bcf50",
+              "Subject": "Refactor database header columns, list filters and table for databse types"
+            },
+            {
+              "SHA": "05c9939",
+              "Subject": "Refactor database list comopnent, lsit filter component"
+            },
+            {
+              "SHA": "9650c7c",
+              "Subject": "Add cluster cell and database type cell in backups list table and alerts list table"
+            },
+            {
+              "SHA": "5641092",
+              "Subject": "Add filters to backup list table, show recent backups in global backups page, mock global backups api"
+            },
+            {
+              "SHA": "8fc1d55",
+              "Subject": "Add filters to alerts list table for global and database local context"
+            },
+            {
+              "SHA": "ac4dbf2",
+              "Subject": "Show global alerts and overview in alerts page"
+            },
+            {
+              "SHA": "9d484ae",
+              "Subject": "Add expandable feature in backups list and alerts list, add actions in alerts list (#13)"
+            },
+            {
+              "SHA": "ecb16ef",
+              "Subject": "Add database details pages (#12)"
+            },
+            {
+              "SHA": "89c92e3",
+              "Subject": "Added static components (Overview page) (#6)"
+            },
+            {
+              "SHA": "528fc89",
+              "Subject": "Adding fading animation css"
+            },
+            {
+              "SHA": "4763d32",
+              "Subject": "Add loaders to cluster analytics chart component"
+            },
+            {
+              "SHA": "53f974e",
+              "Subject": "Mock database overview header api, add loader for overview header"
+            },
+            {
+              "SHA": "2962900",
+              "Subject": "fix chart percent value not reaching full amountby adding percent as key of the chart component"
+            },
+            {
+              "SHA": "0c8e23c",
+              "Subject": "Fix chart percentage value not reaching full amount"
+            },
+            {
+              "SHA": "d5e9c7f",
+              "Subject": "Integrate mock api to single database cluster analytics, add analytics loader component"
+            },
+            {
+              "SHA": "8afebe9",
+              "Subject": "Add number unit composable to separate number and unit from string"
+            },
+            {
+              "SHA": "0be22fd",
+              "Subject": "Add doughnut percent chart, show single database analytics cards and doughnut percent chart inside"
+            },
+            {
+              "SHA": "175718f",
+              "Subject": "Add single database cluster analytics cards component"
+            },
+            {
+              "SHA": "66ae4bf",
+              "Subject": "Add animation to semi doughnut chart percent value"
+            },
+            {
+              "SHA": "5e7934b",
+              "Subject": "Add animation to numbers in databae overview header"
+            },
+            {
+              "SHA": "3b9f5bd",
+              "Subject": "Set overvie header card number according to minimum width of the header wrapper"
+            },
+            {
+              "SHA": "b9db6a4",
+              "Subject": "Set overview header card width according to overview header element width"
+            },
+            {
+              "SHA": "37a97b7",
+              "Subject": "Fix pagination dots (#5)"
+            },
+            {
+              "SHA": "b9322c6",
+              "Subject": "Integrate ChartJS library and Add percent chart component on cluster analytics (#4)"
+            },
+            {
+              "SHA": "82a03bb",
+              "Subject": "Update dotted pagination style (#3)"
+            },
+            {
+              "SHA": "bba8d3a",
+              "Subject": "Add dotted pagination component, paginate overview header items if length exceeds a limit"
+            },
+            {
+              "SHA": "e7662ee",
+              "Subject": "Added overview header markup and style and component(#1)"
+            },
+            {
+              "SHA": "e1ad0fe",
+              "Subject": "Add loader for database cluster analytics"
+            },
+            {
+              "SHA": "b46bcbf",
+              "Subject": "Add cluster analytics cards animation"
+            },
+            {
+              "SHA": "1e71441",
+              "Subject": "Add database cluster analytics cards according to design, show analytics table"
+            },
+            {
+              "SHA": "129c229",
+              "Subject": "Add database cluster analytics mock api, and show cluster wise analytics"
+            },
+            {
+              "SHA": "19c7920",
+              "Subject": "Added Card Markup"
+            },
+            {
+              "SHA": "5fd4956",
+              "Subject": "Show recent database list for all the database overview pages"
+            },
+            {
+              "SHA": "fb70e5f",
+              "Subject": "Show database statuses as tags, add diffrent modifier classes for different statuses"
+            },
+            {
+              "SHA": "4524a12",
+              "Subject": "Show database environemnt as tags in table and add modifier classes to tags as required"
+            },
+            {
+              "SHA": "48ba203",
+              "Subject": "Show database type icon in database table"
+            },
+            {
+              "SHA": "36adf0e",
+              "Subject": "Clear namespace when cluster is changed in databse filter selections"
+            },
+            {
+              "SHA": "a1218cf",
+              "Subject": "Add database filter functionality to the database list table"
+            },
+            {
+              "SHA": "8707add",
+              "Subject": "Add namespace select and environment select in database filter, randomize database mock api response, give type definitions to database types and database statys types"
+            },
+            {
+              "SHA": "4ef02ef",
+              "Subject": "Add database select and cluster select to the filter dropdown"
+            },
+            {
+              "SHA": "6ff80ce",
+              "Subject": "Add database list filter component"
+            },
+            {
+              "SHA": "856748e",
+              "Subject": "Add namespace to the database type declaration"
+            },
+            {
+              "SHA": "042b835",
+              "Subject": "Add transition effects in database table"
+            },
+            {
+              "SHA": "f41061f",
+              "Subject": "Change theme color, use vue verison 3.2, Introduce table components along with loaders, search bars, pagination and modals"
+            },
+            {
+              "SHA": "9a3e2ae",
+              "Subject": "Add transition css, add page transition effects"
+            },
+            {
+              "SHA": "ba14b05",
+              "Subject": "Add header components to all the pages"
+            },
+            {
+              "SHA": "4d162c3",
+              "Subject": "Add global create button, global create page, show database selection cards, redirect to database create page, add database create page"
+            },
+            {
+              "SHA": "3af0a03",
+              "Subject": "Redirect user to login page if user api fails"
+            },
+            {
+              "SHA": "22d3cc9",
+              "Subject": "Add sidebar along with sidebar items, include first level routes and page components"
+            },
+            {
+              "SHA": "a2fa9c8",
+              "Subject": "Add top navigation bar"
+            },
+            {
+              "SHA": "ef6c21e",
+              "Subject": "Update wizard-resources for testing ui-builder validation"
+            },
+            {
+              "SHA": "204836a",
+              "Subject": "Add wizard resources for testing ui-builder reusable elements"
+            },
+            {
+              "SHA": "aecc383",
+              "Subject": "Test single step form array implementation with ui-builder"
+            },
+            {
+              "SHA": "8cb8d94",
+              "Subject": "Test monaco editor integration with ui-builder"
+            },
+            {
+              "SHA": "5236d8f",
+              "Subject": "Add wizard resources for testing ui-builder vue 3 integration"
+            },
+            {
+              "SHA": "2fcbebd",
+              "Subject": "Testing ui builder integration with kubedb ui, error in single-step-form-mixin, getValue method"
+            },
+            {
+              "SHA": "bb5d053",
+              "Subject": "Integrate vue-i18n"
+            },
+            {
+              "SHA": "9a97712",
+              "Subject": "Integrate axios to the project, make api calls, declare user interface and perform api call to fetch the user"
+            },
+            {
+              "SHA": "625b7fa",
+              "Subject": "Add vuex store to the project"
+            },
+            {
+              "SHA": "7eb56f1",
+              "Subject": "Add vue-router 4 to the project"
             }
           ]
         }
