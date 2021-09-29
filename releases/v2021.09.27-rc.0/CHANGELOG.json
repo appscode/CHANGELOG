@@ -1,7 +1,7 @@
 {
   "product_line": "Console",
   "release": "v2021.09.27-rc.0",
-  "release_date": "2021-09-29T01:03:31.220472248Z",
+  "release_date": "2021-09-29T02:03:45.950792704Z",
   "release_project_url": "https://github.com/appscode/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2021.09.27-rc.0)",
   "kubernetes_version": "1.16+",
@@ -575,6 +575,124 @@
             {
               "SHA": "26078266",
               "Subject": "Update charts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.6.0-rc.0",
+          "commits": [
+            {
+              "SHA": "48585512",
+              "Subject": "Add release tracker script"
+            },
+            {
+              "SHA": "6d0f718b",
+              "Subject": "Prepare for release v0.6.0-rc.0 (#145)"
+            },
+            {
+              "SHA": "c5915c1b",
+              "Subject": "Update repository config (#144)"
+            },
+            {
+              "SHA": "6096c250",
+              "Subject": "Update kubevault and voyager crds"
+            },
+            {
+              "SHA": "b6e0dbe0",
+              "Subject": "Update crds"
+            },
+            {
+              "SHA": "44f08986",
+              "Subject": "Update KubeDB v2021.09.09 crds"
+            },
+            {
+              "SHA": "8f6a3d70",
+              "Subject": "Update repository config (#143)"
+            },
+            {
+              "SHA": "ed8d9b48",
+              "Subject": "Add secrets-store-csi-driver crds"
+            },
+            {
+              "SHA": "0ee52978",
+              "Subject": "Update kubedb crds"
+            },
+            {
+              "SHA": "bbcf4d75",
+              "Subject": "Update KubeDB crds"
+            },
+            {
+              "SHA": "eaac6336",
+              "Subject": "Update README.md"
+            },
+            {
+              "SHA": "6e7f53af",
+              "Subject": "Remove ResourceRequirements field from ResourceDescriptor"
+            },
+            {
+              "SHA": "71d20972",
+              "Subject": "Update Database resource list columns and functions (#138)"
+            },
+            {
+              "SHA": "3baea37c",
+              "Subject": "Update crds"
+            },
+            {
+              "SHA": "76995fcb",
+              "Subject": "Update stash crds"
+            },
+            {
+              "SHA": "ae34dd1c",
+              "Subject": "Update repository config (#141)"
+            },
+            {
+              "SHA": "a7955c86",
+              "Subject": "Update repository config (#140)"
+            },
+            {
+              "SHA": "0faa61c3",
+              "Subject": "Update ingress v1 crd"
+            },
+            {
+              "SHA": "dcc1abc0",
+              "Subject": "Use crd v1 api only (#139)"
+            },
+            {
+              "SHA": "688c6f0a",
+              "Subject": "Add voyager ingress/v1 api"
+            },
+            {
+              "SHA": "5f7c6f0d",
+              "Subject": "Fix formatting"
+            },
+            {
+              "SHA": "cb547963",
+              "Subject": "Remove dependency on glog"
+            },
+            {
+              "SHA": "2d0db054",
+              "Subject": "Update kubedb and kubevault schema"
+            },
+            {
+              "SHA": "a7944092",
+              "Subject": "Update postgres resource list columns and functions (#137)"
+            },
+            {
+              "SHA": "7ba38cda",
+              "Subject": "Add column and page definitions for DB crds (#136)"
+            },
+            {
+              "SHA": "0b14f4a8",
+              "Subject": "Add columns for ops request crds (#135)"
+            },
+            {
+              "SHA": "77bc458f",
+              "Subject": "Switch to prod ui charts repo"
             }
           ]
         }
