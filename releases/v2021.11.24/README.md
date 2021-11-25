@@ -20,3 +20,14 @@
 
 
 
+## [kmodules/resource-metadata](https://github.com/kmodules/resource-metadata)
+
+### [v0.7.0](https://github.com/kmodules/resource-metadata/releases/tag/v0.7.0)
+
+- [879175de](https://github.com/kmodules/resource-metadata/commit/879175de) Prepare for release v0.7.0 (#151)
+- [1b1b3abb](https://github.com/kmodules/resource-metadata/commit/1b1b3abb) Add ui-server resources (#150)
+- [8758d1f6](https://github.com/kmodules/resource-metadata/commit/8758d1f6) Update repository config (#149)
+- [23a1caba](https://github.com/kmodules/resource-metadata/commit/23a1caba) Fix satori/go.uuid security vulnerability (#148)
+
+
+

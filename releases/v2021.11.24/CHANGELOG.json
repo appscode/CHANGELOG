@@ -1,7 +1,7 @@
 {
   "product_line": "Console",
   "release": "v2021.11.24",
-  "release_date": "2021-11-25T07:13:37.054152739Z",
+  "release_date": "2021-11-25T07:42:41.266152024Z",
   "release_project_url": "https://github.com/appscode/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2021.11.24)",
   "kubernetes_version": "1.16+",
@@ -59,6 +59,32 @@
             {
               "SHA": "a6ee00b8",
               "Subject": "Generate VaultServer editor chart (#129)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.7.0",
+          "commits": [
+            {
+              "SHA": "879175de",
+              "Subject": "Prepare for release v0.7.0 (#151)"
+            },
+            {
+              "SHA": "1b1b3abb",
+              "Subject": "Add ui-server resources (#150)"
+            },
+            {
+              "SHA": "8758d1f6",
+              "Subject": "Update repository config (#149)"
+            },
+            {
+              "SHA": "23a1caba",
+              "Subject": "Fix satori/go.uuid security vulnerability (#148)"
             }
           ]
         }
