@@ -1,6 +1,16 @@
 # Console v2021.11.24 (2021-11-25)
 
 
+## [appscode/accounts-ui](https://github.com/appscode/accounts-ui)
+
+### [v0.2.0](https://github.com/appscode/accounts-ui/releases/tag/v0.2.0)
+
+- [32614ec](https://github.com/appscode/accounts-ui/commit/32614ec) Prepare for release v0.2.0 (#92)
+- [fd2f862](https://github.com/appscode/accounts-ui/commit/fd2f862) Remove unused InvoiceLinesInnerTable.vue component
+- [ea67e50](https://github.com/appscode/accounts-ui/commit/ea67e50) Update Invoices, Overview Section
+
+
+
 ## [appscode/cluster-ui](https://github.com/appscode/cluster-ui)
 
 ### [v0.2.0](https://github.com/appscode/cluster-ui/releases/tag/v0.2.0)

@@ -1,11 +1,33 @@
 {
   "product_line": "Console",
   "release": "v2021.11.24",
-  "release_date": "2021-11-25T08:41:02.900501754Z",
+  "release_date": "2021-11-25T08:42:11.911590638Z",
   "release_project_url": "https://github.com/appscode/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2021.11.24)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/appscode/accounts-ui",
+      "releases": [
+        {
+          "tag": "v0.2.0",
+          "commits": [
+            {
+              "SHA": "32614ec",
+              "Subject": "Prepare for release v0.2.0 (#92)"
+            },
+            {
+              "SHA": "fd2f862",
+              "Subject": "Remove unused InvoiceLinesInnerTable.vue component"
+            },
+            {
+              "SHA": "ea67e50",
+              "Subject": "Update Invoices, Overview Section"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/appscode/cluster-ui",
       "releases": [
