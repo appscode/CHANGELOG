@@ -10,6 +10,14 @@
 
 
 
+## [appscode/kubedb-ui](https://github.com/appscode/kubedb-ui)
+
+### [v0.2.0](https://github.com/appscode/kubedb-ui/releases/tag/v0.2.0)
+
+- [26c5061](https://github.com/appscode/kubedb-ui/commit/26c5061) Prepare for release v0.2.0 (#18)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.3.0](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.3.0)

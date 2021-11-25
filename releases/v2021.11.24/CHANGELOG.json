@@ -1,7 +1,7 @@
 {
   "product_line": "Console",
   "release": "v2021.11.24",
-  "release_date": "2021-11-25T08:40:59.77277031Z",
+  "release_date": "2021-11-25T08:41:02.900501754Z",
   "release_project_url": "https://github.com/appscode/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2021.11.24)",
   "kubernetes_version": "1.16+",
@@ -19,6 +19,20 @@
             {
               "SHA": "8f4b99f2",
               "Subject": "Added private cluster import (#427)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/appscode/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.2.0",
+          "commits": [
+            {
+              "SHA": "26c5061",
+              "Subject": "Prepare for release v0.2.0 (#18)"
             }
           ]
         }
