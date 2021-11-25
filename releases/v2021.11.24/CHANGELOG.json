@@ -1,0 +1,68 @@
+{
+  "product_line": "Console",
+  "release": "v2021.11.24",
+  "release_date": "2021-11-25T07:13:37.054152739Z",
+  "release_project_url": "https://github.com/appscode/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2021.11.24)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.3.0",
+          "commits": [
+            {
+              "SHA": "acf160ad",
+              "Subject": "Prepare for release v0.3.0 (#140)"
+            },
+            {
+              "SHA": "2ae66891",
+              "Subject": "Update Makefile for controller-tools@v0.7.0"
+            },
+            {
+              "SHA": "11410667",
+              "Subject": "Update repository config (#139)"
+            },
+            {
+              "SHA": "94f374e8",
+              "Subject": "Update dependencies (#138)"
+            },
+            {
+              "SHA": "b2e91556",
+              "Subject": "Update charts (#136)"
+            },
+            {
+              "SHA": "3320edea",
+              "Subject": "Update vaultserver edition options chart (#135)"
+            },
+            {
+              "SHA": "5bb3e92d",
+              "Subject": "Update dependencies (#134)"
+            },
+            {
+              "SHA": "e7ade18d",
+              "Subject": "Update dependencies (#133)"
+            },
+            {
+              "SHA": "fc1e1c1b",
+              "Subject": "Update charts (#132)"
+            },
+            {
+              "SHA": "b6d25154",
+              "Subject": "Add VaultServer options chart (#131)"
+            },
+            {
+              "SHA": "d0d8be8e",
+              "Subject": "Update charts (#130)"
+            },
+            {
+              "SHA": "a6ee00b8",
+              "Subject": "Generate VaultServer editor chart (#129)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
