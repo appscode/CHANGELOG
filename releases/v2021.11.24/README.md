@@ -1,6 +1,15 @@
 # Console v2021.11.24 (2021-11-25)
 
 
+## [appscode/cluster-ui](https://github.com/appscode/cluster-ui)
+
+### [v0.2.0](https://github.com/appscode/cluster-ui/releases/tag/v0.2.0)
+
+- [69643d85](https://github.com/appscode/cluster-ui/commit/69643d85) Prepare for release v0.2.0 (#428)
+- [8f4b99f2](https://github.com/appscode/cluster-ui/commit/8f4b99f2) Added private cluster import (#427)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.3.0](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.3.0)
