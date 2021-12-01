@@ -1,0 +1,32 @@
+{
+  "product_line": "Console",
+  "release": "v2021.12.01",
+  "release_date": "2021-12-01T12:33:24.363453372Z",
+  "release_project_url": "https://github.com/appscode/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2021.12.01)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/appscode/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.2.1",
+          "commits": [
+            {
+              "SHA": "77e8c596",
+              "Subject": "Prepare for release v0.2.1 (#432)"
+            },
+            {
+              "SHA": "9ca0e240",
+              "Subject": "Updated Public Cluster Import icon"
+            },
+            {
+              "SHA": "2f917cc1",
+              "Subject": "fixed vue-openapi-form  issues, updated private cluster modal, moved cluster switcher functionality to design-system (#430)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
