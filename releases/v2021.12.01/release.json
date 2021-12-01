@@ -1,0 +1,23 @@
+{
+  "product_line": "Console",
+  "release": "v2021.12.01",
+  "docs_url_template": "",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "github.com/appscode/cluster-ui": {
+        "tag": "v0.2.1",
+        "commands": [
+          "npm --no-git-tag-version --allow-same-version version ${TAG_WITHOUT_V_PREFIX}"
+        ]
+      }
+    }
+  ],
+  "external_projects": {
+    "github.com/appscode/products": {},
+    "github.com/kmodules/codespan-schema-checker": {},
+    "github.com/kmodules/metrics-configuration-checker": {},
+    "github.com/kubepack/kubepack": {},
+    "github.com/kubepack/lib-app": {}
+  }
+}
