@@ -1,0 +1,28 @@
+{
+  "product_line": "Console",
+  "release": "v2021.12.02",
+  "release_date": "2021-12-02T03:54:21.328276785Z",
+  "release_project_url": "https://github.com/appscode/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2021.12.02)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/appscode/gitea",
+      "releases": [
+        {
+          "tag": "v2021.12.02",
+          "commits": [
+            {
+              "SHA": "c549591a9",
+              "Subject": "Update to accounts-ui v0.2.0 (#228)"
+            },
+            {
+              "SHA": "b50bcae0d",
+              "Subject": "Skip --version flag from helm command if version is missing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "product_line": "Console",
+  "release": "v2021.12.02",
+  "docs_url_template": "",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "github.com/appscode/gitea": {
+        "tag": "v2021.12.02",
+        "release_branch": "release-${TAG}"
+      }
+    }
+  ],
+  "external_projects": {
+    "github.com/appscode/products": {},
+    "github.com/kmodules/codespan-schema-checker": {},
+    "github.com/kmodules/metrics-configuration-checker": {},
+    "github.com/kubepack/kubepack": {},
+    "github.com/kubepack/lib-app": {}
+  }
+}
