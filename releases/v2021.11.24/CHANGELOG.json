@@ -1,8 +1,8 @@
 {
   "product_line": "Console",
   "release": "v2021.11.24",
-  "release_date": "2021-11-25T08:42:11.911590638Z",
-  "release_project_url": "https://github.com/appscode/CHANGELOG",
+  "release_date": "2022-03-08T12:15:16.54641487Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2021.11.24)",
   "kubernetes_version": "1.16+",
   "projects": [
@@ -113,6 +113,43 @@
             {
               "SHA": "a6ee00b8",
               "Subject": "Generate VaultServer editor chart (#129)"
+            }
+          ]
+        },
+        {
+          "tag": "v0.3.1",
+          "commits": [
+            {
+              "SHA": "9b2fe53a",
+              "Subject": "Prepare for release v0.3.1 (#148)"
+            },
+            {
+              "SHA": "66d7112d",
+              "Subject": "Fixed packageview url path in function js for reusable element fetching (#147)"
+            },
+            {
+              "SHA": "989ce114",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#146)"
+            },
+            {
+              "SHA": "c2a22cbc",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#145)"
+            },
+            {
+              "SHA": "3d0f860b",
+              "Subject": "Update repository config (#144)"
+            },
+            {
+              "SHA": "e021f61c",
+              "Subject": "Update repository config (#143)"
+            },
+            {
+              "SHA": "a9cf43fd",
+              "Subject": "Update repository config (#142)"
+            },
+            {
+              "SHA": "695bffcd",
+              "Subject": "Fixed mysqlopsrequest wizard empty exporter problem (#141)"
             }
           ]
         }

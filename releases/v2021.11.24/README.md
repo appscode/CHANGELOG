@@ -1,4 +1,4 @@
-# Console v2021.11.24 (2021-11-25)
+# Console v2021.11.24 (2022-03-08)
 
 
 ## [appscode/accounts-ui](https://github.com/appscode/accounts-ui)
@@ -44,6 +44,18 @@
 - [b6d25154](https://github.com/bytebuilders/ui-wizards/commit/b6d25154) Add VaultServer options chart (#131)
 - [d0d8be8e](https://github.com/bytebuilders/ui-wizards/commit/d0d8be8e) Update charts (#130)
 - [a6ee00b8](https://github.com/bytebuilders/ui-wizards/commit/a6ee00b8) Generate VaultServer editor chart (#129)
+
+
+### [v0.3.1](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.3.1)
+
+- [9b2fe53a](https://github.com/bytebuilders/ui-wizards/commit/9b2fe53a) Prepare for release v0.3.1 (#148)
+- [66d7112d](https://github.com/bytebuilders/ui-wizards/commit/66d7112d) Fixed packageview url path in function js for reusable element fetching (#147)
+- [989ce114](https://github.com/bytebuilders/ui-wizards/commit/989ce114) Cancel concurrent CI runs for same pr/commit (#146)
+- [c2a22cbc](https://github.com/bytebuilders/ui-wizards/commit/c2a22cbc) Cancel concurrent CI runs for same pr/commit (#145)
+- [3d0f860b](https://github.com/bytebuilders/ui-wizards/commit/3d0f860b) Update repository config (#144)
+- [e021f61c](https://github.com/bytebuilders/ui-wizards/commit/e021f61c) Update repository config (#143)
+- [a9cf43fd](https://github.com/bytebuilders/ui-wizards/commit/a9cf43fd) Update repository config (#142)
+- [695bffcd](https://github.com/bytebuilders/ui-wizards/commit/695bffcd) Fixed mysqlopsrequest wizard empty exporter problem (#141)
 
 
 
