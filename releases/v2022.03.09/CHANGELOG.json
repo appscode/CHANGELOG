@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.03.09",
-  "release_date": "2022-03-10T03:36:59.423018182Z",
+  "release_date": "2022-03-10T04:26:46.714141085Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.03.09)",
   "kubernetes_version": "1.16+",
@@ -15,6 +15,64 @@
             {
               "SHA": "b515cf47",
               "Subject": "Prepare for release v0.4.0 (#149)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.10.0",
+          "commits": [
+            {
+              "SHA": "8c83a97e",
+              "Subject": "Prepare for release v0.10.0 (#214)"
+            },
+            {
+              "SHA": "23758992",
+              "Subject": "Fix Grafana dashboard titles (#213)"
+            },
+            {
+              "SHA": "bd2546da",
+              "Subject": "Reset buffer before using"
+            },
+            {
+              "SHA": "3d6dd24f",
+              "Subject": "Fix template fields for raw REST query (#212)"
+            },
+            {
+              "SHA": "0f6b0191",
+              "Subject": "Add Grafana EmbeddedDashboard blocks (#211)"
+            },
+            {
+              "SHA": "502d11a9",
+              "Subject": "Update crds and schema"
+            },
+            {
+              "SHA": "d106899b",
+              "Subject": "Add textAlign column (#210)"
+            },
+            {
+              "SHA": "d00553c6",
+              "Subject": "Format table definition files"
+            },
+            {
+              "SHA": "bc3fc576",
+              "Subject": "Update resource outlines and table definitions for KubeDB UI (#209)"
+            },
+            {
+              "SHA": "09e5f048",
+              "Subject": "Fix GK for repositories"
+            },
+            {
+              "SHA": "d77b31f5",
+              "Subject": "Add tooltip support (#208)"
+            },
+            {
+              "SHA": "51779830",
+              "Subject": "Support future dates for date column type (#207)"
             }
           ]
         }
