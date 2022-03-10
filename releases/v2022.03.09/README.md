@@ -50,6 +50,13 @@
 
 
 
+## [appscode/gitea](https://github.com/appscode/gitea)
+
+### [v2022.03.09](https://github.com/appscode/gitea/releases/tag/v2022.03.09)
+
+
+
+
 ## [appscode/kubedb-ui](https://github.com/appscode/kubedb-ui)
 
 ### [v0.3.0](https://github.com/appscode/kubedb-ui/releases/tag/v0.3.0)

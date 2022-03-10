@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.03.09",
-  "release_date": "2022-03-10T04:41:35.339675627Z",
+  "release_date": "2022-03-10T05:33:56.258196925Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.03.09)",
   "kubernetes_version": "1.16+",
@@ -163,6 +163,15 @@
               "Subject": "Integrate new find api from proxy ui-server, use group kind to fetch gvr from reosurceToAll and use gvr to fetch reosurceInfo from resourceToAll"
             }
           ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/appscode/gitea",
+      "releases": [
+        {
+          "tag": "v2022.03.09",
+          "commits": null
         }
       ]
     },
