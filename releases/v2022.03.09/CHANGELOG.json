@@ -1,0 +1,277 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.03.09",
+  "release_date": "2022-03-10T05:33:56.258196925Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.03.09)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/appscode/accounts-ui",
+      "releases": [
+        {
+          "tag": "v0.3.0",
+          "commits": [
+            {
+              "SHA": "627e7af",
+              "Subject": "Prepare for release v0.3.0 (#110)"
+            },
+            {
+              "SHA": "3748729",
+              "Subject": "Update bindata (#109)"
+            },
+            {
+              "SHA": "16de2b1",
+              "Subject": "Add unique id in previewYamls, update design system & bindata.go (#107)"
+            },
+            {
+              "SHA": "3d6adbe",
+              "Subject": "Remove invoiceId fix design issue, update design system and bindata.go (#106)"
+            },
+            {
+              "SHA": "b76acd4",
+              "Subject": "Change dashboard dynamic route name,dashboard sidebar & hide create update delete btn for non orgsOwner (#105)"
+            },
+            {
+              "SHA": "48b5e1b",
+              "Subject": "Fix sidebar kubernetes icon & update bindata.go (#104)"
+            },
+            {
+              "SHA": "ca29ced",
+              "Subject": "Updated design-system, changed file import and props name convention (#103)"
+            },
+            {
+              "SHA": "1dc9c3c",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#102)"
+            },
+            {
+              "SHA": "fbdc4e3",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#101)"
+            },
+            {
+              "SHA": "27972a9",
+              "Subject": "Add orgs update option in vuex action & update bindata.go (#100)"
+            },
+            {
+              "SHA": "893734c",
+              "Subject": "Al asad nur riyad/delete orgs  (#99)"
+            },
+            {
+              "SHA": "ea85df1",
+              "Subject": "Implemented dashboard pages, generic resource key value editior and breadcrumb functionality (#96)"
+            },
+            {
+              "SHA": "8385032",
+              "Subject": "updated description for client id for azure credential (#98)"
+            },
+            {
+              "SHA": "05330d0",
+              "Subject": "Updated image path in overview card"
+            },
+            {
+              "SHA": "47fc486",
+              "Subject": "Organization and user management section added with team, cluster and member list view"
+            },
+            {
+              "SHA": "163396d",
+              "Subject": "Add new input fields and change the API in organizations/create page"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/appscode/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.3.0",
+          "commits": [
+            {
+              "SHA": "5400bd05",
+              "Subject": "Prepare for release v0.3.0 (#464)"
+            },
+            {
+              "SHA": "e9d7dae7",
+              "Subject": "Integrate new render apis, menu apis, layout apis (#458)"
+            },
+            {
+              "SHA": "eca2f9e5",
+              "Subject": "Fix cluster details page redirection for inactive cluster (#445)"
+            },
+            {
+              "SHA": "00f32052",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#456)"
+            },
+            {
+              "SHA": "8c14ab63",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#455)"
+            },
+            {
+              "SHA": "2c7ca7f5",
+              "Subject": "Integrated organization api and added general settings page (#451)"
+            },
+            {
+              "SHA": "79c8dd6a",
+              "Subject": "Added cluster name and display name customization option in import cluster flow and connect disconnected cluster (#450)"
+            },
+            {
+              "SHA": "bb7f6b29",
+              "Subject": "Fix discoinnected and notimported cluster status issue and dark mode for remaining editor (#447)"
+            },
+            {
+              "SHA": "f2a424b5",
+              "Subject": "Fix terminal design issues and added reconnect option during log or exec connection failure (#446)"
+            },
+            {
+              "SHA": "aa84c274",
+              "Subject": "Remove status API call from ClusterSwitcher & get data from the vuex (#444)"
+            },
+            {
+              "SHA": "7c7a67cc",
+              "Subject": "Integrate new graph apis with new resource graph look (#443)"
+            },
+            {
+              "SHA": "e1792888",
+              "Subject": "Fixed build error"
+            },
+            {
+              "SHA": "5263a3e0",
+              "Subject": "Remove status API call from cluster-list mixin & added to ClusterListView component"
+            },
+            {
+              "SHA": "db748866",
+              "Subject": "Add exclamation icon & error massage as a tooltip in cluster-list grid and table view"
+            },
+            {
+              "SHA": "7d02bb84",
+              "Subject": "Implemented cluster monitoring settings pages and functionality and Add maximize minimize feature to terminal window"
+            },
+            {
+              "SHA": "d0f3f9cb",
+              "Subject": "Implemented dark mode functionality, update cluster list page with new status related changes (#435)"
+            },
+            {
+              "SHA": "790c96ae",
+              "Subject": "Use target resource info from response instead of console-config"
+            },
+            {
+              "SHA": "0ad957a9",
+              "Subject": "Use target resource info from response instead of console-config"
+            },
+            {
+              "SHA": "87dab73e",
+              "Subject": "Integrate new find api from proxy ui-server, use group kind to fetch gvr from reosurceToAll and use gvr to fetch reosurceInfo from resourceToAll"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/appscode/gitea",
+      "releases": [
+        {
+          "tag": "v2022.03.09",
+          "commits": null
+        }
+      ]
+    },
+    {
+      "url": "github.com/appscode/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.0",
+          "commits": [
+            {
+              "SHA": "277eb28",
+              "Subject": "Prepare for release v0.3.0 (#28)"
+            },
+            {
+              "SHA": "c57d707",
+              "Subject": "Integrate new menu, layout and render apis (#26)"
+            },
+            {
+              "SHA": "88ff913",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#21)"
+            },
+            {
+              "SHA": "e7095f3",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.0",
+          "commits": [
+            {
+              "SHA": "b515cf47",
+              "Subject": "Prepare for release v0.4.0 (#149)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.10.0",
+          "commits": [
+            {
+              "SHA": "8c83a97e",
+              "Subject": "Prepare for release v0.10.0 (#214)"
+            },
+            {
+              "SHA": "23758992",
+              "Subject": "Fix Grafana dashboard titles (#213)"
+            },
+            {
+              "SHA": "bd2546da",
+              "Subject": "Reset buffer before using"
+            },
+            {
+              "SHA": "3d6dd24f",
+              "Subject": "Fix template fields for raw REST query (#212)"
+            },
+            {
+              "SHA": "0f6b0191",
+              "Subject": "Add Grafana EmbeddedDashboard blocks (#211)"
+            },
+            {
+              "SHA": "502d11a9",
+              "Subject": "Update crds and schema"
+            },
+            {
+              "SHA": "d106899b",
+              "Subject": "Add textAlign column (#210)"
+            },
+            {
+              "SHA": "d00553c6",
+              "Subject": "Format table definition files"
+            },
+            {
+              "SHA": "bc3fc576",
+              "Subject": "Update resource outlines and table definitions for KubeDB UI (#209)"
+            },
+            {
+              "SHA": "09e5f048",
+              "Subject": "Fix GK for repositories"
+            },
+            {
+              "SHA": "d77b31f5",
+              "Subject": "Add tooltip support (#208)"
+            },
+            {
+              "SHA": "51779830",
+              "Subject": "Support future dates for date column type (#207)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
