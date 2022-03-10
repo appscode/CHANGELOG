@@ -1,0 +1,36 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.03.10",
+  "release_date": "2022-03-10T15:27:32.702232225Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.03.10)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/appscode/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.3.1",
+          "commits": [
+            {
+              "SHA": "6159bf24",
+              "Subject": "Prepare for release v0.3.1 (#469)"
+            },
+            {
+              "SHA": "a064297d",
+              "Subject": "Set loader to false for catch block before throwing err, fixed issue of navigating to resource details which is not present in sidebar (#468)"
+            },
+            {
+              "SHA": "aeaf4bdc",
+              "Subject": "Fixed resource details table issue, refactored release create, fixed resource list issue with query namespace (#466)"
+            },
+            {
+              "SHA": "fea4169e",
+              "Subject": "Show error and missing card for basic and subtable blocks (#465)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
