@@ -29,7 +29,7 @@
         "tag": "v0.10.0",
         "commands": [
           "go run cmd/ui-updater/main.go --chart.registry-url=${UI_REGISTRY_URL} --chart.version=${BYTEBUILDERS_UI_WIZARDS_TAG}",
-          "go run cmd/resourcedescriptor-fmt/main.go"
+          "go run cmd/resource-fmt/main.go"
         ]
       }
     },
