@@ -1,6 +1,29 @@
 # ByteBuilders v2022.03.09 (2022-03-10)
 
 
+## [appscode/accounts-ui](https://github.com/appscode/accounts-ui)
+
+### [v0.3.0](https://github.com/appscode/accounts-ui/releases/tag/v0.3.0)
+
+- [627e7af](https://github.com/appscode/accounts-ui/commit/627e7af) Prepare for release v0.3.0 (#110)
+- [3748729](https://github.com/appscode/accounts-ui/commit/3748729) Update bindata (#109)
+- [16de2b1](https://github.com/appscode/accounts-ui/commit/16de2b1) Add unique id in previewYamls, update design system & bindata.go (#107)
+- [3d6adbe](https://github.com/appscode/accounts-ui/commit/3d6adbe) Remove invoiceId fix design issue, update design system and bindata.go (#106)
+- [b76acd4](https://github.com/appscode/accounts-ui/commit/b76acd4) Change dashboard dynamic route name,dashboard sidebar & hide create update delete btn for non orgsOwner (#105)
+- [48b5e1b](https://github.com/appscode/accounts-ui/commit/48b5e1b) Fix sidebar kubernetes icon & update bindata.go (#104)
+- [ca29ced](https://github.com/appscode/accounts-ui/commit/ca29ced) Updated design-system, changed file import and props name convention (#103)
+- [1dc9c3c](https://github.com/appscode/accounts-ui/commit/1dc9c3c) Cancel concurrent CI runs for same pr/commit (#102)
+- [fbdc4e3](https://github.com/appscode/accounts-ui/commit/fbdc4e3) Cancel concurrent CI runs for same pr/commit (#101)
+- [27972a9](https://github.com/appscode/accounts-ui/commit/27972a9) Add orgs update option in vuex action & update bindata.go (#100)
+- [893734c](https://github.com/appscode/accounts-ui/commit/893734c) Al asad nur riyad/delete orgs  (#99)
+- [ea85df1](https://github.com/appscode/accounts-ui/commit/ea85df1) Implemented dashboard pages, generic resource key value editior and breadcrumb functionality (#96)
+- [8385032](https://github.com/appscode/accounts-ui/commit/8385032) updated description for client id for azure credential (#98)
+- [05330d0](https://github.com/appscode/accounts-ui/commit/05330d0) Updated image path in overview card
+- [47fc486](https://github.com/appscode/accounts-ui/commit/47fc486) Organization and user management section added with team, cluster and member list view
+- [163396d](https://github.com/appscode/accounts-ui/commit/163396d) Add new input fields and change the API in organizations/create page
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.0](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.0)

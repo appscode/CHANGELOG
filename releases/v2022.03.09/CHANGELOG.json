@@ -1,11 +1,85 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.03.09",
-  "release_date": "2022-03-10T04:26:46.714141085Z",
+  "release_date": "2022-03-10T04:41:19.691714679Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.03.09)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/appscode/accounts-ui",
+      "releases": [
+        {
+          "tag": "v0.3.0",
+          "commits": [
+            {
+              "SHA": "627e7af",
+              "Subject": "Prepare for release v0.3.0 (#110)"
+            },
+            {
+              "SHA": "3748729",
+              "Subject": "Update bindata (#109)"
+            },
+            {
+              "SHA": "16de2b1",
+              "Subject": "Add unique id in previewYamls, update design system & bindata.go (#107)"
+            },
+            {
+              "SHA": "3d6adbe",
+              "Subject": "Remove invoiceId fix design issue, update design system and bindata.go (#106)"
+            },
+            {
+              "SHA": "b76acd4",
+              "Subject": "Change dashboard dynamic route name,dashboard sidebar & hide create update delete btn for non orgsOwner (#105)"
+            },
+            {
+              "SHA": "48b5e1b",
+              "Subject": "Fix sidebar kubernetes icon & update bindata.go (#104)"
+            },
+            {
+              "SHA": "ca29ced",
+              "Subject": "Updated design-system, changed file import and props name convention (#103)"
+            },
+            {
+              "SHA": "1dc9c3c",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#102)"
+            },
+            {
+              "SHA": "fbdc4e3",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#101)"
+            },
+            {
+              "SHA": "27972a9",
+              "Subject": "Add orgs update option in vuex action & update bindata.go (#100)"
+            },
+            {
+              "SHA": "893734c",
+              "Subject": "Al asad nur riyad/delete orgs  (#99)"
+            },
+            {
+              "SHA": "ea85df1",
+              "Subject": "Implemented dashboard pages, generic resource key value editior and breadcrumb functionality (#96)"
+            },
+            {
+              "SHA": "8385032",
+              "Subject": "updated description for client id for azure credential (#98)"
+            },
+            {
+              "SHA": "05330d0",
+              "Subject": "Updated image path in overview card"
+            },
+            {
+              "SHA": "47fc486",
+              "Subject": "Organization and user management section added with team, cluster and member list view"
+            },
+            {
+              "SHA": "163396d",
+              "Subject": "Add new input fields and change the API in organizations/create page"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/ui-wizards",
       "releases": [
