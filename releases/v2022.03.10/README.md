@@ -12,3 +12,12 @@
 
 
 
+## [appscode/kubedb-ui](https://github.com/appscode/kubedb-ui)
+
+### [v0.3.1](https://github.com/appscode/kubedb-ui/releases/tag/v0.3.1)
+
+- [7ca8c0a](https://github.com/appscode/kubedb-ui/commit/7ca8c0a) Prepare for release v0.3.1 (#30)
+- [83e67b6](https://github.com/appscode/kubedb-ui/commit/83e67b6) Add status card component, call it in generic field and list content component, replace marketplace with grafana in app drawer (#29)
+
+
+

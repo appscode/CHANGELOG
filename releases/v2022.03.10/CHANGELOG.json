@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.03.10",
-  "release_date": "2022-03-10T15:27:32.702232225Z",
+  "release_date": "2022-03-10T15:27:37.401884289Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.03.10)",
   "kubernetes_version": "1.16+",
@@ -27,6 +27,24 @@
             {
               "SHA": "fea4169e",
               "Subject": "Show error and missing card for basic and subtable blocks (#465)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/appscode/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.1",
+          "commits": [
+            {
+              "SHA": "7ca8c0a",
+              "Subject": "Prepare for release v0.3.1 (#30)"
+            },
+            {
+              "SHA": "83e67b6",
+              "Subject": "Add status card component, call it in generic field and list content component, replace marketplace with grafana in app drawer (#29)"
             }
           ]
         }
