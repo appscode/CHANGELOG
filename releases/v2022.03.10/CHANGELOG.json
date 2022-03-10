@@ -1,11 +1,29 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.03.10",
-  "release_date": "2022-03-10T15:27:37.401884289Z",
+  "release_date": "2022-03-10T15:28:42.930340741Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.03.10)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/appscode/accounts-ui",
+      "releases": [
+        {
+          "tag": "v0.3.1",
+          "commits": [
+            {
+              "SHA": "5e10536",
+              "Subject": "Prepare for release v0.3.1 (#113)"
+            },
+            {
+              "SHA": "0c75fa4",
+              "Subject": "Update all the files with generic cell and updated table data structure (#108)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/appscode/cluster-ui",
       "releases": [
