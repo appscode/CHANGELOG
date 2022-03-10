@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.03.09",
-  "release_date": "2022-03-10T04:41:19.691714679Z",
+  "release_date": "2022-03-10T04:41:24.587749654Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.03.09)",
   "kubernetes_version": "1.16+",
@@ -75,6 +75,92 @@
             {
               "SHA": "163396d",
               "Subject": "Add new input fields and change the API in organizations/create page"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/appscode/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.3.0",
+          "commits": [
+            {
+              "SHA": "5400bd05",
+              "Subject": "Prepare for release v0.3.0 (#464)"
+            },
+            {
+              "SHA": "e9d7dae7",
+              "Subject": "Integrate new render apis, menu apis, layout apis (#458)"
+            },
+            {
+              "SHA": "eca2f9e5",
+              "Subject": "Fix cluster details page redirection for inactive cluster (#445)"
+            },
+            {
+              "SHA": "00f32052",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#456)"
+            },
+            {
+              "SHA": "8c14ab63",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#455)"
+            },
+            {
+              "SHA": "2c7ca7f5",
+              "Subject": "Integrated organization api and added general settings page (#451)"
+            },
+            {
+              "SHA": "79c8dd6a",
+              "Subject": "Added cluster name and display name customization option in import cluster flow and connect disconnected cluster (#450)"
+            },
+            {
+              "SHA": "bb7f6b29",
+              "Subject": "Fix discoinnected and notimported cluster status issue and dark mode for remaining editor (#447)"
+            },
+            {
+              "SHA": "f2a424b5",
+              "Subject": "Fix terminal design issues and added reconnect option during log or exec connection failure (#446)"
+            },
+            {
+              "SHA": "aa84c274",
+              "Subject": "Remove status API call from ClusterSwitcher & get data from the vuex (#444)"
+            },
+            {
+              "SHA": "7c7a67cc",
+              "Subject": "Integrate new graph apis with new resource graph look (#443)"
+            },
+            {
+              "SHA": "e1792888",
+              "Subject": "Fixed build error"
+            },
+            {
+              "SHA": "5263a3e0",
+              "Subject": "Remove status API call from cluster-list mixin & added to ClusterListView component"
+            },
+            {
+              "SHA": "db748866",
+              "Subject": "Add exclamation icon & error massage as a tooltip in cluster-list grid and table view"
+            },
+            {
+              "SHA": "7d02bb84",
+              "Subject": "Implemented cluster monitoring settings pages and functionality and Add maximize minimize feature to terminal window"
+            },
+            {
+              "SHA": "d0f3f9cb",
+              "Subject": "Implemented dark mode functionality, update cluster list page with new status related changes (#435)"
+            },
+            {
+              "SHA": "790c96ae",
+              "Subject": "Use target resource info from response instead of console-config"
+            },
+            {
+              "SHA": "0ad957a9",
+              "Subject": "Use target resource info from response instead of console-config"
+            },
+            {
+              "SHA": "87dab73e",
+              "Subject": "Integrate new find api from proxy ui-server, use group kind to fetch gvr from reosurceToAll and use gvr to fetch reosurceInfo from resourceToAll"
             }
           ]
         }
