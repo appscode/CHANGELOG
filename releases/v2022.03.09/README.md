@@ -50,6 +50,17 @@
 
 
 
+## [appscode/kubedb-ui](https://github.com/appscode/kubedb-ui)
+
+### [v0.3.0](https://github.com/appscode/kubedb-ui/releases/tag/v0.3.0)
+
+- [277eb28](https://github.com/appscode/kubedb-ui/commit/277eb28) Prepare for release v0.3.0 (#28)
+- [c57d707](https://github.com/appscode/kubedb-ui/commit/c57d707) Integrate new menu, layout and render apis (#26)
+- [88ff913](https://github.com/appscode/kubedb-ui/commit/88ff913) Cancel concurrent CI runs for same pr/commit (#21)
+- [e7095f3](https://github.com/appscode/kubedb-ui/commit/e7095f3) Cancel concurrent CI runs for same pr/commit (#20)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.0](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.0)

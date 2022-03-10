@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.03.09",
-  "release_date": "2022-03-10T04:41:24.587749654Z",
+  "release_date": "2022-03-10T04:41:35.339675627Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.03.09)",
   "kubernetes_version": "1.16+",
@@ -161,6 +161,32 @@
             {
               "SHA": "87dab73e",
               "Subject": "Integrate new find api from proxy ui-server, use group kind to fetch gvr from reosurceToAll and use gvr to fetch reosurceInfo from resourceToAll"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/appscode/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.0",
+          "commits": [
+            {
+              "SHA": "277eb28",
+              "Subject": "Prepare for release v0.3.0 (#28)"
+            },
+            {
+              "SHA": "c57d707",
+              "Subject": "Integrate new menu, layout and render apis (#26)"
+            },
+            {
+              "SHA": "88ff913",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#21)"
+            },
+            {
+              "SHA": "e7095f3",
+              "Subject": "Cancel concurrent CI runs for same pr/commit (#20)"
             }
           ]
         }
