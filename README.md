@@ -2,6 +2,7 @@
 
 |  Version | Release Date | User Guide | Changelog | Kubernetes Version |
 |--------------------------- | ------------ | ---------- | --------- | ------------------ |
+| [v2022.03.16](https:/github.com/bytebuilders/CHANGELOG/releases/tag/v2022.03.16) | 2022-03-15 | [User Guide](%!(EXTRA string=v2022.03.16)) | [CHANGELOG](/releases/v2022.03.16/README.md) | 1.16+ |
 | [v2022.03.15](https:/github.com/bytebuilders/CHANGELOG/releases/tag/v2022.03.15) | 2022-03-15 | [User Guide](%!(EXTRA string=v2022.03.15)) | [CHANGELOG](/releases/v2022.03.15/README.md) | 1.16+ |
 | [v2022.03.10](https:/github.com/bytebuilders/CHANGELOG/releases/tag/v2022.03.10) | 2022-03-10 | [User Guide](%!(EXTRA string=v2022.03.10)) | [CHANGELOG](/releases/v2022.03.10/README.md) | 1.16+ |
 | [v2022.03.09](https:/github.com/bytebuilders/CHANGELOG/releases/tag/v2022.03.09) | 2022-03-10 | [User Guide](%!(EXTRA string=v2022.03.09)) | [CHANGELOG](/releases/v2022.03.09/README.md) | 1.16+ |
