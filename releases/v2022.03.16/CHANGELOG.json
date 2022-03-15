@@ -1,0 +1,28 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.03.16",
+  "release_date": "2022-03-15T14:42:30.852652039Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.03.16)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/appscode/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.3.6",
+          "commits": [
+            {
+              "SHA": "d1e90d00",
+              "Subject": "Prepare for release v0.3.6 (#473)"
+            },
+            {
+              "SHA": "9a1c32f0",
+              "Subject": "Updated monitoring settings fields, prefill value from query in relea… (#472)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
