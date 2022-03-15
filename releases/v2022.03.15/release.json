@@ -1,0 +1,29 @@
+{
+    "product_line": "ByteBuilders",
+    "release": "v2022.03.15",
+    "docs_url_template": "",
+    "kubernetes_version": "1.16+",
+    "projects": [
+      {
+        "github.com/appscode/cluster-ui": {
+          "tag": "v0.3.5",
+          "commands": [
+            "npm --no-git-tag-version --allow-same-version version ${TAG_WITHOUT_V_PREFIX}"
+          ]
+        }
+      },
+      {
+        "github.com/appscode/gitea": {
+          "tag": "v2022.03.15",
+          "release_branch": "release-${TAG}"
+        }
+      }
+    ],
+    "external_projects": {
+      "github.com/appscode/products": {},
+      "github.com/kmodules/codespan-schema-checker": {},
+      "github.com/kmodules/metrics-configuration-checker": {},
+      "github.com/kubepack/kubepack": {},
+      "github.com/kubepack/lib-app": {}
+    }
+}

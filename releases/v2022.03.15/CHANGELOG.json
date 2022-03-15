@@ -1,0 +1,44 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.03.15",
+  "release_date": "2022-03-15T14:12:09.04965999Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.03.15)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/appscode/gitea",
+      "releases": [
+        {
+          "tag": "v2022.03.15",
+          "commits": [
+            {
+              "SHA": "7084ca534",
+              "Subject": "Refactor monitoring reference setup (#253)"
+            },
+            {
+              "SHA": "b8e71dda0",
+              "Subject": "Update template functions"
+            },
+            {
+              "SHA": "e2a68128b",
+              "Subject": "Pass gvr to TableForList (#252)"
+            },
+            {
+              "SHA": "05b851d5b",
+              "Subject": "Prepare for release v2022.03.10 (#251)"
+            },
+            {
+              "SHA": "6f8e0d7a7",
+              "Subject": "Update to accounts-ui v0.3.1 (#250)"
+            },
+            {
+              "SHA": "0c06b6975",
+              "Subject": "Don't update app.ini in `prom-proxy` command (#249)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
