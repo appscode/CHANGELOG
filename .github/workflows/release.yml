@@ -45,6 +45,12 @@ jobs:
           chmod +x hugo-tools
           sudo mv hugo-tools /usr/local/bin/hugo-tools
 
+      - name: Install uibuilder-tools
+        run: |
+          curl -fsSL -o uibuilder-tools https://github.com/bytebuilders/uibuilder-tools/releases/download/v0.0.1/uibuilder-tools-linux-amd64
+          chmod +x uibuilder-tools
+          sudo mv ./uibuilder-tools /usr/local/bin/uibuilder-tools
+
       - name: Install render-gotpl
         run: |
           curl -fsSL -o render-gotpl https://github.com/appscodelabs/render-gotpl/releases/download/v0.1.5/render-gotpl-linux-amd64
