@@ -11,6 +11,16 @@
 
 
 
+## [bytebuilders/gitea](https://github.com/bytebuilders/gitea)
+
+### [v2022.03.17](https://github.com/bytebuilders/gitea/releases/tag/v2022.03.17)
+
+- [443f9999](https://github.com/bytebuilders/gitea/commit/443f9999c) Add support for providing custom image for cluster-connector (#256)
+- [02b30422](https://github.com/bytebuilders/gitea/commit/02b304222) Fix update cluster display name issue
+- [f8f5be39](https://github.com/bytebuilders/gitea/commit/f8f5be39e) Update cluster status api and refactor opscenter-config helm deploy process (#254)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.4](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.4)

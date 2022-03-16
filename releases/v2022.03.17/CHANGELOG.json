@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.03.17",
-  "release_date": "2022-03-16T19:44:22.075644181Z",
+  "release_date": "2022-03-16T19:47:03.983041307Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.03.17)",
   "kubernetes_version": "1.16+",
@@ -23,6 +23,28 @@
             {
               "SHA": "58731144",
               "Subject": "Add status check while importing a cluster, connecting disconnected cluster (#475)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.03.17",
+          "commits": [
+            {
+              "SHA": "443f9999c",
+              "Subject": "Add support for providing custom image for cluster-connector (#256)"
+            },
+            {
+              "SHA": "02b304222",
+              "Subject": "Fix update cluster display name issue"
+            },
+            {
+              "SHA": "f8f5be39e",
+              "Subject": "Update cluster status api and refactor opscenter-config helm deploy process (#254)"
             }
           ]
         }
