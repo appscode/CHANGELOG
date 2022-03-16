@@ -1,6 +1,16 @@
 # ByteBuilders v2022.03.17 (2022-03-16)
 
 
+## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
+
+### [v0.3.7](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.3.7)
+
+- [d8d64fdc](https://github.com/bytebuilders/cluster-ui/commit/d8d64fdc) Prepare for release v0.3.7 (#476)
+- [da2f1228](https://github.com/bytebuilders/cluster-ui/commit/da2f1228) Replace cell with cell.data &  helmVersion to Helm 3 (#474)
+- [58731144](https://github.com/bytebuilders/cluster-ui/commit/58731144) Add status check while importing a cluster, connecting disconnected cluster (#475)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.1](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.1)
