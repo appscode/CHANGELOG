@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.03.17",
-  "release_date": "2022-03-16T19:44:18.569568576Z",
+  "release_date": "2022-03-16T19:44:22.075644181Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.03.17)",
   "kubernetes_version": "1.16+",
@@ -23,6 +23,32 @@
             {
               "SHA": "58731144",
               "Subject": "Add status check while importing a cluster, connecting disconnected cluster (#475)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.4",
+          "commits": [
+            {
+              "SHA": "7e3343c",
+              "Subject": "Prepare for release v0.3.4 (#36)"
+            },
+            {
+              "SHA": "d7aee7e",
+              "Subject": "Added opsrequest create option (#35)"
+            },
+            {
+              "SHA": "829dc5c",
+              "Subject": "Use Go 1.18 (#33)"
+            },
+            {
+              "SHA": "f911c20",
+              "Subject": "FIx redirecting to home page bug (#32)"
             }
           ]
         }

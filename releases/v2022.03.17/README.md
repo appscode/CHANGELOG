@@ -11,6 +11,17 @@
 
 
 
+## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
+
+### [v0.3.4](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.4)
+
+- [7e3343c](https://github.com/bytebuilders/kubedb-ui/commit/7e3343c) Prepare for release v0.3.4 (#36)
+- [d7aee7e](https://github.com/bytebuilders/kubedb-ui/commit/d7aee7e) Added opsrequest create option (#35)
+- [829dc5c](https://github.com/bytebuilders/kubedb-ui/commit/829dc5c) Use Go 1.18 (#33)
+- [f911c20](https://github.com/bytebuilders/kubedb-ui/commit/f911c20) FIx redirecting to home page bug (#32)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.1](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.1)
