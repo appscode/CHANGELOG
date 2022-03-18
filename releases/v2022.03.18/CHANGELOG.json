@@ -1,11 +1,33 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.03.18",
-  "release_date": "2022-03-18T13:16:43.881337867Z",
+  "release_date": "2022-03-18T13:17:27.988656498Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.03.18)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.3.8",
+          "commits": [
+            {
+              "SHA": "84142afd",
+              "Subject": "Prepare for release v0.3.8 (#479)"
+            },
+            {
+              "SHA": "b3fc4a6c",
+              "Subject": "Updated ui-builder (#478)"
+            },
+            {
+              "SHA": "951392ef",
+              "Subject": "Use customresourcedefinition icon instead of basic icon when crd icon is missing"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/kubedb-ui",
       "releases": [

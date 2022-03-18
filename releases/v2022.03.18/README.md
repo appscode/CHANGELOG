@@ -1,6 +1,16 @@
 # ByteBuilders v2022.03.18 (2022-03-18)
 
 
+## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
+
+### [v0.3.8](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.3.8)
+
+- [84142afd](https://github.com/bytebuilders/cluster-ui/commit/84142afd) Prepare for release v0.3.8 (#479)
+- [b3fc4a6c](https://github.com/bytebuilders/cluster-ui/commit/b3fc4a6c) Updated ui-builder (#478)
+- [951392ef](https://github.com/bytebuilders/cluster-ui/commit/951392ef) Use customresourcedefinition icon instead of basic icon when crd icon is missing
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.5](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.5)
