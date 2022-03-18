@@ -1,0 +1,44 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.03.18",
+  "release_date": "2022-03-18T12:41:56.398208815Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.03.18)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.2",
+          "commits": [
+            {
+              "SHA": "72d7895f",
+              "Subject": "Prepare for release v0.4.2 (#166)"
+            },
+            {
+              "SHA": "1dd07e08",
+              "Subject": "Use Go 1.18 (#165)"
+            },
+            {
+              "SHA": "8633aa19",
+              "Subject": "Disabled namespace and dbRef when set from query in opsrequest and Fixed namespace empty issue in pod template reusable element  (#164)"
+            },
+            {
+              "SHA": "f9bb2acc",
+              "Subject": "Use Go 1.18 (#160)"
+            },
+            {
+              "SHA": "56052dfa",
+              "Subject": "Correctly download uibuilder-tools binary"
+            },
+            {
+              "SHA": "47bbad7c",
+              "Subject": "Format reusable components (#162)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
