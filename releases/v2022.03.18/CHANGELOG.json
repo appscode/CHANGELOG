@@ -1,11 +1,33 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.03.18",
-  "release_date": "2022-03-18T13:17:27.988656498Z",
+  "release_date": "2022-03-18T15:56:08.715493615Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.03.18)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/accounts-ui",
+      "releases": [
+        {
+          "tag": "v0.3.2",
+          "commits": [
+            {
+              "SHA": "6a4ca7d",
+              "Subject": "Prepare for release v0.3.2 (#116)"
+            },
+            {
+              "SHA": "62d89f3",
+              "Subject": "Updated appdrawer app list  (#114)"
+            },
+            {
+              "SHA": "48165d1",
+              "Subject": "Update ci.yaml with github token"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/cluster-ui",
       "releases": [

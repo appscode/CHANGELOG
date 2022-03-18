@@ -1,6 +1,16 @@
 # ByteBuilders v2022.03.18 (2022-03-18)
 
 
+## [bytebuilders/accounts-ui](https://github.com/bytebuilders/accounts-ui)
+
+### [v0.3.2](https://github.com/bytebuilders/accounts-ui/releases/tag/v0.3.2)
+
+- [6a4ca7d](https://github.com/bytebuilders/accounts-ui/commit/6a4ca7d) Prepare for release v0.3.2 (#116)
+- [62d89f3](https://github.com/bytebuilders/accounts-ui/commit/62d89f3) Updated appdrawer app list  (#114)
+- [48165d1](https://github.com/bytebuilders/accounts-ui/commit/48165d1) Update ci.yaml with github token
+
+
+
 ## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
 
 ### [v0.3.8](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.3.8)
