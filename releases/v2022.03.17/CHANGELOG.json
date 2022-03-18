@@ -1,0 +1,110 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.03.17",
+  "release_date": "2022-03-16T19:47:03.983041307Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.03.17)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.3.7",
+          "commits": [
+            {
+              "SHA": "d8d64fdc",
+              "Subject": "Prepare for release v0.3.7 (#476)"
+            },
+            {
+              "SHA": "da2f1228",
+              "Subject": "Replace cell with cell.data &  helmVersion to Helm 3 (#474)"
+            },
+            {
+              "SHA": "58731144",
+              "Subject": "Add status check while importing a cluster, connecting disconnected cluster (#475)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.03.17",
+          "commits": [
+            {
+              "SHA": "443f9999c",
+              "Subject": "Add support for providing custom image for cluster-connector (#256)"
+            },
+            {
+              "SHA": "02b304222",
+              "Subject": "Fix update cluster display name issue"
+            },
+            {
+              "SHA": "f8f5be39e",
+              "Subject": "Update cluster status api and refactor opscenter-config helm deploy process (#254)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.4",
+          "commits": [
+            {
+              "SHA": "7e3343c",
+              "Subject": "Prepare for release v0.3.4 (#36)"
+            },
+            {
+              "SHA": "d7aee7e",
+              "Subject": "Added opsrequest create option (#35)"
+            },
+            {
+              "SHA": "829dc5c",
+              "Subject": "Use Go 1.18 (#33)"
+            },
+            {
+              "SHA": "f911c20",
+              "Subject": "FIx redirecting to home page bug (#32)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.1",
+          "commits": [
+            {
+              "SHA": "24604752",
+              "Subject": "Prepare for release v0.4.1 (#161)"
+            },
+            {
+              "SHA": "202576de",
+              "Subject": "Set UIBUILDER_TOOLS = /usr/local/bin/uibuilder-tools"
+            },
+            {
+              "SHA": "3af7e2cd",
+              "Subject": "Update Makefile: update update-charts command"
+            },
+            {
+              "SHA": "276b6029",
+              "Subject": "Fetch username from route instead of store and updated chart version (#159)"
+            },
+            {
+              "SHA": "8768ae07",
+              "Subject": "Update reusable component chart version (#158)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
