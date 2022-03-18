@@ -21,6 +21,17 @@
 
 
 
+## [bytebuilders/gitea](https://github.com/bytebuilders/gitea)
+
+### [v2022.03.18](https://github.com/bytebuilders/gitea/releases/tag/v2022.03.18)
+
+- [d01fc4b3](https://github.com/bytebuilders/gitea/commit/d01fc4b31) Prepare for release v2022.03.18 (#257)
+- [cbfffbd0](https://github.com/bytebuilders/gitea/commit/cbfffbd04) Merge pull request #258 from bytebuilders/bb-nuxt-v0.3.2
+- [6d61838d](https://github.com/bytebuilders/gitea/commit/6d61838dd) Update to accounts-ui v0.3.2
+- [325b5032](https://github.com/bytebuilders/gitea/commit/325b50329) Use Go 1.18 (#255)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.5](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.5)
