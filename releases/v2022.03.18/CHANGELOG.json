@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.03.18",
-  "release_date": "2022-03-18T12:41:56.398208815Z",
+  "release_date": "2022-03-18T13:08:07.73731511Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.03.18)",
   "kubernetes_version": "1.16+",
@@ -35,6 +35,44 @@
             {
               "SHA": "47bbad7c",
               "Subject": "Format reusable components (#162)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.10.6",
+          "commits": [
+            {
+              "SHA": "f285d1f7",
+              "Subject": "Prepare for release v0.10.6 (#222)"
+            },
+            {
+              "SHA": "e83d62de",
+              "Subject": "Show a subset of dashboard panel in overview page"
+            },
+            {
+              "SHA": "fa40f923",
+              "Subject": "update display field to List for top collections and slow queries (#221)"
+            },
+            {
+              "SHA": "62f7d1e5",
+              "Subject": "Show a subset of dashboard panel in overview page"
+            },
+            {
+              "SHA": "aa6f4a29",
+              "Subject": "Use Go 1.18 (#220)"
+            },
+            {
+              "SHA": "5caf3a70",
+              "Subject": "Use Go 1.18 (#219)"
+            },
+            {
+              "SHA": "0763bdca",
+              "Subject": "Add comments (#193)"
             }
           ]
         }
