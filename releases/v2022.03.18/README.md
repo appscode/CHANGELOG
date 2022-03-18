@@ -1,6 +1,17 @@
 # ByteBuilders v2022.03.18 (2022-03-18)
 
 
+## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
+
+### [v0.3.5](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.5)
+
+- [394493f](https://github.com/bytebuilders/kubedb-ui/commit/394493f) Prepare for release v0.3.5 (#40)
+- [906e068](https://github.com/bytebuilders/kubedb-ui/commit/906e068) Updated design system to fix monaco editor error in modals  and toaster error message in resource create view  (#39)
+- [138c401](https://github.com/bytebuilders/kubedb-ui/commit/138c401) Show embedded grafana charts (#38)
+- [68e5c68](https://github.com/bytebuilders/kubedb-ui/commit/68e5c68) Fixed previous section name showing issue during new layout fetching (#37)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.2](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.2)

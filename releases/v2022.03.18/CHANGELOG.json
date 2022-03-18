@@ -1,11 +1,37 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.03.18",
-  "release_date": "2022-03-18T13:08:07.73731511Z",
+  "release_date": "2022-03-18T13:16:43.881337867Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.03.18)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.5",
+          "commits": [
+            {
+              "SHA": "394493f",
+              "Subject": "Prepare for release v0.3.5 (#40)"
+            },
+            {
+              "SHA": "906e068",
+              "Subject": "Updated design system to fix monaco editor error in modals  and toaster error message in resource create view  (#39)"
+            },
+            {
+              "SHA": "138c401",
+              "Subject": "Show embedded grafana charts (#38)"
+            },
+            {
+              "SHA": "68e5c68",
+              "Subject": "Fixed previous section name showing issue during new layout fetching (#37)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/ui-wizards",
       "releases": [
