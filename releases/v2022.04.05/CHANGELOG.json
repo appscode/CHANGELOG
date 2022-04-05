@@ -1,0 +1,36 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.04.05",
+  "release_date": "2022-04-05T07:15:10.212370456Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.04.05)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.3",
+          "commits": [
+            {
+              "SHA": "646ceac8",
+              "Subject": "Prepare for release v0.4.3 (#170)"
+            },
+            {
+              "SHA": "ace1edc8",
+              "Subject": "Update charts (#169)"
+            },
+            {
+              "SHA": "96abf29a",
+              "Subject": "Update schema-checker (#168)"
+            },
+            {
+              "SHA": "dea41550",
+              "Subject": "Fixed es version api call issue (#167)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
