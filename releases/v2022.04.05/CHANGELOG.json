@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.04.05",
-  "release_date": "2022-04-05T08:55:17.399553781Z",
+  "release_date": "2022-04-05T09:05:09.701048781Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.04.05)",
   "kubernetes_version": "1.16+",
@@ -65,6 +65,44 @@
             {
               "SHA": "0a1284a7",
               "Subject": "Added organization switching functionality to navbar user item (#481)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.04.05",
+          "commits": [
+            {
+              "SHA": "5bcf93a55",
+              "Subject": "Prepare for release v2022.04.05 (#270)"
+            },
+            {
+              "SHA": "84d608c62",
+              "Subject": "Update to accounts-ui v0.3.3 (#269)"
+            },
+            {
+              "SHA": "9adde06cf",
+              "Subject": "Fix ES node stats rendering"
+            },
+            {
+              "SHA": "ae8dd3d2f",
+              "Subject": "Fix redirect issue after sign in (#268)"
+            },
+            {
+              "SHA": "d378604ca",
+              "Subject": "Update dependencies"
+            },
+            {
+              "SHA": "93d795b89",
+              "Subject": "Fix Go tools when using GH free runner (#267)"
+            },
+            {
+              "SHA": "6141c2d26",
+              "Subject": "Don't error out if GVK is missing"
             }
           ]
         }

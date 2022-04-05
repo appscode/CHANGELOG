@@ -26,6 +26,20 @@
 
 
 
+## [bytebuilders/gitea](https://github.com/bytebuilders/gitea)
+
+### [v2022.04.05](https://github.com/bytebuilders/gitea/releases/tag/v2022.04.05)
+
+- [5bcf93a5](https://github.com/bytebuilders/gitea/commit/5bcf93a55) Prepare for release v2022.04.05 (#270)
+- [84d608c6](https://github.com/bytebuilders/gitea/commit/84d608c62) Update to accounts-ui v0.3.3 (#269)
+- [9adde06c](https://github.com/bytebuilders/gitea/commit/9adde06cf) Fix ES node stats rendering
+- [ae8dd3d2](https://github.com/bytebuilders/gitea/commit/ae8dd3d2f) Fix redirect issue after sign in (#268)
+- [d378604c](https://github.com/bytebuilders/gitea/commit/d378604ca) Update dependencies
+- [93d795b8](https://github.com/bytebuilders/gitea/commit/93d795b89) Fix Go tools when using GH free runner (#267)
+- [6141c2d2](https://github.com/bytebuilders/gitea/commit/6141c2d26) Don't error out if GVK is missing
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.6](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.6)
