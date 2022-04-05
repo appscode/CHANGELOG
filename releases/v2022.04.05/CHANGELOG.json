@@ -1,11 +1,29 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.04.05",
-  "release_date": "2022-04-05T08:51:12.498972028Z",
+  "release_date": "2022-04-05T08:55:17.399553781Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.04.05)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/accounts-ui",
+      "releases": [
+        {
+          "tag": "v0.3.3",
+          "commits": [
+            {
+              "SHA": "5e6c5cd",
+              "Subject": "Prepare for release v0.3.3 (#120)"
+            },
+            {
+              "SHA": "bc866f5",
+              "Subject": "Updated the redirection link for creating gcp credential (#118)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/cluster-ui",
       "releases": [

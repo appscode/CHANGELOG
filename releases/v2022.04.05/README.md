@@ -1,6 +1,15 @@
 # ByteBuilders v2022.04.05 (2022-04-05)
 
 
+## [bytebuilders/accounts-ui](https://github.com/bytebuilders/accounts-ui)
+
+### [v0.3.3](https://github.com/bytebuilders/accounts-ui/releases/tag/v0.3.3)
+
+- [5e6c5cd](https://github.com/bytebuilders/accounts-ui/commit/5e6c5cd) Prepare for release v0.3.3 (#120)
+- [bc866f5](https://github.com/bytebuilders/accounts-ui/commit/bc866f5) Updated the redirection link for creating gcp credential (#118)
+
+
+
 ## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
 
 ### [v0.3.9](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.3.9)
