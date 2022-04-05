@@ -12,3 +12,15 @@
 
 
 
+## [kmodules/resource-metadata](https://github.com/kmodules/resource-metadata)
+
+### [v0.10.15](https://github.com/kmodules/resource-metadata/releases/tag/v0.10.15)
+
+- [fa05412a](https://github.com/kmodules/resource-metadata/commit/fa05412a) Prepare for release v0.10.15 (#244)
+- [56cb0ac0](https://github.com/kmodules/resource-metadata/commit/56cb0ac0) Remove timestamp column from ES node stats
+- [7002f767](https://github.com/kmodules/resource-metadata/commit/7002f767) Update ES node stats table definition (#243)
+- [eeb2f26d](https://github.com/kmodules/resource-metadata/commit/eeb2f26d) dig handles nil value as missing
+- [47ee35ff](https://github.com/kmodules/resource-metadata/commit/47ee35ff) Fix shard total column in ES
+
+
+

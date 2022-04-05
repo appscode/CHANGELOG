@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.04.05",
-  "release_date": "2022-04-05T07:15:10.212370456Z",
+  "release_date": "2022-04-05T08:45:37.921834702Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.04.05)",
   "kubernetes_version": "1.16+",
@@ -27,6 +27,36 @@
             {
               "SHA": "dea41550",
               "Subject": "Fixed es version api call issue (#167)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.10.15",
+          "commits": [
+            {
+              "SHA": "fa05412a",
+              "Subject": "Prepare for release v0.10.15 (#244)"
+            },
+            {
+              "SHA": "56cb0ac0",
+              "Subject": "Remove timestamp column from ES node stats"
+            },
+            {
+              "SHA": "7002f767",
+              "Subject": "Update ES node stats table definition (#243)"
+            },
+            {
+              "SHA": "eeb2f26d",
+              "Subject": "dig handles nil value as missing"
+            },
+            {
+              "SHA": "47ee35ff",
+              "Subject": "Fix shard total column in ES"
             }
           ]
         }
