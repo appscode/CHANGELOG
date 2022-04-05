@@ -1,6 +1,29 @@
 # ByteBuilders v2022.04.05 (2022-04-05)
 
 
+## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
+
+### [v0.3.6](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.6)
+
+- [788bd27](https://github.com/bytebuilders/kubedb-ui/commit/788bd27) Prepare for release v0.3.6 (#45)
+- [a049290](https://github.com/bytebuilders/kubedb-ui/commit/a049290) Add logic to send redirect url when user is redirected to login page
+- [bee56dd](https://github.com/bytebuilders/kubedb-ui/commit/bee56dd) Update design system and ui-builder to increase the timeout for lazy loaded components
+- [f270320](https://github.com/bytebuilders/kubedb-ui/commit/f270320) Add cluster status check in kubebd-ui, show install opscenter core page if cluster status is false (424) (#44)
+- [3d9d3f1](https://github.com/bytebuilders/kubedb-ui/commit/3d9d3f1) Prevent full row reload when recurrent api response returns
+- [3419df2](https://github.com/bytebuilders/kubedb-ui/commit/3419df2) Fix table animatable cells not updating when sorting
+- [3d0bbfd](https://github.com/bytebuilders/kubedb-ui/commit/3d0bbfd) updated design-system and ui-builder to fix style and loading issue in resource key value editor component (#43)
+- [20f0bba](https://github.com/bytebuilders/kubedb-ui/commit/20f0bba) Add animation to generic cell numeric values, add logic to show hide tab bar context
+- [fa4f149](https://github.com/bytebuilders/kubedb-ui/commit/fa4f149) Fix bug in cluster module, show error field in tab bar context
+- [b47d96b](https://github.com/bytebuilders/kubedb-ui/commit/b47d96b) Fix bug regarding menu and other apis when user switches account too fast (before apis for previous user returns), Revert header icon size back to 40px, Recreate and resolve previous data staying issue in kubedb-ui database details pages
+- [9d7e96c](https://github.com/bytebuilders/kubedb-ui/commit/9d7e96c) Added organization switching functionality to navbar user item (#42)
+- [d468416](https://github.com/bytebuilders/kubedb-ui/commit/d468416) Update cpu, memory and storage icon in header, update dashbaord link in nodes table
+- [c7f6502](https://github.com/bytebuilders/kubedb-ui/commit/c7f6502) Add header cpu, memory, storage icon, handle grafana dashboard links in nodes table
+- [c21673b](https://github.com/bytebuilders/kubedb-ui/commit/c21673b) Show grafana dashboards as lists and  external links, update design system
+- [8f61c37](https://github.com/bytebuilders/kubedb-ui/commit/8f61c37) Add spinner in the index.html, this will show while the javascripts are being fetched
+- [3c88e6c](https://github.com/bytebuilders/kubedb-ui/commit/3c88e6c) Show not exposed when exposed is not used in tab bar, fix bug in global create route, show create button only in opsrequest table
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.3](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.3)

@@ -1,11 +1,85 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.04.05",
-  "release_date": "2022-04-05T08:45:37.921834702Z",
+  "release_date": "2022-04-05T08:51:06.843104112Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.04.05)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.6",
+          "commits": [
+            {
+              "SHA": "788bd27",
+              "Subject": "Prepare for release v0.3.6 (#45)"
+            },
+            {
+              "SHA": "a049290",
+              "Subject": "Add logic to send redirect url when user is redirected to login page"
+            },
+            {
+              "SHA": "bee56dd",
+              "Subject": "Update design system and ui-builder to increase the timeout for lazy loaded components"
+            },
+            {
+              "SHA": "f270320",
+              "Subject": "Add cluster status check in kubebd-ui, show install opscenter core page if cluster status is false (424) (#44)"
+            },
+            {
+              "SHA": "3d9d3f1",
+              "Subject": "Prevent full row reload when recurrent api response returns"
+            },
+            {
+              "SHA": "3419df2",
+              "Subject": "Fix table animatable cells not updating when sorting"
+            },
+            {
+              "SHA": "3d0bbfd",
+              "Subject": "updated design-system and ui-builder to fix style and loading issue in resource key value editor component (#43)"
+            },
+            {
+              "SHA": "20f0bba",
+              "Subject": "Add animation to generic cell numeric values, add logic to show hide tab bar context"
+            },
+            {
+              "SHA": "fa4f149",
+              "Subject": "Fix bug in cluster module, show error field in tab bar context"
+            },
+            {
+              "SHA": "b47d96b",
+              "Subject": "Fix bug regarding menu and other apis when user switches account too fast (before apis for previous user returns), Revert header icon size back to 40px, Recreate and resolve previous data staying issue in kubedb-ui database details pages"
+            },
+            {
+              "SHA": "9d7e96c",
+              "Subject": "Added organization switching functionality to navbar user item (#42)"
+            },
+            {
+              "SHA": "d468416",
+              "Subject": "Update cpu, memory and storage icon in header, update dashbaord link in nodes table"
+            },
+            {
+              "SHA": "c7f6502",
+              "Subject": "Add header cpu, memory, storage icon, handle grafana dashboard links in nodes table"
+            },
+            {
+              "SHA": "c21673b",
+              "Subject": "Show grafana dashboards as lists and  external links, update design system"
+            },
+            {
+              "SHA": "8f61c37",
+              "Subject": "Add spinner in the index.html, this will show while the javascripts are being fetched"
+            },
+            {
+              "SHA": "3c88e6c",
+              "Subject": "Show not exposed when exposed is not used in tab bar, fix bug in global create route, show create button only in opsrequest table"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/ui-wizards",
       "releases": [
