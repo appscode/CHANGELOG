@@ -1,6 +1,22 @@
 # ByteBuilders v2022.04.05 (2022-04-05)
 
 
+## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
+
+### [v0.3.9](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.3.9)
+
+- [24437984](https://github.com/bytebuilders/cluster-ui/commit/24437984) Prepare for release v0.3.9 (#485)
+- [5bed9038](https://github.com/bytebuilders/cluster-ui/commit/5bed9038) Add logic to send redirect url when user is redirected to login page
+- [874f58f7](https://github.com/bytebuilders/cluster-ui/commit/874f58f7) Update design system and ui-builder to increase the timeout for lazy loaded components
+- [2020e1af](https://github.com/bytebuilders/cluster-ui/commit/2020e1af) Add initContent in previweYamls & Update design system (#483)
+- [4a77b171](https://github.com/bytebuilders/cluster-ui/commit/4a77b171) Update wellcome preloader color to 1971bd
+- [c47d0c3b](https://github.com/bytebuilders/cluster-ui/commit/c47d0c3b) Fixed resource edit issue (#484)
+- [485c3349](https://github.com/bytebuilders/cluster-ui/commit/485c3349) show opscenter-core install instructions when installation failed during import (#482)
+- [7fbeac0b](https://github.com/bytebuilders/cluster-ui/commit/7fbeac0b) Show loading page when vue is not loaded (#480)
+- [0a1284a7](https://github.com/bytebuilders/cluster-ui/commit/0a1284a7) Added organization switching functionality to navbar user item (#481)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.6](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.6)
