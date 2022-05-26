@@ -1,0 +1,124 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.05.26",
+  "release_date": "2022-05-26T10:29:16.251529Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.05.26)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.4",
+          "commits": [
+            {
+              "SHA": "45480988",
+              "Subject": "Prepare for release v0.4.4 (#191)"
+            },
+            {
+              "SHA": "7066c044",
+              "Subject": "Update charts (#190)"
+            },
+            {
+              "SHA": "16f4cddc",
+              "Subject": "Fix spelling"
+            },
+            {
+              "SHA": "e880513f",
+              "Subject": "Fix schema for editor alerts"
+            },
+            {
+              "SHA": "26a00d2f",
+              "Subject": "Update charts (#188)"
+            },
+            {
+              "SHA": "42f8bf44",
+              "Subject": "Fix alert template & schema (#187)"
+            },
+            {
+              "SHA": "11b357d5",
+              "Subject": "Test against Kubernetes 1.24.0 (#185)"
+            },
+            {
+              "SHA": "a796e0cb",
+              "Subject": "Update charts (#184)"
+            },
+            {
+              "SHA": "a884004d",
+              "Subject": "Fix alert schema (#183)"
+            },
+            {
+              "SHA": "3d7b43b2",
+              "Subject": "Update charts (#182)"
+            },
+            {
+              "SHA": "bf6d5732",
+              "Subject": "Update alerts (#181)"
+            },
+            {
+              "SHA": "0bc387c5",
+              "Subject": "Fix monitoring spec for db options charts"
+            },
+            {
+              "SHA": "fb40d456",
+              "Subject": "Update charts (#180)"
+            },
+            {
+              "SHA": "6edd3727",
+              "Subject": "Modify backup edit wizard when repo is selected initially (#179)"
+            },
+            {
+              "SHA": "74a14254",
+              "Subject": "Update charts (#178)"
+            },
+            {
+              "SHA": "f79698f1",
+              "Subject": "Update editor charts"
+            },
+            {
+              "SHA": "6fe41681",
+              "Subject": "Update ui wizard charts"
+            },
+            {
+              "SHA": "2355ea54",
+              "Subject": "Add alert template to editor charts (#176)"
+            },
+            {
+              "SHA": "ef422d41",
+              "Subject": "Use form for alerts (#175)"
+            },
+            {
+              "SHA": "eaba8f8f",
+              "Subject": "Only use lint check against charts"
+            },
+            {
+              "SHA": "887faece",
+              "Subject": "Enable ServiceMonitor & Alerts in options chart (#174)"
+            },
+            {
+              "SHA": "9b77e6f3",
+              "Subject": "Format CI yamls"
+            },
+            {
+              "SHA": "7f9990af",
+              "Subject": "Update charts (#173)"
+            },
+            {
+              "SHA": "5e2fe09c",
+              "Subject": "Add PrometheusRule to editor charts"
+            },
+            {
+              "SHA": "1a9b46e7",
+              "Subject": "Update charts (#172)"
+            },
+            {
+              "SHA": "2c3becbe",
+              "Subject": "Remove opsrequest type selection on dbchange (#171)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
