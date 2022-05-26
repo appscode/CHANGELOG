@@ -1,6 +1,21 @@
 # ByteBuilders v2022.05.26 (2022-05-26)
 
 
+## [bytebuilders/accounts-ui](https://github.com/bytebuilders/accounts-ui)
+
+### [v0.3.4](https://github.com/bytebuilders/accounts-ui/releases/tag/v0.3.4)
+
+- [54d8632](https://github.com/bytebuilders/accounts-ui/commit/54d8632) Prepare for release v0.3.4 (#128)
+- [e34cbc2](https://github.com/bytebuilders/accounts-ui/commit/e34cbc2) Use user profile link fix from updated design-system (#127)
+- [34464c2](https://github.com/bytebuilders/accounts-ui/commit/34464c2) Use separate api domains for api, accounts, and base server urls (#126)
+- [65c27a5](https://github.com/bytebuilders/accounts-ui/commit/65c27a5) Introduce user profile page and update user avatar size restriction (#124)
+- [d52ae22](https://github.com/bytebuilders/accounts-ui/commit/d52ae22) update timeConvert function, design system and bindata.go (#123)
+- [1bb4730](https://github.com/bytebuilders/accounts-ui/commit/1bb4730) Add auth mixin in error component, initContent in previewYamls, updat… (#119)
+- [83c980f](https://github.com/bytebuilders/accounts-ui/commit/83c980f) Added usermenu to navbar explore (#122)
+- [e50957f](https://github.com/bytebuilders/accounts-ui/commit/e50957f) Fix Redirect issue from change_password page, and sign up page name issue (#121)
+
+
+
 ## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
 
 ### [v0.3.14](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.3.14)

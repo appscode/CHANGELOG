@@ -1,11 +1,53 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.05.26",
-  "release_date": "2022-05-26T10:42:56.151151867Z",
+  "release_date": "2022-05-26T11:17:09.381480469Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.05.26)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/accounts-ui",
+      "releases": [
+        {
+          "tag": "v0.3.4",
+          "commits": [
+            {
+              "SHA": "54d8632",
+              "Subject": "Prepare for release v0.3.4 (#128)"
+            },
+            {
+              "SHA": "e34cbc2",
+              "Subject": "Use user profile link fix from updated design-system (#127)"
+            },
+            {
+              "SHA": "34464c2",
+              "Subject": "Use separate api domains for api, accounts, and base server urls (#126)"
+            },
+            {
+              "SHA": "65c27a5",
+              "Subject": "Introduce user profile page and update user avatar size restriction (#124)"
+            },
+            {
+              "SHA": "d52ae22",
+              "Subject": "update timeConvert function, design system and bindata.go (#123)"
+            },
+            {
+              "SHA": "1bb4730",
+              "Subject": "Add auth mixin in error component, initContent in previewYamls, updat… (#119)"
+            },
+            {
+              "SHA": "83c980f",
+              "Subject": "Added usermenu to navbar explore (#122)"
+            },
+            {
+              "SHA": "e50957f",
+              "Subject": "Fix Redirect issue from change_password page, and sign up page name issue (#121)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/cluster-ui",
       "releases": [
