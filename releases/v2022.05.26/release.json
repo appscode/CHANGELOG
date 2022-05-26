@@ -1,0 +1,62 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.05.26",
+  "docs_url_template": "",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "github.com/bytebuilders/ui-wizards": {
+        "tag": "v0.4.4",
+        "chartNames": [
+          "*"
+        ],
+        "commands": [
+          "make update-charts CHART_VERSION=${BYTEBUILDERS_UI_WIZARDS_TAG} CHART_REGISTRY=${UI_REGISTRY} CHART_REGISTRY_URL=${UI_REGISTRY_URL}",
+          "make gen fmt"
+        ]
+      }
+    },
+    {
+      "github.com/bytebuilders/bundle-registry": {
+        "charts": [
+          "github.com/bytebuilders/ui-wizards"
+        ],
+        "changelog": "Skip"
+      }
+    },
+    {
+      "github.com/bytebuilders/accounts-ui": {
+        "tag": "v0.3.4",
+        "commands": [
+          "npm --no-git-tag-version --allow-same-version version ${TAG_WITHOUT_V_PREFIX}"
+        ]
+      },
+      "github.com/bytebuilders/cluster-ui": {
+        "tag": "v0.3.14",
+        "commands": [
+          "npm --no-git-tag-version --allow-same-version version ${TAG_WITHOUT_V_PREFIX}"
+        ]
+      },
+      "github.com/bytebuilders/kubedb-ui": {
+        "tag": "v0.3.7",
+        "commands": [
+          "npm --no-git-tag-version --allow-same-version version ${TAG_WITHOUT_V_PREFIX}"
+        ]
+      }
+    },
+    {
+      "github.com/bytebuilders/gitea": {
+        "tag": "v2022.05.26",
+        "release_branch": "release-${TAG}"
+      }
+    }
+  ],
+  "external_projects": {
+    "github.com/appscode/products": {},
+    "github.com/kmodules/codespan-schema-checker": {},
+    "github.com/kmodules/metrics-configuration-checker": {},
+    "github.com/kubepack/kubepack": {},
+    "github.com/kubepack/lib-app": {}
+  }
+}
+
