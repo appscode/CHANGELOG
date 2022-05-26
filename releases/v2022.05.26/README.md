@@ -10,6 +10,19 @@
 
 
 
+## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
+
+### [v0.3.7](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.7)
+
+- [8993cd1](https://github.com/bytebuilders/kubedb-ui/commit/8993cd1) Prepare for release v0.3.7 (#49)
+- [900364b](https://github.com/bytebuilders/kubedb-ui/commit/900364b) Use separate api domains for api, accounts, and base server urls (#48)
+- [a571c91](https://github.com/bytebuilders/kubedb-ui/commit/a571c91) Update packages for node 16, replace vueuse/shared with vueuse/core
+- [878c2cb](https://github.com/bytebuilders/kubedb-ui/commit/878c2cb) redirect to location header url when response status is 428 (#47)
+- [8595464](https://github.com/bytebuilders/kubedb-ui/commit/8595464) Update node version to 16 and npm to 8
+- [bb727dd](https://github.com/bytebuilders/kubedb-ui/commit/bb727dd) Update generic list table to show multi info table when list table has scrollbar
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.4](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.4)
