@@ -25,6 +25,18 @@
 
 
 
+## [bytebuilders/gitea](https://github.com/bytebuilders/gitea)
+
+### [v2022.05.26](https://github.com/bytebuilders/gitea/releases/tag/v2022.05.26)
+
+- [e20734d8](https://github.com/bytebuilders/gitea/commit/e20734d86) Prepare for release v2022.05.26 (#282)
+- [9bc4cad9](https://github.com/bytebuilders/gitea/commit/9bc4cad9e) Use separate api domains for api, accounts, and base server urls (#279)
+- [b7fe95fb](https://github.com/bytebuilders/gitea/commit/b7fe95fbe) SKip form objects from editor model resource
+- [79b74e07](https://github.com/bytebuilders/gitea/commit/79b74e07b) Store and load form values correctly (#281)
+- [26268654](https://github.com/bytebuilders/gitea/commit/262686542) Add support for form fields in Values (#280)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.7](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.7)

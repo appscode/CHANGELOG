@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.05.26",
-  "release_date": "2022-05-26T11:17:09.381480469Z",
+  "release_date": "2022-05-26T11:37:53.963777396Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.05.26)",
   "kubernetes_version": "1.16+",
@@ -61,6 +61,36 @@
             {
               "SHA": "6967a1fd",
               "Subject": "Use separate api domains for api, accounts, and base server urls (#496)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.05.26",
+          "commits": [
+            {
+              "SHA": "e20734d86",
+              "Subject": "Prepare for release v2022.05.26 (#282)"
+            },
+            {
+              "SHA": "9bc4cad9e",
+              "Subject": "Use separate api domains for api, accounts, and base server urls (#279)"
+            },
+            {
+              "SHA": "b7fe95fbe",
+              "Subject": "SKip form objects from editor model resource"
+            },
+            {
+              "SHA": "79b74e07b",
+              "Subject": "Store and load form values correctly (#281)"
+            },
+            {
+              "SHA": "262686542",
+              "Subject": "Add support for form fields in Values (#280)"
             }
           ]
         }
