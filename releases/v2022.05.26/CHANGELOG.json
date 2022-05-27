@@ -1,0 +1,248 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.05.26",
+  "release_date": "2022-05-26T11:37:53.963777396Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.05.26)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/accounts-ui",
+      "releases": [
+        {
+          "tag": "v0.3.4",
+          "commits": [
+            {
+              "SHA": "54d8632",
+              "Subject": "Prepare for release v0.3.4 (#128)"
+            },
+            {
+              "SHA": "e34cbc2",
+              "Subject": "Use user profile link fix from updated design-system (#127)"
+            },
+            {
+              "SHA": "34464c2",
+              "Subject": "Use separate api domains for api, accounts, and base server urls (#126)"
+            },
+            {
+              "SHA": "65c27a5",
+              "Subject": "Introduce user profile page and update user avatar size restriction (#124)"
+            },
+            {
+              "SHA": "d52ae22",
+              "Subject": "update timeConvert function, design system and bindata.go (#123)"
+            },
+            {
+              "SHA": "1bb4730",
+              "Subject": "Add auth mixin in error component, initContent in previewYamls, updat… (#119)"
+            },
+            {
+              "SHA": "83c980f",
+              "Subject": "Added usermenu to navbar explore (#122)"
+            },
+            {
+              "SHA": "e50957f",
+              "Subject": "Fix Redirect issue from change_password page, and sign up page name issue (#121)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.3.14",
+          "commits": [
+            {
+              "SHA": "161e3608",
+              "Subject": "Prepare for release v0.3.14 (#497)"
+            },
+            {
+              "SHA": "6967a1fd",
+              "Subject": "Use separate api domains for api, accounts, and base server urls (#496)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.05.26",
+          "commits": [
+            {
+              "SHA": "e20734d86",
+              "Subject": "Prepare for release v2022.05.26 (#282)"
+            },
+            {
+              "SHA": "9bc4cad9e",
+              "Subject": "Use separate api domains for api, accounts, and base server urls (#279)"
+            },
+            {
+              "SHA": "b7fe95fbe",
+              "Subject": "SKip form objects from editor model resource"
+            },
+            {
+              "SHA": "79b74e07b",
+              "Subject": "Store and load form values correctly (#281)"
+            },
+            {
+              "SHA": "262686542",
+              "Subject": "Add support for form fields in Values (#280)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.7",
+          "commits": [
+            {
+              "SHA": "8993cd1",
+              "Subject": "Prepare for release v0.3.7 (#49)"
+            },
+            {
+              "SHA": "900364b",
+              "Subject": "Use separate api domains for api, accounts, and base server urls (#48)"
+            },
+            {
+              "SHA": "a571c91",
+              "Subject": "Update packages for node 16, replace vueuse/shared with vueuse/core"
+            },
+            {
+              "SHA": "878c2cb",
+              "Subject": "redirect to location header url when response status is 428 (#47)"
+            },
+            {
+              "SHA": "8595464",
+              "Subject": "Update node version to 16 and npm to 8"
+            },
+            {
+              "SHA": "bb727dd",
+              "Subject": "Update generic list table to show multi info table when list table has scrollbar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.4",
+          "commits": [
+            {
+              "SHA": "45480988",
+              "Subject": "Prepare for release v0.4.4 (#191)"
+            },
+            {
+              "SHA": "7066c044",
+              "Subject": "Update charts (#190)"
+            },
+            {
+              "SHA": "16f4cddc",
+              "Subject": "Fix spelling"
+            },
+            {
+              "SHA": "e880513f",
+              "Subject": "Fix schema for editor alerts"
+            },
+            {
+              "SHA": "26a00d2f",
+              "Subject": "Update charts (#188)"
+            },
+            {
+              "SHA": "42f8bf44",
+              "Subject": "Fix alert template & schema (#187)"
+            },
+            {
+              "SHA": "11b357d5",
+              "Subject": "Test against Kubernetes 1.24.0 (#185)"
+            },
+            {
+              "SHA": "a796e0cb",
+              "Subject": "Update charts (#184)"
+            },
+            {
+              "SHA": "a884004d",
+              "Subject": "Fix alert schema (#183)"
+            },
+            {
+              "SHA": "3d7b43b2",
+              "Subject": "Update charts (#182)"
+            },
+            {
+              "SHA": "bf6d5732",
+              "Subject": "Update alerts (#181)"
+            },
+            {
+              "SHA": "0bc387c5",
+              "Subject": "Fix monitoring spec for db options charts"
+            },
+            {
+              "SHA": "fb40d456",
+              "Subject": "Update charts (#180)"
+            },
+            {
+              "SHA": "6edd3727",
+              "Subject": "Modify backup edit wizard when repo is selected initially (#179)"
+            },
+            {
+              "SHA": "74a14254",
+              "Subject": "Update charts (#178)"
+            },
+            {
+              "SHA": "f79698f1",
+              "Subject": "Update editor charts"
+            },
+            {
+              "SHA": "6fe41681",
+              "Subject": "Update ui wizard charts"
+            },
+            {
+              "SHA": "2355ea54",
+              "Subject": "Add alert template to editor charts (#176)"
+            },
+            {
+              "SHA": "ef422d41",
+              "Subject": "Use form for alerts (#175)"
+            },
+            {
+              "SHA": "eaba8f8f",
+              "Subject": "Only use lint check against charts"
+            },
+            {
+              "SHA": "887faece",
+              "Subject": "Enable ServiceMonitor & Alerts in options chart (#174)"
+            },
+            {
+              "SHA": "9b77e6f3",
+              "Subject": "Format CI yamls"
+            },
+            {
+              "SHA": "7f9990af",
+              "Subject": "Update charts (#173)"
+            },
+            {
+              "SHA": "5e2fe09c",
+              "Subject": "Add PrometheusRule to editor charts"
+            },
+            {
+              "SHA": "1a9b46e7",
+              "Subject": "Update charts (#172)"
+            },
+            {
+              "SHA": "2c3becbe",
+              "Subject": "Remove opsrequest type selection on dbchange (#171)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
