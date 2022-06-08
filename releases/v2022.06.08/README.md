@@ -1,6 +1,20 @@
 # ByteBuilders v2022.06.08 (2022-06-08)
 
 
+## [bytebuilders/accounts-ui](https://github.com/bytebuilders/accounts-ui)
+
+### [v0.3.5](https://github.com/bytebuilders/accounts-ui/releases/tag/v0.3.5)
+
+- [2d08964](https://github.com/bytebuilders/accounts-ui/commit/2d08964) Prepare for release v0.3.5 (#132)
+- [89f8557](https://github.com/bytebuilders/accounts-ui/commit/89f8557) Fix LinkedAccounts issues
+- [79b020f](https://github.com/bytebuilders/accounts-ui/commit/79b020f) Add avatar upload option for Org and Org list page for user (#131)
+- [a55fdf3](https://github.com/bytebuilders/accounts-ui/commit/a55fdf3) Fix lint error
+- [0b491ac](https://github.com/bytebuilders/accounts-ui/commit/0b491ac) Replace template url variable (#130)
+- [bfa7847](https://github.com/bytebuilders/accounts-ui/commit/bfa7847) Update template url references to point to accounts.<domain> (#129)
+- [dc0ffcb](https://github.com/bytebuilders/accounts-ui/commit/dc0ffcb) Fix navbar public user sign up/login page url issues
+
+
+
 ## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
 
 ### [v0.3.15](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.3.15)

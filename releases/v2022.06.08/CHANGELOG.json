@@ -1,11 +1,49 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.06.08",
-  "release_date": "2022-06-08T06:33:56.774641482Z",
+  "release_date": "2022-06-08T06:44:10.38409559Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.06.08)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/accounts-ui",
+      "releases": [
+        {
+          "tag": "v0.3.5",
+          "commits": [
+            {
+              "SHA": "2d08964",
+              "Subject": "Prepare for release v0.3.5 (#132)"
+            },
+            {
+              "SHA": "89f8557",
+              "Subject": "Fix LinkedAccounts issues"
+            },
+            {
+              "SHA": "79b020f",
+              "Subject": "Add avatar upload option for Org and Org list page for user (#131)"
+            },
+            {
+              "SHA": "a55fdf3",
+              "Subject": "Fix lint error"
+            },
+            {
+              "SHA": "0b491ac",
+              "Subject": "Replace template url variable (#130)"
+            },
+            {
+              "SHA": "bfa7847",
+              "Subject": "Update template url references to point to accounts.<domain> (#129)"
+            },
+            {
+              "SHA": "dc0ffcb",
+              "Subject": "Fix navbar public user sign up/login page url issues"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/cluster-ui",
       "releases": [
