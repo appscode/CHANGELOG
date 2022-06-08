@@ -1,6 +1,16 @@
 # ByteBuilders v2022.06.08 (2022-06-08)
 
 
+## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
+
+### [v0.3.15](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.3.15)
+
+- [c044a09f](https://github.com/bytebuilders/cluster-ui/commit/c044a09f) Prepare for release v0.3.15 (#501)
+- [65b44318](https://github.com/bytebuilders/cluster-ui/commit/65b44318) Add isLoggedinUserAdmin Props to user component & update design system (#499)
+- [8dbe0eaa](https://github.com/bytebuilders/cluster-ui/commit/8dbe0eaa) Add vite config for build, dont ignore require inside try catch, solves resource graph issue in build (#498)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.8](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.8)

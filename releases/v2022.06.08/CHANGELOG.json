@@ -1,11 +1,33 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.06.08",
-  "release_date": "2022-06-08T06:33:37.077091152Z",
+  "release_date": "2022-06-08T06:33:56.774641482Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.06.08)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.3.15",
+          "commits": [
+            {
+              "SHA": "c044a09f",
+              "Subject": "Prepare for release v0.3.15 (#501)"
+            },
+            {
+              "SHA": "65b44318",
+              "Subject": "Add isLoggedinUserAdmin Props to user component & update design system (#499)"
+            },
+            {
+              "SHA": "8dbe0eaa",
+              "Subject": "Add vite config for build, dont ignore require inside try catch, solves resource graph issue in build (#498)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/kubedb-ui",
       "releases": [
