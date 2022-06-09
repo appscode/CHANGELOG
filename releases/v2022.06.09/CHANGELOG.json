@@ -1,0 +1,64 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.06.09",
+  "release_date": "2022-06-09T11:41:38.900602899Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.06.09)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.3.16",
+          "commits": [
+            {
+              "SHA": "b78fe444",
+              "Subject": "Prepare for release v0.3.16 (#504)"
+            },
+            {
+              "SHA": "e3759d14",
+              "Subject": "Updated design-system for editor component timeout issue (#503)"
+            },
+            {
+              "SHA": "37dec4b2",
+              "Subject": "Updated design-sytem, ui-builder (#502)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.06.09",
+          "commits": [
+            {
+              "SHA": "661034bca",
+              "Subject": "Use AccountsURL for accounts subdomain (#286)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.9",
+          "commits": [
+            {
+              "SHA": "3830bea",
+              "Subject": "Prepare for release v0.3.9 (#52)"
+            },
+            {
+              "SHA": "792bf9f",
+              "Subject": "Update design system and ui-builder (#51)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
