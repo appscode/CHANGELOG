@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.06.08",
-  "release_date": "2022-06-08T06:44:10.38409559Z",
+  "release_date": "2022-06-09T06:25:23.625190826Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.06.08)",
   "kubernetes_version": "1.16+",
@@ -61,6 +61,40 @@
             {
               "SHA": "8dbe0eaa",
               "Subject": "Add vite config for build, dont ignore require inside try catch, solves resource graph issue in build (#498)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.06.08",
+          "commits": [
+            {
+              "SHA": "3ad70076e",
+              "Subject": "Prepare for release v2022.06.08 (#285)"
+            },
+            {
+              "SHA": "159c60f0d",
+              "Subject": "Update cluster-connector version"
+            },
+            {
+              "SHA": "b43e70668",
+              "Subject": "Fix avatar, user login urls"
+            },
+            {
+              "SHA": "0fbfba9b4",
+              "Subject": "Fix default avatar url"
+            },
+            {
+              "SHA": "76c0bc7d3",
+              "Subject": "Update template url references to point to accounts.<domain>"
+            },
+            {
+              "SHA": "9284f03d6",
+              "Subject": "Fix navbar public user sign up/login page url issues"
             }
           ]
         }

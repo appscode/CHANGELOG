@@ -1,4 +1,4 @@
-# ByteBuilders v2022.06.08 (2022-06-08)
+# ByteBuilders v2022.06.08 (2022-06-09)
 
 
 ## [bytebuilders/accounts-ui](https://github.com/bytebuilders/accounts-ui)
@@ -22,6 +22,19 @@
 - [c044a09f](https://github.com/bytebuilders/cluster-ui/commit/c044a09f) Prepare for release v0.3.15 (#501)
 - [65b44318](https://github.com/bytebuilders/cluster-ui/commit/65b44318) Add isLoggedinUserAdmin Props to user component & update design system (#499)
 - [8dbe0eaa](https://github.com/bytebuilders/cluster-ui/commit/8dbe0eaa) Add vite config for build, dont ignore require inside try catch, solves resource graph issue in build (#498)
+
+
+
+## [bytebuilders/gitea](https://github.com/bytebuilders/gitea)
+
+### [v2022.06.08](https://github.com/bytebuilders/gitea/releases/tag/v2022.06.08)
+
+- [3ad70076](https://github.com/bytebuilders/gitea/commit/3ad70076e) Prepare for release v2022.06.08 (#285)
+- [159c60f0](https://github.com/bytebuilders/gitea/commit/159c60f0d) Update cluster-connector version
+- [b43e7066](https://github.com/bytebuilders/gitea/commit/b43e70668) Fix avatar, user login urls
+- [0fbfba9b](https://github.com/bytebuilders/gitea/commit/0fbfba9b4) Fix default avatar url
+- [76c0bc7d](https://github.com/bytebuilders/gitea/commit/76c0bc7d3) Update template url references to point to accounts.<domain>
+- [9284f03d](https://github.com/bytebuilders/gitea/commit/9284f03d6) Fix navbar public user sign up/login page url issues
 
 
 
