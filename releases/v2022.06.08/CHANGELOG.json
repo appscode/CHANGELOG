@@ -1,0 +1,144 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.06.08",
+  "release_date": "2022-06-09T06:25:23.625190826Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.06.08)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/accounts-ui",
+      "releases": [
+        {
+          "tag": "v0.3.5",
+          "commits": [
+            {
+              "SHA": "2d08964",
+              "Subject": "Prepare for release v0.3.5 (#132)"
+            },
+            {
+              "SHA": "89f8557",
+              "Subject": "Fix LinkedAccounts issues"
+            },
+            {
+              "SHA": "79b020f",
+              "Subject": "Add avatar upload option for Org and Org list page for user (#131)"
+            },
+            {
+              "SHA": "a55fdf3",
+              "Subject": "Fix lint error"
+            },
+            {
+              "SHA": "0b491ac",
+              "Subject": "Replace template url variable (#130)"
+            },
+            {
+              "SHA": "bfa7847",
+              "Subject": "Update template url references to point to accounts.<domain> (#129)"
+            },
+            {
+              "SHA": "dc0ffcb",
+              "Subject": "Fix navbar public user sign up/login page url issues"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.3.15",
+          "commits": [
+            {
+              "SHA": "c044a09f",
+              "Subject": "Prepare for release v0.3.15 (#501)"
+            },
+            {
+              "SHA": "65b44318",
+              "Subject": "Add isLoggedinUserAdmin Props to user component & update design system (#499)"
+            },
+            {
+              "SHA": "8dbe0eaa",
+              "Subject": "Add vite config for build, dont ignore require inside try catch, solves resource graph issue in build (#498)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.06.08",
+          "commits": [
+            {
+              "SHA": "3ad70076e",
+              "Subject": "Prepare for release v2022.06.08 (#285)"
+            },
+            {
+              "SHA": "159c60f0d",
+              "Subject": "Update cluster-connector version"
+            },
+            {
+              "SHA": "b43e70668",
+              "Subject": "Fix avatar, user login urls"
+            },
+            {
+              "SHA": "0fbfba9b4",
+              "Subject": "Fix default avatar url"
+            },
+            {
+              "SHA": "76c0bc7d3",
+              "Subject": "Update template url references to point to accounts.<domain>"
+            },
+            {
+              "SHA": "9284f03d6",
+              "Subject": "Fix navbar public user sign up/login page url issues"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.8",
+          "commits": [
+            {
+              "SHA": "4b08716",
+              "Subject": "Prepare for release v0.3.8 (#50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.5",
+          "commits": [
+            {
+              "SHA": "344c637c",
+              "Subject": "Prepare for release v0.4.5 (#195)"
+            },
+            {
+              "SHA": "a629e5d4",
+              "Subject": "Update charts (#194)"
+            },
+            {
+              "SHA": "d67ac724",
+              "Subject": "Added alert step for all DB create and edit wizard (#192)"
+            },
+            {
+              "SHA": "e9dfa5da",
+              "Subject": "Update to k8s 1.24 toolchain (#193)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
