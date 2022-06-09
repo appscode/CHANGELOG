@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.06.09",
-  "release_date": "2022-06-09T11:39:41.103254071Z",
+  "release_date": "2022-06-09T11:41:38.900602899Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.06.09)",
   "kubernetes_version": "1.16+",
@@ -23,6 +23,20 @@
             {
               "SHA": "37dec4b2",
               "Subject": "Updated design-sytem, ui-builder (#502)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.06.09",
+          "commits": [
+            {
+              "SHA": "661034bca",
+              "Subject": "Use AccountsURL for accounts subdomain (#286)"
             }
           ]
         }

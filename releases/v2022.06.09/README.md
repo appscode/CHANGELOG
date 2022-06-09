@@ -11,6 +11,14 @@
 
 
 
+## [bytebuilders/gitea](https://github.com/bytebuilders/gitea)
+
+### [v2022.06.09](https://github.com/bytebuilders/gitea/releases/tag/v2022.06.09)
+
+- [661034bc](https://github.com/bytebuilders/gitea/commit/661034bca) Use AccountsURL for accounts subdomain (#286)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.9](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.9)
