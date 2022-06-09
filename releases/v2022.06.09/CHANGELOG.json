@@ -1,11 +1,33 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.06.09",
-  "release_date": "2022-06-09T11:38:57.366359677Z",
+  "release_date": "2022-06-09T11:39:41.103254071Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.06.09)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.3.16",
+          "commits": [
+            {
+              "SHA": "b78fe444",
+              "Subject": "Prepare for release v0.3.16 (#504)"
+            },
+            {
+              "SHA": "e3759d14",
+              "Subject": "Updated design-system for editor component timeout issue (#503)"
+            },
+            {
+              "SHA": "37dec4b2",
+              "Subject": "Updated design-sytem, ui-builder (#502)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/kubedb-ui",
       "releases": [
