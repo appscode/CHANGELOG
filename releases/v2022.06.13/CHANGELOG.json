@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.06.13",
-  "release_date": "2022-06-13T05:02:32.48883081Z",
+  "release_date": "2022-06-13T06:47:25.030583346Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.06.13)",
   "kubernetes_version": "1.16+",
@@ -15,6 +15,32 @@
             {
               "SHA": "f09d5e28",
               "Subject": "Prepare for release v0.4.6 (#196)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.11.1",
+          "commits": [
+            {
+              "SHA": "1992a2b5",
+              "Subject": "Update README.md"
+            },
+            {
+              "SHA": "96ca2ff4",
+              "Subject": "Update README.md"
+            },
+            {
+              "SHA": "957a0ea2",
+              "Subject": "Prepare for release v0.11.1 #247"
+            },
+            {
+              "SHA": "9a964723",
+              "Subject": "Prepare for release v0.11.1"
             }
           ]
         }
