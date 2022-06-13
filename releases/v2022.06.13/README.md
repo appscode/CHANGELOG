@@ -1,6 +1,15 @@
 # ByteBuilders v2022.06.13 (2022-06-13)
 
 
+## [bytebuilders/accounts-ui](https://github.com/bytebuilders/accounts-ui)
+
+### [v0.3.6](https://github.com/bytebuilders/accounts-ui/releases/tag/v0.3.6)
+
+- [a9d2d52](https://github.com/bytebuilders/accounts-ui/commit/a9d2d52) Prepare for release v0.3.6 (#133)
+- [7fc2433](https://github.com/bytebuilders/accounts-ui/commit/7fc2433) Bump node version of accounts-ui to version 16
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.6](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.6)

@@ -1,11 +1,29 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.06.13",
-  "release_date": "2022-06-13T06:47:25.030583346Z",
+  "release_date": "2022-06-13T06:52:47.227824774Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.06.13)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/accounts-ui",
+      "releases": [
+        {
+          "tag": "v0.3.6",
+          "commits": [
+            {
+              "SHA": "a9d2d52",
+              "Subject": "Prepare for release v0.3.6 (#133)"
+            },
+            {
+              "SHA": "7fc2433",
+              "Subject": "Bump node version of accounts-ui to version 16"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/ui-wizards",
       "releases": [
