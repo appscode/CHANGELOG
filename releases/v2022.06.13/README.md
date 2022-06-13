@@ -10,6 +10,18 @@
 
 
 
+## [bytebuilders/gitea](https://github.com/bytebuilders/gitea)
+
+### [v2022.06.13](https://github.com/bytebuilders/gitea/releases/tag/v2022.06.13)
+
+- [29088f78](https://github.com/bytebuilders/gitea/commit/29088f78a) Prepare for release v2022.06.13 (#290)
+- [71257a0a](https://github.com/bytebuilders/gitea/commit/71257a0a3) Use Go 1.18 and upgrade to k8s 1.24 (#287)
+- [080e46c4](https://github.com/bytebuilders/gitea/commit/080e46c46) Update username validator regex (#289)
+- [ca4731bd](https://github.com/bytebuilders/gitea/commit/ca4731bdc) Close nats connections (#288)
+- [cbb89aaa](https://github.com/bytebuilders/gitea/commit/cbb89aaa0) Add nats replicas field and remove internal token generation
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.6](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.6)

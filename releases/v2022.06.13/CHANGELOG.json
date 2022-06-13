@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.06.13",
-  "release_date": "2022-06-13T06:52:47.227824774Z",
+  "release_date": "2022-06-13T12:11:16.753352031Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.06.13)",
   "kubernetes_version": "1.16+",
@@ -19,6 +19,36 @@
             {
               "SHA": "7fc2433",
               "Subject": "Bump node version of accounts-ui to version 16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.06.13",
+          "commits": [
+            {
+              "SHA": "29088f78a",
+              "Subject": "Prepare for release v2022.06.13 (#290)"
+            },
+            {
+              "SHA": "71257a0a3",
+              "Subject": "Use Go 1.18 and upgrade to k8s 1.24 (#287)"
+            },
+            {
+              "SHA": "080e46c46",
+              "Subject": "Update username validator regex (#289)"
+            },
+            {
+              "SHA": "ca4731bdc",
+              "Subject": "Close nats connections (#288)"
+            },
+            {
+              "SHA": "cbb89aaa0",
+              "Subject": "Add nats replicas field and remove internal token generation"
             }
           ]
         }
