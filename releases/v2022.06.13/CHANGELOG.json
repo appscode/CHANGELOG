@@ -1,0 +1,24 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.06.13",
+  "release_date": "2022-06-13T05:02:32.48883081Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.06.13)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.6",
+          "commits": [
+            {
+              "SHA": "f09d5e28",
+              "Subject": "Prepare for release v0.4.6 (#196)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
