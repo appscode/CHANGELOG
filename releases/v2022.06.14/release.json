@@ -1,0 +1,54 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.06.14",
+  "docs_url_template": "",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "github.com/bytebuilders/ui-wizards": {
+        "tag": "v0.4.7",
+        "chartNames": [
+          "*"
+        ],
+        "commands": [
+          "make update-charts CHART_VERSION=${BYTEBUILDERS_UI_WIZARDS_TAG} CHART_REGISTRY=${UI_REGISTRY} CHART_REGISTRY_URL=${UI_REGISTRY_URL}",
+          "make gen fmt"
+        ]
+      }
+    },
+    {
+      "github.com/bytebuilders/bundle-registry": {
+        "charts": [
+          "github.com/bytebuilders/ui-wizards"
+        ],
+        "changelog": "Skip"
+      }
+    },
+    {
+      "github.com/kmodules/resource-metadata": {
+        "tag": "v0.11.2",
+        "commands": [
+          "go run cmd/ui-updater/main.go --chart.registry-url=${UI_REGISTRY_URL} --chart.version=${BYTEBUILDERS_UI_WIZARDS_TAG}",
+          "go run cmd/resource-fmt/main.go"
+        ]
+      }
+    },
+    {
+      "github.com/bytebuilders/gitea": {
+        "tag": "v2022.06.14",
+        "release_branch": "release-${TAG}"
+      },
+      "github.com/kubeops/ui-server": {
+        "tag": "v0.0.3"
+      }
+    },
+  ],
+  "external_projects": {
+    "github.com/appscode/products": {},
+    "github.com/kmodules/codespan-schema-checker": {},
+    "github.com/kmodules/metrics-configuration-checker": {},
+    "github.com/kubepack/kubepack": {},
+    "github.com/kubepack/lib-app": {}
+  }
+}
+
