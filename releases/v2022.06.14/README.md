@@ -1,6 +1,15 @@
 # ByteBuilders v2022.06.14 (2022-06-14)
 
 
+## [bytebuilders/gitea](https://github.com/bytebuilders/gitea)
+
+### [v2022.06.14](https://github.com/bytebuilders/gitea/releases/tag/v2022.06.14)
+
+- [46bc9260](https://github.com/bytebuilders/gitea/commit/46bc92606) Prepare for release v2022.06.14 (#292)
+- [63de13a9](https://github.com/bytebuilders/gitea/commit/63de13a9b) Ignore values file in case of upgrading opscenter-core chart (#291)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.7](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.7)
