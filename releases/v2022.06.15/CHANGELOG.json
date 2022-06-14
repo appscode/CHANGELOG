@@ -1,0 +1,28 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.06.15",
+  "release_date": "2022-06-14T15:34:42.384696214Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.06.15)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.8",
+          "commits": [
+            {
+              "SHA": "08920424",
+              "Subject": "Prepare for release v0.4.8 (#200)"
+            },
+            {
+              "SHA": "aaa966d4",
+              "Subject": "Fixed backup schema (#199)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
