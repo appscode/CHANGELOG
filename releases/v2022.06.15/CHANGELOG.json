@@ -1,0 +1,74 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.06.15",
+  "release_date": "2022-06-14T16:21:36.89205912Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.06.15)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.06.15",
+          "commits": [
+            {
+              "SHA": "5d1b5c596",
+              "Subject": "Prepare for release v2022.06.15 (#293)"
+            },
+            {
+              "SHA": "8dd8201e1",
+              "Subject": "Skip upgrading opscenter-core chart if already exists"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.8",
+          "commits": [
+            {
+              "SHA": "08920424",
+              "Subject": "Prepare for release v0.4.8 (#200)"
+            },
+            {
+              "SHA": "aaa966d4",
+              "Subject": "Fixed backup schema (#199)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.11.3",
+          "commits": [
+            {
+              "SHA": "cde1392b",
+              "Subject": "Prepare for release v0.11.3 (#251)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.4",
+          "commits": [
+            {
+              "SHA": "12dc2548",
+              "Subject": "Prepare for release v0.0.4 (#141)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
