@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.06.15",
-  "release_date": "2022-06-14T15:34:42.384696214Z",
+  "release_date": "2022-06-14T15:59:16.415262095Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.06.15)",
   "kubernetes_version": "1.16+",
@@ -19,6 +19,20 @@
             {
               "SHA": "aaa966d4",
               "Subject": "Fixed backup schema (#199)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.11.3",
+          "commits": [
+            {
+              "SHA": "cde1392b",
+              "Subject": "Prepare for release v0.11.3 (#251)"
             }
           ]
         }

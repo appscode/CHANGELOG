@@ -10,3 +10,11 @@
 
 
 
+## [kmodules/resource-metadata](https://github.com/kmodules/resource-metadata)
+
+### [v0.11.3](https://github.com/kmodules/resource-metadata/releases/tag/v0.11.3)
+
+- [cde1392b](https://github.com/kmodules/resource-metadata/commit/cde1392b) Prepare for release v0.11.3 (#251)
+
+
+
