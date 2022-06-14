@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.06.14",
-  "release_date": "2022-06-14T08:37:22.084862668Z",
+  "release_date": "2022-06-14T08:47:56.644368477Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.06.14)",
   "kubernetes_version": "1.16+",
@@ -41,6 +41,20 @@
             {
               "SHA": "1b61990d",
               "Subject": "vault v1alpha2 resources"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.3",
+          "commits": [
+            {
+              "SHA": "bc46cf94",
+              "Subject": "Prepare for release v0.0.3 (#140)"
             }
           ]
         }
