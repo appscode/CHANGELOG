@@ -1,11 +1,29 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.06.15",
-  "release_date": "2022-06-14T16:10:28.526493603Z",
+  "release_date": "2022-06-14T16:21:36.89205912Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.06.15)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.06.15",
+          "commits": [
+            {
+              "SHA": "5d1b5c596",
+              "Subject": "Prepare for release v2022.06.15 (#293)"
+            },
+            {
+              "SHA": "8dd8201e1",
+              "Subject": "Skip upgrading opscenter-core chart if already exists"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/ui-wizards",
       "releases": [
