@@ -1,0 +1,28 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.06.14",
+  "release_date": "2022-06-14T07:41:07.038854287Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.06.14)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.7",
+          "commits": [
+            {
+              "SHA": "72aedb77",
+              "Subject": "Prepare for release v0.4.7 (#198)"
+            },
+            {
+              "SHA": "d9a54d88",
+              "Subject": "Updated reusable ui element version to v0.4.7 (#197)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
