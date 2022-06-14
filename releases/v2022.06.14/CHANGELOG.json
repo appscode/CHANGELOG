@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.06.14",
-  "release_date": "2022-06-14T07:41:07.038854287Z",
+  "release_date": "2022-06-14T08:37:22.084862668Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.06.14)",
   "kubernetes_version": "1.16+",
@@ -19,6 +19,28 @@
             {
               "SHA": "d9a54d88",
               "Subject": "Updated reusable ui element version to v0.4.7 (#197)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.11.2",
+          "commits": [
+            {
+              "SHA": "8d08a15a",
+              "Subject": "Prepare for release v0.11.2 (#250)"
+            },
+            {
+              "SHA": "6ab623a8",
+              "Subject": "Add KubeVault v1alpha2 resources"
+            },
+            {
+              "SHA": "1b61990d",
+              "Subject": "vault v1alpha2 resources"
             }
           ]
         }

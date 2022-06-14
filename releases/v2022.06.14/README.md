@@ -10,3 +10,13 @@
 
 
 
+## [kmodules/resource-metadata](https://github.com/kmodules/resource-metadata)
+
+### [v0.11.2](https://github.com/kmodules/resource-metadata/releases/tag/v0.11.2)
+
+- [8d08a15a](https://github.com/kmodules/resource-metadata/commit/8d08a15a) Prepare for release v0.11.2 (#250)
+- [6ab623a8](https://github.com/kmodules/resource-metadata/commit/6ab623a8) Add KubeVault v1alpha2 resources
+- [1b61990d](https://github.com/kmodules/resource-metadata/commit/1b61990d) vault v1alpha2 resources
+
+
+
