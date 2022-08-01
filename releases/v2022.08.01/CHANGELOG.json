@@ -1,0 +1,64 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.08.01",
+  "release_date": "2022-08-01T06:42:40.837989926Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.08.01)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.9",
+          "commits": [
+            {
+              "SHA": "d35c4dbb",
+              "Subject": "Prepare for release v0.4.9 (#211)"
+            },
+            {
+              "SHA": "91659c88",
+              "Subject": "Update reusable element version (#210)"
+            },
+            {
+              "SHA": "92b46f17",
+              "Subject": "set anchor url using function js in edit db (#209)"
+            },
+            {
+              "SHA": "6adba0ea",
+              "Subject": "Add resource-input-form element (#208)"
+            },
+            {
+              "SHA": "d5fbba14",
+              "Subject": "Replace reusable-resource element with resource-input-form (#207)"
+            },
+            {
+              "SHA": "5ff40e44",
+              "Subject": "Remove monitoring labels & alerts labels (#206)"
+            },
+            {
+              "SHA": "76bed53d",
+              "Subject": "Update charts (#205)"
+            },
+            {
+              "SHA": "add8f347",
+              "Subject": "Fix monitoring options (#204)"
+            },
+            {
+              "SHA": "cb193308",
+              "Subject": "Updated schema for replicas of replicaSet mode (#203)"
+            },
+            {
+              "SHA": "97ff3828",
+              "Subject": "Update charts (#202)"
+            },
+            {
+              "SHA": "3bac6508",
+              "Subject": "Hard code replicas to 1 for Standalone Mongo (#201)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
