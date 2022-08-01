@@ -19,3 +19,16 @@
 
 
 
+## [kmodules/resource-metadata](https://github.com/kmodules/resource-metadata)
+
+### [v0.12.4](https://github.com/kmodules/resource-metadata/releases/tag/v0.12.4)
+
+- [91c7a5a5](https://github.com/kmodules/resource-metadata/commit/91c7a5a5) Prepare for release v0.12.4 (#262)
+- [99fbbaaa](https://github.com/kmodules/resource-metadata/commit/99fbbaaa) Support Exec column for generic resource apis (#261)
+- [73f401ba](https://github.com/kmodules/resource-metadata/commit/73f401ba) Fix path template for exec columns (#260)
+- [2414d526](https://github.com/kmodules/resource-metadata/commit/2414d526) Revise exec/log api (#259)
+- [636a7da8](https://github.com/kmodules/resource-metadata/commit/636a7da8) Add api for exec/log (#258)
+- [6bad836a](https://github.com/kmodules/resource-metadata/commit/6bad836a) Don't line wrap yamls
+
+
+

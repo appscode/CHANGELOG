@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.08.01",
-  "release_date": "2022-08-01T06:42:40.837989926Z",
+  "release_date": "2022-08-01T07:08:43.085913989Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.08.01)",
   "kubernetes_version": "1.16+",
@@ -55,6 +55,40 @@
             {
               "SHA": "3bac6508",
               "Subject": "Hard code replicas to 1 for Standalone Mongo (#201)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.12.4",
+          "commits": [
+            {
+              "SHA": "91c7a5a5",
+              "Subject": "Prepare for release v0.12.4 (#262)"
+            },
+            {
+              "SHA": "99fbbaaa",
+              "Subject": "Support Exec column for generic resource apis (#261)"
+            },
+            {
+              "SHA": "73f401ba",
+              "Subject": "Fix path template for exec columns (#260)"
+            },
+            {
+              "SHA": "2414d526",
+              "Subject": "Revise exec/log api (#259)"
+            },
+            {
+              "SHA": "636a7da8",
+              "Subject": "Add api for exec/log (#258)"
+            },
+            {
+              "SHA": "6bad836a",
+              "Subject": "Don't line wrap yamls"
             }
           ]
         }
