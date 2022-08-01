@@ -11,6 +11,26 @@
 
 
 
+## [bytebuilders/gitea](https://github.com/bytebuilders/gitea)
+
+### [v2022.08.01](https://github.com/bytebuilders/gitea/releases/tag/v2022.08.01)
+
+- [da62e1b3](https://github.com/bytebuilders/gitea/commit/da62e1b35) Prepare for release v2022.08.01 (#301)
+- [8fd37050](https://github.com/bytebuilders/gitea/commit/8fd370509) Generate helm command for opscenter-core and, Move ResourceEditor & ResourceDashboard to ui.k8s.appscode.com (#296)
+- [c5af286d](https://github.com/bytebuilders/gitea/commit/c5af286d6) Fix exec/log subject name
+- [04367c4a](https://github.com/bytebuilders/gitea/commit/04367c4af) Use resource type in the exec/log subject (#300)
+- [665c998f](https://github.com/bytebuilders/gitea/commit/665c998fc) Handle array of commands for exec (#299)
+- [6ad3450f](https://github.com/bytebuilders/gitea/commit/6ad3450fa) Use first container to exec/log if container name is missing (#298)
+- [e227e185](https://github.com/bytebuilders/gitea/commit/e227e1854) Support exec/log api for services (#297)
+- [e9a0aaf7](https://github.com/bytebuilders/gitea/commit/e9a0aaf70) Fix redirection issue after user login
+- [84c1c00a](https://github.com/bytebuilders/gitea/commit/84c1c00a3) Refactor opscenter-config chart installation procedures (#295)
+- [84e9290f](https://github.com/bytebuilders/gitea/commit/84e9290f6) Fix redirection issue after successful login
+- [3da4a8af](https://github.com/bytebuilders/gitea/commit/3da4a8afa) Update workflow: don't update docker image of the nuxt project
+- [f1cb09f6](https://github.com/bytebuilders/gitea/commit/f1cb09f61) Move user template pages here from accounts-ui (#294)
+- [bac19064](https://github.com/bytebuilders/gitea/commit/bac190645) Merge resource editor when loaded from cluster with missing defaults
+
+
+
 ## [bytebuilders/platform-ui](https://github.com/bytebuilders/platform-ui)
 
 ### [v0.3.7](https://github.com/bytebuilders/platform-ui/releases/tag/v0.3.7)

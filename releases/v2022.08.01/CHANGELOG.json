@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.08.01",
-  "release_date": "2022-08-01T07:17:47.534721201Z",
+  "release_date": "2022-08-01T11:55:02.02047489Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.08.01)",
   "kubernetes_version": "1.16+",
@@ -23,6 +23,68 @@
             {
               "SHA": "66b441d5",
               "Subject": "Updated ui-builder-vue3 to fix lazy-rendering issue (#522)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.08.01",
+          "commits": [
+            {
+              "SHA": "da62e1b35",
+              "Subject": "Prepare for release v2022.08.01 (#301)"
+            },
+            {
+              "SHA": "8fd370509",
+              "Subject": "Generate helm command for opscenter-core and, Move ResourceEditor & ResourceDashboard to ui.k8s.appscode.com (#296)"
+            },
+            {
+              "SHA": "c5af286d6",
+              "Subject": "Fix exec/log subject name"
+            },
+            {
+              "SHA": "04367c4af",
+              "Subject": "Use resource type in the exec/log subject (#300)"
+            },
+            {
+              "SHA": "665c998fc",
+              "Subject": "Handle array of commands for exec (#299)"
+            },
+            {
+              "SHA": "6ad3450fa",
+              "Subject": "Use first container to exec/log if container name is missing (#298)"
+            },
+            {
+              "SHA": "e227e1854",
+              "Subject": "Support exec/log api for services (#297)"
+            },
+            {
+              "SHA": "e9a0aaf70",
+              "Subject": "Fix redirection issue after user login"
+            },
+            {
+              "SHA": "84c1c00a3",
+              "Subject": "Refactor opscenter-config chart installation procedures (#295)"
+            },
+            {
+              "SHA": "84e9290f6",
+              "Subject": "Fix redirection issue after successful login"
+            },
+            {
+              "SHA": "3da4a8afa",
+              "Subject": "Update workflow: don't update docker image of the nuxt project"
+            },
+            {
+              "SHA": "f1cb09f61",
+              "Subject": "Move user template pages here from accounts-ui (#294)"
+            },
+            {
+              "SHA": "bac190645",
+              "Subject": "Merge resource editor when loaded from cluster with missing defaults"
             }
           ]
         }
