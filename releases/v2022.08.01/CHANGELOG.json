@@ -1,0 +1,244 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.08.01",
+  "release_date": "2022-08-01T11:55:02.02047489Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.08.01)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.7",
+          "commits": [
+            {
+              "SHA": "05e6005a",
+              "Subject": "Prepare for release v0.4.7 (#523)"
+            },
+            {
+              "SHA": "3fd4498c",
+              "Subject": "Adjust to backend channel id expectation for log exec"
+            },
+            {
+              "SHA": "66b441d5",
+              "Subject": "Updated ui-builder-vue3 to fix lazy-rendering issue (#522)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.08.01",
+          "commits": [
+            {
+              "SHA": "da62e1b35",
+              "Subject": "Prepare for release v2022.08.01 (#301)"
+            },
+            {
+              "SHA": "8fd370509",
+              "Subject": "Generate helm command for opscenter-core and, Move ResourceEditor & ResourceDashboard to ui.k8s.appscode.com (#296)"
+            },
+            {
+              "SHA": "c5af286d6",
+              "Subject": "Fix exec/log subject name"
+            },
+            {
+              "SHA": "04367c4af",
+              "Subject": "Use resource type in the exec/log subject (#300)"
+            },
+            {
+              "SHA": "665c998fc",
+              "Subject": "Handle array of commands for exec (#299)"
+            },
+            {
+              "SHA": "6ad3450fa",
+              "Subject": "Use first container to exec/log if container name is missing (#298)"
+            },
+            {
+              "SHA": "e227e1854",
+              "Subject": "Support exec/log api for services (#297)"
+            },
+            {
+              "SHA": "e9a0aaf70",
+              "Subject": "Fix redirection issue after user login"
+            },
+            {
+              "SHA": "84c1c00a3",
+              "Subject": "Refactor opscenter-config chart installation procedures (#295)"
+            },
+            {
+              "SHA": "84e9290f6",
+              "Subject": "Fix redirection issue after successful login"
+            },
+            {
+              "SHA": "3da4a8afa",
+              "Subject": "Update workflow: don't update docker image of the nuxt project"
+            },
+            {
+              "SHA": "f1cb09f61",
+              "Subject": "Move user template pages here from accounts-ui (#294)"
+            },
+            {
+              "SHA": "bac190645",
+              "Subject": "Merge resource editor when loaded from cluster with missing defaults"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/platform-ui",
+      "releases": [
+        {
+          "tag": "v0.3.7",
+          "commits": [
+            {
+              "SHA": "96dd52c",
+              "Subject": "Prepare for release v0.3.7 (#142)"
+            },
+            {
+              "SHA": "e141e08",
+              "Subject": "Update bb-hero-area (#140)"
+            },
+            {
+              "SHA": "fdb0069",
+              "Subject": "Rename to platform-ui (#141)"
+            },
+            {
+              "SHA": "2e947e5",
+              "Subject": "Fix sidebar navbar tabs disappearing issue when bytebuilders icon is clicked from profile page"
+            },
+            {
+              "SHA": "395830a",
+              "Subject": "fix bug in auth module, read env from store"
+            },
+            {
+              "SHA": "8864084",
+              "Subject": "Add axios runtime config for base url"
+            },
+            {
+              "SHA": "61f963b",
+              "Subject": "Wrap modal components and generic cell in client only for ssr"
+            },
+            {
+              "SHA": "4ba4a22",
+              "Subject": "Fix error pages, add middlewares to properly redirect to error pages"
+            },
+            {
+              "SHA": "de30b82",
+              "Subject": "Add Dockerfile (#136)"
+            },
+            {
+              "SHA": "b327d95",
+              "Subject": "Use public runtime config instead of nuxt env (#138)"
+            },
+            {
+              "SHA": "6019f1d",
+              "Subject": "Replace old auth with new server side auth, read api and base domains from environment variables (#137)"
+            },
+            {
+              "SHA": "133cde5",
+              "Subject": "Remove template pages, remove extended routes logic and go dependency, add auth logic in home page server side (#135)"
+            },
+            {
+              "SHA": "6131dd6",
+              "Subject": "Seperate API for update profile avatar & update profile Info (#134)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.9",
+          "commits": [
+            {
+              "SHA": "d35c4dbb",
+              "Subject": "Prepare for release v0.4.9 (#211)"
+            },
+            {
+              "SHA": "91659c88",
+              "Subject": "Update reusable element version (#210)"
+            },
+            {
+              "SHA": "92b46f17",
+              "Subject": "set anchor url using function js in edit db (#209)"
+            },
+            {
+              "SHA": "6adba0ea",
+              "Subject": "Add resource-input-form element (#208)"
+            },
+            {
+              "SHA": "d5fbba14",
+              "Subject": "Replace reusable-resource element with resource-input-form (#207)"
+            },
+            {
+              "SHA": "5ff40e44",
+              "Subject": "Remove monitoring labels & alerts labels (#206)"
+            },
+            {
+              "SHA": "76bed53d",
+              "Subject": "Update charts (#205)"
+            },
+            {
+              "SHA": "add8f347",
+              "Subject": "Fix monitoring options (#204)"
+            },
+            {
+              "SHA": "cb193308",
+              "Subject": "Updated schema for replicas of replicaSet mode (#203)"
+            },
+            {
+              "SHA": "97ff3828",
+              "Subject": "Update charts (#202)"
+            },
+            {
+              "SHA": "3bac6508",
+              "Subject": "Hard code replicas to 1 for Standalone Mongo (#201)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.12.4",
+          "commits": [
+            {
+              "SHA": "91c7a5a5",
+              "Subject": "Prepare for release v0.12.4 (#262)"
+            },
+            {
+              "SHA": "99fbbaaa",
+              "Subject": "Support Exec column for generic resource apis (#261)"
+            },
+            {
+              "SHA": "73f401ba",
+              "Subject": "Fix path template for exec columns (#260)"
+            },
+            {
+              "SHA": "2414d526",
+              "Subject": "Revise exec/log api (#259)"
+            },
+            {
+              "SHA": "636a7da8",
+              "Subject": "Add api for exec/log (#258)"
+            },
+            {
+              "SHA": "6bad836a",
+              "Subject": "Don't line wrap yamls"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
