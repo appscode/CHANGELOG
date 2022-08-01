@@ -1,11 +1,33 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.08.01",
-  "release_date": "2022-08-01T07:17:20.146551732Z",
+  "release_date": "2022-08-01T07:17:47.534721201Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.08.01)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.7",
+          "commits": [
+            {
+              "SHA": "05e6005a",
+              "Subject": "Prepare for release v0.4.7 (#523)"
+            },
+            {
+              "SHA": "3fd4498c",
+              "Subject": "Adjust to backend channel id expectation for log exec"
+            },
+            {
+              "SHA": "66b441d5",
+              "Subject": "Updated ui-builder-vue3 to fix lazy-rendering issue (#522)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/platform-ui",
       "releases": [

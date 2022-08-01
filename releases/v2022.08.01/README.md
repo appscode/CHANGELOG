@@ -1,6 +1,16 @@
 # ByteBuilders v2022.08.01 (2022-08-01)
 
 
+## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
+
+### [v0.4.7](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.4.7)
+
+- [05e6005a](https://github.com/bytebuilders/cluster-ui/commit/05e6005a) Prepare for release v0.4.7 (#523)
+- [3fd4498c](https://github.com/bytebuilders/cluster-ui/commit/3fd4498c) Adjust to backend channel id expectation for log exec
+- [66b441d5](https://github.com/bytebuilders/cluster-ui/commit/66b441d5) Updated ui-builder-vue3 to fix lazy-rendering issue (#522)
+
+
+
 ## [bytebuilders/platform-ui](https://github.com/bytebuilders/platform-ui)
 
 ### [v0.3.7](https://github.com/bytebuilders/platform-ui/releases/tag/v0.3.7)
