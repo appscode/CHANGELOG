@@ -1,6 +1,26 @@
 # ByteBuilders v2022.08.01 (2022-08-01)
 
 
+## [bytebuilders/platform-ui](https://github.com/bytebuilders/platform-ui)
+
+### [v0.3.7](https://github.com/bytebuilders/platform-ui/releases/tag/v0.3.7)
+
+- [96dd52c](https://github.com/bytebuilders/platform-ui/commit/96dd52c) Prepare for release v0.3.7 (#142)
+- [e141e08](https://github.com/bytebuilders/platform-ui/commit/e141e08) Update bb-hero-area (#140)
+- [fdb0069](https://github.com/bytebuilders/platform-ui/commit/fdb0069) Rename to platform-ui (#141)
+- [2e947e5](https://github.com/bytebuilders/platform-ui/commit/2e947e5) Fix sidebar navbar tabs disappearing issue when bytebuilders icon is clicked from profile page
+- [395830a](https://github.com/bytebuilders/platform-ui/commit/395830a) fix bug in auth module, read env from store
+- [8864084](https://github.com/bytebuilders/platform-ui/commit/8864084) Add axios runtime config for base url
+- [61f963b](https://github.com/bytebuilders/platform-ui/commit/61f963b) Wrap modal components and generic cell in client only for ssr
+- [4ba4a22](https://github.com/bytebuilders/platform-ui/commit/4ba4a22) Fix error pages, add middlewares to properly redirect to error pages
+- [de30b82](https://github.com/bytebuilders/platform-ui/commit/de30b82) Add Dockerfile (#136)
+- [b327d95](https://github.com/bytebuilders/platform-ui/commit/b327d95) Use public runtime config instead of nuxt env (#138)
+- [6019f1d](https://github.com/bytebuilders/platform-ui/commit/6019f1d) Replace old auth with new server side auth, read api and base domains from environment variables (#137)
+- [133cde5](https://github.com/bytebuilders/platform-ui/commit/133cde5) Remove template pages, remove extended routes logic and go dependency, add auth logic in home page server side (#135)
+- [6131dd6](https://github.com/bytebuilders/platform-ui/commit/6131dd6) Seperate API for update profile avatar & update profile Info (#134)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.9](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.9)

@@ -1,11 +1,73 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.08.01",
-  "release_date": "2022-08-01T07:08:43.085913989Z",
+  "release_date": "2022-08-01T07:17:20.146551732Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.08.01)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/platform-ui",
+      "releases": [
+        {
+          "tag": "v0.3.7",
+          "commits": [
+            {
+              "SHA": "96dd52c",
+              "Subject": "Prepare for release v0.3.7 (#142)"
+            },
+            {
+              "SHA": "e141e08",
+              "Subject": "Update bb-hero-area (#140)"
+            },
+            {
+              "SHA": "fdb0069",
+              "Subject": "Rename to platform-ui (#141)"
+            },
+            {
+              "SHA": "2e947e5",
+              "Subject": "Fix sidebar navbar tabs disappearing issue when bytebuilders icon is clicked from profile page"
+            },
+            {
+              "SHA": "395830a",
+              "Subject": "fix bug in auth module, read env from store"
+            },
+            {
+              "SHA": "8864084",
+              "Subject": "Add axios runtime config for base url"
+            },
+            {
+              "SHA": "61f963b",
+              "Subject": "Wrap modal components and generic cell in client only for ssr"
+            },
+            {
+              "SHA": "4ba4a22",
+              "Subject": "Fix error pages, add middlewares to properly redirect to error pages"
+            },
+            {
+              "SHA": "de30b82",
+              "Subject": "Add Dockerfile (#136)"
+            },
+            {
+              "SHA": "b327d95",
+              "Subject": "Use public runtime config instead of nuxt env (#138)"
+            },
+            {
+              "SHA": "6019f1d",
+              "Subject": "Replace old auth with new server side auth, read api and base domains from environment variables (#137)"
+            },
+            {
+              "SHA": "133cde5",
+              "Subject": "Remove template pages, remove extended routes logic and go dependency, add auth logic in home page server side (#135)"
+            },
+            {
+              "SHA": "6131dd6",
+              "Subject": "Seperate API for update profile avatar & update profile Info (#134)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/ui-wizards",
       "releases": [
