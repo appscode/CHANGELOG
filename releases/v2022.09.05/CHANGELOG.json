@@ -1,0 +1,28 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.09.05",
+  "release_date": "2022-09-05T10:24:05.904390671Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.09.05)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.10",
+          "commits": [
+            {
+              "SHA": "8d766a7e",
+              "Subject": "Prepare for release v0.4.10 (#213)"
+            },
+            {
+              "SHA": "4a388245",
+              "Subject": "Check if exporter resource is configured in options charts (#212)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
