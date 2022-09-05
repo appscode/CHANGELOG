@@ -1,6 +1,14 @@
 # ByteBuilders v2022.09.05 (2022-09-05)
 
 
+## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
+
+### [v0.4.11](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.4.11)
+
+- [d988380f](https://github.com/bytebuilders/cluster-ui/commit/d988380f) Prepare for release v0.4.11 (#531)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.20](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.20)
