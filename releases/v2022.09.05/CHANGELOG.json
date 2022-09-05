@@ -1,0 +1,130 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.09.05",
+  "release_date": "2022-09-05T11:42:02.630287067Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.09.05)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.11",
+          "commits": [
+            {
+              "SHA": "d988380f",
+              "Subject": "Prepare for release v0.4.11 (#531)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.09.05",
+          "commits": [
+            {
+              "SHA": "e15439fb4",
+              "Subject": "Prepare for release v2022.09.05 (#308)"
+            },
+            {
+              "SHA": "a5bb18adb",
+              "Subject": "Fix admin nats connection issue"
+            },
+            {
+              "SHA": "e1148a07d",
+              "Subject": "Create nats admin connection after reloading nats accounts"
+            },
+            {
+              "SHA": "46214baa9",
+              "Subject": "Update golang version to 1.18 in Dockerfile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.20",
+          "commits": [
+            {
+              "SHA": "e29e752",
+              "Subject": "Prepare for release v0.3.20 (#65)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.10",
+          "commits": [
+            {
+              "SHA": "8d766a7e",
+              "Subject": "Prepare for release v0.4.10 (#213)"
+            },
+            {
+              "SHA": "4a388245",
+              "Subject": "Check if exporter resource is configured in options charts (#212)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.12.6",
+          "commits": [
+            {
+              "SHA": "bcd25132",
+              "Subject": "Prepare for release v0.12.6 (#265)"
+            },
+            {
+              "SHA": "8583d77e",
+              "Subject": "Update kmodules/client-go"
+            },
+            {
+              "SHA": "b71f0fbd",
+              "Subject": "Remove cluster name from generic reosurce table, replace it with namespace column (#264)"
+            },
+            {
+              "SHA": "5a3426ac",
+              "Subject": "Update kubedb crds"
+            },
+            {
+              "SHA": "49032fc8",
+              "Subject": "Import supervisor crds (#263)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.6",
+          "commits": [
+            {
+              "SHA": "7d58715f",
+              "Subject": "Prepare for release v0.0.6 (#154)"
+            },
+            {
+              "SHA": "d7527eef",
+              "Subject": "Update render-response.yaml"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
