@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.09.05",
-  "release_date": "2022-09-05T11:14:06.768504926Z",
+  "release_date": "2022-09-05T11:42:02.630287067Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.09.05)",
   "kubernetes_version": "1.16+",
@@ -15,6 +15,32 @@
             {
               "SHA": "d988380f",
               "Subject": "Prepare for release v0.4.11 (#531)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.09.05",
+          "commits": [
+            {
+              "SHA": "e15439fb4",
+              "Subject": "Prepare for release v2022.09.05 (#308)"
+            },
+            {
+              "SHA": "a5bb18adb",
+              "Subject": "Fix admin nats connection issue"
+            },
+            {
+              "SHA": "e1148a07d",
+              "Subject": "Create nats admin connection after reloading nats accounts"
+            },
+            {
+              "SHA": "46214baa9",
+              "Subject": "Update golang version to 1.18 in Dockerfile"
             }
           ]
         }

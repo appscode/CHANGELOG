@@ -9,6 +9,17 @@
 
 
 
+## [bytebuilders/gitea](https://github.com/bytebuilders/gitea)
+
+### [v2022.09.05](https://github.com/bytebuilders/gitea/releases/tag/v2022.09.05)
+
+- [e15439fb](https://github.com/bytebuilders/gitea/commit/e15439fb4) Prepare for release v2022.09.05 (#308)
+- [a5bb18ad](https://github.com/bytebuilders/gitea/commit/a5bb18adb) Fix admin nats connection issue
+- [e1148a07](https://github.com/bytebuilders/gitea/commit/e1148a07d) Create nats admin connection after reloading nats accounts
+- [46214baa](https://github.com/bytebuilders/gitea/commit/46214baa9) Update golang version to 1.18 in Dockerfile
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.20](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.20)
