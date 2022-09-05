@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.09.05",
-  "release_date": "2022-09-05T11:00:35.710732866Z",
+  "release_date": "2022-09-05T11:14:06.768504926Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.09.05)",
   "kubernetes_version": "1.16+",
@@ -77,6 +77,24 @@
             {
               "SHA": "49032fc8",
               "Subject": "Import supervisor crds (#263)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.6",
+          "commits": [
+            {
+              "SHA": "7d58715f",
+              "Subject": "Prepare for release v0.0.6 (#154)"
+            },
+            {
+              "SHA": "d7527eef",
+              "Subject": "Update render-response.yaml"
             }
           ]
         }

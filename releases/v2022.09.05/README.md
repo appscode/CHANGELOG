@@ -38,3 +38,12 @@
 
 
 
+## [kubeops/ui-server](https://github.com/kubeops/ui-server)
+
+### [v0.0.6](https://github.com/kubeops/ui-server/releases/tag/v0.0.6)
+
+- [7d58715f](https://github.com/kubeops/ui-server/commit/7d58715f) Prepare for release v0.0.6 (#154)
+- [d7527eef](https://github.com/kubeops/ui-server/commit/d7527eef) Update render-response.yaml
+
+
+
