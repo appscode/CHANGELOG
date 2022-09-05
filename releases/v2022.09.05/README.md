@@ -1,6 +1,14 @@
 # ByteBuilders v2022.09.05 (2022-09-05)
 
 
+## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
+
+### [v0.3.20](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.20)
+
+- [e29e752](https://github.com/bytebuilders/kubedb-ui/commit/e29e752) Prepare for release v0.3.20 (#65)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.10](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.10)
