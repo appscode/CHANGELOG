@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.10.14",
-  "release_date": "2022-10-14T08:09:26.954482846Z",
+  "release_date": "2022-10-14T08:28:44.081326061Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.10.14)",
   "kubernetes_version": "1.16+",
@@ -39,6 +39,15 @@
               "Subject": "Prepare for release v0.3.3 (#27)"
             }
           ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.10.14",
+          "commits": null
         }
       ]
     },

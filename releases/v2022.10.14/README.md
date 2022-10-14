@@ -19,6 +19,13 @@
 
 
 
+## [bytebuilders/gitea](https://github.com/bytebuilders/gitea)
+
+### [v2022.10.14](https://github.com/bytebuilders/gitea/releases/tag/v2022.10.14)
+
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.22](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.22)
