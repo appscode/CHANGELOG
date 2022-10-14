@@ -1,0 +1,192 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.10.14",
+  "release_date": "2022-10-14T08:28:44.081326061Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.10.14)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.16",
+          "commits": [
+            {
+              "SHA": "357ad6cf",
+              "Subject": "Prepare for release v0.4.16 (#535)"
+            },
+            {
+              "SHA": "f1898281",
+              "Subject": "Fix cookie problem (#534)"
+            },
+            {
+              "SHA": "ecdfefc5",
+              "Subject": "Refactored monitoring settings section, added long running task (#533)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/deploy-ui",
+      "releases": [
+        {
+          "tag": "v0.3.3",
+          "commits": [
+            {
+              "SHA": "d495abd",
+              "Subject": "Prepare for release v0.3.3 (#27)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.10.14",
+          "commits": null
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.22",
+          "commits": [
+            {
+              "SHA": "3d7e0d8",
+              "Subject": "Prepare for release v0.3.22 (#70)"
+            },
+            {
+              "SHA": "a68956b",
+              "Subject": "Remove org cookie when org delete or logout (#69)"
+            },
+            {
+              "SHA": "abf0371",
+              "Subject": "Integrate recommendation feature (#68)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/platform-ui",
+      "releases": [
+        {
+          "tag": "v0.3.16",
+          "commits": null
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.11",
+          "commits": [
+            {
+              "SHA": "436b6ebf",
+              "Subject": "Prepare for release v0.4.11 (#218)"
+            },
+            {
+              "SHA": "a17a4040",
+              "Subject": "Update charts (#217)"
+            },
+            {
+              "SHA": "095308e3",
+              "Subject": "Use KubeVault v1alpha2 api (#216)"
+            },
+            {
+              "SHA": "a81dba4c",
+              "Subject": "Update charts (#215)"
+            },
+            {
+              "SHA": "7872bc77",
+              "Subject": "Update editor charts"
+            },
+            {
+              "SHA": "fc0c5fe9",
+              "Subject": "Use Go 1.19 (#214)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.13.1",
+          "commits": [
+            {
+              "SHA": "499c66bb",
+              "Subject": "Prepare for release v0.13.1 (#273)"
+            },
+            {
+              "SHA": "eb0739fb",
+              "Subject": "Update crds (#272)"
+            },
+            {
+              "SHA": "809797c0",
+              "Subject": "Update KubeVault crds"
+            },
+            {
+              "SHA": "52046f8a",
+              "Subject": "Update editor version"
+            },
+            {
+              "SHA": "ab241e64",
+              "Subject": "Update KubeDB v2022.10.10 crds (#271)"
+            },
+            {
+              "SHA": "6e4a7467",
+              "Subject": "Use KubeVault v1alpha2 api (#255)"
+            },
+            {
+              "SHA": "d5d2f4d4",
+              "Subject": "Update crds for Stash v2022.09.29 (#270)"
+            },
+            {
+              "SHA": "6a7fe0ad",
+              "Subject": "Add recommendation table columns (#268)"
+            },
+            {
+              "SHA": "04548d95",
+              "Subject": "Use Go 1.19 (#269)"
+            },
+            {
+              "SHA": "f28a6b7e",
+              "Subject": "Remove deprecated methods"
+            },
+            {
+              "SHA": "47eca39c",
+              "Subject": "Use Go 1.19 (#267)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.7",
+          "commits": [
+            {
+              "SHA": "09604256",
+              "Subject": "Prepare for release v0.0.7 (#157)"
+            },
+            {
+              "SHA": "1a6f496f",
+              "Subject": "Use k8s 1.25 client libs (#156)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
