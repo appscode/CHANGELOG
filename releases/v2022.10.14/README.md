@@ -11,6 +11,14 @@
 
 
 
+## [bytebuilders/deploy-ui](https://github.com/bytebuilders/deploy-ui)
+
+### [v0.3.3](https://github.com/bytebuilders/deploy-ui/releases/tag/v0.3.3)
+
+- [d495abd](https://github.com/bytebuilders/deploy-ui/commit/d495abd) Prepare for release v0.3.3 (#27)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.22](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.22)
