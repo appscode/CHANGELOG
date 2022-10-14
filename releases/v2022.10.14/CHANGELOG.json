@@ -1,0 +1,44 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.10.14",
+  "release_date": "2022-10-14T05:30:05.936278324Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.10.14)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.11",
+          "commits": [
+            {
+              "SHA": "436b6ebf",
+              "Subject": "Prepare for release v0.4.11 (#218)"
+            },
+            {
+              "SHA": "a17a4040",
+              "Subject": "Update charts (#217)"
+            },
+            {
+              "SHA": "095308e3",
+              "Subject": "Use KubeVault v1alpha2 api (#216)"
+            },
+            {
+              "SHA": "a81dba4c",
+              "Subject": "Update charts (#215)"
+            },
+            {
+              "SHA": "7872bc77",
+              "Subject": "Update editor charts"
+            },
+            {
+              "SHA": "fc0c5fe9",
+              "Subject": "Use Go 1.19 (#214)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
