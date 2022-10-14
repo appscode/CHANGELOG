@@ -1,6 +1,16 @@
 # ByteBuilders v2022.10.14 (2022-10-14)
 
 
+## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
+
+### [v0.4.16](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.4.16)
+
+- [357ad6cf](https://github.com/bytebuilders/cluster-ui/commit/357ad6cf) Prepare for release v0.4.16 (#535)
+- [f1898281](https://github.com/bytebuilders/cluster-ui/commit/f1898281) Fix cookie problem (#534)
+- [ecdfefc5](https://github.com/bytebuilders/cluster-ui/commit/ecdfefc5) Refactored monitoring settings section, added long running task (#533)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.22](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.22)

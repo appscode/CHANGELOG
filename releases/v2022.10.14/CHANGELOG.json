@@ -1,11 +1,33 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.10.14",
-  "release_date": "2022-10-14T06:01:58.873778225Z",
+  "release_date": "2022-10-14T06:06:17.883108861Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.10.14)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.16",
+          "commits": [
+            {
+              "SHA": "357ad6cf",
+              "Subject": "Prepare for release v0.4.16 (#535)"
+            },
+            {
+              "SHA": "f1898281",
+              "Subject": "Fix cookie problem (#534)"
+            },
+            {
+              "SHA": "ecdfefc5",
+              "Subject": "Refactored monitoring settings section, added long running task (#533)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/kubedb-ui",
       "releases": [
