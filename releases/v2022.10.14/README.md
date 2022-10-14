@@ -1,6 +1,16 @@
 # ByteBuilders v2022.10.14 (2022-10-14)
 
 
+## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
+
+### [v0.3.22](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.22)
+
+- [3d7e0d8](https://github.com/bytebuilders/kubedb-ui/commit/3d7e0d8) Prepare for release v0.3.22 (#70)
+- [a68956b](https://github.com/bytebuilders/kubedb-ui/commit/a68956b) Remove org cookie when org delete or logout (#69)
+- [abf0371](https://github.com/bytebuilders/kubedb-ui/commit/abf0371) Integrate recommendation feature (#68)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.11](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.11)

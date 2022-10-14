@@ -1,11 +1,33 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.10.14",
-  "release_date": "2022-10-14T05:55:05.74693508Z",
+  "release_date": "2022-10-14T06:01:58.873778225Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.10.14)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.22",
+          "commits": [
+            {
+              "SHA": "3d7e0d8",
+              "Subject": "Prepare for release v0.3.22 (#70)"
+            },
+            {
+              "SHA": "a68956b",
+              "Subject": "Remove org cookie when org delete or logout (#69)"
+            },
+            {
+              "SHA": "abf0371",
+              "Subject": "Integrate recommendation feature (#68)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/ui-wizards",
       "releases": [
