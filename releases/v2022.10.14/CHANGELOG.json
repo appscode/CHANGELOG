@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.10.14",
-  "release_date": "2022-10-14T07:57:00.272286082Z",
+  "release_date": "2022-10-14T08:09:26.954482846Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.10.14)",
   "kubernetes_version": "1.16+",
@@ -156,6 +156,24 @@
             {
               "SHA": "47eca39c",
               "Subject": "Use Go 1.19 (#267)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.7",
+          "commits": [
+            {
+              "SHA": "09604256",
+              "Subject": "Prepare for release v0.0.7 (#157)"
+            },
+            {
+              "SHA": "1a6f496f",
+              "Subject": "Use k8s 1.25 client libs (#156)"
             }
           ]
         }

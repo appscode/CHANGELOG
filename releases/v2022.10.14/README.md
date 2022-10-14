@@ -67,3 +67,12 @@
 
 
 
+## [kubeops/ui-server](https://github.com/kubeops/ui-server)
+
+### [v0.0.7](https://github.com/kubeops/ui-server/releases/tag/v0.0.7)
+
+- [09604256](https://github.com/kubeops/ui-server/commit/09604256) Prepare for release v0.0.7 (#157)
+- [1a6f496f](https://github.com/kubeops/ui-server/commit/1a6f496f) Use k8s 1.25 client libs (#156)
+
+
+
