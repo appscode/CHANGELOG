@@ -14,3 +14,21 @@
 
 
 
+## [kmodules/resource-metadata](https://github.com/kmodules/resource-metadata)
+
+### [v0.13.1](https://github.com/kmodules/resource-metadata/releases/tag/v0.13.1)
+
+- [499c66bb](https://github.com/kmodules/resource-metadata/commit/499c66bb) Prepare for release v0.13.1 (#273)
+- [eb0739fb](https://github.com/kmodules/resource-metadata/commit/eb0739fb) Update crds (#272)
+- [809797c0](https://github.com/kmodules/resource-metadata/commit/809797c0) Update KubeVault crds
+- [52046f8a](https://github.com/kmodules/resource-metadata/commit/52046f8a) Update editor version
+- [ab241e64](https://github.com/kmodules/resource-metadata/commit/ab241e64) Update KubeDB v2022.10.10 crds (#271)
+- [6e4a7467](https://github.com/kmodules/resource-metadata/commit/6e4a7467) Use KubeVault v1alpha2 api (#255)
+- [d5d2f4d4](https://github.com/kmodules/resource-metadata/commit/d5d2f4d4) Update crds for Stash v2022.09.29 (#270)
+- [6a7fe0ad](https://github.com/kmodules/resource-metadata/commit/6a7fe0ad) Add recommendation table columns (#268)
+- [04548d95](https://github.com/kmodules/resource-metadata/commit/04548d95) Use Go 1.19 (#269)
+- [f28a6b7e](https://github.com/kmodules/resource-metadata/commit/f28a6b7e) Remove deprecated methods
+- [47eca39c](https://github.com/kmodules/resource-metadata/commit/47eca39c) Use Go 1.19 (#267)
+
+
+

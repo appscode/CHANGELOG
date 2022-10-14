@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.10.14",
-  "release_date": "2022-10-14T05:30:05.936278324Z",
+  "release_date": "2022-10-14T05:55:05.74693508Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.10.14)",
   "kubernetes_version": "1.16+",
@@ -35,6 +35,60 @@
             {
               "SHA": "fc0c5fe9",
               "Subject": "Use Go 1.19 (#214)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.13.1",
+          "commits": [
+            {
+              "SHA": "499c66bb",
+              "Subject": "Prepare for release v0.13.1 (#273)"
+            },
+            {
+              "SHA": "eb0739fb",
+              "Subject": "Update crds (#272)"
+            },
+            {
+              "SHA": "809797c0",
+              "Subject": "Update KubeVault crds"
+            },
+            {
+              "SHA": "52046f8a",
+              "Subject": "Update editor version"
+            },
+            {
+              "SHA": "ab241e64",
+              "Subject": "Update KubeDB v2022.10.10 crds (#271)"
+            },
+            {
+              "SHA": "6e4a7467",
+              "Subject": "Use KubeVault v1alpha2 api (#255)"
+            },
+            {
+              "SHA": "d5d2f4d4",
+              "Subject": "Update crds for Stash v2022.09.29 (#270)"
+            },
+            {
+              "SHA": "6a7fe0ad",
+              "Subject": "Add recommendation table columns (#268)"
+            },
+            {
+              "SHA": "04548d95",
+              "Subject": "Use Go 1.19 (#269)"
+            },
+            {
+              "SHA": "f28a6b7e",
+              "Subject": "Remove deprecated methods"
+            },
+            {
+              "SHA": "47eca39c",
+              "Subject": "Use Go 1.19 (#267)"
             }
           ]
         }
