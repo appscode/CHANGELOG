@@ -21,6 +21,13 @@
 
 
 
+## [bytebuilders/platform-ui](https://github.com/bytebuilders/platform-ui)
+
+### [v0.3.16](https://github.com/bytebuilders/platform-ui/releases/tag/v0.3.16)
+
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.11](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.11)
