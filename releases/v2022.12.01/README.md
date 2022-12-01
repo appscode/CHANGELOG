@@ -25,6 +25,15 @@
 
 
 
+## [bytebuilders/platform-ui](https://github.com/bytebuilders/platform-ui)
+
+### [v0.3.21](https://github.com/bytebuilders/platform-ui/releases/tag/v0.3.21)
+
+- [a57f5bc](https://github.com/bytebuilders/platform-ui/commit/a57f5bc) Prepare for release v0.3.21 (#165)
+- [aec2642](https://github.com/bytebuilders/platform-ui/commit/aec2642) Add license proxy server to dashboard (#163)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.12](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.12)

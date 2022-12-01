@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.12.01",
-  "release_date": "2022-12-01T07:42:53.421750605Z",
+  "release_date": "2022-12-01T07:46:55.073768818Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.12.01)",
   "kubernetes_version": "1.16+",
@@ -61,6 +61,24 @@
             {
               "SHA": "332dfe9",
               "Subject": "Add authorization test (#71)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/platform-ui",
+      "releases": [
+        {
+          "tag": "v0.3.21",
+          "commits": [
+            {
+              "SHA": "a57f5bc",
+              "Subject": "Prepare for release v0.3.21 (#165)"
+            },
+            {
+              "SHA": "aec2642",
+              "Subject": "Add license proxy server to dashboard (#163)"
             }
           ]
         }
