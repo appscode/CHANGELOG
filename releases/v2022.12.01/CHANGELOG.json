@@ -1,0 +1,80 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.12.01",
+  "release_date": "2022-12-01T07:03:36.852040066Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.12.01)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.12",
+          "commits": [
+            {
+              "SHA": "74421d11",
+              "Subject": "Prepare for release v0.4.12 (#234)"
+            },
+            {
+              "SHA": "dbab95e2",
+              "Subject": "Kubedb UI operations menu changes (#231)"
+            },
+            {
+              "SHA": "03452a4b",
+              "Subject": "Update charts (#232)"
+            },
+            {
+              "SHA": "f658eea9",
+              "Subject": "Add restore-session edit yamls (#230)"
+            },
+            {
+              "SHA": "9452b55c",
+              "Subject": "Update charts (#229)"
+            },
+            {
+              "SHA": "5dbfa9cb",
+              "Subject": "Add ui yamls and functions.js for vaultserver create and edit (#227)"
+            },
+            {
+              "SHA": "642da9f9",
+              "Subject": "Add repository edit wizard yamls  (#225)"
+            },
+            {
+              "SHA": "36678d9b",
+              "Subject": "Update charts (#228)"
+            },
+            {
+              "SHA": "ec13ddaa",
+              "Subject": "Add database present and disability feature in restore session create ui (#226)"
+            },
+            {
+              "SHA": "492c1ac4",
+              "Subject": "Update charts (#224)"
+            },
+            {
+              "SHA": "d3617a4c",
+              "Subject": "Remove secret name field from create new secret form in repo create, Fix bug in repository create flow, when user switches between existing auth secret to create new (#223)"
+            },
+            {
+              "SHA": "4aafca94",
+              "Subject": "Add schema and ui-jsons for backup section resources (#222)"
+            },
+            {
+              "SHA": "b4c7ca83",
+              "Subject": "Fix repository options chart"
+            },
+            {
+              "SHA": "3547440a",
+              "Subject": "Update charts (#220)"
+            },
+            {
+              "SHA": "7896cfab",
+              "Subject": "Add stash repository options chart (#219)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
