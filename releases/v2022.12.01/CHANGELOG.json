@@ -1,11 +1,37 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.12.01",
-  "release_date": "2022-12-01T07:26:51.359274132Z",
+  "release_date": "2022-12-01T07:36:47.736895464Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.12.01)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.24",
+          "commits": [
+            {
+              "SHA": "3573df7",
+              "Subject": "Prepare for release v0.3.24 (#75)"
+            },
+            {
+              "SHA": "d622e1e",
+              "Subject": "Integrate Operations menu (#73)"
+            },
+            {
+              "SHA": "767cdd4",
+              "Subject": "Add backups section resources list, overview, create-ui and tests (#72)"
+            },
+            {
+              "SHA": "332dfe9",
+              "Subject": "Add authorization test (#71)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/ui-wizards",
       "releases": [

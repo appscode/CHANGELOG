@@ -1,6 +1,17 @@
 # ByteBuilders v2022.12.01 (2022-12-01)
 
 
+## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
+
+### [v0.3.24](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.24)
+
+- [3573df7](https://github.com/bytebuilders/kubedb-ui/commit/3573df7) Prepare for release v0.3.24 (#75)
+- [d622e1e](https://github.com/bytebuilders/kubedb-ui/commit/d622e1e) Integrate Operations menu (#73)
+- [767cdd4](https://github.com/bytebuilders/kubedb-ui/commit/767cdd4) Add backups section resources list, overview, create-ui and tests (#72)
+- [332dfe9](https://github.com/bytebuilders/kubedb-ui/commit/332dfe9) Add authorization test (#71)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.12](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.12)
