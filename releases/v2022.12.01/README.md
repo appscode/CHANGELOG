@@ -1,6 +1,19 @@
 # ByteBuilders v2022.12.01 (2022-12-01)
 
 
+## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
+
+### [v0.4.18](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.4.18)
+
+- [c848d708](https://github.com/bytebuilders/cluster-ui/commit/c848d708) Prepare for release v0.4.18 (#545)
+- [ebe057de](https://github.com/bytebuilders/cluster-ui/commit/ebe057de) Update ui-builder (#544)
+- [049f2389](https://github.com/bytebuilders/cluster-ui/commit/049f2389) Hide edit section for restore session with Succeeded phase (#543)
+- [1a29fc4d](https://github.com/bytebuilders/cluster-ui/commit/1a29fc4d) Implement deploy flow for Resources without editor ui files, add e2e test for repository create and edit  (#541)
+- [f5afe849](https://github.com/bytebuilders/cluster-ui/commit/f5afe849) Add e2e test for vault with s3, azure, gcs, raft backend  (#540)
+- [426ed303](https://github.com/bytebuilders/cluster-ui/commit/426ed303) Add e2e test for vault with raft as backend (#539)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.24](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.24)

@@ -1,11 +1,45 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.12.01",
-  "release_date": "2022-12-01T07:36:47.736895464Z",
+  "release_date": "2022-12-01T07:42:53.421750605Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.12.01)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.18",
+          "commits": [
+            {
+              "SHA": "c848d708",
+              "Subject": "Prepare for release v0.4.18 (#545)"
+            },
+            {
+              "SHA": "ebe057de",
+              "Subject": "Update ui-builder (#544)"
+            },
+            {
+              "SHA": "049f2389",
+              "Subject": "Hide edit section for restore session with Succeeded phase (#543)"
+            },
+            {
+              "SHA": "1a29fc4d",
+              "Subject": "Implement deploy flow for Resources without editor ui files, add e2e test for repository create and edit  (#541)"
+            },
+            {
+              "SHA": "f5afe849",
+              "Subject": "Add e2e test for vault with s3, azure, gcs, raft backend  (#540)"
+            },
+            {
+              "SHA": "426ed303",
+              "Subject": "Add e2e test for vault with raft as backend (#539)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/kubedb-ui",
       "releases": [
