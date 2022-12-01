@@ -14,6 +14,18 @@
 
 
 
+## [bytebuilders/gitea](https://github.com/bytebuilders/gitea)
+
+### [v2022.12.01](https://github.com/bytebuilders/gitea/releases/tag/v2022.12.01)
+
+- [0ed065be](https://github.com/bytebuilders/gitea/commit/0ed065be0) Prepare for release v2022.12.01 (#333)
+- [56f43507](https://github.com/bytebuilders/gitea/commit/56f435071) Integrate ace installer apis (#328)
+- [48966fe1](https://github.com/bytebuilders/gitea/commit/48966fe18) Create firebase user if already doesn't exist (#331)
+- [9ebc0313](https://github.com/bytebuilders/gitea/commit/9ebc03130) Check if user is set before checking its active status (#330)
+- [2bfc8079](https://github.com/bytebuilders/gitea/commit/2bfc8079b) Introduce separate wait loop for db and nats initialization checking (#327)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.24](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.24)

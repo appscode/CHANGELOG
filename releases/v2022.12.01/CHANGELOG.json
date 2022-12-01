@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.12.01",
-  "release_date": "2022-12-01T07:46:55.073768818Z",
+  "release_date": "2022-12-01T09:10:24.687993729Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.12.01)",
   "kubernetes_version": "1.16+",
@@ -35,6 +35,36 @@
             {
               "SHA": "426ed303",
               "Subject": "Add e2e test for vault with raft as backend (#539)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.12.01",
+          "commits": [
+            {
+              "SHA": "0ed065be0",
+              "Subject": "Prepare for release v2022.12.01 (#333)"
+            },
+            {
+              "SHA": "56f435071",
+              "Subject": "Integrate ace installer apis (#328)"
+            },
+            {
+              "SHA": "48966fe18",
+              "Subject": "Create firebase user if already doesn't exist (#331)"
+            },
+            {
+              "SHA": "9ebc03130",
+              "Subject": "Check if user is set before checking its active status (#330)"
+            },
+            {
+              "SHA": "2bfc8079b",
+              "Subject": "Introduce separate wait loop for db and nats initialization checking (#327)"
             }
           ]
         }
