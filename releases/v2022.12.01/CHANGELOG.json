@@ -1,0 +1,238 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.12.01",
+  "release_date": "2022-12-01T09:10:24.687993729Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.12.01)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.18",
+          "commits": [
+            {
+              "SHA": "c848d708",
+              "Subject": "Prepare for release v0.4.18 (#545)"
+            },
+            {
+              "SHA": "ebe057de",
+              "Subject": "Update ui-builder (#544)"
+            },
+            {
+              "SHA": "049f2389",
+              "Subject": "Hide edit section for restore session with Succeeded phase (#543)"
+            },
+            {
+              "SHA": "1a29fc4d",
+              "Subject": "Implement deploy flow for Resources without editor ui files, add e2e test for repository create and edit  (#541)"
+            },
+            {
+              "SHA": "f5afe849",
+              "Subject": "Add e2e test for vault with s3, azure, gcs, raft backend  (#540)"
+            },
+            {
+              "SHA": "426ed303",
+              "Subject": "Add e2e test for vault with raft as backend (#539)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.12.01",
+          "commits": [
+            {
+              "SHA": "0ed065be0",
+              "Subject": "Prepare for release v2022.12.01 (#333)"
+            },
+            {
+              "SHA": "56f435071",
+              "Subject": "Integrate ace installer apis (#328)"
+            },
+            {
+              "SHA": "48966fe18",
+              "Subject": "Create firebase user if already doesn't exist (#331)"
+            },
+            {
+              "SHA": "9ebc03130",
+              "Subject": "Check if user is set before checking its active status (#330)"
+            },
+            {
+              "SHA": "2bfc8079b",
+              "Subject": "Introduce separate wait loop for db and nats initialization checking (#327)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.24",
+          "commits": [
+            {
+              "SHA": "3573df7",
+              "Subject": "Prepare for release v0.3.24 (#75)"
+            },
+            {
+              "SHA": "d622e1e",
+              "Subject": "Integrate Operations menu (#73)"
+            },
+            {
+              "SHA": "767cdd4",
+              "Subject": "Add backups section resources list, overview, create-ui and tests (#72)"
+            },
+            {
+              "SHA": "332dfe9",
+              "Subject": "Add authorization test (#71)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/platform-ui",
+      "releases": [
+        {
+          "tag": "v0.3.21",
+          "commits": [
+            {
+              "SHA": "a57f5bc",
+              "Subject": "Prepare for release v0.3.21 (#165)"
+            },
+            {
+              "SHA": "aec2642",
+              "Subject": "Add license proxy server to dashboard (#163)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.12",
+          "commits": [
+            {
+              "SHA": "74421d11",
+              "Subject": "Prepare for release v0.4.12 (#234)"
+            },
+            {
+              "SHA": "dbab95e2",
+              "Subject": "Kubedb UI operations menu changes (#231)"
+            },
+            {
+              "SHA": "03452a4b",
+              "Subject": "Update charts (#232)"
+            },
+            {
+              "SHA": "f658eea9",
+              "Subject": "Add restore-session edit yamls (#230)"
+            },
+            {
+              "SHA": "9452b55c",
+              "Subject": "Update charts (#229)"
+            },
+            {
+              "SHA": "5dbfa9cb",
+              "Subject": "Add ui yamls and functions.js for vaultserver create and edit (#227)"
+            },
+            {
+              "SHA": "642da9f9",
+              "Subject": "Add repository edit wizard yamls  (#225)"
+            },
+            {
+              "SHA": "36678d9b",
+              "Subject": "Update charts (#228)"
+            },
+            {
+              "SHA": "ec13ddaa",
+              "Subject": "Add database present and disability feature in restore session create ui (#226)"
+            },
+            {
+              "SHA": "492c1ac4",
+              "Subject": "Update charts (#224)"
+            },
+            {
+              "SHA": "d3617a4c",
+              "Subject": "Remove secret name field from create new secret form in repo create, Fix bug in repository create flow, when user switches between existing auth secret to create new (#223)"
+            },
+            {
+              "SHA": "4aafca94",
+              "Subject": "Add schema and ui-jsons for backup section resources (#222)"
+            },
+            {
+              "SHA": "b4c7ca83",
+              "Subject": "Fix repository options chart"
+            },
+            {
+              "SHA": "3547440a",
+              "Subject": "Update charts (#220)"
+            },
+            {
+              "SHA": "7896cfab",
+              "Subject": "Add stash repository options chart (#219)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.14.1",
+          "commits": [
+            {
+              "SHA": "6688733d",
+              "Subject": "Prepare for release v0.14.1 (#281)"
+            },
+            {
+              "SHA": "1aec024b",
+              "Subject": "Update action editor charts in ui-updater"
+            },
+            {
+              "SHA": "6d1c00ea",
+              "Subject": "Update crds"
+            },
+            {
+              "SHA": "37fa284c",
+              "Subject": "Add actions for KubeDB custom resources (#280)"
+            },
+            {
+              "SHA": "6a2fb0a4",
+              "Subject": "Add backup resources to kubedb-ui menu (#277)"
+            },
+            {
+              "SHA": "d8046171",
+              "Subject": "Use ui-server pod namespace if sourceRef namespace is undefined (#279)"
+            },
+            {
+              "SHA": "2fea5d40",
+              "Subject": "Test table definition is for the correct GVR"
+            },
+            {
+              "SHA": "be4307dc",
+              "Subject": "Support custom table def (#278)"
+            },
+            {
+              "SHA": "c97e928f",
+              "Subject": "Use sourceRef for installer params"
+            },
+            {
+              "SHA": "af537306",
+              "Subject": "Expand ui parameters into meta apis (#276)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
