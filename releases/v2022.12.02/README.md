@@ -10,6 +10,17 @@
 
 
 
+## [bytebuilders/gitea](https://github.com/bytebuilders/gitea)
+
+### [v2022.12.02](https://github.com/bytebuilders/gitea/releases/tag/v2022.12.02)
+
+- [42fd8ece](https://github.com/bytebuilders/gitea/commit/42fd8eceb) Prepare for release v2022.12.02 (#335)
+- [ed343aa6](https://github.com/bytebuilders/gitea/commit/ed343aa64) Use kmodules.xyz/resource-metadata@v0.14.3
+- [612ce4d2](https://github.com/bytebuilders/gitea/commit/612ce4d20) Fix monitoring reference api issues (#334)
+- [e095f1ef](https://github.com/bytebuilders/gitea/commit/e095f1ef4) Update lib-app to detect HelmRepository namespace
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.25](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.25)
