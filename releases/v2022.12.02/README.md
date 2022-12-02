@@ -18,6 +18,15 @@
 
 
 
+## [bytebuilders/platform-ui](https://github.com/bytebuilders/platform-ui)
+
+### [v0.3.22](https://github.com/bytebuilders/platform-ui/releases/tag/v0.3.22)
+
+- [f8d42d2](https://github.com/bytebuilders/platform-ui/commit/f8d42d2) Prepare for release v0.3.22 (#167)
+- [d52eadb](https://github.com/bytebuilders/platform-ui/commit/d52eadb) Fix error on contract details page if contract does not exists, redirect to list page in this case (#166)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.13](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.13)

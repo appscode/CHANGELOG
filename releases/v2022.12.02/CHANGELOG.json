@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.12.02",
-  "release_date": "2022-12-02T11:47:23.750371828Z",
+  "release_date": "2022-12-02T11:48:19.721206579Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.12.02)",
   "kubernetes_version": "1.16+",
@@ -33,6 +33,24 @@
             {
               "SHA": "7a42aa9",
               "Subject": "Prepare for release v0.3.25 (#77)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/platform-ui",
+      "releases": [
+        {
+          "tag": "v0.3.22",
+          "commits": [
+            {
+              "SHA": "f8d42d2",
+              "Subject": "Prepare for release v0.3.22 (#167)"
+            },
+            {
+              "SHA": "d52eadb",
+              "Subject": "Fix error on contract details page if contract does not exists, redirect to list page in this case (#166)"
             }
           ]
         }
