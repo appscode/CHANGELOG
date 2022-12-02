@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.12.02",
-  "release_date": "2022-12-02T11:48:19.721206579Z",
+  "release_date": "2022-12-02T11:56:24.73977025Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.12.02)",
   "kubernetes_version": "1.16+",
@@ -91,6 +91,20 @@
             {
               "SHA": "fd75625a",
               "Subject": "Prepare for release v0.14.4 (#282)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.11",
+          "commits": [
+            {
+              "SHA": "fe32d3b01",
+              "Subject": "Prepare for release v0.0.11 (#166)"
             }
           ]
         }

@@ -46,3 +46,11 @@
 
 
 
+## [kubeops/ui-server](https://github.com/kubeops/ui-server)
+
+### [v0.0.11](https://github.com/kubeops/ui-server/releases/tag/v0.0.11)
+
+- [fe32d3b0](https://github.com/kubeops/ui-server/commit/fe32d3b01) Prepare for release v0.0.11 (#166)
+
+
+
