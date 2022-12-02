@@ -1,11 +1,25 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.12.02",
-  "release_date": "2022-12-02T11:27:40.239605662Z",
+  "release_date": "2022-12-02T11:37:44.988680832Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.12.02)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.25",
+          "commits": [
+            {
+              "SHA": "7a42aa9",
+              "Subject": "Prepare for release v0.3.25 (#77)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/ui-wizards",
       "releases": [
