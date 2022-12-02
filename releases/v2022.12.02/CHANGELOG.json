@@ -1,11 +1,29 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.12.02",
-  "release_date": "2022-12-02T11:37:44.988680832Z",
+  "release_date": "2022-12-02T11:47:23.750371828Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.12.02)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.19",
+          "commits": [
+            {
+              "SHA": "4fa0421e",
+              "Subject": "Prepare for release v0.4.19 (#547)"
+            },
+            {
+              "SHA": "031698fe",
+              "Subject": "Ignore namespace change on resource layout and descriptor api call, fixes layout loading issue when namespace is changed before layout api resolves (#546)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/kubedb-ui",
       "releases": [

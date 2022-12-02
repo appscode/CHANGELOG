@@ -1,6 +1,15 @@
 # ByteBuilders v2022.12.02 (2022-12-02)
 
 
+## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
+
+### [v0.4.19](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.4.19)
+
+- [4fa0421e](https://github.com/bytebuilders/cluster-ui/commit/4fa0421e) Prepare for release v0.4.19 (#547)
+- [031698fe](https://github.com/bytebuilders/cluster-ui/commit/031698fe) Ignore namespace change on resource layout and descriptor api call, fixes layout loading issue when namespace is changed before layout api resolves (#546)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.25](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.25)
