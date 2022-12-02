@@ -12,3 +12,11 @@
 
 
 
+## [kmodules/resource-metadata](https://github.com/kmodules/resource-metadata)
+
+### [v0.14.4](https://github.com/kmodules/resource-metadata/releases/tag/v0.14.4)
+
+- [fd75625a](https://github.com/kmodules/resource-metadata/commit/fd75625a) Prepare for release v0.14.4 (#282)
+
+
+

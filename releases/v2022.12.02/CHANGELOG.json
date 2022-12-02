@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2022.12.02",
-  "release_date": "2022-12-02T11:02:09.656709179Z",
+  "release_date": "2022-12-02T11:27:40.239605662Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2022.12.02)",
   "kubernetes_version": "1.16+",
@@ -27,6 +27,20 @@
             {
               "SHA": "a9f860c3",
               "Subject": "Add proxysql options and editor yamls (#233)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.14.4",
+          "commits": [
+            {
+              "SHA": "fd75625a",
+              "Subject": "Prepare for release v0.14.4 (#282)"
             }
           ]
         }
