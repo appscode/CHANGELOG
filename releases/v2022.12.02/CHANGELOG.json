@@ -1,0 +1,140 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2022.12.02",
+  "release_date": "2022-12-02T11:58:13.927873291Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2022.12.02)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.19",
+          "commits": [
+            {
+              "SHA": "4fa0421e",
+              "Subject": "Prepare for release v0.4.19 (#547)"
+            },
+            {
+              "SHA": "031698fe",
+              "Subject": "Ignore namespace change on resource layout and descriptor api call, fixes layout loading issue when namespace is changed before layout api resolves (#546)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/gitea",
+      "releases": [
+        {
+          "tag": "v2022.12.02",
+          "commits": [
+            {
+              "SHA": "42fd8eceb",
+              "Subject": "Prepare for release v2022.12.02 (#335)"
+            },
+            {
+              "SHA": "ed343aa64",
+              "Subject": "Use kmodules.xyz/resource-metadata@v0.14.3"
+            },
+            {
+              "SHA": "612ce4d20",
+              "Subject": "Fix monitoring reference api issues (#334)"
+            },
+            {
+              "SHA": "e095f1ef4",
+              "Subject": "Update lib-app to detect HelmRepository namespace"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.25",
+          "commits": [
+            {
+              "SHA": "7a42aa9",
+              "Subject": "Prepare for release v0.3.25 (#77)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/platform-ui",
+      "releases": [
+        {
+          "tag": "v0.3.22",
+          "commits": [
+            {
+              "SHA": "f8d42d2",
+              "Subject": "Prepare for release v0.3.22 (#167)"
+            },
+            {
+              "SHA": "d52eadb",
+              "Subject": "Fix error on contract details page if contract does not exists, redirect to list page in this case (#166)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.13",
+          "commits": [
+            {
+              "SHA": "64d7a936",
+              "Subject": "Prepare for release v0.4.13 (#237)"
+            },
+            {
+              "SHA": "ba43c75b",
+              "Subject": "Delete mongodbs.yaml"
+            },
+            {
+              "SHA": "e6b47dae",
+              "Subject": "Update charts (#235)"
+            },
+            {
+              "SHA": "a9f860c3",
+              "Subject": "Add proxysql options and editor yamls (#233)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.14.4",
+          "commits": [
+            {
+              "SHA": "fd75625a",
+              "Subject": "Prepare for release v0.14.4 (#282)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.11",
+          "commits": [
+            {
+              "SHA": "fe32d3b01",
+              "Subject": "Prepare for release v0.0.11 (#166)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
