@@ -1,11 +1,37 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.04.06",
-  "release_date": "2023-04-06T06:42:59.293520674Z",
+  "release_date": "2023-04-06T06:56:49.674422028Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.04.06)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.29",
+          "commits": [
+            {
+              "SHA": "0083ca5",
+              "Subject": "Prepare for release v0.3.29 (#88)"
+            },
+            {
+              "SHA": "229bf93",
+              "Subject": "Update ui-modules with integrated layout changes (#87)"
+            },
+            {
+              "SHA": "e0dc5bf",
+              "Subject": "Update ui-modules, fixes navigation slowness (#86)"
+            },
+            {
+              "SHA": "ca1c79a",
+              "Subject": "Integrate resource-module from ui-modules (#84)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/ui-wizards",
       "releases": [

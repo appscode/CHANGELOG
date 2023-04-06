@@ -1,6 +1,17 @@
 # ByteBuilders v2023.04.06 (2023-04-06)
 
 
+## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
+
+### [v0.3.29](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.29)
+
+- [0083ca5](https://github.com/bytebuilders/kubedb-ui/commit/0083ca5) Prepare for release v0.3.29 (#88)
+- [229bf93](https://github.com/bytebuilders/kubedb-ui/commit/229bf93) Update ui-modules with integrated layout changes (#87)
+- [e0dc5bf](https://github.com/bytebuilders/kubedb-ui/commit/e0dc5bf) Update ui-modules, fixes navigation slowness (#86)
+- [ca1c79a](https://github.com/bytebuilders/kubedb-ui/commit/ca1c79a) Integrate resource-module from ui-modules (#84)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.14](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.14)
