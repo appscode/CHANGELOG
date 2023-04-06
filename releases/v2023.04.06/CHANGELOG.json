@@ -1,0 +1,310 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2023.04.06",
+  "release_date": "2023-04-06T08:37:45.555484058Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2023.04.06)",
+  "kubernetes_version": "1.16+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/b3",
+      "releases": [
+        {
+          "tag": "v2023.04.06",
+          "commits": [
+            {
+              "SHA": "adfcb35a9",
+              "Subject": "Prepare for release v2023.04.06 (#408)"
+            },
+            {
+              "SHA": "2348c8c95",
+              "Subject": "Remove Cluster: Remove Features only if it's asked to remove (#407)"
+            },
+            {
+              "SHA": "e2ec16d4f",
+              "Subject": "Fix Site Administration template (#406)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.34",
+          "commits": [
+            {
+              "SHA": "8df25412",
+              "Subject": "Prepare for release v0.4.34 (#582)"
+            },
+            {
+              "SHA": "0766f1f5",
+              "Subject": "Initialize search text with empty string each time resource list header is created (#580)"
+            },
+            {
+              "SHA": "fbb72edd",
+              "Subject": "Release version 0.4.33 (#579)"
+            },
+            {
+              "SHA": "9dd06758",
+              "Subject": "Update ui-modules with integrated layout changes (#578)"
+            },
+            {
+              "SHA": "c0960547",
+              "Subject": "Update ui-modules, fixes double recurrent call when navigating from resource details to another resource details (#576)"
+            },
+            {
+              "SHA": "794f1c4e",
+              "Subject": "Update api cal for cluster list e2e test (#575)"
+            },
+            {
+              "SHA": "dc311dc4",
+              "Subject": "Fix cluster list reload function & update ui modules (#573)"
+            },
+            {
+              "SHA": "10c5e7cc",
+              "Subject": "Updated import cluster flow with featureset enable options, featureset configure wizard from cluster details, cluster create flow (#556)"
+            },
+            {
+              "SHA": "48dce679",
+              "Subject": "Integrate resource module from ui-modules (#572)"
+            },
+            {
+              "SHA": "e34e5378",
+              "Subject": "Revert \"Integration of resource module from ui-modules (#565)\" (#571)"
+            },
+            {
+              "SHA": "c8f54bca",
+              "Subject": "Integration of resource module from ui-modules (#565)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.29",
+          "commits": [
+            {
+              "SHA": "0083ca5",
+              "Subject": "Prepare for release v0.3.29 (#88)"
+            },
+            {
+              "SHA": "229bf93",
+              "Subject": "Update ui-modules with integrated layout changes (#87)"
+            },
+            {
+              "SHA": "e0dc5bf",
+              "Subject": "Update ui-modules, fixes navigation slowness (#86)"
+            },
+            {
+              "SHA": "ca1c79a",
+              "Subject": "Integrate resource-module from ui-modules (#84)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.14",
+          "commits": [
+            {
+              "SHA": "3f4ff4d9",
+              "Subject": "Prepare for release v0.4.14 (#286)"
+            },
+            {
+              "SHA": "aafcd6df",
+              "Subject": "Update charts (#284)"
+            },
+            {
+              "SHA": "91585e30",
+              "Subject": "Update featureset-opscenter-monitoring-editor values for grafana-opscenter chart (#282)"
+            },
+            {
+              "SHA": "70391931",
+              "Subject": "Update monitoring config default values to presets and add enable field (#281)"
+            },
+            {
+              "SHA": "a8c64773",
+              "Subject": "Update featureset enabled funtion (#278)"
+            },
+            {
+              "SHA": "51308b80",
+              "Subject": "Featureset wizard (#270)"
+            },
+            {
+              "SHA": "4a8af593",
+              "Subject": "Use ghcr.io/appscode/gengo (#277)"
+            },
+            {
+              "SHA": "d4ccd115",
+              "Subject": "Stop publishing charts to Docker hub"
+            },
+            {
+              "SHA": "39346120",
+              "Subject": "Use ghcr.io for appscode/golang-dev (#275)"
+            },
+            {
+              "SHA": "8d045854",
+              "Subject": "Update charts (#274)"
+            },
+            {
+              "SHA": "76952470",
+              "Subject": "Generate FeatureSets wizard charts (#263)"
+            },
+            {
+              "SHA": "e7c9ce58",
+              "Subject": "Update charts (#273)"
+            },
+            {
+              "SHA": "85dd8519",
+              "Subject": "Add Pgbouncer UI (#272)"
+            },
+            {
+              "SHA": "aa52540f",
+              "Subject": "Test against Kubernetes 1.26"
+            },
+            {
+              "SHA": "5175d56c",
+              "Subject": "Update workflows (Go 1.20, k8s 1.26) (#271)"
+            },
+            {
+              "SHA": "1724a9c8",
+              "Subject": "Fix cluster name route in getCreateNamespaceUrl function"
+            },
+            {
+              "SHA": "a98052d2",
+              "Subject": "Read cluster name from store route instead of store cluster defintion (#266)"
+            },
+            {
+              "SHA": "855c7ca9",
+              "Subject": "Set default value when getting domain value (#264)"
+            },
+            {
+              "SHA": "bb97aae0",
+              "Subject": "add args in podtemplate (#261)"
+            },
+            {
+              "SHA": "2fa4ad64",
+              "Subject": "Add namespace option in all db,vault,restoresession (#255)"
+            },
+            {
+              "SHA": "0387ac3e",
+              "Subject": "Update publish-oci.yml"
+            },
+            {
+              "SHA": "db5e6cc1",
+              "Subject": "Update publish-oci.yml"
+            },
+            {
+              "SHA": "2629ee1d",
+              "Subject": "Update publish-oci.yml"
+            },
+            {
+              "SHA": "e4f71d7e",
+              "Subject": "Publish OCI charts (#259)"
+            },
+            {
+              "SHA": "e481af09",
+              "Subject": "Relax field requirements (#258)"
+            },
+            {
+              "SHA": "41a37c00",
+              "Subject": "Update charts (#254)"
+            },
+            {
+              "SHA": "1e05fbb8",
+              "Subject": "Update alert compnent function js according to ui-builder change (#253)"
+            },
+            {
+              "SHA": "da76be78",
+              "Subject": "Update monitoringCoreosComServiceMonitor schema for all db (#250)"
+            },
+            {
+              "SHA": "93ff56d2",
+              "Subject": "Add initialization and backupconfigurations step in vaultserver wizard using reusable element (#249)"
+            },
+            {
+              "SHA": "da604a29",
+              "Subject": "Add proxysql opsrequest yamls (#246)"
+            },
+            {
+              "SHA": "22cdb1d3",
+              "Subject": "Update charts (#245)"
+            },
+            {
+              "SHA": "0958b7cc",
+              "Subject": "Make health checker field reusable-element (#244)"
+            },
+            {
+              "SHA": "7669e0b7",
+              "Subject": "Add proxysql editor yamls for create and edit wizard (#236)"
+            },
+            {
+              "SHA": "a58e5ceb",
+              "Subject": "Add vaultopsrequest wizard (#238)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.16.2",
+          "commits": [
+            {
+              "SHA": "56f1adf0",
+              "Subject": "Prepare for release v0.16.2 (#306)"
+            },
+            {
+              "SHA": "50f2c86f",
+              "Subject": "Add security sections to resource details pages, add security overview page in cluster menu outline (#305)"
+            },
+            {
+              "SHA": "a6ffaf1d",
+              "Subject": "Update README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.17",
+          "commits": [
+            {
+              "SHA": "09831f2d5",
+              "Subject": "Prepare for release v0.0.17 (#199)"
+            },
+            {
+              "SHA": "79b14eb81",
+              "Subject": "Fix policy evaluation when nothing matched from ResourceGraph (#198)"
+            },
+            {
+              "SHA": "e5ac17de9",
+              "Subject": "Add sections to PageOutline (#185)"
+            },
+            {
+              "SHA": "a2e112794",
+              "Subject": "Use dlv 1.20.1"
+            },
+            {
+              "SHA": "f2336bb02",
+              "Subject": "Update deps"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
