@@ -1,6 +1,24 @@
 # ByteBuilders v2023.04.06 (2023-04-06)
 
 
+## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
+
+### [v0.4.34](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.4.34)
+
+- [8df25412](https://github.com/bytebuilders/cluster-ui/commit/8df25412) Prepare for release v0.4.34 (#582)
+- [0766f1f5](https://github.com/bytebuilders/cluster-ui/commit/0766f1f5) Initialize search text with empty string each time resource list header is created (#580)
+- [fbb72edd](https://github.com/bytebuilders/cluster-ui/commit/fbb72edd) Release version 0.4.33 (#579)
+- [9dd06758](https://github.com/bytebuilders/cluster-ui/commit/9dd06758) Update ui-modules with integrated layout changes (#578)
+- [c0960547](https://github.com/bytebuilders/cluster-ui/commit/c0960547) Update ui-modules, fixes double recurrent call when navigating from resource details to another resource details (#576)
+- [794f1c4e](https://github.com/bytebuilders/cluster-ui/commit/794f1c4e) Update api cal for cluster list e2e test (#575)
+- [dc311dc4](https://github.com/bytebuilders/cluster-ui/commit/dc311dc4) Fix cluster list reload function & update ui modules (#573)
+- [10c5e7cc](https://github.com/bytebuilders/cluster-ui/commit/10c5e7cc) Updated import cluster flow with featureset enable options, featureset configure wizard from cluster details, cluster create flow (#556)
+- [48dce679](https://github.com/bytebuilders/cluster-ui/commit/48dce679) Integrate resource module from ui-modules (#572)
+- [e34e5378](https://github.com/bytebuilders/cluster-ui/commit/e34e5378) Revert "Integration of resource module from ui-modules (#565)" (#571)
+- [c8f54bca](https://github.com/bytebuilders/cluster-ui/commit/c8f54bca) Integration of resource module from ui-modules (#565)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.29](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.29)
