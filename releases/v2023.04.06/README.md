@@ -42,3 +42,13 @@
 
 
 
+## [kmodules/resource-metadata](https://github.com/kmodules/resource-metadata)
+
+### [v0.16.2](https://github.com/kmodules/resource-metadata/releases/tag/v0.16.2)
+
+- [56f1adf0](https://github.com/kmodules/resource-metadata/commit/56f1adf0) Prepare for release v0.16.2 (#306)
+- [50f2c86f](https://github.com/kmodules/resource-metadata/commit/50f2c86f) Add security sections to resource details pages, add security overview page in cluster menu outline (#305)
+- [a6ffaf1d](https://github.com/kmodules/resource-metadata/commit/a6ffaf1d) Update README.md
+
+
+

@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.04.06",
-  "release_date": "2023-04-06T06:17:47.343156862Z",
+  "release_date": "2023-04-06T06:42:59.293520674Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.04.06)",
   "kubernetes_version": "1.16+",
@@ -147,6 +147,28 @@
             {
               "SHA": "a58e5ceb",
               "Subject": "Add vaultopsrequest wizard (#238)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.16.2",
+          "commits": [
+            {
+              "SHA": "56f1adf0",
+              "Subject": "Prepare for release v0.16.2 (#306)"
+            },
+            {
+              "SHA": "50f2c86f",
+              "Subject": "Add security sections to resource details pages, add security overview page in cluster menu outline (#305)"
+            },
+            {
+              "SHA": "a6ffaf1d",
+              "Subject": "Update README.md"
             }
           ]
         }
