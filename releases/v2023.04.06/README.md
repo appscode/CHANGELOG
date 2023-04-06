@@ -1,6 +1,16 @@
 # ByteBuilders v2023.04.06 (2023-04-06)
 
 
+## [bytebuilders/b3](https://github.com/bytebuilders/b3)
+
+### [v2023.04.06](https://github.com/bytebuilders/b3/releases/tag/v2023.04.06)
+
+- [adfcb35a](https://github.com/bytebuilders/b3/commit/adfcb35a9) Prepare for release v2023.04.06 (#408)
+- [2348c8c9](https://github.com/bytebuilders/b3/commit/2348c8c95) Remove Cluster: Remove Features only if it's asked to remove (#407)
+- [e2ec16d4](https://github.com/bytebuilders/b3/commit/e2ec16d4f) Fix Site Administration template (#406)
+
+
+
 ## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
 
 ### [v0.4.34](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.4.34)

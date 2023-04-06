@@ -1,11 +1,33 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.04.06",
-  "release_date": "2023-04-06T08:22:09.246714998Z",
+  "release_date": "2023-04-06T08:37:45.555484058Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.04.06)",
   "kubernetes_version": "1.16+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/b3",
+      "releases": [
+        {
+          "tag": "v2023.04.06",
+          "commits": [
+            {
+              "SHA": "adfcb35a9",
+              "Subject": "Prepare for release v2023.04.06 (#408)"
+            },
+            {
+              "SHA": "2348c8c95",
+              "Subject": "Remove Cluster: Remove Features only if it's asked to remove (#407)"
+            },
+            {
+              "SHA": "e2ec16d4f",
+              "Subject": "Fix Site Administration template (#406)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/cluster-ui",
       "releases": [
