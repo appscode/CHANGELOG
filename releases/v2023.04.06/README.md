@@ -81,3 +81,15 @@
 
 
 
+## [kubeops/ui-server](https://github.com/kubeops/ui-server)
+
+### [v0.0.17](https://github.com/kubeops/ui-server/releases/tag/v0.0.17)
+
+- [09831f2d](https://github.com/kubeops/ui-server/commit/09831f2d5) Prepare for release v0.0.17 (#199)
+- [79b14eb8](https://github.com/kubeops/ui-server/commit/79b14eb81) Fix policy evaluation when nothing matched from ResourceGraph (#198)
+- [e5ac17de](https://github.com/kubeops/ui-server/commit/e5ac17de9) Add sections to PageOutline (#185)
+- [a2e11279](https://github.com/kubeops/ui-server/commit/a2e112794) Use dlv 1.20.1
+- [f2336bb0](https://github.com/kubeops/ui-server/commit/f2336bb02) Update deps
+
+
+

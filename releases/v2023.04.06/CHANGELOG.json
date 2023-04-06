@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.04.06",
-  "release_date": "2023-04-06T08:11:24.848977717Z",
+  "release_date": "2023-04-06T08:22:09.246714998Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.04.06)",
   "kubernetes_version": "1.16+",
@@ -249,6 +249,36 @@
             {
               "SHA": "a6ffaf1d",
               "Subject": "Update README.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.17",
+          "commits": [
+            {
+              "SHA": "09831f2d5",
+              "Subject": "Prepare for release v0.0.17 (#199)"
+            },
+            {
+              "SHA": "79b14eb81",
+              "Subject": "Fix policy evaluation when nothing matched from ResourceGraph (#198)"
+            },
+            {
+              "SHA": "e5ac17de9",
+              "Subject": "Add sections to PageOutline (#185)"
+            },
+            {
+              "SHA": "a2e112794",
+              "Subject": "Use dlv 1.20.1"
+            },
+            {
+              "SHA": "f2336bb02",
+              "Subject": "Update deps"
             }
           ]
         }
