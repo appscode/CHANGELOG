@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.05.12",
-  "release_date": "2023-05-12T09:00:17.822488167Z",
+  "release_date": "2023-05-12T09:11:30.380294734Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.05.12)",
   "kubernetes_version": "1.19+",
@@ -119,6 +119,20 @@
             {
               "SHA": "241cf900",
               "Subject": "Add resource editor charts for gatekeeper and x-helm charts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.21",
+          "commits": [
+            {
+              "SHA": "abe58137a",
+              "Subject": "Prepare for release v0.0.21 (#208)"
             }
           ]
         }
