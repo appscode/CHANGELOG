@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.05.12",
-  "release_date": "2023-05-12T07:42:13.523991112Z",
+  "release_date": "2023-05-12T09:00:17.822488167Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.05.12)",
   "kubernetes_version": "1.19+",
@@ -69,6 +69,24 @@
             {
               "SHA": "ad8c711",
               "Subject": "Update ui modules to fix paginations issue (#89)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/platform-ui",
+      "releases": [
+        {
+          "tag": "v0.3.27",
+          "commits": [
+            {
+              "SHA": "46173f1",
+              "Subject": "Prepare for release v0.3.27 (#180)"
+            },
+            {
+              "SHA": "c0cabe3",
+              "Subject": "updated create credentials form format (#177)"
             }
           ]
         }

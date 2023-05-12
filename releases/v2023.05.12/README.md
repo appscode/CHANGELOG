@@ -27,6 +27,15 @@
 
 
 
+## [bytebuilders/platform-ui](https://github.com/bytebuilders/platform-ui)
+
+### [v0.3.27](https://github.com/bytebuilders/platform-ui/releases/tag/v0.3.27)
+
+- [46173f1](https://github.com/bytebuilders/platform-ui/commit/46173f1) Prepare for release v0.3.27 (#180)
+- [c0cabe3](https://github.com/bytebuilders/platform-ui/commit/c0cabe3) updated create credentials form format (#177)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.15](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.15)
