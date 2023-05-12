@@ -1,6 +1,17 @@
 # ByteBuilders v2023.05.12 (2023-05-12)
 
 
+## [bytebuilders/b3](https://github.com/bytebuilders/b3)
+
+### [v2023.05.12](https://github.com/bytebuilders/b3/releases/tag/v2023.05.12)
+
+- [9badb91a](https://github.com/bytebuilders/b3/commit/9badb91ac) Prepare for release v2023.05.12 (#424)
+- [ce18144c](https://github.com/bytebuilders/b3/commit/ce18144ca) Update lib-selfhost
+- [b0c63cbb](https://github.com/bytebuilders/b3/commit/b0c63cbb9) Add EKS cluster operations (create and delete) (#418)
+- [7cd4cba6](https://github.com/bytebuilders/b3/commit/7cd4cba64) Use FluxCD & ace-installer chart
+
+
+
 ## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
 
 ### [v0.4.35](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.4.35)

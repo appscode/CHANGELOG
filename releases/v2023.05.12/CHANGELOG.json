@@ -1,11 +1,37 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.05.12",
-  "release_date": "2023-05-12T09:11:30.380294734Z",
+  "release_date": "2023-05-12T09:25:54.659001587Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.05.12)",
   "kubernetes_version": "1.19+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/b3",
+      "releases": [
+        {
+          "tag": "v2023.05.12",
+          "commits": [
+            {
+              "SHA": "9badb91ac",
+              "Subject": "Prepare for release v2023.05.12 (#424)"
+            },
+            {
+              "SHA": "ce18144ca",
+              "Subject": "Update lib-selfhost"
+            },
+            {
+              "SHA": "b0c63cbb9",
+              "Subject": "Add EKS cluster operations (create and delete) (#418)"
+            },
+            {
+              "SHA": "7cd4cba64",
+              "Subject": "Use FluxCD & ace-installer chart"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/cluster-ui",
       "releases": [
