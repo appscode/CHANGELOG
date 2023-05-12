@@ -1,6 +1,18 @@
 # ByteBuilders v2023.05.12 (2023-05-12)
 
 
+## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
+
+### [v0.4.35](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.4.35)
+
+- [63b9666c](https://github.com/bytebuilders/cluster-ui/commit/63b9666c) Prepare for release v0.4.35 (#595)
+- [cfc043db](https://github.com/bytebuilders/cluster-ui/commit/cfc043db) Add create cluster options for AKS (#577)
+- [6fb6af4a](https://github.com/bytebuilders/cluster-ui/commit/6fb6af4a) Fix helm release page issue (#591)
+- [cb2d554e](https://github.com/bytebuilders/cluster-ui/commit/cb2d554e) Update ui modules to fix resourceRenderBlock loader issue (#589)
+- [ff83db5b](https://github.com/bytebuilders/cluster-ui/commit/ff83db5b) Chart url fix, replace chart url with source ref, update ui-builder and ui-modules (#585)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.30](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.30)

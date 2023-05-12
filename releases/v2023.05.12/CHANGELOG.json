@@ -1,11 +1,41 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.05.12",
-  "release_date": "2023-05-12T07:37:55.255052965Z",
+  "release_date": "2023-05-12T07:42:13.523991112Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.05.12)",
   "kubernetes_version": "1.19+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.35",
+          "commits": [
+            {
+              "SHA": "63b9666c",
+              "Subject": "Prepare for release v0.4.35 (#595)"
+            },
+            {
+              "SHA": "cfc043db",
+              "Subject": "Add create cluster options for AKS (#577)"
+            },
+            {
+              "SHA": "6fb6af4a",
+              "Subject": "Fix helm release page issue (#591)"
+            },
+            {
+              "SHA": "cb2d554e",
+              "Subject": "Update ui modules to fix resourceRenderBlock loader issue (#589)"
+            },
+            {
+              "SHA": "ff83db5b",
+              "Subject": "Chart url fix, replace chart url with source ref, update ui-builder and ui-modules (#585)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/kubedb-ui",
       "releases": [
