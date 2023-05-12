@@ -1,11 +1,49 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.05.12",
-  "release_date": "2023-05-12T07:25:53.336134135Z",
+  "release_date": "2023-05-12T07:37:55.255052965Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.05.12)",
   "kubernetes_version": "1.19+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.30",
+          "commits": [
+            {
+              "SHA": "4eafe03",
+              "Subject": "Prepare for release v0.3.30 (#96)"
+            },
+            {
+              "SHA": "8cd4dd6",
+              "Subject": "Update ui modules to fix resourceRenderBlock loader issue (#94)"
+            },
+            {
+              "SHA": "6e52bb5",
+              "Subject": "Add e2e tests for kafka (#92)"
+            },
+            {
+              "SHA": "c399ab2",
+              "Subject": "Stop recurrent api call when modal is open (#93)"
+            },
+            {
+              "SHA": "71295a7",
+              "Subject": "Replace chart url with sourceRef (#91)"
+            },
+            {
+              "SHA": "7d1fdb4",
+              "Subject": "Fix e2e test (#90)"
+            },
+            {
+              "SHA": "ad8c711",
+              "Subject": "Update ui modules to fix paginations issue (#89)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/ui-wizards",
       "releases": [
