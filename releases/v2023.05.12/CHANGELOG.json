@@ -1,0 +1,168 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2023.05.12",
+  "release_date": "2023-05-12T09:25:54.659001587Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2023.05.12)",
+  "kubernetes_version": "1.19+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/b3",
+      "releases": [
+        {
+          "tag": "v2023.05.12",
+          "commits": [
+            {
+              "SHA": "9badb91ac",
+              "Subject": "Prepare for release v2023.05.12 (#424)"
+            },
+            {
+              "SHA": "ce18144ca",
+              "Subject": "Update lib-selfhost"
+            },
+            {
+              "SHA": "b0c63cbb9",
+              "Subject": "Add EKS cluster operations (create and delete) (#418)"
+            },
+            {
+              "SHA": "7cd4cba64",
+              "Subject": "Use FluxCD & ace-installer chart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.35",
+          "commits": [
+            {
+              "SHA": "63b9666c",
+              "Subject": "Prepare for release v0.4.35 (#595)"
+            },
+            {
+              "SHA": "cfc043db",
+              "Subject": "Add create cluster options for AKS (#577)"
+            },
+            {
+              "SHA": "6fb6af4a",
+              "Subject": "Fix helm release page issue (#591)"
+            },
+            {
+              "SHA": "cb2d554e",
+              "Subject": "Update ui modules to fix resourceRenderBlock loader issue (#589)"
+            },
+            {
+              "SHA": "ff83db5b",
+              "Subject": "Chart url fix, replace chart url with source ref, update ui-builder and ui-modules (#585)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.30",
+          "commits": [
+            {
+              "SHA": "4eafe03",
+              "Subject": "Prepare for release v0.3.30 (#96)"
+            },
+            {
+              "SHA": "8cd4dd6",
+              "Subject": "Update ui modules to fix resourceRenderBlock loader issue (#94)"
+            },
+            {
+              "SHA": "6e52bb5",
+              "Subject": "Add e2e tests for kafka (#92)"
+            },
+            {
+              "SHA": "c399ab2",
+              "Subject": "Stop recurrent api call when modal is open (#93)"
+            },
+            {
+              "SHA": "71295a7",
+              "Subject": "Replace chart url with sourceRef (#91)"
+            },
+            {
+              "SHA": "7d1fdb4",
+              "Subject": "Fix e2e test (#90)"
+            },
+            {
+              "SHA": "ad8c711",
+              "Subject": "Update ui modules to fix paginations issue (#89)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/platform-ui",
+      "releases": [
+        {
+          "tag": "v0.3.27",
+          "commits": [
+            {
+              "SHA": "46173f1",
+              "Subject": "Prepare for release v0.3.27 (#180)"
+            },
+            {
+              "SHA": "c0cabe3",
+              "Subject": "updated create credentials form format (#177)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.15",
+          "commits": [
+            {
+              "SHA": "8e541c2e",
+              "Subject": "Prepare for release v0.4.15 (#300)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.17.3",
+          "commits": [
+            {
+              "SHA": "96b0da80",
+              "Subject": "Prepare for release v0.17.3 (#314)"
+            },
+            {
+              "SHA": "241cf900",
+              "Subject": "Add resource editor charts for gatekeeper and x-helm charts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.21",
+          "commits": [
+            {
+              "SHA": "abe58137a",
+              "Subject": "Prepare for release v0.0.21 (#208)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
