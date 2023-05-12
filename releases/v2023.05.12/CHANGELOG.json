@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.05.12",
-  "release_date": "2023-05-12T06:59:05.200323435Z",
+  "release_date": "2023-05-12T07:25:53.336134135Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.05.12)",
   "kubernetes_version": "1.19+",
@@ -15,6 +15,24 @@
             {
               "SHA": "8e541c2e",
               "Subject": "Prepare for release v0.4.15 (#300)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kmodules/resource-metadata",
+      "releases": [
+        {
+          "tag": "v0.17.3",
+          "commits": [
+            {
+              "SHA": "96b0da80",
+              "Subject": "Prepare for release v0.17.3 (#314)"
+            },
+            {
+              "SHA": "241cf900",
+              "Subject": "Add resource editor charts for gatekeeper and x-helm charts"
             }
           ]
         }
