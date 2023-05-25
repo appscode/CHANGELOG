@@ -1,6 +1,17 @@
 # ByteBuilders v2023.05.25 (2023-05-25)
 
 
+## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
+
+### [v0.3.31](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.31)
+
+- [3f007d3](https://github.com/bytebuilders/kubedb-ui/commit/3f007d3) Prepare for release v0.3.31 (#101)
+- [0e65485](https://github.com/bytebuilders/kubedb-ui/commit/0e65485) Migrate to node 18 (#100)
+- [d66edf8](https://github.com/bytebuilders/kubedb-ui/commit/d66edf8) Fix navbar profile dropdown issue (#99)
+- [96f0817](https://github.com/bytebuilders/kubedb-ui/commit/96f0817) Add gatekeeper report feature under policy section in database details (#98)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.16](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.16)

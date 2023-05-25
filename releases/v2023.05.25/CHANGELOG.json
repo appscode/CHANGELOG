@@ -1,11 +1,37 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.05.25",
-  "release_date": "2023-05-25T08:44:36.367217361Z",
+  "release_date": "2023-05-25T09:02:40.811035651Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.05.25)",
   "kubernetes_version": "1.19+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.31",
+          "commits": [
+            {
+              "SHA": "3f007d3",
+              "Subject": "Prepare for release v0.3.31 (#101)"
+            },
+            {
+              "SHA": "0e65485",
+              "Subject": "Migrate to node 18 (#100)"
+            },
+            {
+              "SHA": "d66edf8",
+              "Subject": "Fix navbar profile dropdown issue (#99)"
+            },
+            {
+              "SHA": "96f0817",
+              "Subject": "Add gatekeeper report feature under policy section in database details (#98)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/ui-wizards",
       "releases": [
