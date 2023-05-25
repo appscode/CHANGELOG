@@ -1,11 +1,45 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.05.25",
-  "release_date": "2023-05-25T09:58:28.247061772Z",
+  "release_date": "2023-05-25T10:12:05.785133845Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.05.25)",
   "kubernetes_version": "1.19+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/b3",
+      "releases": [
+        {
+          "tag": "v2023.05.25",
+          "commits": [
+            {
+              "SHA": "da346e633",
+              "Subject": "Prepare for release v2023.05.25 (#435)"
+            },
+            {
+              "SHA": "15bc00d64",
+              "Subject": "Fix various cluster import issue (#434)"
+            },
+            {
+              "SHA": "d26b0eb9b",
+              "Subject": "Add proxy-path for GateKeeper PolicyReport (#426)"
+            },
+            {
+              "SHA": "558605df1",
+              "Subject": "Fix stackscripts and import issue (#428)"
+            },
+            {
+              "SHA": "5c6685ca7",
+              "Subject": "ApplyCRD: Check NoMatchError before returning"
+            },
+            {
+              "SHA": "7b9314738",
+              "Subject": "Use RegisterCRD to install crds (#425)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/cluster-ui",
       "releases": [

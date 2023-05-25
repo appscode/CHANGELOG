@@ -1,6 +1,19 @@
 # ByteBuilders v2023.05.25 (2023-05-25)
 
 
+## [bytebuilders/b3](https://github.com/bytebuilders/b3)
+
+### [v2023.05.25](https://github.com/bytebuilders/b3/releases/tag/v2023.05.25)
+
+- [da346e63](https://github.com/bytebuilders/b3/commit/da346e633) Prepare for release v2023.05.25 (#435)
+- [15bc00d6](https://github.com/bytebuilders/b3/commit/15bc00d64) Fix various cluster import issue (#434)
+- [d26b0eb9](https://github.com/bytebuilders/b3/commit/d26b0eb9b) Add proxy-path for GateKeeper PolicyReport (#426)
+- [558605df](https://github.com/bytebuilders/b3/commit/558605df1) Fix stackscripts and import issue (#428)
+- [5c6685ca](https://github.com/bytebuilders/b3/commit/5c6685ca7) ApplyCRD: Check NoMatchError before returning
+- [7b931473](https://github.com/bytebuilders/b3/commit/7b9314738) Use RegisterCRD to install crds (#425)
+
+
+
 ## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
 
 ### [v0.4.36](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.4.36)
