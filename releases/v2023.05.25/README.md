@@ -12,6 +12,15 @@
 
 
 
+## [bytebuilders/platform-ui](https://github.com/bytebuilders/platform-ui)
+
+### [v0.3.28](https://github.com/bytebuilders/platform-ui/releases/tag/v0.3.28)
+
+- [8b5c8a7](https://github.com/bytebuilders/platform-ui/commit/8b5c8a7) Prepare for release v0.3.28 (#182)
+- [40a8475](https://github.com/bytebuilders/platform-ui/commit/40a8475) Migrate to node 18 (#181)
+
+
+
 ## [bytebuilders/ui-wizards](https://github.com/bytebuilders/ui-wizards)
 
 ### [v0.4.16](https://github.com/bytebuilders/ui-wizards/releases/tag/v0.4.16)

@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.05.25",
-  "release_date": "2023-05-25T09:02:40.811035651Z",
+  "release_date": "2023-05-25T09:04:40.755947593Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.05.25)",
   "kubernetes_version": "1.19+",
@@ -27,6 +27,24 @@
             {
               "SHA": "96f0817",
               "Subject": "Add gatekeeper report feature under policy section in database details (#98)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/platform-ui",
+      "releases": [
+        {
+          "tag": "v0.3.28",
+          "commits": [
+            {
+              "SHA": "8b5c8a7",
+              "Subject": "Prepare for release v0.3.28 (#182)"
+            },
+            {
+              "SHA": "40a8475",
+              "Subject": "Migrate to node 18 (#181)"
             }
           ]
         }
