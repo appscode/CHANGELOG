@@ -1,6 +1,19 @@
 # ByteBuilders v2023.05.25 (2023-05-25)
 
 
+## [bytebuilders/cluster-ui](https://github.com/bytebuilders/cluster-ui)
+
+### [v0.4.36](https://github.com/bytebuilders/cluster-ui/releases/tag/v0.4.36)
+
+- [b7bdce15](https://github.com/bytebuilders/cluster-ui/commit/b7bdce15) Prepare for release v0.4.36 (#603)
+- [5f0333f6](https://github.com/bytebuilders/cluster-ui/commit/5f0333f6) Fix cluster import issue (#602)
+- [17e77d98](https://github.com/bytebuilders/cluster-ui/commit/17e77d98) Migrate to node 18 (#600)
+- [8f4f3b47](https://github.com/bytebuilders/cluster-ui/commit/8f4f3b47) Fix navbar profile dropdown issue (#599)
+- [1e0db086](https://github.com/bytebuilders/cluster-ui/commit/1e0db086) Integrate gatekeeper report modules from ui-modules (#597)
+- [df13edbd](https://github.com/bytebuilders/cluster-ui/commit/df13edbd) Update ui builders (#598)
+
+
+
 ## [bytebuilders/kubedb-ui](https://github.com/bytebuilders/kubedb-ui)
 
 ### [v0.3.31](https://github.com/bytebuilders/kubedb-ui/releases/tag/v0.3.31)

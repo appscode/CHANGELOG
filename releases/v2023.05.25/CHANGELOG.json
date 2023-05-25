@@ -1,11 +1,45 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.05.25",
-  "release_date": "2023-05-25T09:04:40.755947593Z",
+  "release_date": "2023-05-25T09:44:27.499444934Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.05.25)",
   "kubernetes_version": "1.19+",
   "projects": [
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.36",
+          "commits": [
+            {
+              "SHA": "b7bdce15",
+              "Subject": "Prepare for release v0.4.36 (#603)"
+            },
+            {
+              "SHA": "5f0333f6",
+              "Subject": "Fix cluster import issue (#602)"
+            },
+            {
+              "SHA": "17e77d98",
+              "Subject": "Migrate to node 18 (#600)"
+            },
+            {
+              "SHA": "8f4f3b47",
+              "Subject": "Fix navbar profile dropdown issue (#599)"
+            },
+            {
+              "SHA": "1e0db086",
+              "Subject": "Integrate gatekeeper report modules from ui-modules (#597)"
+            },
+            {
+              "SHA": "df13edbd",
+              "Subject": "Update ui builders (#598)"
+            }
+          ]
+        }
+      ]
+    },
     {
       "url": "github.com/bytebuilders/kubedb-ui",
       "releases": [
