@@ -47,3 +47,13 @@
 
 
 
+## [kubeops/ui-server](https://github.com/kubeops/ui-server)
+
+### [v0.0.22](https://github.com/kubeops/ui-server/releases/tag/v0.0.22)
+
+- [fc8c0b62](https://github.com/kubeops/ui-server/commit/fc8c0b62e) Prepare for release v0.0.22 (#211)
+- [77799f2f](https://github.com/kubeops/ui-server/commit/77799f2ff) Use offshoot, config, id and exposed_by graph for policy reports (#210)
+- [d3b153f2](https://github.com/kubeops/ui-server/commit/d3b153f2e) Add GVR for constraints; Handle namespace-scoped PolicyReport (#209)
+
+
+

@@ -1,7 +1,7 @@
 {
   "product_line": "ByteBuilders",
   "release": "v2023.05.25",
-  "release_date": "2023-05-25T09:44:27.499444934Z",
+  "release_date": "2023-05-25T09:58:28.247061772Z",
   "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
   "docs_url": "%!(EXTRA string=v2023.05.25)",
   "kubernetes_version": "1.19+",
@@ -113,6 +113,28 @@
             {
               "SHA": "a26226e7",
               "Subject": "Set unlimited retries for Features helmreleases (#301)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.22",
+          "commits": [
+            {
+              "SHA": "fc8c0b62e",
+              "Subject": "Prepare for release v0.0.22 (#211)"
+            },
+            {
+              "SHA": "77799f2ff",
+              "Subject": "Use offshoot, config, id and exposed_by graph for policy reports (#210)"
+            },
+            {
+              "SHA": "d3b153f2e",
+              "Subject": "Add GVR for constraints; Handle namespace-scoped PolicyReport (#209)"
             }
           ]
         }
