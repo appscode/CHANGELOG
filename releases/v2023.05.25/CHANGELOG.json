@@ -1,0 +1,178 @@
+{
+  "product_line": "ByteBuilders",
+  "release": "v2023.05.25",
+  "release_date": "2023-05-25T10:12:05.785133845Z",
+  "release_project_url": "https://github.com/bytebuilders/CHANGELOG",
+  "docs_url": "%!(EXTRA string=v2023.05.25)",
+  "kubernetes_version": "1.19+",
+  "projects": [
+    {
+      "url": "github.com/bytebuilders/b3",
+      "releases": [
+        {
+          "tag": "v2023.05.25",
+          "commits": [
+            {
+              "SHA": "da346e633",
+              "Subject": "Prepare for release v2023.05.25 (#435)"
+            },
+            {
+              "SHA": "15bc00d64",
+              "Subject": "Fix various cluster import issue (#434)"
+            },
+            {
+              "SHA": "d26b0eb9b",
+              "Subject": "Add proxy-path for GateKeeper PolicyReport (#426)"
+            },
+            {
+              "SHA": "558605df1",
+              "Subject": "Fix stackscripts and import issue (#428)"
+            },
+            {
+              "SHA": "5c6685ca7",
+              "Subject": "ApplyCRD: Check NoMatchError before returning"
+            },
+            {
+              "SHA": "7b9314738",
+              "Subject": "Use RegisterCRD to install crds (#425)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/cluster-ui",
+      "releases": [
+        {
+          "tag": "v0.4.36",
+          "commits": [
+            {
+              "SHA": "b7bdce15",
+              "Subject": "Prepare for release v0.4.36 (#603)"
+            },
+            {
+              "SHA": "5f0333f6",
+              "Subject": "Fix cluster import issue (#602)"
+            },
+            {
+              "SHA": "17e77d98",
+              "Subject": "Migrate to node 18 (#600)"
+            },
+            {
+              "SHA": "8f4f3b47",
+              "Subject": "Fix navbar profile dropdown issue (#599)"
+            },
+            {
+              "SHA": "1e0db086",
+              "Subject": "Integrate gatekeeper report modules from ui-modules (#597)"
+            },
+            {
+              "SHA": "df13edbd",
+              "Subject": "Update ui builders (#598)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/kubedb-ui",
+      "releases": [
+        {
+          "tag": "v0.3.31",
+          "commits": [
+            {
+              "SHA": "3f007d3",
+              "Subject": "Prepare for release v0.3.31 (#101)"
+            },
+            {
+              "SHA": "0e65485",
+              "Subject": "Migrate to node 18 (#100)"
+            },
+            {
+              "SHA": "d66edf8",
+              "Subject": "Fix navbar profile dropdown issue (#99)"
+            },
+            {
+              "SHA": "96f0817",
+              "Subject": "Add gatekeeper report feature under policy section in database details (#98)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/platform-ui",
+      "releases": [
+        {
+          "tag": "v0.3.28",
+          "commits": [
+            {
+              "SHA": "8b5c8a7",
+              "Subject": "Prepare for release v0.3.28 (#182)"
+            },
+            {
+              "SHA": "40a8475",
+              "Subject": "Migrate to node 18 (#181)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/bytebuilders/ui-wizards",
+      "releases": [
+        {
+          "tag": "v0.4.16",
+          "commits": [
+            {
+              "SHA": "c8b209b9",
+              "Subject": "Prepare for release v0.4.16 (#305)"
+            },
+            {
+              "SHA": "950b8d7b",
+              "Subject": "Ensure alert groups with no rules are skipped (#304)"
+            },
+            {
+              "SHA": "464bf66a",
+              "Subject": "Update charts (#303)"
+            },
+            {
+              "SHA": "d895b792",
+              "Subject": "Add severity based flags to enable alerts (#298)"
+            },
+            {
+              "SHA": "36cf81a2",
+              "Subject": "Update charts (#302)"
+            },
+            {
+              "SHA": "a26226e7",
+              "Subject": "Set unlimited retries for Features helmreleases (#301)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "github.com/kubeops/ui-server",
+      "releases": [
+        {
+          "tag": "v0.0.22",
+          "commits": [
+            {
+              "SHA": "fc8c0b62e",
+              "Subject": "Prepare for release v0.0.22 (#211)"
+            },
+            {
+              "SHA": "77799f2ff",
+              "Subject": "Use offshoot, config, id and exposed_by graph for policy reports (#210)"
+            },
+            {
+              "SHA": "d3b153f2e",
+              "Subject": "Add GVR for constraints; Handle namespace-scoped PolicyReport (#209)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
